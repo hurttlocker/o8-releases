@@ -7,6 +7,11 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-05-18
+
+- `86c8d7a9` feat: mobile agent runtime orchestrator surface — backend-tagged threads + contract
+- `6f22e99b` feat: agent runtime orchestrator backend + per-request backend selection
+
 ## 2026-05-17
 
 - `c8262a79` feat: mobile activity feed + orchestrator packets API routes
