@@ -7,6 +7,23 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-05-19
+
+- `3c841613` feat: timeline off by default
+- `3fd3e2d0` feat: Shell layout
+- `3d51860e` feat: Shell layout
+- `adb50379` feat: Shell layout — per-column header strip components
+- `0452b9eb` feat: add agent runtime-only task pool routing
+- `01afe962` feat: Review surface
+- `33f829f1` feat: Review surface — repo selector in the header
+- `70419245` feat: Review surface — untracked files render as all-added
+- `1c96abc3` feat: Review surface — word diffs + hide-whitespace toggles
+- `ba9a681b` feat: Review surface — Commit / Push / Open PR toolbar actions
+- `2d28cc0b` feat: add project task control plane
+- `fe79f706` feat: Review surface
+- `ead10259` feat: Review surface
+- `0b074d5f` feat: agent runtime-style Review surface
+
 ## 2026-05-18
 
 - `1d79b928` feat: agent runtime orchestrator — governed gateway + per-request agent
