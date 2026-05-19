@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-19
 
+- `77ddbefb` feat: ⌘⏎ steer queue in orchestrator + chat composer
 - `3c841613` feat: timeline off by default
 - `3fd3e2d0` feat: Shell layout
 - `3d51860e` feat: Shell layout
