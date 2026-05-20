@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `0c0d01b9` feat: top tab bar is now bespoke — width-gated, spawned-only
 - `beef2a76` feat: unified packet-state color scheme for top tabs + left rail
 - `42e49884` feat: archived agent sessions inline under each repo in left rail
 - `e3d5f0cf` feat: orchestrator history merges into left rail (Chats + Agents tabs)
