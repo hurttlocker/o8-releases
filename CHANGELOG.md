@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `31ca3c9d` feat: side-by-side header pills for splits with center divider
 - `e9b15be9` feat: merge-state preview cycler in status bar
 - `f871fe9a` feat: terminal toggle moves to status bar next to branch label
 - `bb380bf0` feat: terminal toggle moves to bottom-center floating chip
