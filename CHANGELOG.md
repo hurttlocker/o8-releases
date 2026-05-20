@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `7edc04b4` feat: group picker is icon-only + sits inline with first group label
 - `344a6f22` feat: chat-list group-by picker (Repo / Date / Flat) + uppercase headers
 - `5b9dcd9d` feat: shimmer placeholder during thread restore (no more empty-state flash)
 - `06b4a7a3` feat: pre-set tab.label from saved orchestrator title at tab creation
