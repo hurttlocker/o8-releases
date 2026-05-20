@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `06a8ca65` feat: hide lower TabBar in single workspace mode
 - `a4b8e28e` feat: title-bar … menu (rename/archive/share) + tighten 44→36
 - `9f5656c8` feat: chat title moves UP into the column header (agent runtime pattern)
 - `7f1f50fe` feat: chat name lives IN the workspace header (step 1)
