@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `344a6f22` feat: chat-list group-by picker (Repo / Date / Flat) + uppercase headers
 - `5b9dcd9d` feat: shimmer placeholder during thread restore (no more empty-state flash)
 - `06b4a7a3` feat: pre-set tab.label from saved orchestrator title at tab creation
 - `01586566` feat: GC orphan empty thread files during list calls
