@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `06b4a7a3` feat: pre-set tab.label from saved orchestrator title at tab creation
 - `01586566` feat: GC orphan empty thread files during list calls
 - `13df1493` feat: persist last-active orchestrator thread across reloads
 - `219ceae3` feat: inline rename for chat titles in column header
