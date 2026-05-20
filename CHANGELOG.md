@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-05-20
+
+- `13ee3b47` feat: orchestrator composer trim — drop enhance + copy, compact send
+
 ## 2026-05-19
 
 - `bde123b4` feat: Automations scheduler
