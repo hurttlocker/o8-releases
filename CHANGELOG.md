@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-19
 
+- `5c89d378` feat: scratchpad falls back to workspace-wide diff when no file is selected
 - `77ddbefb` feat: ⌘⏎ steer queue in orchestrator + chat composer
 - `3c841613` feat: timeline off by default
 - `3fd3e2d0` feat: Shell layout
