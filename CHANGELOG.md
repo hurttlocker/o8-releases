@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-19
 
+- `bde123b4` feat: Automations scheduler
 - `393dfe24` feat: Automations polish
 - `e21f1bab` feat: Automations nav entry in left rail (agent runtime borrow)
 - `39ff9331` feat: Automations
