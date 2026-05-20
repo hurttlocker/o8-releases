@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `13df1493` feat: persist last-active orchestrator thread across reloads
 - `219ceae3` feat: inline rename for chat titles in column header
 - `e38e6e49` feat: per-pane ▶ play + one × close, all in split header
 - `31ca3c9d` feat: side-by-side header pills for splits with center divider
