@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `9f5656c8` feat: chat title moves UP into the column header (agent runtime pattern)
 - `7f1f50fe` feat: chat name lives IN the workspace header (step 1)
 - `082a067b` feat: top tab bar goes flat
 - `0c0d01b9` feat: top tab bar is now bespoke — width-gated, spawned-only
