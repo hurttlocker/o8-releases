@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `bb380bf0` feat: terminal toggle moves to bottom-center floating chip
 - `8b7796f0` feat: inline split-pane controls (▶ + ×) + cap at 1 split
 - `4c796ed8` feat: kill the lower per-workspace TabBar — pills are the only tab UI
 - `dd7ec93b` feat: top header morphs into agent runtime-style pill strip when 2+ tabs
