@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `f871fe9a` feat: terminal toggle moves to status bar next to branch label
 - `bb380bf0` feat: terminal toggle moves to bottom-center floating chip
 - `8b7796f0` feat: inline split-pane controls (▶ + ×) + cap at 1 split
 - `4c796ed8` feat: kill the lower per-workspace TabBar — pills are the only tab UI
