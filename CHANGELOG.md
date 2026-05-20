@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-19
 
+- `393dfe24` feat: Automations polish
 - `e21f1bab` feat: Automations nav entry in left rail (agent runtime borrow)
 - `39ff9331` feat: Automations
 - `5c89d378` feat: scratchpad falls back to workspace-wide diff when no file is selected
