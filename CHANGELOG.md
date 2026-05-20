@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-20
 
+- `4c796ed8` feat: kill the lower per-workspace TabBar — pills are the only tab UI
 - `dd7ec93b` feat: top header morphs into agent runtime-style pill strip when 2+ tabs
 - `1a7bc860` feat: ▶ play button in global header when single workspace (trial)
 - `06a8ca65` feat: hide lower TabBar in single workspace mode
