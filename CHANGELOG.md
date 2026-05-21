@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `4ea7e4df` feat: interactive task checkboxes in the o8.md editor
 - `736624e9` feat: o8.md margin-note rail + accept/dismiss in the CM6 editor
 - `ed3df3bb` feat: wire the o8.md suggest verb across API + CLI + MCP
 - `c53fd53a` feat: surface operator o8.md threads in dispatch context (phase 3)
