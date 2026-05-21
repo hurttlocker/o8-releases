@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `9223b62a` feat: o8.md review runs headless one-shot, no orchestrator chat turn
 - `f5d1464c` feat: o8.md note color - add black + neutral swatches alongside the hue picker
 - `9c3f54d3` feat: o8.md note settings - hue chooser drawer + desaturated in-note buttons
 - `857b49eb` feat: o8.md notes reserve prose room only-when-needed via block spacers (no anchor drift)
