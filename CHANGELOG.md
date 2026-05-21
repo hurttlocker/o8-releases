@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `6138ceaf` feat: external AI provider can read + annotate o8.md via CLI + MCP (phase 2)
 - `04353aa9` feat: theme-align proposed directives + unread hierarchy
 - `855fd27a` feat: power-user chrome keyboard shortcuts
 - `dce591cc` feat: keyboard shortcuts reference overlay (⌘/ or ?)
