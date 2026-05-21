@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `ed3df3bb` feat: wire the o8.md suggest verb across API + CLI + MCP
 - `c53fd53a` feat: surface operator o8.md threads in dispatch context (phase 3)
 - `6138ceaf` feat: external AI provider can read + annotate o8.md via CLI + MCP (phase 2)
 - `04353aa9` feat: theme-align proposed directives + unread hierarchy
