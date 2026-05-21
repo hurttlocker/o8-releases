@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `9bcd5a80` feat: o8.md review notes fade in on the rail (framer-motion enter, new notes only)
 - `9223b62a` feat: o8.md review runs headless one-shot, no orchestrator chat turn
 - `f5d1464c` feat: o8.md note color - add black + neutral swatches alongside the hue picker
 - `9c3f54d3` feat: o8.md note settings - hue chooser drawer + desaturated in-note buttons
