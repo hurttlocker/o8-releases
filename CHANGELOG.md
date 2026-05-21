@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `9c3f54d3` feat: o8.md note settings - hue chooser drawer + desaturated in-note buttons
 - `857b49eb` feat: o8.md notes reserve prose room only-when-needed via block spacers (no anchor drift)
 - `44cb1aae` feat: tighten o8.md review prompt - only-when-real, read-first, commit-aware
 - `a24f03de` feat: o8.md click-first review button + reply lands at thread bottom
