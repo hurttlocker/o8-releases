@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `cf752f36` feat: o8.md panel now uses the CodeMirror review editor (the swap)
 - `4ea7e4df` feat: interactive task checkboxes in the o8.md editor
 - `736624e9` feat: o8.md margin-note rail + accept/dismiss in the CM6 editor
 - `ed3df3bb` feat: wire the o8.md suggest verb across API + CLI + MCP
