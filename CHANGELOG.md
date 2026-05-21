@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `a24f03de` feat: o8.md click-first review button + reply lands at thread bottom
 - `a30a837f` perf: debounce o8.md rail recompute + comment resolve/reply
 - `cf752f36` feat: o8.md panel now uses the CodeMirror review editor (the swap)
 - `4ea7e4df` feat: interactive task checkboxes in the o8.md editor
