@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-05-21
+
+- `309d85dc` feat: tab icon morphs to close-X on hover + disambiguate split aria-labels
+
 ## 2026-05-20
 
 - `7edc04b4` feat: group picker is icon-only + sits inline with first group label
