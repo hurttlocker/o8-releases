@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `857b49eb` feat: o8.md notes reserve prose room only-when-needed via block spacers (no anchor drift)
 - `44cb1aae` feat: tighten o8.md review prompt - only-when-real, read-first, commit-aware
 - `a24f03de` feat: o8.md click-first review button + reply lands at thread bottom
 - `a30a837f` perf: debounce o8.md rail recompute + comment resolve/reply
