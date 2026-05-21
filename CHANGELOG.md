@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `855fd27a` feat: power-user chrome keyboard shortcuts
 - `dce591cc` feat: keyboard shortcuts reference overlay (⌘/ or ?)
 - `b948a32b` feat: popover menus always mounted (display toggle) for agent enumeration
 - `309d85dc` feat: tab icon morphs to close-X on hover + disambiguate split aria-labels
