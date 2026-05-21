@@ -9,6 +9,10 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-21
 
+- `e04bdae6` feat: shared project-scoped repo selector across Workspace + Activity
+- `f8990fe0` feat: split project select from open-control-room (row click selects, chevron opens control room)
+- `bfedb404` feat: switching the active project re-points the whole app (O8 panel + new orchestrator) to its primary repo
+- `b20ea567` feat: lone pool repos surface as switchable single-repo projects
 - `9bcd5a80` feat: o8.md review notes fade in on the rail (framer-motion enter, new notes only)
 - `9223b62a` feat: o8.md review runs headless one-shot, no orchestrator chat turn
 - `f5d1464c` feat: o8.md note color - add black + neutral swatches alongside the hue picker
