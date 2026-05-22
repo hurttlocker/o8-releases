@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-05-22
+
+- `89757b76` feat: wide control-room mode
+
 ## 2026-05-21
 
 - `e04bdae6` feat: shared project-scoped repo selector across Workspace + Activity
