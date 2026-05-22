@@ -9,6 +9,11 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-22
 
+- `21ccce3f` feat: o8_view_scroll + o8_view_press_key webview tools (pre-ship Phase 4)
+- `ced12e70` feat: o8 packet diff/commit + o8_packet_diff MCP tool (pre-ship Phase 4)
+- `d0de2c1c` perf: parallelize packet-info's events + scope fetches (pre-ship Phase 3)
+- `aa9012ee` perf: token-bound the o8 CLI command outputs (pre-ship Phase 2b)
+- `54f8dc21` perf: token-bound the MCP + webview tool outputs (pre-ship Phase 2a)
 - `89757b76` feat: wide control-room mode
 
 ## 2026-05-21
