@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-22
 
+- `47470584` feat: o8.md inline images render consecutive lines as a gallery row
 - `948dcf0b` feat: render inline images in o8.md (small thumbnails + lightbox)
 - `aba43281` feat: inline image authoring in o8.md (drop/paste → o8-assets)
 - `21ccce3f` feat: o8_view_scroll + o8_view_press_key webview tools (pre-ship Phase 4)
