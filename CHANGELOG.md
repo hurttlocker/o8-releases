@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-22
 
+- `aba43281` feat: inline image authoring in o8.md (drop/paste → o8-assets)
 - `21ccce3f` feat: o8_view_scroll + o8_view_press_key webview tools (pre-ship Phase 4)
 - `ced12e70` feat: o8 packet diff/commit + o8_packet_diff MCP tool (pre-ship Phase 4)
 - `d0de2c1c` perf: parallelize packet-info's events + scope fetches (pre-ship Phase 3)
