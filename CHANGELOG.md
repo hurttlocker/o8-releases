@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-22
 
+- `f3fb7caf` feat: right-click an o8.md inline image to add it to the chat
 - `47470584` feat: o8.md inline images render consecutive lines as a gallery row
 - `948dcf0b` feat: render inline images in o8.md (small thumbnails + lightbox)
 - `aba43281` feat: inline image authoring in o8.md (drop/paste → o8-assets)
