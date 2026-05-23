@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-05-23
+
+- `e15d9357` perf: stale-while-revalidate cache on getRepoReadiness (Phase 5)
+- `e73440cb` feat: directive proposals close the loop in-app — Accept writes the file (Phase 3)
+- `cdf82754` feat: persist packet completions to session_outcomes ledger (Phase 2 of)
+
 ## 2026-05-22
 
 - `07cc6d5f` feat: pre-launch typecheck gate on freshly-created worktrees
