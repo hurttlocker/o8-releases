@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-23
 
+- `8042207a` perf: short-TTL cache on repo registry readStore (5s)
+- `155ae223` feat: stamp mergedClean on session_outcomes when a merge lands
 - `e15d9357` perf: stale-while-revalidate cache on getRepoReadiness (Phase 5)
 - `e73440cb` feat: directive proposals close the loop in-app — Accept writes the file (Phase 3)
 - `cdf82754` feat: persist packet completions to session_outcomes ledger (Phase 2 of)
