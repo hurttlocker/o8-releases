@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-23
 
+- `272704b1` feat: use git diff review icon [via-o8]
+- `c5e718e8` feat: auto-widen o8.md panel tab
 - `8042207a` perf: short-TTL cache on repo registry readStore (5s)
 - `155ae223` feat: stamp mergedClean on session_outcomes when a merge lands
 - `e15d9357` perf: stale-while-revalidate cache on getRepoReadiness (Phase 5)
