@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-23
 
+- `2552f651` feat(panel): floating-card pattern for left column
 - `2aa5df5e` feat(left-panel): dainty 1px divider between left panel and workspace
 - `e19413b6` feat(left-panel): hide Control tab from project-focus drawer
 - `272704b1` feat: use git diff review icon [via-o8]
