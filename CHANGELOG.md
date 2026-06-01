@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-01
 
+- `f57815b9` feat: add strong grep qa eval baseline [via-o8]
 - `a9fdbfe8` perf: lazy hydrate o8 secondary panes [via-o8]
 - `1125c05f` perf: add server timing to hot routes [via-o8]
 - `67d1ad38` perf: add client benchmark instrumentation [via-o8]
