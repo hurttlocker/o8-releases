@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-01
 
+- `1125c05f` perf: add server timing to hot routes [via-o8]
 - `67d1ad38` perf: add client benchmark instrumentation [via-o8]
 - `33e075ea` perf: add app speed measurement harness [via-o8]
 - `1d19900a` feat: mirror agent visual proof onto GitHub PRs via release assets
