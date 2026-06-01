@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-01
 
+- `a9fdbfe8` perf: lazy hydrate o8 secondary panes [via-o8]
 - `1125c05f` perf: add server timing to hot routes [via-o8]
 - `67d1ad38` perf: add client benchmark instrumentation [via-o8]
 - `33e075ea` perf: add app speed measurement harness [via-o8]
