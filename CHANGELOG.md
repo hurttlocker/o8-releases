@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-01
 
+- `33e075ea` perf: add app speed measurement harness [via-o8]
 - `1d19900a` feat: mirror agent visual proof onto GitHub PRs via release assets
 - `8baa3b36` feat: live WS artifacts channel so proof strips update in real time
 - `c5e26bdf` feat: surface agent visual-proof stills on the PR Changes tab
