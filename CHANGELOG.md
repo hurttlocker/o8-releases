@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-01
 
+- `8baa3b36` feat: live WS artifacts channel so proof strips update in real time
 - `c5e26bdf` feat: surface agent visual-proof stills on the PR Changes tab
 - `2f7d04ac` feat: o8 packet capture --clip <selector> — frame the proof to the change
 - `c15ecbc5` feat: visual proof UI + agent capture awareness ( phase 1 UI)
