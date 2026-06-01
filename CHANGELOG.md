@@ -7,8 +7,144 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-05-31
+
+- `66f2b40a` feat: enable mic capture for voice dictation + harden orchestrator steer preempt
+- `06bac7d2` feat: route long worker processes through o8 run by default
+- `bcdcdf02` feat: operator controls for o8 run — stop + list
+- `1a66517f` feat: live o8 run strip in the orchestrator chat
+- `c8784b2d` feat: persist managed-runs registry across restarts
+- `df2738fd` feat: footer ports 3-bucket view + watch agent runs live
+- `7658c11a` feat: ContextualPanel.attachLiveAgentTerminal — watch o8 run sessions live
+- `d8eabac0` feat: o8 run
+- `0902aa99` feat: tag ports as agent/browser/noise from managed-runs registry
+- `82fcfa5c` feat: managed-runs registry + API for o8 run
+- `65672340` design(analytics): lead with Autonomy + Governance (01/02), cost below
+- `ddeca542` feat(analytics): cost stays king + autonomy & governance on top
+- `0f6e279b` feat(chat): hide the o8-Default casual chat for alpha behind experimentalChat
+- `eb0d8eab` design(settings): neutral + royal-blue accent, squircle corners — no orange
+- `6d1362f9` feat(dispatch): ship AI provider + agent runtime only
+- `971b6f45` feat(orchestrator): UltraCode swarm = native AI provider sub-agents (workflow) + agent runtime via o8
+
+## 2026-05-30
+
+- `5a46ace6` perf(webview): kill the transcript-poll socket leak + remove dead git-watch SSE
+- `f2e977ae` feat(orchestrator): UltraCode swarm tier + inline crew cards; retire Cmd+Shift+O popover
+- `d5ca5262` feat(dispatch): swarm composer
+- `f0afce0b` feat(dispatch): allow agent runtime+AI provider mixed swarms (relax force-to-agent runtime gate)
+- `8ebc4b50` feat(status): lower long-run orbit threshold 7min → 1min
+- `280eca60` feat(status): wire the dot vocabulary into every agent surface
+- `c33021b9` feat(agents): deterministic per-agent identicon
+- `c67772fc` feat(status): orbit working-indicator everywhere — orchestrator + LLM chat
+- `0e887fde` feat(status-dots): full motion vocabulary + long-running orbit on agent dots
+- `329d1180` feat(orchestrator): inline detail drawer for status cards, not a modal
+- `afc041e0` feat(sidebar): surface spawned agents + archived in every session grouping
+- `9136fa58` feat: add review last turn scope [via-o8]
+- `8f11b892` feat(pr-panel): wrap PR diff lines by default
+- `d8305f0c` feat(workspace-header): wheel-scroll + edge-fade for overflowing tab strip
+- `034b08c2` feat(review): word-wrap diff lines by default
+
+## 2026-05-29
+
+- `8e52fcef` feat(orchestrator): deliver the Mission-complete card for dispatched missions
+- `dad4712d` feat(orchestrator): explain what shipped in the mission-complete detail modal
+- `48dac586` design: extend locked typography to Activity packet card + session strip
+- `b9a73e0a` design: bring packet/status/merge cards to the locked typography spec
+- `f2303f96` feat(orchestrator): merge + self-heal status cards with click-through detail view
+- `5d3688fa` feat(orchestrator): themed animated status card for mission-complete events
+- `24dd2212` perf: prewarm bundled next server [via-o8]
+- `557678d5` perf: log dashboard boot timing [via-o8]
+
+## 2026-05-28
+
+- `15f78045` feat(agent runtime-composer): wire attached images into the send payload (sub-pass B)
+- `532ef6c1` feat(agent runtime-composer): in-composer footer parity via shared InputButtons (Pass 3)
+- `eaefb2b8` feat(agent runtime-composer): repo / branch / runtime chip row below the composer (Pass 2)
+- `18f722d0` feat(agent runtime-composer): image attachment chips above the textarea (Pass 1)
+- `b715a353` design(tabs): V1 continuity transition on the workspace tab strip
+- `6668aa09` design(automations): hurttlocker pass on AutomationsPage typography
+- `8db6ed27` design(chrome): hurttlocker pass on Cmd+K palette typography
+- `90a4db80` feat(cmd-k): chat history + directives providers ( subset)
+- `9fe1f622` feat(review): rich preview toggle for markdown + images
+- `000d3366` design(chrome): hurttlocker pass on keyboard-shortcuts modal + agent-panel top-nav
+
+## 2026-05-27
+
+- `40f12611` design(session-replay): staggered entrance + ambient hover on lane cards
+- `fec90f86` design(timeline): drop inline play + Hurttlocker pass on timeline + Session Replay page
+- `80b5b012` design(typography): repo hover + alert toast + mobile pair to Hurttlocker spec
+- `0704b61a` design(chrome-button): bespoke per-icon motion — gear spins, phone leans, folder lifts
+- `ff86b224` design(chrome-button): tilt + nudge icon, not scale
+- `8b651e29` design(chrome-button): icon micro-motion on hover — match title-bar pattern
+- `b27bc207` design(o8-panel): repo selector + Ask o8 button get flat hover bg
+- `162f0a5d` design(o8-panel): activity filter pills get flat hover bg
+- `352e5e1b` design(globals): kill the global button:hover translateY — flat-button lock
+- `41ae0eb4` design(agent-panel): flat hover chips for header rows — match terminal toggle
+- `15b4ee0f` design(empty-state): thinner title + questions above composer
+- `d9b0034e` design(empty-state): tighten title↔composer gap + repo chip leftmost in chip row
+- `bc5228b9` feat(update-card): real release summary from free OpenRouter pool
+- `50830b88` design(layout): center empty state in available space + relocate UpdateCard
+- `711d9e68` design(bottom-panel): tab pill weight 300 — Hurttlocker chrome lock
+- `b0276500` feat(bottom-panel): surfaces beyond terminal
+- `1ae2acc5` feat(settings): drop the 1080 width cap — content fills the full viewport
+- `8a551b1a` feat(settings): full viewport — fixed position instead of column-bound
+- `04aa8761` design(add-repo): Hurttlocker font pass + simpler copy + Scan hidden until folder picked
+- `3e8f5cb9` design(status-bar): drop pill chrome on solo settings + inbox active
+- `e52b2eae` design(chat): professional paragraph spacing — gap on every block
+- `96ac792b` feat(agent-panel): hover preview = real AgentPanel below traffic lights
+- `bca12941` feat(agent-panel): merge ports + inbox pills into one locked cluster
+- `551d2ce7` feat(agent-panel): outer margin + wider default + hover-preview drop
+- `818d6ee8` feat(agent-panel): wire orchestrator worktree pick to bottom status pill
+- `e7653ef9` feat(agent-panel): simplify composer chips (mode + repo)
+- `98a39c54` feat(brain): caption images in spec ingest so Engineering Brain can see specs
+- `53f13374` design(agent-panel): surface-aware ink + transparency in glass mode
+- `3fa3a58c` design(ui): sweep entire o8 surface to locked Hurttlocker font spec
+- `f584b07d` feat: push mobile live activity updates
+- `4054b610` feat(orchestrator): compose-first empty state + sidebar lifecycle fixes
+
+## 2026-05-26
+
+- `bc5946b1` design(agent-panel): Antigravity pass — Iconoir launcher + right-rail alignment
+- `a8dc5736` feat(drag-drop): native shell 2 bridge for Finder file paths
+- `c3452456` feat(projects): SQLite is now source of truth for color + sort + active ( phase 2)
+- `d49c3089` feat(db): schema v25 + projects ledger JSON→SQLite migration ( phase 1)
+- `00f8168c` feat(compactor): weekly digest cron + delivery wrapper ( phase 2)
+- `cb137903` feat(compactor): --digest-to flag writes markdown summary
+
+## 2026-05-25
+
+- `270dcc34` feat: tray dropdown lists awaiting-review packets
+- `ec169eda` feat: directive surfacing in review + agent runtime-only worker enum
+- `bb3b95fe` feat: inline TurnSummaryCard + ChatActionCard for orchestrator turns
+- `32842551` design: Hurttlocker theming pass
+- `9f48b482` feat: emit mobile activity preview urls
+- `0e7a6cfe` feat: route orchestrator ws events by thread
+- `98ce11f4` feat: broadcast orchestrator thread sync events
+- `995155ef` feat: add mobile orchestrator thread creation
+- `19880826` feat: add steer packet MCP tool [via-o8]
+- `dfa569be` feat(orchestrator): layered escalation on merge-tsc failure
+
+## 2026-05-24
+
+- `d26c5929` perf(brain): soften composer tightening from — restore factual accuracy
+- `3d0e9af3` feat(orchestrator): parallel mission queries via SQLite registry
+- `c17a5367` feat(brain): three-way memory-substrate eval harness
+- `d78d590d` perf(brain): warm OpenRouter pool at boot to kill cold-start classifier
+- `9d0632c7` design(scratch): premium dot + cost-hint legend on O8ScratchChat composer
+- `e21a1ce4` perf(brain): split H2 spec chunks on H3 when ≥3 kids or >4KB
+- `71815282` perf(brain): classifier — OpenRouter tier 1 + 60s cache
+- `4e1666ca` feat(brain): Ask Brain composer button in O8ScratchChat
+- `11550c82` feat(brain): spec ingestion at repo connect
+
 ## 2026-05-23
 
+- `5778d610` design(panel): cascade flat-button language to scratch chat + inbox + activity
+- `8f11e0cc` design(panel): cascade flat-button language to O8 + PR panel surfaces
+- `8239d483` design(spec): lock flat-button language in DESIGN.md + flatten shared primitives
+- `e16fd1f4` design(panel): flatten all remaining header buttons to match HeaderIconPill
+- `690c7e40` design(panel): generic HeaderIconPill — flat icon pill for header strips
+- `0bf0d592` design(panel): flat toggle pill, baseline-matched across sidebar open/closed
+- `d9e5dd05` feat(panel): toggle pill matches HeaderPill language + framer-motion variants + traffic lights y=22
 - `2552f651` feat(panel): floating-card pattern for left column
 - `2aa5df5e` feat(left-panel): dainty 1px divider between left panel and workspace
 - `e19413b6` feat(left-panel): hide Control tab from project-focus drawer
