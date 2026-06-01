@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-01
 
+- `2f7d04ac` feat: o8 packet capture --clip <selector> — frame the proof to the change
 - `c15ecbc5` feat: visual proof UI + agent capture awareness ( phase 1 UI)
 - `0a381e2f` feat: visual verification artifacts
 
