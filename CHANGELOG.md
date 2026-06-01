@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-01
+
+- `0a381e2f` feat: visual verification artifacts
+
 ## 2026-05-31
 
 - `66f2b40a` feat: enable mic capture for voice dictation + harden orchestrator steer preempt
