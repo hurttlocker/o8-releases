@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-02
+
+- `0ac73eab` feat: add preship webview boot gate [via-o8]
+
 ## 2026-06-01
 
 - `01a8bd2e` feat: add repeatable benchmark suite [via-o8]
