@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-01
 
+- `4b834805` feat: route literal o8 lookups to grep [via-o8]
 - `e5d24652` feat(qa-eval): rigorous 4-way Brain-vs-grep
 - `f57815b9` feat: add strong grep qa eval baseline [via-o8]
 - `a9fdbfe8` perf: lazy hydrate o8 secondary panes [via-o8]
