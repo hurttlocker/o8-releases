@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-02
 
+- `f2f8c5e4` feat: add webview idle guard lint [via-o8]
 - `0ac73eab` feat: add preship webview boot gate [via-o8]
 
 ## 2026-06-01
