@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-03
 
+- `591d6296` feat: align feedback report embed fields [via-o8]
 - `993f1dbf` feat: add settings feedback reports [via-o8]
 
 ## 2026-06-02
