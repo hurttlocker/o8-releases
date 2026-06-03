@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-03
+
+- `993f1dbf` feat: add settings feedback reports [via-o8]
+
 ## 2026-06-02
 
 - `f2f8c5e4` feat: add webview idle guard lint [via-o8]
