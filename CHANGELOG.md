@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-04
+
+- `ed97edb9` feat: open a non-Git folder as a repo
+
 ## 2026-06-03
 
 - `591d6296` feat: align feedback report embed fields [via-o8]
