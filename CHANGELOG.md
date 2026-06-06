@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-06
+
+- `261f676f` feat: keyboard-navigable orchestrator steer queue
+
 ## 2026-06-04
 
 - `ed97edb9` feat: open a non-Git folder as a repo
