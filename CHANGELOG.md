@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-06
 
+- `be57c039` feat: doctor flags runtimes that are installed but not authed
 - `261f676f` feat: keyboard-navigable orchestrator steer queue
 
 ## 2026-06-04
