@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-07
 
+- `55c24ca5` feat: catch dashboard mount crashes in preship gate
 - `17c17370` feat: add blind second-pass auto-review
 - `72507a60` feat: one-click "Clean up" button for stale workspace tabs
 
