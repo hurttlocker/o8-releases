@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-07
+
+- `72507a60` feat: one-click "Clean up" button for stale workspace tabs
+
 ## 2026-06-06
 
 - `be57c039` feat: doctor flags runtimes that are installed but not authed
