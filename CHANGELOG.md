@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-10
 
+- `f64eaf1b` feat: voice agent terminal voice control v1
 - `36a4ffd8` feat(mcp): o8_operator_defaults tool + EXTERNAL_AGENTS.md — external-agent control parity
 - `8fad1f02` feat: voice agent controls Apple Music
 - `f7267e37` feat: voice agent edit lane works inside o8 + o8-control frontier v1
