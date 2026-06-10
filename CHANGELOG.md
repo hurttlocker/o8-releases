@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-09
+
+- `fc9e9c96` feat: unit-test harness (vitest + cargo), CI test gate, CLI version armor
+
 ## 2026-06-07
 
 - `55c24ca5` feat: catch dashboard mount crashes in preship gate
@@ -105,17 +109,17 @@ and internal chores live in the private engineering log.
 - `eaefb2b8` feat(agent runtime-composer): repo / branch / runtime chip row below the composer (Pass 2)
 - `18f722d0` feat(agent runtime-composer): image attachment chips above the textarea (Pass 1)
 - `b715a353` design(tabs): V1 continuity transition on the workspace tab strip
-- `6668aa09` design(automations): hurttlocker pass on AutomationsPage typography
-- `8db6ed27` design(chrome): hurttlocker pass on Cmd+K palette typography
+- `6668aa09` design(automations): design system pass on AutomationsPage typography
+- `8db6ed27` design(chrome): design system pass on Cmd+K palette typography
 - `90a4db80` feat(cmd-k): chat history + directives providers ( subset)
 - `9fe1f622` feat(review): rich preview toggle for markdown + images
-- `000d3366` design(chrome): hurttlocker pass on keyboard-shortcuts modal + agent-panel top-nav
+- `000d3366` design(chrome): design system pass on keyboard-shortcuts modal + agent-panel top-nav
 
 ## 2026-05-27
 
 - `40f12611` design(session-replay): staggered entrance + ambient hover on lane cards
-- `fec90f86` design(timeline): drop inline play + Hurttlocker pass on timeline + Session Replay page
-- `80b5b012` design(typography): repo hover + alert toast + mobile pair to Hurttlocker spec
+- `fec90f86` design(timeline): drop inline play + design system pass on timeline + Session Replay page
+- `80b5b012` design(typography): repo hover + alert toast + mobile pair to design system spec
 - `0704b61a` design(chrome-button): bespoke per-icon motion — gear spins, phone leans, folder lifts
 - `ff86b224` design(chrome-button): tilt + nudge icon, not scale
 - `8b651e29` design(chrome-button): icon micro-motion on hover — match title-bar pattern
@@ -127,11 +131,11 @@ and internal chores live in the private engineering log.
 - `d9b0034e` design(empty-state): tighten title↔composer gap + repo chip leftmost in chip row
 - `bc5228b9` feat(update-card): real release summary from free OpenRouter pool
 - `50830b88` design(layout): center empty state in available space + relocate UpdateCard
-- `711d9e68` design(bottom-panel): tab pill weight 300 — Hurttlocker chrome lock
+- `711d9e68` design(bottom-panel): tab pill weight 300 — design system chrome lock
 - `b0276500` feat(bottom-panel): surfaces beyond terminal
 - `1ae2acc5` feat(settings): drop the 1080 width cap — content fills the full viewport
 - `8a551b1a` feat(settings): full viewport — fixed position instead of column-bound
-- `04aa8761` design(add-repo): Hurttlocker font pass + simpler copy + Scan hidden until folder picked
+- `04aa8761` design(add-repo): design system font pass + simpler copy + Scan hidden until folder picked
 - `3e8f5cb9` design(status-bar): drop pill chrome on solo settings + inbox active
 - `e52b2eae` design(chat): professional paragraph spacing — gap on every block
 - `96ac792b` feat(agent-panel): hover preview = real AgentPanel below traffic lights
@@ -141,7 +145,7 @@ and internal chores live in the private engineering log.
 - `e7653ef9` feat(agent-panel): simplify composer chips (mode + repo)
 - `98a39c54` feat(brain): caption images in spec ingest so Engineering Brain can see specs
 - `53f13374` design(agent-panel): surface-aware ink + transparency in glass mode
-- `3fa3a58c` design(ui): sweep entire o8 surface to locked Hurttlocker font spec
+- `3fa3a58c` design(ui): sweep entire o8 surface to locked design system font spec
 - `f584b07d` feat: push mobile live activity updates
 - `4054b610` feat(orchestrator): compose-first empty state + sidebar lifecycle fixes
 
@@ -159,7 +163,7 @@ and internal chores live in the private engineering log.
 - `270dcc34` feat: tray dropdown lists awaiting-review packets
 - `ec169eda` feat: directive surfacing in review + agent runtime-only worker enum
 - `bb3b95fe` feat: inline TurnSummaryCard + ChatActionCard for orchestrator turns
-- `32842551` design: Hurttlocker theming pass
+- `32842551` design: design system theming pass
 - `9f48b482` feat: emit mobile activity preview urls
 - `0e7a6cfe` feat: route orchestrator ws events by thread
 - `98ce11f4` feat: broadcast orchestrator thread sync events
@@ -369,7 +373,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-05-08
 
-- `e8e75310` feat: symon-style push-to-talk dictation
+- `e8e75310` feat: voice agent-style push-to-talk dictation
 - `920e629d` feat: competing product-style PR panel + segmented context popover
 - `033f580e` feat: add macOS APFS workspace isolation
 - `4bb987a4` feat: agents archive drawer shows every concluded packet
