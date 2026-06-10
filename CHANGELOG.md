@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-10
 
+- `5dcbe634` feat: dock chat continuity
 - `8e48df45` feat: voice agent routing doctrine in the system prompt + presence-layer architecture doc
 - `67b614ff` feat: memory glints + worker-pulse orbit
 - `f7aaa7c1` feat: drag-files-into-voice agent
