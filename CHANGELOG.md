@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-10
 
+- `f7267e37` feat: voice agent edit lane works inside o8 + o8-control frontier v1
 - `808c6c21` feat: permissions health
 - `46f512eb` feat: voice agent Guide pointer — dwell variant of Points (magic roadmap)
 - `c85b8b67` feat: voice agent "what needs me?"
