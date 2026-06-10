@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-10
 
+- `6361ff5e` feat: Option = voice agent agent (both keys), double-tap Option = long question, say -> Option+S
 - `dba8203d` feat: voice agent opens any installed app — fuzzy open_app + list_apps tools
 
 ## 2026-06-09
