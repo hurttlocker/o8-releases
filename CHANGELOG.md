@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-10
 
+- `5c1e1680` feat: voice agent parity round 3
 - `8c490252` feat: voice agent terminal brake + keys + new session, o8 recap + usage (parity round 2)
 - `f64eaf1b` feat: voice agent terminal voice control v1
 - `36a4ffd8` feat(mcp): o8_operator_defaults tool + EXTERNAL_AGENTS.md — external-agent control parity
