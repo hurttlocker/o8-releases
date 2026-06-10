@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-10
+
+- `dba8203d` feat: voice agent opens any installed app — fuzzy open_app + list_apps tools
+
 ## 2026-06-09
 
 - `fc9e9c96` feat: unit-test harness (vitest + cargo), CI test gate, CLI version armor
