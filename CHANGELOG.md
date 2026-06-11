@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-11
+
+- `11d760c0` feat: voice agent terminal voice control adds iTerm2
+
 ## 2026-06-10
 
 - `44ca2107` feat: voice agent speaking-speed control
