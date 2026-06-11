@@ -9,6 +9,10 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-11
 
+- `74c9f3f3` feat(brain): Ask Brain streams — UI switches to the SSE route
+- `5471ea8e` feat(brain): spend ledger + daily cap on the OpenRouter tier, 'fastest' composer knob
+- `d6d4e92a` perf(brain): warm REPL pool
+- `eddc17a2` perf(brain): Tier-0 latency pass
 - `468010b7` feat(composer): orchestrator model switcher in the thinking chip + Ultracode label
 - `11d760c0` feat: voice agent terminal voice control adds iTerm2
 
