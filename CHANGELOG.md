@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-11
 
+- `468010b7` feat(composer): orchestrator model switcher in the thinking chip + Ultracode label
 - `11d760c0` feat: voice agent terminal voice control adds iTerm2
 
 ## 2026-06-10
