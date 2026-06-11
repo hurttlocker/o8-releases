@@ -9,7 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-11
 
-- `ef74281a` perf(brain): classify/retrieve overlap + semantic answer cache
+- `74225234` feat: workers get the Engineering Brain
+- `7b2c8e4e` perf(brain): classify/retrieve overlap + semantic answer cache
 - `2359908c` feat(brain): sources parity
 - `74c9f3f3` feat(brain): Ask Brain streams — UI switches to the SSE route
 - `5471ea8e` feat(brain): spend ledger + daily cap on the OpenRouter tier, 'fastest' composer knob
