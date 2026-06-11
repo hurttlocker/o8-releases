@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-10
 
+- `168567de` feat: voice agent update verbs
 - `a86b7a84` feat: voice agent second-ten-minutes
 - `6f020d59` feat: voice agent day-one basics
 - `5c1e1680` feat: voice agent parity round 3
