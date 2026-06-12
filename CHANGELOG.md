@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `1bf20111` feat(browser-agent): agents drive the embedded browser
 - `55a05cf2` feat(canvas): the everything run
 - `94d7ba97` feat(canvas): UNIVERSAL text slider
 - `05fb9a4e` feat(canvas): chat ink control (Auto/White/Dark) + 100px chat frost + reasoning TIMELINE
