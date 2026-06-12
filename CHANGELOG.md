@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `c5cf3b52` feat(canvas): terminal cards v2
 - `d5c7a79a` feat(canvas): real terminals as glass cards + Liquid frost floor
 - `695caf87` feat(canvas): glass tuner docks under the Canvas word + "Save as my default" personal preset
 - `5fdbfafc` feat(canvas): Liquid frost dial
