@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `2d81c231` feat(canvas): Finder "Open With → o8" — OS file opens land as canvas file cards
 - `b213e4ce` feat(canvas): file cards
 - `0391c53e` feat(canvas): spawn reveal easter egg + summoning verbs + edge-rail handles
 - `c5cf3b52` feat(canvas): terminal cards v2
