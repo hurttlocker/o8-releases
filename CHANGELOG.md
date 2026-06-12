@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `6e156f1a` feat(canvas): docked orchestrator, component cards, image drop, liquid-clear background
 - `6c75607d` feat(canvas): background controls
 
 ## 2026-06-11
