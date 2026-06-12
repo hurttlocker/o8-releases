@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-11
 
+- `4a1f5b1b` feat(canvas): fleet-canvas v1
 - `74225234` feat: workers get the Engineering Brain
 - `7b2c8e4e` perf(brain): classify/retrieve overlap + semantic answer cache
 - `2359908c` feat(brain): sources parity
