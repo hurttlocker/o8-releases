@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `b213e4ce` feat(canvas): file cards
 - `0391c53e` feat(canvas): spawn reveal easter egg + summoning verbs + edge-rail handles
 - `c5cf3b52` feat(canvas): terminal cards v2
 - `d5c7a79a` feat(canvas): real terminals as glass cards + Liquid frost floor
