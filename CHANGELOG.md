@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `ee9a94b2` feat(canvas): agent lifecycle lands live
+- `92061a8b` feat(canvas): persistence + talkable chat cards + project-grouped repos; drop scratch chat from o8.md card
 - `68bafe30` feat(canvas): o8.md card at FULL parity — mounts the real spec pane in glass
 - `93421332` feat(canvas): agents can open pages in the canvas browser via o8:open-browser
 - `97226227` feat(canvas): browser tabs in glass browser cards + review drawer refetch-on-open
