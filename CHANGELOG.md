@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-12
+
+- `6c75607d` feat(canvas): background controls
+
 ## 2026-06-11
 
 - `dbab17d4` feat(canvas): desktop-clear glass, material presets, kivo summon choreography
