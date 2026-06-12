@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `05fb9a4e` feat(canvas): chat ink control (Auto/White/Dark) + 100px chat frost + reasoning TIMELINE
 - `4fb1867e` feat(canvas): glass TONE axis (dark/Ivory light) + floating-chat sliders + live reasoning & image entries
 - `ee9a94b2` feat(canvas): agent lifecycle lands live
 - `92061a8b` feat(canvas): persistence + talkable chat cards + project-grouped repos; drop scratch chat from o8.md card
