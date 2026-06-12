@@ -9,6 +9,18 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `cf881d3c` feat(canvas): Pulse rebranded — the o8 dual-orbit mark in faded dither
+- `187a2963` feat(canvas): sessions drawer on the left nav + the amber Pulse backdrop
+- `d1150d22` feat(canvas): dock tool calls collapse into one live activity line
+- `663f2ef3` feat(canvas): operator-picked depth set — wind-dots field + custom shader moods
+- `a788f12d` feat(canvas): real Paper Shaders depth layers — WebGL, barely moving
+- `0e61e8ab` feat(canvas): depth backdrops + opaque popovers + o8.md reads like a page
+- `a6fad007` feat(canvas): past sessions open as their own draggable glass boxes
+- `263f112b` feat(canvas): senior pass
+- `faa80abb` feat(canvas): photos surface reference-style — image cards, stacks, top-right search
+- `522e0367` feat(canvas): Apple-smooth squircle corners + the dock becomes a real panel
+- `94f1f0dd` feat(canvas): markdown rendering in the docked chat
+- `7c9350f3` feat(canvas): talk to the REAL orchestrator from the canvas composer
 - `2d81c231` feat(canvas): Finder "Open With → o8" — OS file opens land as canvas file cards
 - `b213e4ce` feat(canvas): file cards
 - `0391c53e` feat(canvas): spawn reveal easter egg + summoning verbs + edge-rail handles
