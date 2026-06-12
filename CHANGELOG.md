@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `0391c53e` feat(canvas): spawn reveal easter egg + summoning verbs + edge-rail handles
 - `c5cf3b52` feat(canvas): terminal cards v2
 - `d5c7a79a` feat(canvas): real terminals as glass cards + Liquid frost floor
 - `695caf87` feat(canvas): glass tuner docks under the Canvas word + "Save as my default" personal preset
