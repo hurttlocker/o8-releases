@@ -9,6 +9,14 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `68bafe30` feat(canvas): o8.md card at FULL parity — mounts the real spec pane in glass
+- `93421332` feat(canvas): agents can open pages in the canvas browser via o8:open-browser
+- `97226227` feat(canvas): browser tabs in glass browser cards + review drawer refetch-on-open
+- `fab3fa08` feat(canvas): real diff cards with governance row + review drawer; retire center emblem; sessions repo filter
+- `0f02946d` feat(canvas): element picker in browser cards — front-end selector tools
+- `55002928` feat(orchestrator): composer images actually reach the model — both surfaces
+- `86e6e178` feat(canvas): dock gets its own composer + turn cards + drawer-styled term picker
+- `72b80175` feat(canvas): Pulse is the real agents-working mark — the o8 binary orbit
 - `cf881d3c` feat(canvas): Pulse rebranded — the o8 dual-orbit mark in faded dither
 - `187a2963` feat(canvas): sessions drawer on the left nav + the amber Pulse backdrop
 - `d1150d22` feat(canvas): dock tool calls collapse into one live activity line
