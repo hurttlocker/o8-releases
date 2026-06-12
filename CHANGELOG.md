@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-11
 
+- `dbab17d4` feat(canvas): desktop-clear glass, material presets, kivo summon choreography
 - `351fe29c` feat(canvas): v2 glass slice
 - `4a1f5b1b` feat(canvas): fleet-canvas v1
 - `74225234` feat: workers get the Engineering Brain
