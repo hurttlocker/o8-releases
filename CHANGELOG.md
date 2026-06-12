@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-12
 
+- `4fb1867e` feat(canvas): glass TONE axis (dark/Ivory light) + floating-chat sliders + live reasoning & image entries
 - `ee9a94b2` feat(canvas): agent lifecycle lands live
 - `92061a8b` feat(canvas): persistence + talkable chat cards + project-grouped repos; drop scratch chat from o8.md card
 - `68bafe30` feat(canvas): o8.md card at FULL parity — mounts the real spec pane in glass
