@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-13
 
+- `2efcd3da` feat(canvas): orchestrator + brain spawn as one tabbed pane — never orchestrator-alone
 - `3a8f8958` feat(canvas): unified theme panel
 - `275584df` feat(canvas): dock orchestrator gets its own light/dark + tint dial
 
