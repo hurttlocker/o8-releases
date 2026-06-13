@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-13
 
+- `e9dd88b7` feat(canvas): default theme is the operator's tuned light look
 - `024e91b9` feat(canvas): match reference
 - `3b4d3b6d` feat(canvas): orchestrator is a floating draggable card, Brain tab renamed o8
 - `2efcd3da` feat(canvas): orchestrator + brain spawn as one tabbed pane — never orchestrator-alone
