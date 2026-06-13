@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-13
+
+- `275584df` feat(canvas): dock orchestrator gets its own light/dark + tint dial
+
 ## 2026-06-12
 
 - `116ef97d` feat(browser-engine): headless installed-Chrome tier
