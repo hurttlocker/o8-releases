@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-13
 
+- `996ec5e9` feat(canvas): agent-card bench — user messages + smooth Brain citations
 - `45040818` feat(canvas): agent-card bench
 - `2e534d50` feat(canvas): agent-card bench
 - `374945e2` feat(canvas): pinned orchestrator dock + split-tab orchestrator modals
