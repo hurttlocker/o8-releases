@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-13
 
+- `2e534d50` feat(canvas): agent-card bench
 - `374945e2` feat(canvas): pinned orchestrator dock + split-tab orchestrator modals
 - `e9dd88b7` feat(canvas): default theme is the operator's tuned light look
 - `024e91b9` feat(canvas): match reference
