@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-13
 
+- `575876ee` feat(canvas): agent-card bench — side-by-side presence comparison
 - `6d7fa7ad` feat(canvas): agent-card bench — PR + edited-files result variants
 - `ddcaf9d4` feat(canvas): agent-card bench
 - `996ec5e9` feat(canvas): agent-card bench — user messages + smooth Brain citations
