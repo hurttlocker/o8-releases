@@ -9,6 +9,13 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-15
 
+- `c4ea5412` feat(canvas): live dispatch dock, balanced grid, alerts open the PR diff
+- `32edb114` feat: founding-pass beta invites
+- `367a36b9` design: harmonize the status-bar branch label with the composer chip type
+- `e71c4606` feat: unify composer chip menus onto ComposerPopover
+- `f91031a4` feat: composer popovers portal out via a shared ComposerPopover primitive
+- `752a7e7f` feat: auto-collapse the left panel while the o8.md notes tab is open
+- `bd8b266e` feat: composer button row collapses to icons when narrow
 - `59c4847c` feat: supervisor inbox self-closes via escalated/resolved states
 - `e1b09345` design(canvas): grey-on-white media rim + integrated header + matched resize arc
 - `1d486014` design(canvas): defined rim + off-edge resize arc on photo & video cards
