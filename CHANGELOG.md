@@ -7,8 +7,31 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-14
+
+- `36045df8` feat: new o8 app icon — aurora Liquid Glass o8 monogram
+- `815d183b` design(canvas): glass onboarding panels + behind-glass motes reel, match reel type
+- `b14bd28d` feat(workspace): consolidate orchestrator composer chip row + adaptive icons + blocky-o8 boot loader
+- `6da8ab74` feat(canvas): first-run welcome modal + guided coach-mark tour
+- `d9d1fab3` feat(canvas): add orchestration MODE selector (Fleet / Single / Fusion) to the canvas composer
+- `a25816f0` feat(canvas): add Clerk account dossier to the canvas top-right
+- `54fd494e` feat(canvas): add video cards
+- `136a31d4` feat(auth): desktop ticket exchange + sign-in handoff (Clerk signals API)
+- `ec5836a7` feat(auth): GitHub sign-in via Clerk — shared hook, account UI, o8:// receive
+- `b980aaac` feat(canvas): merge composer model+thinking into one drawer; wrap file cards
+- `0e3c9168` feat(canvas): sphere-projection orb navigator + single-toggle bubble UI
+- `f0835922` feat(canvas): readable o8.md + terminal fonts, caret-correct spec card
+
 ## 2026-06-13
 
+- `b8740e13` feat(mcp): operator MCP server supports a shared HTTP transport
+- `9861ef86` feat(canvas): result-card synthesis from the orchestrator tool stream
+- `aa47b98c` feat(canvas): rich response blocks shared + o8 bench parity + reasoning in seconds
+- `55476668` feat(canvas): dock solid edge + chat modal at agent-card bench parity
+- `a35ac23f` feat(canvas): all-angle hidden resize on the chat-card
+- `ba13e494` feat(canvas): shared CardComposer
+- `24b81051` feat(canvas): smooth borderless chrome on dock + chat-card
+- `78e1e612` feat(canvas): borderless DockEntryView
 - `575876ee` feat(canvas): agent-card bench — side-by-side presence comparison
 - `6d7fa7ad` feat(canvas): agent-card bench — PR + edited-files result variants
 - `ddcaf9d4` feat(canvas): agent-card bench
