@@ -7,8 +7,15 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-15
+
+- `59c4847c` feat: supervisor inbox self-closes via escalated/resolved states
+- `e1b09345` design(canvas): grey-on-white media rim + integrated header + matched resize arc
+- `1d486014` design(canvas): defined rim + off-edge resize arc on photo & video cards
+
 ## 2026-06-14
 
+- `ba729883` feat(workspace): smooth push for the workspace-detail rail + clearer toggle
 - `bbc32b57` feat: o8 menu-bar tray icon → new o8 monogram (white template)
 - `01b866af` design(canvas): rename Alerts dropdown + make rows jump to their surface
 - `cee2ba1f` feat(workspace): footer merge beacon -- fleet-wide "ready to merge" pill
