@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-14
 
+- `bbc32b57` feat: o8 menu-bar tray icon → new o8 monogram (white template)
+- `01b866af` design(canvas): rename Alerts dropdown + make rows jump to their surface
+- `cee2ba1f` feat(workspace): footer merge beacon -- fleet-wide "ready to merge" pill
 - `36045df8` feat: new o8 app icon — aurora Liquid Glass o8 monogram
 - `815d183b` design(canvas): glass onboarding panels + behind-glass motes reel, match reel type
 - `b14bd28d` feat(workspace): consolidate orchestrator composer chip row + adaptive icons + blocky-o8 boot loader
