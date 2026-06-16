@@ -7,8 +7,14 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-16
+
+- `0c4853e3` feat(canvas): in-app feedback capture + auto-hiding navigator loupe
+
 ## 2026-06-15
 
+- `d45865f9` feat(canvas): ship the operator o8 glass theme + universal orb default
+- `1bb0db39` feat(canvas): unified corner-resize on all cards + framed terminal + spawn fit
 - `c4ea5412` feat(canvas): live dispatch dock, balanced grid, alerts open the PR diff
 - `32edb114` feat: founding-pass beta invites
 - `367a36b9` design: harmonize the status-bar branch label with the composer chip type
