@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-16
 
+- `860c658e` design(settings): cleaner iOS-style switches, native selects & segmented controls + bold tab headers
 - `0c4853e3` feat(canvas): in-app feedback capture + auto-hiding navigator loupe
 
 ## 2026-06-15
