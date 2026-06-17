@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-17
+
+- `b8f0e806` feat(voice): o8_canvas tool — drive the Canvas by voice
+
 ## 2026-06-16
 
 - `84ea9c5c` feat(voice): VoiceTab escalation-policy toggle (Off / Auto / Deep)
