@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-17
 
+- `35909e3b` feat: surface native AI provider scouts as a live crew card (orchestrator + canvas)
 - `2b10a786` perf: smoother orchestrator streaming
 - `9ff2071c` feat: orchestrator turns can run far longer — raise hang watchdog 30m to 4h
 - `0bad2db6` feat(voice): teaching-mode P1
