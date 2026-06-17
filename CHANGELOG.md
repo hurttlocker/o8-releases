@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-17
 
+- `2b10a786` perf: smoother orchestrator streaming
+- `9ff2071c` feat: orchestrator turns can run far longer — raise hang watchdog 30m to 4h
 - `0bad2db6` feat(voice): teaching-mode P1
 - `4b0ea4d6` feat(voice): screen-draw snaps to the real UI element + Fn paste targets o8 + mail draft opens visible
 - `c9eabe99` feat(voice): interrupt a running task + keep the working indicator lit for background work
