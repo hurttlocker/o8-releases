@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-16
 
+- `3864da09` feat(voice): escalation-policy backend + concurrent-task safety
 - `f7490085` feat(voice): two-speed escalation routing for the voice agent
 - `b4cd5704` feat(voice): AI provider background brain + escalate handoff for the voice agent
 - `860c658e` design(settings): cleaner iOS-style switches, native selects & segmented controls + bold tab headers
