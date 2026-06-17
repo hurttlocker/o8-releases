@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-17
 
+- `b6d866fb` feat(voice agent): additive teaching diagrams — keep building on the live drawing
 - `1e0ba04f` feat(voice agent): draw teaching diagrams on screen instead of writing an HTML file
 - `35909e3b` feat: surface native AI provider scouts as a live crew card (orchestrator + canvas)
 - `2b10a786` perf: smoother orchestrator streaming
