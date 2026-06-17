@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-17
 
+- `4b0ea4d6` feat(voice): screen-draw snaps to the real UI element + Fn paste targets o8 + mail draft opens visible
+- `c9eabe99` feat(voice): interrupt a running task + keep the working indicator lit for background work
 - `189b42f3` feat(voice): voice agent Draws — [DRAW:rect/arrow] screen annotations
 - `0a9a8a96` feat(voice): read_screen tool
 - `b8f0e806` feat(voice): o8_canvas tool — drive the Canvas by voice
