@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-17
 
+- `0bad2db6` feat(voice): teaching-mode P1
 - `4b0ea4d6` feat(voice): screen-draw snaps to the real UI element + Fn paste targets o8 + mail draft opens visible
 - `c9eabe99` feat(voice): interrupt a running task + keep the working indicator lit for background work
 - `189b42f3` feat(voice): voice agent Draws — [DRAW:rect/arrow] screen annotations
