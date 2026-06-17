@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-17
 
+- `189b42f3` feat(voice): voice agent Draws — [DRAW:rect/arrow] screen annotations
 - `0a9a8a96` feat(voice): read_screen tool
 - `b8f0e806` feat(voice): o8_canvas tool — drive the Canvas by voice
 
