@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-18
 
+- `696f45f2` perf: kill dashboard render storm + realtime snapshot timeout spiral
 - `7b4f17d5` feat: wire canvas + mobile orchestrator surfaces into the stream replay path
 - `9e9363eb` feat: orchestrator stream replay buffer
 - `f636bc47` feat: voice agent changes o8 UI settings by voice (theme, surface, canvas mode)
