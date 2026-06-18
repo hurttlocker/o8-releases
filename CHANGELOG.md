@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-18
+
+- `f636bc47` feat: voice agent changes o8 UI settings by voice (theme, surface, canvas mode)
+
 ## 2026-06-17
 
 - `af842ed6` perf(voice agent): persistent AI provider session + keydown pre-warm to cut agent latency
