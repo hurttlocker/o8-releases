@@ -7,8 +7,111 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-25
+
+- `9180d6d7` feat(browser): wire o8_browser_* to the native browser-view (Stage 4, secure)
+- `004a3ce2` feat(browser): native browser-view panel surface + position sync (Stage 3)
+- `eeeac722` feat(browser): inject in-page agent into browser-view (Stage 2 — secure)
+- `e43c8039` feat(browser): native browser-view child window (Stage 1 — Rust shell)
+- `65b379a5` feat(browser): engine-pane fallback so auth-gated apps render + stay drivable
+- `d0f1e083` feat(browser): render Clerk/auth-gated apps + cut the dead Open Source button
+- `e813ebca` feat: continuous agent ghost competing product + unified agent-driving glow
+- `a3f17956` feat: unify Design Mode
+- `3ee3278d` feat: Design-Mode grab
+
+## 2026-06-24
+
+- `2b411998` feat: canvas add-file/open-diff/open-chat/add-video verbs — agent spawns every content kind
+- `0814dd0f` feat: o8_canvas full verb parity
+- `90557563` feat: canvas add-image/stack/flip/separate intent verbs — agent control parity
+- `eb76e1ab` feat: canvas image-stack UX
+- `d4840609` feat: theme-aware ASCII o8 workspace loader
+- `ef670c12` feat: ASCII o8 boot splash — animated wordmark loading screen
+- `d60b2a98` feat: agent canvas control — see + place/size/raise/close cards
+- `838c0f41` feat: ASCII effects suite — image/wordmark, wave field, flow field
+- `8d86848b` feat: liquid ascii fluid effect + extensible effects lab preview
+- `58dd6235` feat(lanes): shared archived-dedup primitive + collapse=true structured-state query
+- `19b9a2e2` feat(mcp): semantic locators
+
+## 2026-06-23
+
+- `3bd509af` feat(voice agent): kill/stop agents by voice
+- `7b86ee1c` feat: home-dir agents
+- `09aa9a89` feat: mailbox in voice agent — relay + read o8 team messages by voice
+- `8490aac4` feat: voice agent is peer-aware
+
+## 2026-06-22
+
+- `a5417a5a` feat: o8 team mailbox (tell/inbox) + auto-installed guard hook
+- `853f13ba` feat: o8 team
+- `f4ab538f` feat: Huddle mode
+- `4dfaec25` feat: canvas navigator loupe size is adjustable in the tuner
+- `07f63e3f` feat: global ⌘⇧E "report an issue" hotkey on the IDE dashboard
+- `f5bf9483` design: float the mission-complete card above the composer
+- `b1ab114c` feat: home-dir AI provider agent
+- `fa4601af` feat(brain): free fast Brain via warm AI provider CLI
+- `1bc05948` feat(brain): managed-inference + bring-your-own guardrails so non-paying users never burn founder credits
+- `e4c39f70` feat: operator Stop button + fix the phantom "Working forever" latch
+- `9d5117ba` feat: mobile voice agent remote — drive voice-to-voice from the phone
+- `a58c4ecc` feat(brain): local-model inference backend
+- `a51c81b5` feat(brain): founders auto-get the fast Brain tier (B-1) — instant answers, not the 15-30s CLI
+- `654ecefe` feat(founding): STT sweep harness + complete app-wide inference inventory
+- `a316cf49` feat(founding): managed-inference speed/cost sweep harness + Brain tier results
+- `850f563d` feat(founding): /v1/founders wall endpoint + launch checklist
+
+## 2026-06-21
+
+- `97deca18` feat: founding cohort count endpoint + metadata-signal robustness
+- `049403e1` feat: realign Founding Operator tier to locked spec (plan: founder, early access, tiered)
+- `14c058f8` feat: Founding Operator purchase
+- `77897ded` feat: local models
+
+## 2026-06-20
+
+- `80cd1b0f` feat(dispatch): make defaultDispatchModel writable via the operator-defaults API
+- `0f6e8bca` feat(dispatch): run workers on local models
+- `820c53a8` feat(voice): o8_status reports each agent's canvas name — spoken roster
+- `fb902e4a` feat(voice): address a working agent by its canvas name — "Atlas, run the tests"
+- `b28496d5` feat(canvas): memorable agent codenames + color-by-runtime + grid voice verb
+- `adb9e13d` design(canvas): chat title weight 400 — match every other card
+- `12cc9625` design(canvas): reconcile chrome spec — header layout + zoom-in ladder
+- `c50d72b7` feat(canvas): zoom IN
+- `b9adc34c` feat(voice): meter realtime voice spend → usage_logs + cost dashboard
+- `866e4ced` design(canvas): chat-card header
+- `af6a00c9` design(canvas): lock the canvas-chrome system into design system.md
+- `3213cd7c` design(canvas): media cards into the shared chrome family
+- `d464bd53` design(canvas): browser card header into the shared chrome family
+- `0dfc1ab1` design(canvas): one chrome vocabulary across cards — shared sizes + dynamic floor
+- `99db49b5` feat(canvas): render-on-screen
+- `3e915d24` feat(voice): show in-flight worker count inside the voice-live dock capsule
+
+## 2026-06-19
+
+- `bc072654` feat(voice): voice-live presence shows in the screen dock, not only the IDE window
+- `6f94b77d` feat(voice): double-tap right Cmd toggles voice-to-voice mode (live indicator + idle auto-off)
+- `77b99843` design(chrome): ≥44px hit target on header pills + the panel ✕
+- `b1f1e161` feat(voice): voice agent can reset/retry + wait on a packet by voice — closes
+- `3a849d8c` feat(voice): voice agent can annotate o8.md by voice — o8_spec_annotate
+- `fb165675` feat(voice): voice agent competing product
+- `81e04238` feat(voice): voice agent can drive a browser + inspect a packet diff by voice
+- `dfacd737` feat(zoom): global ⌘-/⌘=/⌘+/⌘0 zoom for the IDE shell
+- `d306b55c` feat(voice): voice agent can spawn agent cards by voice — wire spawn-agents canvas verb
+- `019329f1` feat(voice): voice agent realtime
+- `306bbe73` feat(voice): voice agent realtime — expose all 10 AI modelrealtime voices
+- `114139fc` feat(voice): voice agent realtime
+- `6be1f57b` feat(voice): voice agent realtime
+- `e4c92d7f` feat(voice): voice agent realtime
+- `c1a4daef` feat(voice): voice agent realtime
+- `97f4362c` feat(canvas): voice spawn-agents
+- `ed4cae05` feat(canvas): stream the dock's assistant prose with the smooth-text reveal
+
 ## 2026-06-18
 
+- `92dd94db` perf(chat): make the streaming reveal fast, not just smooth
+- `020fe456` feat: smooth streaming reveal in the orchestrator chat (no more bursty text)
+- `7cb0116c` design(shell): right-panel glass squircle fill, flat composer, no o8.md auto-collapse
+- `d8f29a5c` design(shell): glass-mode left-column cohesion + lisse hover-preview edges
+- `8c8fd3df` design(panel): lisse squircle corners on the right O8Panel
 - `696f45f2` perf: kill dashboard render storm + realtime snapshot timeout spiral
 - `7b4f17d5` feat: wire canvas + mobile orchestrator surfaces into the stream replay path
 - `9e9363eb` feat: orchestrator stream replay buffer
