@@ -9,6 +9,11 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-26
 
+- `3aafbf32` feat(review): pick the best-of-N winner through the governed merge gate + audit
+- `d194200d` feat(review): per-candidate merge-gate verdict on the compare matrix
+- `0bc0e37b` feat(review): mount the N-up compare matrix as a contextual O8Panel tab
+- `3382ae5f` feat(review): N-up comparison diff matrix component (best-of-N)
+- `afc71bd8` feat(orchestrator): arm best-of-N fan-out via comparisonModels on create_mission
 - `570a90ea` feat(browser): Design Mode click-to-grab over the native window (Stage 4b)
 - `14bd416e` feat(browser): native browser-view as default operator setting (Stage 6)
 - `99637a6a` feat(browser): occlusion snapshot-swap for the native browser-view (Stage 5)
