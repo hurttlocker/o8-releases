@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-26
+
+- `570a90ea` feat(browser): Design Mode click-to-grab over the native window (Stage 4b)
+- `14bd416e` feat(browser): native browser-view as default operator setting (Stage 6)
+- `99637a6a` feat(browser): occlusion snapshot-swap for the native browser-view (Stage 5)
+
 ## 2026-06-25
 
 - `9180d6d7` feat(browser): wire o8_browser_* to the native browser-view (Stage 4, secure)
