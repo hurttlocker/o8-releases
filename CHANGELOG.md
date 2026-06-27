@@ -7,8 +7,23 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-27
+
+- `550b8b84` feat: persistent terminals default ON + hide terminal status bar ( stage 5)
+- `d7a077d0` feat: canvas terminals re-attach surviving sessions on restore ( stage 4)
+- `de28c5ad` feat: re-attach surviving dash terminals with scrollback after restart ( stage 3)
+- `a9d26e96` feat: keep dash terminals alive on detach + bounded orphan GC ( stage 2)
+- `e7065ed5` feat: spawn interactive dash terminals inside terminal, gated ( stage 1)
+- `0644dd16` feat: default crash-survivable workers ON (kill-test passed on 0.1.512)
+- `746bf704` feat: boot re-bind observability + crash-survival contract test ( stage 2)
+- `c8f0a3bf` feat: crash-survivable worker spawn, gated (daemon crash-survival stage 1)
+- `c1f589d9` feat: worker-context merge approval card + o8 inbox + o8 packet approve-merge ( stages 5b/6)
+- `6b7ab567` feat: extract steer-packet route + o8 packet steer (control-plane symmetry stage 4)
+
 ## 2026-06-26
 
+- `52748a74` feat(cli): o8 packet reset/retry/rerun/merge-preview (control-plane symmetry stage 3)
+- `c0e0e159` feat(cli): o8 mission create/dispatch/status/wait/tail (control-plane symmetry stage 1)
 - `3aafbf32` feat(review): pick the best-of-N winner through the governed merge gate + audit
 - `d194200d` feat(review): per-candidate merge-gate verdict on the compare matrix
 - `0bc0e37b` feat(review): mount the N-up compare matrix as a contextual O8Panel tab
