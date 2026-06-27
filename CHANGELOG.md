@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-27
 
+- `5ffd89fb` feat: mobile device enrollment + per-device token validation ( stage 1b)
+- `90694929` feat: mobile E2EE crypto + per-device token registry foundation ( stage 1a)
 - `550b8b84` feat: persistent terminals default ON + hide terminal status bar ( stage 5)
 - `d7a077d0` feat: canvas terminals re-attach surviving sessions on restore ( stage 4)
 - `de28c5ad` feat: re-attach surviving dash terminals with scrollback after restart ( stage 3)
