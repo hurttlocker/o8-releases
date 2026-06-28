@@ -7,6 +7,13 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-28
+
+- `2775957a` feat: desktop half of mobile inline diff comments ( slice 2)
+- `0578a3c9` feat: STYLEGUIDE.md
+- `d85730b1` feat: Paired-devices settings list with per-device revoke
+- `9f4a52fe` feat: deterministic 4401 close for a revoked device on reconnect
+
 ## 2026-06-27
 
 - `b15ee985` feat: mobile E2EE channel
