@@ -6,5 +6,6 @@ Last updated: 2026-06-29
 |---|---|
 | Features shipped (180d) | 1462 |
 | Days active | 106 |
-| This week | 62 features |
-| Today | 4 features |
+| This week | 58 features |
+| Today | 0
+0 features |
