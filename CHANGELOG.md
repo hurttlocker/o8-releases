@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-30
+
+- `5642a499` feat(orchestrator): Collide composer chip + faint→solid proposals UX (Steps 5,6)
+- `45b9edc6` feat(orchestrator): Collide MoA fusion engine + registration + cap-degrade (Steps 3,4,7,9)
+- `c3bdc508` feat(orchestrator): two-layer read-only proposer lockout (Collide Step 2)
+
 ## 2026-06-29
 
 - `1c835d39` feat(orchestrator): Hermes via a generic ACP backend (Step 3b–3d)
