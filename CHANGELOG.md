@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-06-29
+
+- `8112edf1` feat(mcp): o8 now configures agent runtime — closes the "any CLI" set (Phase 2)
+- `96903a20` feat(mcp): o8 now configures the AI provider CLI from the registry (Phase 2)
+- `35164e2f` feat(mcp): agent runtime o8 entry from the registry, not passthrough (Step F)
+
 ## 2026-06-28
 
 - `2775957a` feat: desktop half of mobile inline diff comments ( slice 2)
