@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-29
 
+- `1c835d39` feat(orchestrator): Hermes via a generic ACP backend (Step 3b–3d)
+- `7c75d5af` feat(orchestrator): orchestratorBackend setting — makes agent runtime selectable (Step 1)
 - `8112edf1` feat(mcp): o8 now configures agent runtime — closes the "any CLI" set (Phase 2)
 - `96903a20` feat(mcp): o8 now configures the AI provider CLI from the registry (Phase 2)
 - `35164e2f` feat(mcp): agent runtime o8 entry from the registry, not passthrough (Step F)
