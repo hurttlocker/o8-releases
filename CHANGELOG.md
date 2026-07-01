@@ -7,8 +7,20 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-01
+
+- `034b406a` feat(collide): label the Collide toggle with a full hover tooltip + aria
+- `427331ee` feat(orchestrator): warm the orchestrator with a resident-process pool + lockout auto-deny
+- `b0e12c58` feat(targeting): pass tier effort on dispatch + fix inline-issue number (effort→worker 3/3)
+
 ## 2026-06-30
 
+- `a04b0a60` feat(targeting): promote Targeting from utility tab to a main tab (polish)
+- `8939b211` feat(targeting): observability logging (step 8)
+- `06ab6452` feat(targeting): o8_targets MCP tool
+- `b80ec5b3` feat(targeting): difficulty→tier routing + Dispatch button (step 6)
+- `ae5b45ef` feat(targeting): cheap-triage-model rationales — the money-shot (step 5)
+- `a631bb00` feat(targeting): triage/action config triads (step 4)
 - `e7735cd6` feat(targeting): /api/panel/targets route + Targeting panel surface (step 3)
 - `4d6b61fd` feat(targeting): heuristic scorer + score cache (step 2)
 - `43d642be` feat(targeting): signal collection for the Targeting Machine (step 1)
