@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-30
 
+- `e7735cd6` feat(targeting): /api/panel/targets route + Targeting panel surface (step 3)
+- `4d6b61fd` feat(targeting): heuristic scorer + score cache (step 2)
+- `43d642be` feat(targeting): signal collection for the Targeting Machine (step 1)
 - `5642a499` feat(orchestrator): Collide composer chip + faint→solid proposals UX (Steps 5,6)
 - `45b9edc6` feat(orchestrator): Collide MoA fusion engine + registration + cap-degrade (Steps 3,4,7,9)
 - `c3bdc508` feat(orchestrator): two-layer read-only proposer lockout (Collide Step 2)
