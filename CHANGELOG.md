@@ -7,6 +7,17 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-02
+
+- `9ae95bd7` perf(o8): voice-playback line highlighting — reads the spoken line + scroll-follows
+- `f69d6eba` perf(o8-panel): pre-warm the spec reviewer on pane-open so the first review is instant
+- `36708cf2` feat(o8): launch-polish batch
+- `b5284259` feat(session-rules): Rules chip + tiered popover in the orchestrator composer
+- `df9673ac` feat(session-rules): worker inheritance + rules_applied audit event
+- `02c87908` feat(session-rules): pin active rules into every orchestrator turn
+- `267bd64b` feat(session-rules): gated /api/orchestrator/session-rules route
+- `33c1b2ff` feat(session-rules): thread-scoped rule store + prompt block
+
 ## 2026-07-01
 
 - `034b406a` feat(collide): label the Collide toggle with a full hover tooltip + aria
