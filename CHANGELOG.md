@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-02
 
+- `a6564bf4` feat(auth): bake GITHUB_OAUTH_CLIENT_ID into signed builds
+- `b6b0fb4b` perf(workspace): instant skeleton first paint on Workspace tab
+- `8dc50134` perf(workspace): changes-only snapshot skips gh network calls
 - `9ae95bd7` perf(o8): voice-playback line highlighting — reads the spoken line + scroll-follows
 - `f69d6eba` perf(o8-panel): pre-warm the spec reviewer on pane-open so the first review is instant
 - `36708cf2` feat(o8): launch-polish batch
