@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-02
 
+- `642e13c1` feat(fable): the decisions-only window — metered-orchestrator mode
 - `a6564bf4` feat(auth): bake GITHUB_OAUTH_CLIENT_ID into signed builds
 - `b6b0fb4b` perf(workspace): instant skeleton first paint on Workspace tab
 - `8dc50134` perf(workspace): changes-only snapshot skips gh network calls
