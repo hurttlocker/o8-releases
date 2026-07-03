@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-03
+
+- `76dc0582` feat: add terse o8 ask answers
+- `beaae360` feat: make agent runtime orchestrator brain-first
+- `84d0309a` feat: add quick docs drawer for operator config files
+
 ## 2026-07-02
 
 - `642e13c1` feat(fable): the decisions-only window — metered-orchestrator mode
