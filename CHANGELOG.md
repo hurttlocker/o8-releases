@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-04
+
+- `10ec0e4b` feat: mission registry core
+
 ## 2026-07-03
 
 - `76dc0582` feat: add terse o8 ask answers
