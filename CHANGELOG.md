@@ -9,7 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-05
 
-- `1b17287b` feat: changelog attributes o8-merged work [via-o8]
+- `1b17287b` feat: changelog attributes o8-merged work
 - `f1cd6bf7` feat(analytics): roll top-accounts up by person + label with GitHub handle
 - `8be1edbe` feat(entitlement): link this install to the account on sign-in (device rollup)
 - `0c133401` feat(analytics): Phase 2
@@ -1106,7 +1106,7 @@ and internal chores live in the private engineering log.
 - `070132b0` design(approvals+orchestrator): tighten to Rams density
 - `8fa84cbf` feat(approvals): first-class merge-gate banner under TitleBar
 - `239c765f` feat(orchestrator): unified busy-state UI + stream event routing [via-o8]
-- `a1d88504` feat(lane): tag merged lane tip commits withsuffix [via-o8]
+- `a1d88504` feat(lane): tag merged lane tip commits with [via-o8] suffix
 - `6f637586` feat(theme): shift light-mode glass family from white to paper base
 - `be12215d` feat(theme): light-mode content surfaces use paper (#F4F2ED) — match o8-site
 
