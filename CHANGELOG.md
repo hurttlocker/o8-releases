@@ -9,14 +9,21 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-05
 
+- `1b17287b` feat: changelog attributes o8-merged work [via-o8]
+- `f1cd6bf7` feat(analytics): roll top-accounts up by person + label with GitHub handle
+- `8be1edbe` feat(entitlement): link this install to the account on sign-in (device rollup)
+- `0c133401` feat(analytics): Phase 2
+- `0267dcd1` feat: orchestrator crash-survival — detached turns + in-flight rebind [via-o8]
+- `1684294b` feat(analytics): count real users (distinct accounts), not install churn
+- `56394953` feat(license-server): return today's managed-Brain usage on /account/license
 - `09d43570` feat(status-bar): Founding Operator serial-chip badge by the ?
 
 ## 2026-07-04
 
 - `f3712756` feat(license-server): store GitHub handle from checkout metadata as founder displayName
-- `8dcd7f53` feat: agent runtime is a first-class in-UI orchestrator
-- `8433a523` feat: 'o8 app restart' + auto-apply updates when idle
-- `10ec0e4b` feat: mission registry core
+- `8dcd7f53` feat: agent runtime is a first-class in-UI orchestrator [via-o8]
+- `8433a523` feat: 'o8 app restart' + auto-apply updates when idle [via-o8]
+- `10ec0e4b` feat: mission registry core [via-o8]
 
 ## 2026-07-03
 
@@ -383,9 +390,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-06-07
 
-- `55c24ca5` feat: catch dashboard mount crashes in preship gate
-- `17c17370` feat: add blind second-pass auto-review
-- `72507a60` feat: one-click "Clean up" button for stale workspace tabs
+- `55c24ca5` feat: catch dashboard mount crashes in preship gate [via-o8]
+- `17c17370` feat: add blind second-pass auto-review [via-o8]
+- `72507a60` feat: one-click "Clean up" button for stale workspace tabs [via-o8]
 
 ## 2026-06-06
 
@@ -1007,7 +1014,7 @@ and internal chores live in the private engineering log.
 - `82295a64` feat(mcp): paste-JSON config input [via-o8]
 - `6c4606a3` design(settings): acronym casing — MCP + configuration [via-o8]
 - `8cef91d6` design(settings): visual polish sweep — spacing, acronyms, typography [via-o8]
-- `c3a722a1` design(analytics): Rams pass
+- `c3a722a1` design(analytics): Rams pass [via-o8]
 - `5e91e677` design(settings): Rams pass on Settings shell + tab bar [via-o8]
 - `83931920` design(settings): Rams pass on About tab [via-o8]
 - `3209c5fa` design(settings): Rams pass on Diagnostics tab [via-o8]
@@ -1044,7 +1051,7 @@ and internal chores live in the private engineering log.
 ## 2026-04-18
 
 - `129d5775` feat(mcp-agent): o8_lane_events MCP tool long-polls workflow transition [via-o8]
-- `9bd9bb2f` feat(mcp-agent): o8_review_state MCP tool
+- `9bd9bb2f` feat(mcp-agent): o8_review_state MCP tool [via-o8]
 - `ae0128ca` feat(orchestrator): packet card action strip — retry / reset / open / copy [via-o8]
 - `7e2e43b5` feat(orchestrator): history row actions — pin / rename / export / delete [via-o8]
 - `f62fefb5` feat(orchestrator): synchronous worktree cleanup across all merge paths [via-o8]
@@ -1058,13 +1065,13 @@ and internal chores live in the private engineering log.
 - `4b3f07a3` feat(orchestrator): finish remaining slash commands
 - `bd4e7cb1` feat: usage.jsonl dispatch instrumentation for agent runtime + agent runtime runtimes [via-o8]
 - `306b48f5` feat: wire Thoughts operator-defaults into panel [via-o8]
-- `7705f45d` feat: default operator settings
+- `7705f45d` feat: default operator settings [via-o8]
 - `a76283e0` design(agent-chat): unify agent runtime + agent runtime composer with orchestrator aesthetic
 - `019c78f1` feat(orchestrator): context inspector side panel with click-to-evict
 - `4febf47f` feat(worktree): stale local ref check + fetch_unreachable supervisor inbox kind so offline launches don't revert upstream [via-o8]
 - `e9f30de5` feat(worktree): thread packetId through RuntimeLaunchRequest so rebase-conflict inbox rows deep-link to the packet [via-o8]
-- `724c81bd` design(orchestrator): ThinkingChip matches ContextMeter pill aesthetic
-- `b8dad79c` design(governance): move Supervisor Inbox from lingering /dashboard/inbox route into the O8 right panel as a proper tab
+- `724c81bd` design(orchestrator): ThinkingChip matches ContextMeter pill aesthetic [via-o8]
+- `b8dad79c` design(governance): move Supervisor Inbox from lingering /dashboard/inbox route into the O8 right panel as a proper tab [via-o8]
 - `cc0f14e0` feat(agent runtime-debug): attach native review screenshots
 - `08ab4c68` feat: add orchestrator composer token estimate
 - `816c29e7` design: ThinkingChip uses theme tokens, drops Material shadow + backdrop-blur
@@ -1076,7 +1083,7 @@ and internal chores live in the private engineering log.
 - `a5d07539` feat: add adaptive orchestrator thinking summaries
 - `b7753c32` feat(orchestrator): rotate thread after mission completion
 - `eea81143` design(orchestrator): drop SESSIONS strip, compact packet tab labels, highlight latest dispatch
-- `4b461625` design(orchestrator): CommandStripNode density pass
+- `4b461625` design(orchestrator): CommandStripNode density pass — theme tokens, no Material shadow [via-o8]
 
 ## 2026-04-17
 
@@ -1099,7 +1106,7 @@ and internal chores live in the private engineering log.
 - `070132b0` design(approvals+orchestrator): tighten to Rams density
 - `8fa84cbf` feat(approvals): first-class merge-gate banner under TitleBar
 - `239c765f` feat(orchestrator): unified busy-state UI + stream event routing [via-o8]
-- `a1d88504` feat(lane): tag merged lane tip commits with [via-o8] suffix
+- `a1d88504` feat(lane): tag merged lane tip commits withsuffix [via-o8]
 - `6f637586` feat(theme): shift light-mode glass family from white to paper base
 - `be12215d` feat(theme): light-mode content surfaces use paper (#F4F2ED) — match o8-site
 
