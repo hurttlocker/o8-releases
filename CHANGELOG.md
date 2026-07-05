@@ -7,8 +7,15 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-05
+
+- `09d43570` feat(status-bar): Founding Operator serial-chip badge by the ?
+
 ## 2026-07-04
 
+- `f3712756` feat(license-server): store GitHub handle from checkout metadata as founder displayName
+- `8dcd7f53` feat: agent runtime is a first-class in-UI orchestrator
+- `8433a523` feat: 'o8 app restart' + auto-apply updates when idle
 - `10ec0e4b` feat: mission registry core
 
 ## 2026-07-03
