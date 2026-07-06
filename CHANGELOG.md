@@ -9,6 +9,25 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-05
 
+- `1ebf3367` design(settings): project cards collapse to one dense inset group - rows not sub-cards
+- `b4b02339` feat(settings): Founders fast-path Brain status row; casual-chat toggle unsurfaced for beta
+- `ead97167` feat(settings): Diagnostics tab on grouped system
+- `a2bf7184` feat(settings): Projects tab on grouped system
+- `652fabef` feat(settings): CLI usage meters in quick drawer are Founders-mode content
+- `4cde921d` feat(settings): Voice keeps app-level only - voice agent owns polish/dictionary/audio; new voice agent settings row opens his window
+- `f9a3f16a` design(settings): Local models on grouped shell, MCP client row icon tiles
+- `b7a1c7da` feat(settings): drop voice History from o8 settings - voice agent owns it (double-tap the dock)
+- `016b20c8` design(settings): Connectors bar-raise - icon tiles, casing, ghost buttons
+- `1fdb67f8` feat(settings): Dispatch tab on grouped system - Founders mode holds the extras
+- `0b649b0c` feat(settings): MCP + Connectors tabs on grouped system
+- `6da8da9c` design(settings): About polish - icon tiles, product casing, grouped report-issue form
+- `611fbc2e` feat(settings): About tab on grouped system
+- `9c27c5e7` feat(settings): Plan & Billing tab on grouped system
+- `2d73fdb7` feat(settings): Mobile pairing tab on grouped system
+- `0d87fd2c` design(settings): palette-aware accent - lighter blue active states in dark mode
+- `87f530db` feat(settings): Account tab on grouped system
+- `a3d7165f` feat(settings): Voice tab on grouped system; dictation moves Appearance -> Voice
+- `46bdeee9` feat(settings): inset-grouped primitives + Appearance pilot (mobile settings style port,)
 - `1b17287b` feat: changelog attributes o8-merged work
 - `f1cd6bf7` feat(analytics): roll top-accounts up by person + label with GitHub handle
 - `8be1edbe` feat(entitlement): link this install to the account on sign-in (device rollup)
