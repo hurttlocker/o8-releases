@@ -9,6 +9,12 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-05
 
+- `9331c782` design(composer): mode picker - Swarm drops Ultracode, honest Solo copy, hover explains each mode
+- `2064acbb` feat(canvas): free tier is Paper-only light/dark - looks, dials, depth, and advanced are founders
+- `9e151eec` feat: new o8.app desktop icon
+- `1b42ba67` design(canvas): Mine preset renamed Custom; redundant settings-side glass tuner removed - the canvas panel owns tuning
+- `b2d9f013` feat(settings): Canvas keeps Experimental badge; founders-first theme scaffold; instrumentation is internal-only not founder-facing
+- `57b3a68c` feat(settings): Diagnostics keeps user-actionable only - recall/loop/demo instrumentation behind Founders, width rhythm fixed
 - `1ebf3367` design(settings): project cards collapse to one dense inset group - rows not sub-cards
 - `b4b02339` feat(settings): Founders fast-path Brain status row; casual-chat toggle unsurfaced for beta
 - `ead97167` feat(settings): Diagnostics tab on grouped system
