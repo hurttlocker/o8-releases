@@ -7,6 +7,16 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-06
+
+- `8d6caf4b` feat: pair dispatch runtime with orchestrator
+- `229377b4` feat: add composite webview MCP verbs
+- `ceb826c2` feat: dispatch agent runtime workers
+- `c7083850` feat(onboarding): Scan again affordance on the runtime step
+- `6719ee53` feat(mcp): smart add box - paste a config, an npx command line, or a URL and it parses itself; manual JSON fields demoted to a disclosure
+- `b9da9962` design(composer): run-context chips move up into the empty-state dead space - off the status bar
+- `baf95396` design(composer): adaptive sits between medium and high in the thinking drawer
+
 ## 2026-07-05
 
 - `9331c782` design(composer): mode picker - Swarm drops Ultracode, honest Solo copy, hover explains each mode
