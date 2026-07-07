@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-07
 
+- `2ca0cfbb` feat: spawned-agents hover card v1
 - `f9362fac` feat: packet cards outcome-first
 - `c69541e8` feat(unknowns): opt-in buy-in doc on merge
 - `fde60e91` feat(unknowns): clarify-first interview before dispatch
