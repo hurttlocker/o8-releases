@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-07
+
+- `d78ba854` feat: mobile parity AGENTS
+- `6a5fe067` feat: canonical mobile fleet projection
+- `e214e6c3` feat: mobile review units with explicit authority
+
 ## 2026-07-06
 
 - `8d6caf4b` feat: pair dispatch runtime with orchestrator
