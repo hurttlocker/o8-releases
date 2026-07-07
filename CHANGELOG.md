@@ -9,6 +9,12 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-07
 
+- `f9362fac` feat: packet cards outcome-first
+- `c69541e8` feat(unknowns): opt-in buy-in doc on merge
+- `fde60e91` feat(unknowns): clarify-first interview before dispatch
+- `83914aac` feat(unknowns): HTML packet explainer + quiz-gated human approve
+- `23a6d291` feat(unknowns): worker deviations log surfaced at review
+- `57b0835b` feat: reviewer backend split
 - `d78ba854` feat: mobile parity AGENTS
 - `6a5fe067` feat: canonical mobile fleet projection
 - `e214e6c3` feat: mobile review units with explicit authority
