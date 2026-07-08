@@ -9,6 +9,18 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-07
 
+- `b3def2a8` feat(canvas+voice agent): voice presence
+- `743dd350` feat(proxy): Deepgram Nova-3 primary transcribe arm on /v1/transcribe
+- `25bf6087` feat: STT latency harness
+- `cc317d43` feat: Groq configuration field in Settings → Voice → Transcription
+- `8c2f6749` feat: wire local transcription first in the whisper ladder
+- `dd58879f` feat: on-device transcription tier for Apple Silicon
+- `a953e623` feat: choreograph canvas card spawns
+- `5fe79f38` feat: dictation polish default → AI provider-2.5-flash-lite
+- `7c2b2d2d` feat: skip Whisper re-transcription under 12 words
+- `fe3a4e17` feat: Whisper via Groq
+- `1d657bb3` feat: polish model overridable via polish_model dictation-config key
+- `81e7862d` feat: move speak-selection chord Ctrl+Shift+S → Ctrl+Shift+R (operator: S kept colliding with muscle memory; R = Read, no default collisions)
 - `2ca0cfbb` feat: spawned-agents hover card v1
 - `f9362fac` feat: packet cards outcome-first
 - `c69541e8` feat(unknowns): opt-in buy-in doc on merge
