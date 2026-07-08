@@ -11,6 +11,15 @@ and internal chores live in the private engineering log.
 
 - `db39127f` feat: o8 Relay v1 desktop connector + wiring, R3 docs (WIP→complete)
 - `43a2575e` feat: o8 Relay v1
+- `a10e4047` feat: wire process crash capture into ws-server + defensive WebSocketServer error handler
+- `74cdb75b` feat: terminal-host process seam for ws-server PTYs ( follow-up)
+- `5f27f47a` feat: add release rollback script
+- `11118fe3` feat: updater safety check skips pulled releases before applying an update
+- `4a8ddf13` feat: early-boot crash capture in the packaged server wrapper
+- `10cf8619` feat: capture server + renderer crashes into the crash store
+- `d9b41f4f` feat: local crash capture store + opt-in uploader
+- `4ca2b0fc` feat: add opt-in crash-report setting (Privacy) to operator defaults
+- `48c7e035` feat: event-loop lag watchdog for ws-server ( follow-up)
 - `8edbfe16` feat: voice agent Agent Mode desktop half
 
 ## 2026-07-07
