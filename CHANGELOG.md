@@ -9,6 +9,15 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-08
 
+- `d1fd1f65` feat(voice): outside-the-window live agent-transcription HUD
+- `f841991c` feat(canvas+voice agent): Whisper on agent path always + grid tiles agent cards + GA SDP URL in contract
+- `9c32fad8` feat: wedge-timeout stuck launching lanes to awaiting_orchestrator
+- `75290f04` feat: register kill_escalated + no_session_binding lane-event verbs; roadmap rock-1 delivered
+- `a1c0ce1a` feat: session-binding fault detector
+- `7c83deca` feat: single guarded prune gate for all worktree deletions (Rock 1 item 3)
+- `e859da18` feat: confirmed-kill escalation for stop-packet ( S1)
+- `1ac9cfe8` feat: wedge-timeouts so parked lanes never park silently (Rock 1 item 2)
+- `49d6e654` feat: persisted idempotency for steer/rerun/reset/dispatch
 - `db39127f` feat: o8 Relay v1 desktop connector + wiring, R3 docs (WIP→complete)
 - `43a2575e` feat: o8 Relay v1
 - `a10e4047` feat: wire process crash capture into ws-server + defensive WebSocketServer error handler
