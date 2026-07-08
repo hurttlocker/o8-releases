@@ -7,8 +7,19 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-08
+
+- `db39127f` feat: o8 Relay v1 desktop connector + wiring, R3 docs (WIP→complete)
+- `43a2575e` feat: o8 Relay v1
+- `8edbfe16` feat: voice agent Agent Mode desktop half
+
 ## 2026-07-07
 
+- `b88dab6f` feat: add canvas file card editor gutter
+- `edafbbca` feat(canvas): chrome-aware, center-gathered card placement
+- `135b2901` feat(canvas): justified-row form-fit grid
+- `80ddb4f6` feat: canvas keyboard zoom + uniform card body text scale
+- `9319116e` feat: canvas agent cards go live
 - `b3def2a8` feat(canvas+voice agent): voice presence
 - `743dd350` feat(proxy): Deepgram Nova-3 primary transcribe arm on /v1/transcribe
 - `25bf6087` feat: STT latency harness
