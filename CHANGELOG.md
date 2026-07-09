@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-09
 
+- `ab13f9a3` perf: bound mobile worktree diff transport
+- `8619b451` perf: page mobile chat history
+- `24056205` perf: stream revisioned mobile inbox deltas
 - `5e016418` feat(telemetry): native crash capture (SIGSEGV/SIGABRT/SIGBUS/stack-overflow) via minidumps
 - `81fc33d2` feat(desktop): explicit Open With UTIs
 - `dfea5ff4` feat: subject-gone TTL fallthrough
