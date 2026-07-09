@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-09
 
+- `5e016418` feat(telemetry): native crash capture (SIGSEGV/SIGABRT/SIGBUS/stack-overflow) via minidumps
+- `81fc33d2` feat(desktop): explicit Open With UTIs
+- `dfea5ff4` feat: subject-gone TTL fallthrough
 - `d2f42e86` feat(desktop): Finder "Open With → o8" opens land in the workspace on the default IDE surface
 
 ## 2026-07-08
