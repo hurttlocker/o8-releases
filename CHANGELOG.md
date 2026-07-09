@@ -9,7 +9,13 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-08
 
+- `6f31460d` feat(entitlement): View as Free dev switch — founder--gated, min-clamped
+- `4360e99a` feat(voice): morph composer into live agent partials + vary voice agent ack lingo
+- `9aa6dc9a` feat(voice): window-aware partials HUD anchor + opt-in Fn dictation HUD
 - `d1fd1f65` feat(voice): outside-the-window live agent-transcription HUD
+- `2da95924` feat: wedge layer-5 escalation lands on awaiting_human; new status joins the parked-reminder set
+- `728ea434` feat(lane): unified dead-lane archiver with explicit policy table
+- `c194777a` feat: awaiting_human as a real persistable lane status
 - `f841991c` feat(canvas+voice agent): Whisper on agent path always + grid tiles agent cards + GA SDP URL in contract
 - `9c32fad8` feat: wedge-timeout stuck launching lanes to awaiting_orchestrator
 - `75290f04` feat: register kill_escalated + no_session_binding lane-event verbs; roadmap rock-1 delivered
