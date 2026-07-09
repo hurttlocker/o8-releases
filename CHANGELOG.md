@@ -7,8 +7,15 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-09
+
+- `d2f42e86` feat(desktop): Finder "Open With → o8" opens land in the workspace on the default IDE surface
+
 ## 2026-07-08
 
+- `1333fb23` feat(canvas): IDE-parity transcript rendering + honest lifecycle clocks in agent cards
+- `6e2a71e6` feat(telemetry): Sentry crash/error reporting across all three desktop layers — dormant without a DSN
+- `fb01941f` feat(voice): voice agent Spatial Context
 - `6f31460d` feat(entitlement): View as Free dev switch — founder--gated, min-clamped
 - `4360e99a` feat(voice): morph composer into live agent partials + vary voice agent ack lingo
 - `9aa6dc9a` feat(voice): window-aware partials HUD anchor + opt-in Fn dictation HUD
