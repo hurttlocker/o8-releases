@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-09
 
+- `07dab129` feat: merge-gate test replay + decoupled worktree capture trail
 - `ab13f9a3` perf: bound mobile worktree diff transport
 - `8619b451` perf: page mobile chat history
 - `24056205` perf: stream revisioned mobile inbox deltas
