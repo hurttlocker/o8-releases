@@ -7,6 +7,11 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-10
+
+- `77e61810` feat(voice): main-process capture defaults ON for Intel Macs on Sequoia
+- `f6987cd0` feat(voice): main-process microphone capture
+
 ## 2026-07-09
 
 - `07dab129` feat: merge-gate test replay + decoupled worktree capture trail
