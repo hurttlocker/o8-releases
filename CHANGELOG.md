@@ -9,6 +9,11 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-11
 
+- `05d923ed` feat(mobile): expose huddle plan in fleet
+- `f7363068` perf(dictation): overlap mic open with audio duck instead of serializing
+- `751d1e56` feat(files): save edits to any on-disk file, not just registered repos
+- `37213a35` feat(files): Files view can open any file on disk, not just registered repos
+- `124855a3` feat(files): open Finder files on the surface you're on, not a canvas hijack
 - `8c95baad` feat(packet): Request changes -> orchestrator; Discard -> soft dismiss (recoverable)
 - `21f478bf` feat(packet): show WHY a review was declined in the decision banner
 - `3b488961` design(status): review-declined = orange o8 dual-pulse (trial)
