@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-10
 
+- `98bd1229` feat(voice agent): control o8 hosted terminals by voice
 - `77e61810` feat(voice): main-process capture defaults ON for Intel Macs on Sequoia
 - `f6987cd0` feat(voice): main-process microphone capture
 
