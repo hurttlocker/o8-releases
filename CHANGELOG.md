@@ -11,12 +11,21 @@ and internal chores live in the private engineering log.
 
 - `a66f3403` perf(boot): merge 4 identical capabilities — generate_context! 1665ms -> 971ms
 - `5c94ed58` perf(boot): overlap the orphan reap with generate_context! instead of paying it first
+- `ac1d1f36` design(status): packetStatusColor failed → brand orange, aligned with the dot family (Q final lock 2026-07-12)
+- `9102fafa` design(status): failed joins rejected in the brand orange
+- `1a2c461b` design(status): idle = Drift
+- `82f2395d` design(status): the locked one-canvas family
+- `b4354186` design(status): running is always the orbit + rejected wears the failed cross in amber
 - `febf7a1c` perf(sidecar): cache V8 bytecode
 
 ## 2026-07-11
 
+- `dd462e32` design(motion): 5 awaiting-review candidates in the lab (AI provider bespoke)
+- `0563f9fd` design(motion): remove the scan loader from the family (operator cut)
+- `6bf9d93c` design(status): failed = the dispatch pixel mark in alarm red — locked
 - `0f280979` perf(server): stop loading a browser-automation library before the app answers a request
 - `a90e0c8b` perf(boot): trace the pre-window path
+- `7a751104` design(motion): bespoke loader family in the lab
 - `be24af3f` perf(boot): record boot-phase timings so cold launch can never silently regress
 - `06e33e60` perf(ws): bridge agent-lifecycle to the window event
 - `7abfb4ef` perf(spec-pane): stop polling the server for a pane nobody is looking at
