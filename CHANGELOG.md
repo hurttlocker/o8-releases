@@ -9,6 +9,16 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-11
 
+- `06e33e60` perf(ws): bridge agent-lifecycle to the window event
+- `7abfb4ef` perf(spec-pane): stop polling the server for a pane nobody is looking at
+- `cdacbba1` perf(ws-server): make the conflict scan event-driven — 45x less idle git work
+- `ce6b1669` perf(motion): drive the sweep dot from the compositor — 9.5% -> 2.2% idle CPU
+- `771beff2` perf(render): memoize the orchestrator context; stop animating a full-screen gaussian
+- `6e9270f0` perf(worktree): stop the 5-second recursive disk walk that was idling the fans
+- `cd24cca4` perf(boot): build the window before the sidecar bootstrap, not after
+- `b6a5bff9` perf(boot): one login-shell probe instead of three
+- `90de23b5` perf(ws-server): stop event-loop wedge from sync git in reconcile + backoff pathological merged-by-ancestry lanes
+- `6a72e85f` perf(prod): stop git-scanning the app's own bundle
 - `05d923ed` feat(mobile): expose huddle plan in fleet
 - `f7363068` perf(dictation): overlap mic open with audio duck instead of serializing
 - `751d1e56` feat(files): save edits to any on-disk file, not just registered repos
