@@ -7,8 +7,17 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-12
+
+- `a66f3403` perf(boot): merge 4 identical capabilities — generate_context! 1665ms -> 971ms
+- `5c94ed58` perf(boot): overlap the orphan reap with generate_context! instead of paying it first
+- `febf7a1c` perf(sidecar): cache V8 bytecode
+
 ## 2026-07-11
 
+- `0f280979` perf(server): stop loading a browser-automation library before the app answers a request
+- `a90e0c8b` perf(boot): trace the pre-window path
+- `be24af3f` perf(boot): record boot-phase timings so cold launch can never silently regress
 - `06e33e60` perf(ws): bridge agent-lifecycle to the window event
 - `7abfb4ef` perf(spec-pane): stop polling the server for a pane nobody is looking at
 - `cdacbba1` perf(ws-server): make the conflict scan event-driven — 45x less idle git work
