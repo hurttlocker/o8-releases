@@ -7,8 +7,30 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-13
+
+- `3fea218f` feat(feedback): the in-app receipt — tell the reporter their bug is fixed
+- `c8f4561a` feat(transcript): competing product slim-line turn vocabulary — full parity pass
+- `322d6990` feat(feedback): private intake, public fixes — reports get an id, fixes get credited
+- `a7ace0bb` feat(chat): threads name themselves
+- `23b53fca` feat(diff-wiring): per-file review list on the ChatActionCard rollup
+- `50f1ee6c` feat(diff-wiring): dual-fidelity FileEditRow — inline peek + filename→review
+- `a2b714c3` feat(diff-wiring): file-scoped diff seam + inline peek renderer
+- `0eeb0901` feat(chat): loopback links in the transcript open o8's embedded browser
+- `1bec4123` design(files): competing product arrangement
+
 ## 2026-07-12
 
+- `0e929431` feat(design-draw): wire enrichment, region crop + thumbnail into surfaces
+- `926297c2` feat(design-draw): native draw agent — component names, hover, thumbnail
+- `1748eb39` feat(design-draw): add React component-name + region-crop primitives
+- `b8959741` feat(turn-grammar): wire Thought block + file-edit rows into the transcript
+- `e8bdf0bd` feat(turn-grammar): auto-collapsing Thought block with compositor shimmer
+- `6b0718fb` feat(turn-grammar): live file-edit rows (Editing -> Edited +A -D)
+- `c2565d4d` feat(turn-grammar): tool-call error badges with auto-expanded error output
+- `5c2a62f2` feat(turn-grammar): thread tool-call error status through the orchestrator stream
+- `05ab64be` design(status): review state becomes Hourglass; round-2 review lab (10 3x3 candidates)
+- `51542301` feat(rail): repo drawers, repo-scoped spawn, and ownership nesting in the left rail
 - `15d6fde8` feat(browser): drag-to-draw Design Mode
 - `87a29838` feat(browser): the browser becomes a first-class drawer state with header-rail page tabs and a real toolbelt
 - `88e3701f` feat(o8-model): tier-tuned system prompts
