@@ -9,6 +9,14 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-13
 
+- `016ce80b` design(sidebar): collapsed-rail hover overlay
+- `1cd2ee60` feat(account): What's-new mini-changelog + Show more; Discord row; read-chord selection snapshots
+- `fff71fac` design(chrome): account click opens the full quick-settings drawer; icon cluster sits flat on the rail
+- `23869d8e` design(chrome): utility icons return to the bottom status rail; sidebar footer is the account row alone
+- `f73562b7` design(sidebar): flat left rail
+- `65f397fc` feat(sidebar): competing product-style account block
+- `c11a667e` design(command-palette): competing product search parity
+- `9724f23e` design(automations): design system row grammar + competing product empty state, decompose page
 - `f4c654df` design(customize): inventory counts on tab pills + Show-N-more section truncation
 - `1acb37a8` feat(customize): open backing files in-app, connection status dots; settings goes INLINE
 - `71b3fa5f` design(customize): design system typography sweep — locked roles across the page
