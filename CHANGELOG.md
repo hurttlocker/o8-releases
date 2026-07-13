@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-13
 
+- `f16de3d1` design(transcript): competing product text-sheen turn grammar
 - `3fea218f` feat(feedback): the in-app receipt — tell the reporter their bug is fixed
 - `c8f4561a` feat(transcript): competing product slim-line turn vocabulary — full parity pass
 - `322d6990` feat(feedback): private intake, public fixes — reports get an id, fixes get credited
