@@ -9,6 +9,10 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-13
 
+- `f4c654df` design(customize): inventory counts on tab pills + Show-N-more section truncation
+- `1acb37a8` feat(customize): open backing files in-app, connection status dots; settings goes INLINE
+- `71b3fa5f` design(customize): design system typography sweep — locked roles across the page
+- `86ec85eb` feat(customize): first-class Customize surface
 - `f16de3d1` design(transcript): competing product text-sheen turn grammar
 - `3fea218f` feat(feedback): the in-app receipt — tell the reporter their bug is fixed
 - `c8f4561a` feat(transcript): competing product slim-line turn vocabulary — full parity pass
