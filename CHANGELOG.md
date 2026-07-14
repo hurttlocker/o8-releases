@@ -9,6 +9,12 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-14
 
+- `0d936041` feat(workspace): the Orchestrator chat is THE chat — casual Chat surface retired
+- `77af8e68` feat(ports): footer ports popover becomes a dev-server launcher
+- `b40c8174` design(panel): terminal-first add-tab menu — shells lead, opens upward
+- `7dad18f6` design(boot): loading screen is glass, steady — no black slab, no ticking
+- `8f27523e` feat(canvas): Canvas is out of beta — button and mechanics on for everyone
+- `13fe94e4` design(rail): shimmer flare goes orange on light, keeps ice-white on dark
 - `22331b78` design(rail): selection reads by shimmer alone — active-row pill off, full-ink flare
 - `e990b424` feat(settings): Glass on/off toggle in the quick drawer
 - `4420a47a` feat(o8-model): free + founders o8 model edits files directly (Composer parity)
