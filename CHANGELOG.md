@@ -7,6 +7,13 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-14
+
+- `974bf770` feat(ux): right panel opens on Browser, not the dense Activity feed
+- `e75a784c` feat(license): analytics labels every signed-in user with their GitHub handle
+- `cdd45520` feat(github): desktop side of the managed o8 GitHub App
+- `97fb513a` feat(license): managed GitHub App token mint
+
 ## 2026-07-13
 
 - `6df89ec9` feat(tts): read chord speaks the terminal tail when nothing is selected
