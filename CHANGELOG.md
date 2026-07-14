@@ -6,624 +6,282 @@ We ship high-signal entries only (features + performance wins). Bug fixes, refac
 and internal chores live in the private engineering log.
 
 ---
-- `267bd64b` feat(session-rules): gated /api/orchestrator/session-rules route
 
 ## 2026-07-13
 
+- `6df89ec9` feat(tts): read chord speaks the terminal tail when nothing is selected
+- `31d45d43` feat(feedback): the bug queue is the agent's job to remember, not Q's
 - `f405b6f6` feat(dictation): SpeechAnalyzer path for macOS 26+ — the durable Apple Silicon rung
 - `96396625` feat(o8-model): founders rail rides AI provider 3 Flash with a wired 2.5 rollback
 - `71c96fa0` feat(o8-model): land tuned-v2 prompt slot on the founders rail
-- `33c1b2ff` feat(session-rules): thread-scoped rule store + prompt block
 - `0a713f4a` design(workspace): branch rail folds to a agent runtime-style icon capsule + scrolls when short
-
-## 2026-07-01
-
-- `034b406a` feat(collide): label the Collide toggle with a full hover tooltip + aria
 - `4eb87a85` feat(settings): projects show and manage their repos inline
-- `427331ee` feat(orchestrator): warm the orchestrator with a resident-process pool + lockout auto-deny
 - `eb0ff7ad` feat(settings): Models tab + human-first nav order, coming-soon tabs unlisted
-- `b0e12c58` feat(targeting): pass tier effort on dispatch + fix inline-issue number (effort→worker 3/3)
 - `c46b2970` feat(settings): Indexing tab
 - `d2c9aad4` design(settings): drop the SETTINGS/<tab> breadcrumb — the nav already says where you are
-
-## 2026-06-30
-
-- `a04b0a60` feat(targeting): promote Targeting from utility tab to a main tab (polish)
 - `a13dfa6f` design(settings): Connectors reads human-first
-- `8939b211` feat(targeting): observability logging (step 8)
 - `d048f213` feat(settings): settings search — 100+ row registry over the nav
-- `06ab6452` feat(targeting): o8_targets MCP tool
 - `770be6f7` feat(settings): Git & PRs tab
-- `b80ec5b3` feat(targeting): difficulty→tier routing + Dispatch button (step 6)
 - `351be101` feat(settings): General tab
-- `ae5b45ef` feat(targeting): cheap-triage-model rationales — the money-shot (step 5)
 - `016ce80b` design(sidebar): collapsed-rail hover overlay
-- `a631bb00` feat(targeting): triage/action config triads (step 4)
 - `1cd2ee60` feat(account): What's-new mini-changelog + Show more; Discord row; read-chord selection snapshots
-- `e7735cd6` feat(targeting): /api/panel/targets route + Targeting panel surface (step 3)
 - `fff71fac` design(chrome): account click opens the full quick-settings drawer; icon cluster sits flat on the rail
-- `4d6b61fd` feat(targeting): heuristic scorer + score cache (step 2)
 - `23869d8e` design(chrome): utility icons return to the bottom status rail; sidebar footer is the account row alone
-- `43d642be` feat(targeting): signal collection for the Targeting Machine (step 1)
 - `f73562b7` design(sidebar): flat left rail
-- `5642a499` feat(orchestrator): Collide composer chip + faint→solid proposals UX (Steps 5,6)
 - `65f397fc` feat(sidebar): competing product-style account block
-- `45b9edc6` feat(orchestrator): Collide MoA fusion engine + registration + cap-degrade (Steps 3,4,7,9)
 - `c11a667e` design(command-palette): competing product search parity
 - `9724f23e` design(automations): design system row grammar + competing product empty state, decompose page
-- `c3bdc508` feat(orchestrator): two-layer read-only proposer lockout (Collide Step 2)
 - `f4c654df` design(customize): inventory counts on tab pills + Show-N-more section truncation
-
-## 2026-06-29
-
-- `1c835d39` feat(orchestrator): Hermes via a generic ACP backend (Step 3b–3d)
 - `1acb37a8` feat(customize): open backing files in-app, connection status dots; settings goes INLINE
-- `7c75d5af` feat(orchestrator): orchestratorBackend setting — makes agent runtime selectable (Step 1)
 - `71b3fa5f` design(customize): design system typography sweep — locked roles across the page
-- `8112edf1` feat(mcp): o8 now configures agent runtime — closes the "any CLI" set (Phase 2)
 - `86ec85eb` feat(customize): first-class Customize surface
-- `96903a20` feat(mcp): o8 now configures the AI provider CLI from the registry (Phase 2)
 - `f16de3d1` design(transcript): competing product text-sheen turn grammar
-- `35164e2f` feat(mcp): agent runtime o8 entry from the registry, not passthrough (Step F)
 - `3fea218f` feat(feedback): the in-app receipt — tell the reporter their bug is fixed
-
-## 2026-06-28
-
-- `2775957a` feat: desktop half of mobile inline diff comments ( slice 2)
 - `c8f4561a` feat(transcript): competing product slim-line turn vocabulary — full parity pass
-- `0578a3c9` feat: STYLEGUIDE.md
 - `322d6990` feat(feedback): private intake, public fixes — reports get an id, fixes get credited
 - `a7ace0bb` feat(chat): threads name themselves
 - `23b53fca` feat(diff-wiring): per-file review list on the ChatActionCard rollup
-- `d85730b1` feat: Paired-devices settings list with per-device revoke
 - `50f1ee6c` feat(diff-wiring): dual-fidelity FileEditRow — inline peek + filename→review
 - `a2b714c3` feat(diff-wiring): file-scoped diff seam + inline peek renderer
 - `0eeb0901` feat(chat): loopback links in the transcript open o8's embedded browser
-- `9f4a52fe` feat: deterministic 4401 close for a revoked device on reconnect
 - `1bec4123` design(files): competing product arrangement
 
-
 ## 2026-07-12
-## 2026-06-27
 
-
-- `b15ee985` feat: mobile E2EE channel
 - `0e929431` feat(design-draw): wire enrichment, region crop + thumbnail into surfaces
-- `5ffd89fb` feat: mobile device enrollment + per-device token validation ( stage 1b)
 - `926297c2` feat(design-draw): native draw agent — component names, hover, thumbnail
 - `1748eb39` feat(design-draw): add React component-name + region-crop primitives
-- `90694929` feat: mobile E2EE crypto + per-device token registry foundation ( stage 1a)
 - `b8959741` feat(turn-grammar): wire Thought block + file-edit rows into the transcript
-- `550b8b84` feat: persistent terminals default ON + hide terminal status bar ( stage 5)
 - `e8bdf0bd` feat(turn-grammar): auto-collapsing Thought block with compositor shimmer
-- `d7a077d0` feat: canvas terminals re-attach surviving sessions on restore ( stage 4)
 - `6b0718fb` feat(turn-grammar): live file-edit rows (Editing -> Edited +A -D)
-- `de28c5ad` feat: re-attach surviving dash terminals with scrollback after restart ( stage 3)
 - `c2565d4d` feat(turn-grammar): tool-call error badges with auto-expanded error output
-- `a9d26e96` feat: keep dash terminals alive on detach + bounded orphan GC ( stage 2)
 - `5c2a62f2` feat(turn-grammar): thread tool-call error status through the orchestrator stream
-- `e7065ed5` feat: spawn interactive dash terminals inside terminal, gated ( stage 1)
 - `05ab64be` design(status): review state becomes Hourglass; round-2 review lab (10 3x3 candidates)
 - `51542301` feat(rail): repo drawers, repo-scoped spawn, and ownership nesting in the left rail
 - `15d6fde8` feat(browser): drag-to-draw Design Mode
 - `87a29838` feat(browser): the browser becomes a first-class drawer state with header-rail page tabs and a real toolbelt
-- `0644dd16` feat: default crash-survivable workers ON (kill-test passed on 0.1.512)
 - `88e3701f` feat(o8-model): tier-tuned system prompts
-- `746bf704` feat: boot re-bind observability + crash-survival contract test ( stage 2)
 - `13a8fa38` feat(ui): competing product siphon pass 1
-- `c8f0a3bf` feat: crash-survivable worker spawn, gated (daemon crash-survival stage 1)
 - `00a00211` feat(operator): plan-gated o8 model rails — nemo for free, AI provider for founders
-- `c1f589d9` feat: worker-context merge approval card + o8 inbox + o8 packet approve-merge ( stages 5b/6)
 - `7cab6b47` feat(orchestrator): add free o8 chat backend to the composer
-- `6b7ab567` feat: extract steer-packet route + o8 packet steer (control-plane symmetry stage 4)
-
-## 2026-06-26
-
-- `52748a74` feat(cli): o8 packet reset/retry/rerun/merge-preview (control-plane symmetry stage 3)
 - `a66f3403` perf(boot): merge 4 identical capabilities — generate_context! 1665ms -> 971ms
 - `5c94ed58` perf(boot): overlap the orphan reap with generate_context! instead of paying it first
-- `c0e0e159` feat(cli): o8 mission create/dispatch/status/wait/tail (control-plane symmetry stage 1)
 - `ac1d1f36` design(status): packetStatusColor failed → brand orange, aligned with the dot family (Q final lock 2026-07-12)
 - `9102fafa` design(status): failed joins rejected in the brand orange
-- `3aafbf32` feat(review): pick the best-of-N winner through the governed merge gate + audit
 - `1a2c461b` design(status): idle = Drift
-- `d194200d` feat(review): per-candidate merge-gate verdict on the compare matrix
 - `82f2395d` design(status): the locked one-canvas family
 - `b4354186` design(status): running is always the orbit + rejected wears the failed cross in amber
-- `0bc0e37b` feat(review): mount the N-up compare matrix as a contextual O8Panel tab
 - `febf7a1c` perf(sidecar): cache V8 bytecode
-- `3382ae5f` feat(review): N-up comparison diff matrix component (best-of-N)
 
 ## 2026-07-11
 
 - `dd462e32` design(motion): 5 awaiting-review candidates in the lab (AI provider bespoke)
-- `afc71bd8` feat(orchestrator): arm best-of-N fan-out via comparisonModels on create_mission
 - `0563f9fd` design(motion): remove the scan loader from the family (operator cut)
-- `570a90ea` feat(browser): Design Mode click-to-grab over the native window (Stage 4b)
 - `6bf9d93c` design(status): failed = the dispatch pixel mark in alarm red — locked
-- `14bd416e` feat(browser): native browser-view as default operator setting (Stage 6)
 - `0f280979` perf(server): stop loading a browser-automation library before the app answers a request
 - `a90e0c8b` perf(boot): trace the pre-window path
-- `99637a6a` feat(browser): occlusion snapshot-swap for the native browser-view (Stage 5)
 - `7a751104` design(motion): bespoke loader family in the lab
-
-## 2026-06-25
-
-- `9180d6d7` feat(browser): wire o8_browser_* to the native browser-view (Stage 4, secure)
 - `be24af3f` perf(boot): record boot-phase timings so cold launch can never silently regress
-- `004a3ce2` feat(browser): native browser-view panel surface + position sync (Stage 3)
 - `06e33e60` perf(ws): bridge agent-lifecycle to the window event
-- `eeeac722` feat(browser): inject in-page agent into browser-view (Stage 2 — secure)
 - `7abfb4ef` perf(spec-pane): stop polling the server for a pane nobody is looking at
-- `e43c8039` feat(browser): native browser-view child window (Stage 1 — Rust shell)
 - `cdacbba1` perf(ws-server): make the conflict scan event-driven — 45x less idle git work
-- `65b379a5` feat(browser): engine-pane fallback so auth-gated apps render + stay drivable
 - `ce6b1669` perf(motion): drive the sweep dot from the compositor — 9.5% -> 2.2% idle CPU
-- `d0f1e083` feat(browser): render Clerk/auth-gated apps + cut the dead Open Source button
 - `771beff2` perf(render): memoize the orchestrator context; stop animating a full-screen gaussian
 - `6e9270f0` perf(worktree): stop the 5-second recursive disk walk that was idling the fans
-- `e813ebca` feat: continuous agent ghost competing product + unified agent-driving glow
 - `cd24cca4` perf(boot): build the window before the sidecar bootstrap, not after
-- `a3f17956` feat: unify Design Mode
 - `b6a5bff9` perf(boot): one login-shell probe instead of three
-- `3ee3278d` feat: Design-Mode grab
 - `90de23b5` perf(ws-server): stop event-loop wedge from sync git in reconcile + backoff pathological merged-by-ancestry lanes
 - `6a72e85f` perf(prod): stop git-scanning the app's own bundle
-
-## 2026-06-24
-
-- `2b411998` feat: canvas add-file/open-diff/open-chat/add-video verbs — agent spawns every content kind
-- `0814dd0f` feat: o8_canvas full verb parity
 - `05d923ed` feat(mobile): expose huddle plan in fleet
-- `90557563` feat: canvas add-image/stack/flip/separate intent verbs — agent control parity
 - `f7363068` perf(dictation): overlap mic open with audio duck instead of serializing
-- `eb76e1ab` feat: canvas image-stack UX
 - `751d1e56` feat(files): save edits to any on-disk file, not just registered repos
-- `d4840609` feat: theme-aware ASCII o8 workspace loader
 - `37213a35` feat(files): Files view can open any file on disk, not just registered repos
-- `ef670c12` feat: ASCII o8 boot splash — animated wordmark loading screen
 - `124855a3` feat(files): open Finder files on the surface you're on, not a canvas hijack
-- `d60b2a98` feat: agent canvas control — see + place/size/raise/close cards
 - `8c95baad` feat(packet): Request changes -> orchestrator; Discard -> soft dismiss (recoverable)
-- `838c0f41` feat: ASCII effects suite — image/wordmark, wave field, flow field
 - `21f478bf` feat(packet): show WHY a review was declined in the decision banner
 - `3b488961` design(status): review-declined = orange o8 dual-pulse (trial)
-- `8d86848b` feat: liquid ascii fluid effect + extensible effects lab preview
 - `cdfdb548` design(status): Failed pulses (red orb) so it separates from the static rose of rejected
 - `31a9dccb` design(status): awaiting-review is a paused grey with a sweep motion, not a color
 - `1c06710b` design(status): cool the human-decision dot states off the warm cluster
 - `c3a67010` feat(motion-lab): add a Status vocabulary board
-- `58dd6235` feat(lanes): shared archived-dedup primitive + collapse=true structured-state query
 - `812ecfa8` feat(packet): tighten the decision banner
-- `19b9a2e2` feat(mcp): semantic locators
 - `54e8521a` feat(packet): give a rejected packet a decision banner + stateful dot, and a Discard verb
 - `b0b4d50a` feat(merge): give the review beacon a 'rejected' state and stop hygiene packets parking the gate
 - `6f03dc21` feat(merge): drop the 'No open PR'/'Open PR' bottom-bar noise
 - `f9ac73de` feat(merge): let the bottom-bar review beacon merge, not just view
-
-## 2026-06-23
-
-- `3bd509af` feat(voice agent): kill/stop agents by voice
 - `1198271f` feat(rail): surface the branch's PR inline in the workspace rail
 - `6f81d4dd` design(composer): swap mic and context meter — mic by Send, meter by attach
 - `5f579f7d` feat(composer): kill the Fleet/Solo chip — solo vs fleet decided by runtime count
 - `8dec8819` feat(composer): thin file-list scrollbar; Rules chip only when rules exist + /rule /rules
-- `7b86ee1c` feat: home-dir agents
 - `40b0b831` design(composer): filename-first file attach rows, match highlight, lighter weights
-- `09aa9a89` feat: mailbox in voice agent — relay + read o8 team messages by voice
 - `e0f42697` design(composer): label Collide as 'Mixture of Agents' in the picker
-- `8490aac4` feat: voice agent is peer-aware
 - `a039464a` design(composer): trigger names the model, not the provider
 - `51aed567` design(composer): house drawers for models, Extra label, dynamic Collide decider
-
-## 2026-06-22
-
-- `a5417a5a` feat: o8 team mailbox (tell/inbox) + auto-installed guard hook
 - `7ec4f4c1` design(composer): effort slider with named tiers, Ultracode top notch arms Swarm
-- `853f13ba` feat: o8 team
 - `e264927d` design(composer): agent runtime-style footer
-- `f4ab538f` feat: Huddle mode
 - `db55ccd4` feat(orchestrator): clarify-first goes silent + auto-arms on a repo's first mission
 - `3aa4d16a` feat(ui): retire the permission shield — composers always run full access
 - `86c99f16` feat(ui): move add-repo onto the Projects row, slim the footer
 - `5b9a557d` perf(ui): 60fps panel drags via direct-DOM + footer icon tiers
-- `4dfaec25` feat: canvas navigator loupe size is adjustable in the tuner
 
 ## 2026-07-10
 
 - `98bd1229` feat(voice agent): control o8 hosted terminals by voice
-- `07f63e3f` feat: global ⌘⇧E "report an issue" hotkey on the IDE dashboard
 - `77e61810` feat(voice): main-process capture defaults ON for Intel Macs on Sequoia
-- `f5bf9483` design: float the mission-complete card above the composer
 - `f6987cd0` feat(voice): main-process microphone capture
-- `b1ab114c` feat: home-dir AI provider agent
-- `fa4601af` feat(brain): free fast Brain via warm AI provider CLI
-- `1bc05948` feat(brain): managed-inference + bring-your-own guardrails so non-paying users never burn founder credits
-- `e4c39f70` feat: operator Stop button + fix the phantom "Working forever" latch
-- `9d5117ba` feat: mobile voice agent remote — drive voice-to-voice from the phone
 
 ## 2026-07-09
 
 - `07dab129` feat: merge-gate test replay + decoupled worktree capture trail
-- `a58c4ecc` feat(brain): local-model inference backend
 - `ab13f9a3` perf: bound mobile worktree diff transport
-- `a51c81b5` feat(brain): founders auto-get the fast Brain tier (B-1) — instant answers, not the 15-30s CLI
 - `8619b451` perf: page mobile chat history
-- `654ecefe` feat(founding): STT sweep harness + complete app-wide inference inventory
 - `24056205` perf: stream revisioned mobile inbox deltas
-- `a316cf49` feat(founding): managed-inference speed/cost sweep harness + Brain tier results
 - `5e016418` feat(telemetry): native crash capture (SIGSEGV/SIGABRT/SIGBUS/stack-overflow) via minidumps
-- `850f563d` feat(founding): /v1/founders wall endpoint + launch checklist
 - `81fc33d2` feat(desktop): explicit Open With UTIs
-
-## 2026-06-21
-
-- `97deca18` feat: founding cohort count endpoint + metadata-signal robustness
-- `049403e1` feat: realign Founding Operator tier to locked spec (plan: founder, early access, tiered)
-- `14c058f8` feat: Founding Operator purchase
 - `dfea5ff4` feat: subject-gone TTL fallthrough
-- `77897ded` feat: local models
 - `d2f42e86` feat(desktop): Finder "Open With → o8" opens land in the workspace on the default IDE surface
-
-## 2026-06-20
-
-- `80cd1b0f` feat(dispatch): make defaultDispatchModel writable via the operator-defaults API
 
 ## 2026-07-08
 
 - `1333fb23` feat(canvas): IDE-parity transcript rendering + honest lifecycle clocks in agent cards
-- `0f6e8bca` feat(dispatch): run workers on local models
 - `6e2a71e6` feat(telemetry): Sentry crash/error reporting across all three desktop layers — dormant without a DSN
-- `820c53a8` feat(voice): o8_status reports each agent's canvas name — spoken roster
 - `fb01941f` feat(voice): voice agent Spatial Context
-- `fb902e4a` feat(voice): address a working agent by its canvas name — "Atlas, run the tests"
-- `b28496d5` feat(canvas): memorable agent codenames + color-by-runtime + grid voice verb
 - `6f31460d` feat(entitlement): View as Free dev switch — founder--gated, min-clamped
 - `4360e99a` feat(voice): morph composer into live agent partials + vary voice agent ack lingo
-- `adb9e13d` design(canvas): chat title weight 400 — match every other card
 - `9aa6dc9a` feat(voice): window-aware partials HUD anchor + opt-in Fn dictation HUD
 - `d1fd1f65` feat(voice): outside-the-window live agent-transcription HUD
 - `2da95924` feat: wedge layer-5 escalation lands on awaiting_human; new status joins the parked-reminder set
-- `12cc9625` design(canvas): reconcile chrome spec — header layout + zoom-in ladder
 - `728ea434` feat(lane): unified dead-lane archiver with explicit policy table
-- `c50d72b7` feat(canvas): zoom IN
-- `b9adc34c` feat(voice): meter realtime voice spend → usage_logs + cost dashboard
 - `c194777a` feat: awaiting_human as a real persistable lane status
-- `866e4ced` design(canvas): chat-card header
 - `f841991c` feat(canvas+voice agent): Whisper on agent path always + grid tiles agent cards + GA SDP URL in contract
 - `9c32fad8` feat: wedge-timeout stuck launching lanes to awaiting_orchestrator
-- `af6a00c9` design(canvas): lock the canvas-chrome system into design system.md
 - `75290f04` feat: register kill_escalated + no_session_binding lane-event verbs; roadmap rock-1 delivered
-- `3213cd7c` design(canvas): media cards into the shared chrome family
 - `a1c0ce1a` feat: session-binding fault detector
 - `7c83deca` feat: single guarded prune gate for all worktree deletions (Rock 1 item 3)
-- `d464bd53` design(canvas): browser card header into the shared chrome family
 - `e859da18` feat: confirmed-kill escalation for stop-packet ( S1)
 - `1ac9cfe8` feat: wedge-timeouts so parked lanes never park silently (Rock 1 item 2)
-- `0dfc1ab1` design(canvas): one chrome vocabulary across cards — shared sizes + dynamic floor
 - `49d6e654` feat: persisted idempotency for steer/rerun/reset/dispatch
-- `99db49b5` feat(canvas): render-on-screen
 - `db39127f` feat: o8 Relay v1 desktop connector + wiring, R3 docs (WIP→complete)
-- `3e915d24` feat(voice): show in-flight worker count inside the voice-live dock capsule
 - `43a2575e` feat: o8 Relay v1
-
-## 2026-06-19
-
-- `bc072654` feat(voice): voice-live presence shows in the screen dock, not only the IDE window
 - `a10e4047` feat: wire process crash capture into ws-server + defensive WebSocketServer error handler
 - `74cdb75b` feat: terminal-host process seam for ws-server PTYs ( follow-up)
-- `6f94b77d` feat(voice): double-tap right Cmd toggles voice-to-voice mode (live indicator + idle auto-off)
 - `5f27f47a` feat: add release rollback script
 - `11118fe3` feat: updater safety check skips pulled releases before applying an update
 - `4a8ddf13` feat: early-boot crash capture in the packaged server wrapper
-- `77b99843` design(chrome): ≥44px hit target on header pills + the panel ✕
 - `10cf8619` feat: capture server + renderer crashes into the crash store
-- `b1f1e161` feat(voice): voice agent can reset/retry + wait on a packet by voice — closes
 - `d9b41f4f` feat: local crash capture store + opt-in uploader
 - `4ca2b0fc` feat: add opt-in crash-report setting (Privacy) to operator defaults
 - `48c7e035` feat: event-loop lag watchdog for ws-server ( follow-up)
-- `3a849d8c` feat(voice): voice agent can annotate o8.md by voice — o8_spec_annotate
 - `8edbfe16` feat: voice agent Agent Mode desktop half
 
 ## 2026-07-07
 
 - `b88dab6f` feat: add canvas file card editor gutter
 - `edafbbca` feat(canvas): chrome-aware, center-gathered card placement
-- `fb165675` feat(voice): voice agent competing product
 - `135b2901` feat(canvas): justified-row form-fit grid
 - `80ddb4f6` feat: canvas keyboard zoom + uniform card body text scale
 - `9319116e` feat: canvas agent cards go live
-- `81e04238` feat(voice): voice agent can drive a browser + inspect a packet diff by voice
 - `b3def2a8` feat(canvas+voice agent): voice presence
 - `743dd350` feat(proxy): Deepgram Nova-3 primary transcribe arm on /v1/transcribe
 - `25bf6087` feat: STT latency harness
-- `dfacd737` feat(zoom): global ⌘-/⌘=/⌘+/⌘0 zoom for the IDE shell
 - `cc317d43` feat: Groq configuration field in Settings → Voice → Transcription
 - `8c2f6749` feat: wire local transcription first in the whisper ladder
 - `dd58879f` feat: on-device transcription tier for Apple Silicon
-- `d306b55c` feat(voice): voice agent can spawn agent cards by voice — wire spawn-agents canvas verb
 - `a953e623` feat: choreograph canvas card spawns
-- `019329f1` feat(voice): voice agent realtime
 - `5fe79f38` feat: dictation polish default → AI provider-2.5-flash-lite
-- `306bbe73` feat(voice): voice agent realtime — expose all 10 AI modelrealtime voices
 - `7c2b2d2d` feat: skip Whisper re-transcription under 12 words
-- `114139fc` feat(voice): voice agent realtime
 - `fe3a4e17` feat: Whisper via Groq
-- `6be1f57b` feat(voice): voice agent realtime
 - `1d657bb3` feat: polish model overridable via polish_model dictation-config key
-- `e4c92d7f` feat(voice): voice agent realtime
 - `81e7862d` feat: move speak-selection chord Ctrl+Shift+S → Ctrl+Shift+R (operator: S kept colliding with muscle memory; R = Read, no default collisions)
-- `c1a4daef` feat(voice): voice agent realtime
 - `2ca0cfbb` feat: spawned-agents hover card v1
-- `97f4362c` feat(canvas): voice spawn-agents
-- `ed4cae05` feat(canvas): stream the dock's assistant prose with the smooth-text reveal
 - `f9362fac` feat: packet cards outcome-first
-
-## 2026-06-18
-
-- `92dd94db` perf(chat): make the streaming reveal fast, not just smooth
-- `020fe456` feat: smooth streaming reveal in the orchestrator chat (no more bursty text)
-- `7cb0116c` design(shell): right-panel glass squircle fill, flat composer, no o8.md auto-collapse
 - `c69541e8` feat(unknowns): opt-in buy-in doc on merge
-- `d8f29a5c` design(shell): glass-mode left-column cohesion + lisse hover-preview edges
-- `8c8fd3df` design(panel): lisse squircle corners on the right O8Panel
-- `696f45f2` perf: kill dashboard render storm + realtime snapshot timeout spiral
 - `fde60e91` feat(unknowns): clarify-first interview before dispatch
-- `7b4f17d5` feat: wire canvas + mobile orchestrator surfaces into the stream replay path
-- `9e9363eb` feat: orchestrator stream replay buffer
-- `f636bc47` feat: voice agent changes o8 UI settings by voice (theme, surface, canvas mode)
 - `83914aac` feat(unknowns): HTML packet explainer + quiz-gated human approve
-
-## 2026-06-17
-
-- `af842ed6` perf(voice agent): persistent AI provider session + keydown pre-warm to cut agent latency
-- `b6d866fb` feat(voice agent): additive teaching diagrams — keep building on the live drawing
-- `1e0ba04f` feat(voice agent): draw teaching diagrams on screen instead of writing an HTML file
 - `23a6d291` feat(unknowns): worker deviations log surfaced at review
-- `35909e3b` feat: surface native AI provider scouts as a live crew card (orchestrator + canvas)
 - `57b0835b` feat: reviewer backend split
-- `2b10a786` perf: smoother orchestrator streaming
 - `d78ba854` feat: mobile parity AGENTS
-- `9ff2071c` feat: orchestrator turns can run far longer — raise hang watchdog 30m to 4h
 - `6a5fe067` feat: canonical mobile fleet projection
-- `0bad2db6` feat(voice): teaching-mode P1
 - `e214e6c3` feat: mobile review units with explicit authority
-- `4b0ea4d6` feat(voice): screen-draw snaps to the real UI element + Fn paste targets o8 + mail draft opens visible
-- `c9eabe99` feat(voice): interrupt a running task + keep the working indicator lit for background work
-- `189b42f3` feat(voice): voice agent Draws — [DRAW:rect/arrow] screen annotations
-- `0a9a8a96` feat(voice): read_screen tool
-- `b8f0e806` feat(voice): o8_canvas tool — drive the Canvas by voice
 
 ## 2026-07-06
 
 - `8d6caf4b` feat: pair dispatch runtime with orchestrator
-
-## 2026-06-16
-
-- `84ea9c5c` feat(voice): VoiceTab escalation-policy toggle (Off / Auto / Deep)
 - `229377b4` feat: add composite webview MCP verbs
-- `3864da09` feat(voice): escalation-policy backend + concurrent-task safety
 - `ceb826c2` feat: dispatch agent runtime workers
-- `f7490085` feat(voice): two-speed escalation routing for the voice agent
-- `b4cd5704` feat(voice): AI provider background brain + escalate handoff for the voice agent
 - `c7083850` feat(onboarding): Scan again affordance on the runtime step
-- `860c658e` design(settings): cleaner iOS-style switches, native selects & segmented controls + bold tab headers
 - `6719ee53` feat(mcp): smart add box - paste a config, an npx command line, or a URL and it parses itself; manual JSON fields demoted to a disclosure
-- `0c4853e3` feat(canvas): in-app feedback capture + auto-hiding navigator loupe
 - `b9da9962` design(composer): run-context chips move up into the empty-state dead space - off the status bar
-
-## 2026-06-15
-
-- `d45865f9` feat(canvas): ship the operator o8 glass theme + universal orb default
 - `baf95396` design(composer): adaptive sits between medium and high in the thinking drawer
-- `1bb0db39` feat(canvas): unified corner-resize on all cards + framed terminal + spawn fit
 
 ## 2026-07-05
 
 - `9331c782` design(composer): mode picker - Swarm drops Ultracode, honest Solo copy, hover explains each mode
-- `c4ea5412` feat(canvas): live dispatch dock, balanced grid, alerts open the PR diff
-- `32edb114` feat: founding-pass beta invites
-- `367a36b9` design: harmonize the status-bar branch label with the composer chip type
-- `e71c4606` feat: unify composer chip menus onto ComposerPopover
 - `2064acbb` feat(canvas): free tier is Paper-only light/dark - looks, dials, depth, and advanced are founders
-- `f91031a4` feat: composer popovers portal out via a shared ComposerPopover primitive
 - `9e151eec` feat: new o8.app desktop icon
-- `752a7e7f` feat: auto-collapse the left panel while the o8.md notes tab is open
 - `1b42ba67` design(canvas): Mine preset renamed Custom; redundant settings-side glass tuner removed - the canvas panel owns tuning
-- `bd8b266e` feat: composer button row collapses to icons when narrow
 - `b2d9f013` feat(settings): Canvas keeps Experimental badge; founders-first theme scaffold; instrumentation is internal-only not founder-facing
-- `59c4847c` feat: supervisor inbox self-closes via escalated/resolved states
 - `57b3a68c` feat(settings): Diagnostics keeps user-actionable only - recall/loop/demo instrumentation behind Founders, width rhythm fixed
-- `e1b09345` design(canvas): grey-on-white media rim + integrated header + matched resize arc
-- `1d486014` design(canvas): defined rim + off-edge resize arc on photo & video cards
-
-## 2026-06-14
-
-- `ba729883` feat(workspace): smooth push for the workspace-detail rail + clearer toggle
 - `1ebf3367` design(settings): project cards collapse to one dense inset group - rows not sub-cards
-- `bbc32b57` feat: o8 menu-bar tray icon → new o8 monogram (white template)
 - `b4b02339` feat(settings): Founders fast-path Brain status row; casual-chat toggle unsurfaced for beta
-- `01b866af` design(canvas): rename Alerts dropdown + make rows jump to their surface
-- `cee2ba1f` feat(workspace): footer merge beacon -- fleet-wide "ready to merge" pill
-- `36045df8` feat: new o8 app icon — aurora Liquid Glass o8 monogram
 - `ead97167` feat(settings): Diagnostics tab on grouped system
-- `815d183b` design(canvas): glass onboarding panels + behind-glass motes reel, match reel type
-- `b14bd28d` feat(workspace): consolidate orchestrator composer chip row + adaptive icons + blocky-o8 boot loader
-- `6da8ab74` feat(canvas): first-run welcome modal + guided coach-mark tour
-- `d9d1fab3` feat(canvas): add orchestration MODE selector (Fleet / Single / Fusion) to the canvas composer
 - `a2bf7184` feat(settings): Projects tab on grouped system
-- `a25816f0` feat(canvas): add Clerk account dossier to the canvas top-right
-- `54fd494e` feat(canvas): add video cards
-- `136a31d4` feat(auth): desktop ticket exchange + sign-in handoff (Clerk signals API)
 - `652fabef` feat(settings): CLI usage meters in quick drawer are Founders-mode content
-- `ec5836a7` feat(auth): GitHub sign-in via Clerk — shared hook, account UI, o8:// receive
 - `4cde921d` feat(settings): Voice keeps app-level only - voice agent owns polish/dictionary/audio; new voice agent settings row opens his window
-- `b980aaac` feat(canvas): merge composer model+thinking into one drawer; wrap file cards
 - `f9a3f16a` design(settings): Local models on grouped shell, MCP client row icon tiles
-- `0e3c9168` feat(canvas): sphere-projection orb navigator + single-toggle bubble UI
 - `b7a1c7da` feat(settings): drop voice History from o8 settings - voice agent owns it (double-tap the dock)
-- `f0835922` feat(canvas): readable o8.md + terminal fonts, caret-correct spec card
 - `016b20c8` design(settings): Connectors bar-raise - icon tiles, casing, ghost buttons
-
-## 2026-06-13
-
-- `b8740e13` feat(mcp): operator MCP server supports a shared HTTP transport
-- `9861ef86` feat(canvas): result-card synthesis from the orchestrator tool stream
-- `aa47b98c` feat(canvas): rich response blocks shared + o8 bench parity + reasoning in seconds
 - `1fdb67f8` feat(settings): Dispatch tab on grouped system - Founders mode holds the extras
-- `55476668` feat(canvas): dock solid edge + chat modal at agent-card bench parity
-- `a35ac23f` feat(canvas): all-angle hidden resize on the chat-card
-- `ba13e494` feat(canvas): shared CardComposer
 - `0b649b0c` feat(settings): MCP + Connectors tabs on grouped system
-- `24b81051` feat(canvas): smooth borderless chrome on dock + chat-card
 - `6da8da9c` design(settings): About polish - icon tiles, product casing, grouped report-issue form
-- `78e1e612` feat(canvas): borderless DockEntryView
-- `575876ee` feat(canvas): agent-card bench — side-by-side presence comparison
-- `6d7fa7ad` feat(canvas): agent-card bench — PR + edited-files result variants
-- `ddcaf9d4` feat(canvas): agent-card bench
 - `611fbc2e` feat(settings): About tab on grouped system
-- `996ec5e9` feat(canvas): agent-card bench — user messages + smooth Brain citations
-- `45040818` feat(canvas): agent-card bench
-- `2e534d50` feat(canvas): agent-card bench
-- `374945e2` feat(canvas): pinned orchestrator dock + split-tab orchestrator modals
 - `9c27c5e7` feat(settings): Plan & Billing tab on grouped system
-- `e9dd88b7` feat(canvas): default theme is the operator's tuned light look
-- `024e91b9` feat(canvas): match reference
-- `3b4d3b6d` feat(canvas): orchestrator is a floating draggable card, Brain tab renamed o8
 - `2d73fdb7` feat(settings): Mobile pairing tab on grouped system
-- `2efcd3da` feat(canvas): orchestrator + brain spawn as one tabbed pane — never orchestrator-alone
 - `0d87fd2c` design(settings): palette-aware accent - lighter blue active states in dark mode
-- `3a8f8958` feat(canvas): unified theme panel
-- `275584df` feat(canvas): dock orchestrator gets its own light/dark + tint dial
-
-## 2026-06-12
-
-- `116ef97d` feat(browser-engine): headless installed-Chrome tier
 - `87f530db` feat(settings): Account tab on grouped system
-- `afea081e` feat(canvas): intent bus
-- `1bf20111` feat(browser-agent): agents drive the embedded browser
-- `55a05cf2` feat(canvas): the everything run
 - `a3d7165f` feat(settings): Voice tab on grouped system; dictation moves Appearance -> Voice
-- `94d7ba97` feat(canvas): UNIVERSAL text slider
 - `46bdeee9` feat(settings): inset-grouped primitives + Appearance pilot (mobile settings style port,)
-- `05fb9a4e` feat(canvas): chat ink control (Auto/White/Dark) + 100px chat frost + reasoning TIMELINE
 - `1b17287b` feat: changelog attributes o8-merged work
-- `4fb1867e` feat(canvas): glass TONE axis (dark/Ivory light) + floating-chat sliders + live reasoning & image entries
-- `ee9a94b2` feat(canvas): agent lifecycle lands live
-- `92061a8b` feat(canvas): persistence + talkable chat cards + project-grouped repos; drop scratch chat from o8.md card
 - `f1cd6bf7` feat(analytics): roll top-accounts up by person + label with GitHub handle
 - `8be1edbe` feat(entitlement): link this install to the account on sign-in (device rollup)
-- `68bafe30` feat(canvas): o8.md card at FULL parity — mounts the real spec pane in glass
 - `0c133401` feat(analytics): Phase 2
-- `93421332` feat(canvas): agents can open pages in the canvas browser via o8:open-browser
-- `97226227` feat(canvas): browser tabs in glass browser cards + review drawer refetch-on-open
-- `fab3fa08` feat(canvas): real diff cards with governance row + review drawer; retire center emblem; sessions repo filter
-- `0f02946d` feat(canvas): element picker in browser cards — front-end selector tools
-- `55002928` feat(orchestrator): composer images actually reach the model — both surfaces
 - `0267dcd1` feat: orchestrator crash-survival — detached turns + in-flight rebind [via-o8]
-- `86e6e178` feat(canvas): dock gets its own composer + turn cards + drawer-styled term picker
 - `1684294b` feat(analytics): count real users (distinct accounts), not install churn
-- `72b80175` feat(canvas): Pulse is the real agents-working mark — the o8 binary orbit
-- `cf881d3c` feat(canvas): Pulse rebranded — the o8 dual-orbit mark in faded dither
 - `56394953` feat(license-server): return today's managed-Brain usage on /account/license
-- `187a2963` feat(canvas): sessions drawer on the left nav + the amber Pulse backdrop
-- `d1150d22` feat(canvas): dock tool calls collapse into one live activity line
 - `09d43570` feat(status-bar): Founding Operator serial-chip badge by the ?
-- `663f2ef3` feat(canvas): operator-picked depth set — wind-dots field + custom shader moods
 
 ## 2026-07-04
 
 - `f3712756` feat(license-server): store GitHub handle from checkout metadata as founder displayName
-- `a788f12d` feat(canvas): real Paper Shaders depth layers — WebGL, barely moving
-- `0e61e8ab` feat(canvas): depth backdrops + opaque popovers + o8.md reads like a page
-- `a6fad007` feat(canvas): past sessions open as their own draggable glass boxes
-- `263f112b` feat(canvas): senior pass
-- `faa80abb` feat(canvas): photos surface reference-style — image cards, stacks, top-right search
 - `8dcd7f53` feat: agent runtime is a first-class in-UI orchestrator [via-o8]
-- `522e0367` feat(canvas): Apple-smooth squircle corners + the dock becomes a real panel
-- `94f1f0dd` feat(canvas): markdown rendering in the docked chat
-- `7c9350f3` feat(canvas): talk to the REAL orchestrator from the canvas composer
-- `2d81c231` feat(canvas): Finder "Open With → o8" — OS file opens land as canvas file cards
-- `b213e4ce` feat(canvas): file cards
 - `8433a523` feat: 'o8 app restart' + auto-apply updates when idle [via-o8]
-- `0391c53e` feat(canvas): spawn reveal easter egg + summoning verbs + edge-rail handles
-- `c5cf3b52` feat(canvas): terminal cards v2
-- `d5c7a79a` feat(canvas): real terminals as glass cards + Liquid frost floor
-- `695caf87` feat(canvas): glass tuner docks under the Canvas word + "Save as my default" personal preset
-- `5fdbfafc` feat(canvas): Liquid frost dial
-- `6e156f1a` feat(canvas): docked orchestrator, component cards, image drop, liquid-clear background
 - `10ec0e4b` feat: mission registry core [via-o8]
-- `6c75607d` feat(canvas): background controls
-
-## 2026-06-11
-
-- `dbab17d4` feat(canvas): desktop-clear glass, material presets, kivo summon choreography
-- `351fe29c` feat(canvas): v2 glass slice
-- `4a1f5b1b` feat(canvas): fleet-canvas v1
 
 ## 2026-07-03
 
 - `76dc0582` feat: add terse o8 ask answers
 - `beaae360` feat: make agent runtime orchestrator brain-first
-- `74225234` feat: workers get the Engineering Brain
 - `84d0309a` feat: add quick docs drawer for operator config files
 
 ## 2026-07-02
 
 - `642e13c1` feat(fable): the decisions-only window — metered-orchestrator mode
-- `7b2c8e4e` perf(brain): classify/retrieve overlap + semantic answer cache
-- `2359908c` feat(brain): sources parity
 - `a6564bf4` feat(auth): bake GITHUB_OAUTH_CLIENT_ID into signed builds
-- `74c9f3f3` feat(brain): Ask Brain streams — UI switches to the SSE route
-- `5471ea8e` feat(brain): spend ledger + daily cap on the OpenRouter tier, 'fastest' composer knob
-- `d6d4e92a` perf(brain): warm REPL pool
-- `eddc17a2` perf(brain): Tier-0 latency pass
 - `b6b0fb4b` perf(workspace): instant skeleton first paint on Workspace tab
-- `468010b7` feat(composer): orchestrator model switcher in the thinking chip + Ultracode label
-- `11d760c0` feat: voice agent terminal voice control adds iTerm2
 - `8dc50134` perf(workspace): changes-only snapshot skips gh network calls
-
-## 2026-06-10
-
-- `44ca2107` feat: voice agent speaking-speed control
 - `9ae95bd7` perf(o8): voice-playback line highlighting — reads the spoken line + scroll-follows
-- `21c66382` perf: voice agent calendar list goes native EventKit
 - `f69d6eba` perf(o8-panel): pre-warm the spec reviewer on pane-open so the first review is instant
-- `168567de` feat: voice agent update verbs
 - `36708cf2` feat(o8): launch-polish batch
-- `a86b7a84` feat: voice agent second-ten-minutes
-- `6f020d59` feat: voice agent day-one basics
-- `5c1e1680` feat: voice agent parity round 3
-- `8c490252` feat: voice agent terminal brake + keys + new session, o8 recap + usage (parity round 2)
 - `b5284259` feat(session-rules): Rules chip + tiered popover in the orchestrator composer
-- `f64eaf1b` feat: voice agent terminal voice control v1
-- `36a4ffd8` feat(mcp): o8_operator_defaults tool + EXTERNAL_AGENTS.md — external-agent control parity
-- `8fad1f02` feat: voice agent controls Apple Music
 - `df9673ac` feat(session-rules): worker inheritance + rules_applied audit event
-- `f7267e37` feat: voice agent edit lane works inside o8 + o8-control frontier v1
-- `808c6c21` feat: permissions health
-- `46f512eb` feat: voice agent Guide pointer — dwell variant of Points (magic roadmap)
 - `02c87908` feat(session-rules): pin active rules into every orchestrator turn
-- `c85b8b67` feat: voice agent "what needs me?"
-- `53180b4b` feat: selection-as-object
-- `5dcbe634` feat: dock chat continuity
 - `267bd64b` feat(session-rules): gated /api/orchestrator/session-rules route
-- `8e48df45` feat: voice agent routing doctrine in the system prompt + presence-layer architecture doc
-- `67b614ff` feat: memory glints + worker-pulse orbit
-- `f7aaa7c1` feat: drag-files-into-voice agent
-- `1e81dc7b` feat: voice agent Points
 - `33c1b2ff` feat(session-rules): thread-scoped rule store + prompt block
-- `6361ff5e` feat: Option = voice agent agent (both keys), double-tap Option = long question, say -> Option+S
 
 ## 2026-07-01
 
 - `034b406a` feat(collide): label the Collide toggle with a full hover tooltip + aria
-- `dba8203d` feat: voice agent opens any installed app — fuzzy open_app + list_apps tools
 - `427331ee` feat(orchestrator): warm the orchestrator with a resident-process pool + lockout auto-deny
-
-## 2026-06-09
-
-- `fc9e9c96` feat: unit-test harness (vitest + cargo), CI test gate, CLI version armor
 - `b0e12c58` feat(targeting): pass tier effort on dispatch + fix inline-issue number (effort→worker 3/3)
 
 ## 2026-06-30
@@ -641,10 +299,6 @@ and internal chores live in the private engineering log.
 - `45b9edc6` feat(orchestrator): Collide MoA fusion engine + registration + cap-degrade (Steps 3,4,7,9)
 - `c3bdc508` feat(orchestrator): two-layer read-only proposer lockout (Collide Step 2)
 
-## 2026-06-07
-
-- `55c24ca5` feat: catch dashboard mount crashes in preship gate [via-o8]
-
 ## 2026-06-29
 
 - `1c835d39` feat(orchestrator): Hermes via a generic ACP backend (Step 3b–3d)
@@ -652,76 +306,40 @@ and internal chores live in the private engineering log.
 - `8112edf1` feat(mcp): o8 now configures agent runtime — closes the "any CLI" set (Phase 2)
 - `96903a20` feat(mcp): o8 now configures the AI provider CLI from the registry (Phase 2)
 - `35164e2f` feat(mcp): agent runtime o8 entry from the registry, not passthrough (Step F)
-- `17c17370` feat: add blind second-pass auto-review [via-o8]
 
 ## 2026-06-28
 
 - `2775957a` feat: desktop half of mobile inline diff comments ( slice 2)
 - `0578a3c9` feat: STYLEGUIDE.md
 - `d85730b1` feat: Paired-devices settings list with per-device revoke
-- `72507a60` feat: one-click "Clean up" button for stale workspace tabs [via-o8]
-
-## 2026-06-06
-
-- `be57c039` feat: doctor flags runtimes that are installed but not authed
-- `261f676f` feat: keyboard-navigable orchestrator steer queue
 - `9f4a52fe` feat: deterministic 4401 close for a revoked device on reconnect
 
 ## 2026-06-27
 
 - `b15ee985` feat: mobile E2EE channel
-
-## 2026-06-04
-
-- `ed97edb9` feat: open a non-Git folder as a repo
 - `5ffd89fb` feat: mobile device enrollment + per-device token validation ( stage 1b)
-
-## 2026-06-03
-
-- `591d6296` feat: align feedback report embed fields [via-o8]
 - `90694929` feat: mobile E2EE crypto + per-device token registry foundation ( stage 1a)
-- `993f1dbf` feat: add settings feedback reports [via-o8]
 - `550b8b84` feat: persistent terminals default ON + hide terminal status bar ( stage 5)
-
-## 2026-06-02
-
-- `f2f8c5e4` feat: add webview idle guard lint [via-o8]
 - `d7a077d0` feat: canvas terminals re-attach surviving sessions on restore ( stage 4)
-- `0ac73eab` feat: add preship webview boot gate [via-o8]
 - `de28c5ad` feat: re-attach surviving dash terminals with scrollback after restart ( stage 3)
 - `a9d26e96` feat: keep dash terminals alive on detach + bounded orphan GC ( stage 2)
-
-## 2026-06-01
-
-- `01a8bd2e` feat: add repeatable benchmark suite [via-o8]
 - `e7065ed5` feat: spawn interactive dash terminals inside terminal, gated ( stage 1)
-- `21d95daa` perf: defer cold boot desktop polling [via-o8]
-- `4b834805` feat: route literal o8 lookups to grep [via-o8]
-- `e5d24652` feat(qa-eval): rigorous 4-way Brain-vs-grep
-- `f57815b9` feat: add strong grep qa eval baseline [via-o8]
 - `0644dd16` feat: default crash-survivable workers ON (kill-test passed on 0.1.512)
-- `a9fdbfe8` perf: lazy hydrate o8 secondary panes [via-o8]
 - `746bf704` feat: boot re-bind observability + crash-survival contract test ( stage 2)
-- `1125c05f` perf: add server timing to hot routes [via-o8]
 - `c8f0a3bf` feat: crash-survivable worker spawn, gated (daemon crash-survival stage 1)
-- `67d1ad38` perf: add client benchmark instrumentation [via-o8]
 - `c1f589d9` feat: worker-context merge approval card + o8 inbox + o8 packet approve-merge ( stages 5b/6)
-- `33e075ea` perf: add app speed measurement harness [via-o8]
 - `6b7ab567` feat: extract steer-packet route + o8 packet steer (control-plane symmetry stage 4)
 
 ## 2026-06-26
 
 - `52748a74` feat(cli): o8 packet reset/retry/rerun/merge-preview (control-plane symmetry stage 3)
 - `c0e0e159` feat(cli): o8 mission create/dispatch/status/wait/tail (control-plane symmetry stage 1)
-- `1d19900a` feat: mirror agent visual proof onto GitHub PRs via release assets
 - `3aafbf32` feat(review): pick the best-of-N winner through the governed merge gate + audit
 - `d194200d` feat(review): per-candidate merge-gate verdict on the compare matrix
 - `0bc0e37b` feat(review): mount the N-up compare matrix as a contextual O8Panel tab
-- `8baa3b36` feat: live WS artifacts channel so proof strips update in real time
 - `3382ae5f` feat(review): N-up comparison diff matrix component (best-of-N)
 - `afc71bd8` feat(orchestrator): arm best-of-N fan-out via comparisonModels on create_mission
 - `570a90ea` feat(browser): Design Mode click-to-grab over the native window (Stage 4b)
-- `c5e26bdf` feat: surface agent visual-proof stills on the PR Changes tab
 - `14bd416e` feat(browser): native browser-view as default operator setting (Stage 6)
 - `99637a6a` feat(browser): occlusion snapshot-swap for the native browser-view (Stage 5)
 
@@ -729,557 +347,249 @@ and internal chores live in the private engineering log.
 
 - `9180d6d7` feat(browser): wire o8_browser_* to the native browser-view (Stage 4, secure)
 - `004a3ce2` feat(browser): native browser-view panel surface + position sync (Stage 3)
-- `2f7d04ac` feat: o8 packet capture --clip <selector> — frame the proof to the change
 - `eeeac722` feat(browser): inject in-page agent into browser-view (Stage 2 — secure)
-- `c15ecbc5` feat: visual proof UI + agent capture awareness ( phase 1 UI)
 - `e43c8039` feat(browser): native browser-view child window (Stage 1 — Rust shell)
-- `0a381e2f` feat: visual verification artifacts
 - `65b379a5` feat(browser): engine-pane fallback so auth-gated apps render + stay drivable
-
-## 2026-05-31
-
-- `66f2b40a` feat: enable mic capture for voice dictation + harden orchestrator steer preempt
 - `d0f1e083` feat(browser): render Clerk/auth-gated apps + cut the dead Open Source button
-- `06bac7d2` feat: route long worker processes through o8 run by default
 - `e813ebca` feat: continuous agent ghost competing product + unified agent-driving glow
-- `bcdcdf02` feat: operator controls for o8 run — stop + list
 - `a3f17956` feat: unify Design Mode
-- `1a66517f` feat: live o8 run strip in the orchestrator chat
 - `3ee3278d` feat: Design-Mode grab
-- `c8784b2d` feat: persist managed-runs registry across restarts
-- `df2738fd` feat: footer ports 3-bucket view + watch agent runs live
 
 ## 2026-06-24
 
 - `2b411998` feat: canvas add-file/open-diff/open-chat/add-video verbs — agent spawns every content kind
-- `7658c11a` feat: ContextualPanel.attachLiveAgentTerminal — watch o8 run sessions live
 - `0814dd0f` feat: o8_canvas full verb parity
-- `d8eabac0` feat: o8 run
 - `90557563` feat: canvas add-image/stack/flip/separate intent verbs — agent control parity
-- `0902aa99` feat: tag ports as agent/browser/noise from managed-runs registry
 - `eb76e1ab` feat: canvas image-stack UX
-- `82fcfa5c` feat: managed-runs registry + API for o8 run
 - `d4840609` feat: theme-aware ASCII o8 workspace loader
-- `65672340` design(analytics): lead with Autonomy + Governance (01/02), cost below
 - `ef670c12` feat: ASCII o8 boot splash — animated wordmark loading screen
-- `ddeca542` feat(analytics): cost stays king + autonomy & governance on top
 - `d60b2a98` feat: agent canvas control — see + place/size/raise/close cards
-- `0f6e279b` feat(chat): hide the o8-Default casual chat for alpha behind experimentalChat
 - `838c0f41` feat: ASCII effects suite — image/wordmark, wave field, flow field
-- `eb0d8eab` design(settings): neutral + royal-blue accent, squircle corners — no orange
 - `8d86848b` feat: liquid ascii fluid effect + extensible effects lab preview
-- `6d1362f9` feat(dispatch): ship AI provider + agent runtime only
-- `971b6f45` feat(orchestrator): UltraCode swarm = native AI provider sub-agents (workflow) + agent runtime via o8
-
-## 2026-05-30
-
-- `5a46ace6` perf(webview): kill the transcript-poll socket leak + remove dead git-watch SSE
 - `58dd6235` feat(lanes): shared archived-dedup primitive + collapse=true structured-state query
 - `19b9a2e2` feat(mcp): semantic locators
-- `f2e977ae` feat(orchestrator): UltraCode swarm tier + inline crew cards; retire Cmd+Shift+O popover
-- `d5ca5262` feat(dispatch): swarm composer
-- `f0afce0b` feat(dispatch): allow agent runtime+AI provider mixed swarms (relax force-to-agent runtime gate)
-- `8ebc4b50` feat(status): lower long-run orbit threshold 7min → 1min
 
 ## 2026-06-23
 
 - `3bd509af` feat(voice agent): kill/stop agents by voice
-- `280eca60` feat(status): wire the dot vocabulary into every agent surface
-- `c33021b9` feat(agents): deterministic per-agent identicon
-- `c67772fc` feat(status): orbit working-indicator everywhere — orchestrator + LLM chat
 - `7b86ee1c` feat: home-dir agents
-- `0e887fde` feat(status-dots): full motion vocabulary + long-running orbit on agent dots
 - `09aa9a89` feat: mailbox in voice agent — relay + read o8 team messages by voice
-- `329d1180` feat(orchestrator): inline detail drawer for status cards, not a modal
 - `8490aac4` feat: voice agent is peer-aware
-- `afc041e0` feat(sidebar): surface spawned agents + archived in every session grouping
 
 ## 2026-06-22
 
 - `a5417a5a` feat: o8 team mailbox (tell/inbox) + auto-installed guard hook
-- `9136fa58` feat: add review last turn scope [via-o8]
 - `853f13ba` feat: o8 team
-- `8f11b892` feat(pr-panel): wrap PR diff lines by default
 - `f4ab538f` feat: Huddle mode
-- `d8305f0c` feat(workspace-header): wheel-scroll + edge-fade for overflowing tab strip
-- `034b08c2` feat(review): word-wrap diff lines by default
-
-## 2026-05-29
-
-- `8e52fcef` feat(orchestrator): deliver the Mission-complete card for dispatched missions
 - `4dfaec25` feat: canvas navigator loupe size is adjustable in the tuner
-- `dad4712d` feat(orchestrator): explain what shipped in the mission-complete detail modal
 - `07f63e3f` feat: global ⌘⇧E "report an issue" hotkey on the IDE dashboard
-- `48dac586` design: extend locked typography to Activity packet card + session strip
-- `b9a73e0a` design: bring packet/status/merge cards to the locked typography spec
-- `f2303f96` feat(orchestrator): merge + self-heal status cards with click-through detail view
 - `f5bf9483` design: float the mission-complete card above the composer
-- `5d3688fa` feat(orchestrator): themed animated status card for mission-complete events
-- `24dd2212` perf: prewarm bundled next server [via-o8]
-- `557678d5` perf: log dashboard boot timing [via-o8]
 - `b1ab114c` feat: home-dir AI provider agent
-
-## 2026-05-28
-
-- `15f78045` feat(agent runtime-composer): wire attached images into the send payload (sub-pass B)
-- `532ef6c1` feat(agent runtime-composer): in-composer footer parity via shared InputButtons (Pass 3)
 - `fa4601af` feat(brain): free fast Brain via warm AI provider CLI
-- `eaefb2b8` feat(agent runtime-composer): repo / branch / runtime chip row below the composer (Pass 2)
 - `1bc05948` feat(brain): managed-inference + bring-your-own guardrails so non-paying users never burn founder credits
-- `18f722d0` feat(agent runtime-composer): image attachment chips above the textarea (Pass 1)
-- `b715a353` design(tabs): V1 continuity transition on the workspace tab strip
 - `e4c39f70` feat: operator Stop button + fix the phantom "Working forever" latch
 - `9d5117ba` feat: mobile voice agent remote — drive voice-to-voice from the phone
-- `6668aa09` design(automations): design system pass on AutomationsPage typography
 - `a58c4ecc` feat(brain): local-model inference backend
-- `8db6ed27` design(chrome): design system pass on Cmd+K palette typography
 - `a51c81b5` feat(brain): founders auto-get the fast Brain tier (B-1) — instant answers, not the 15-30s CLI
-- `90a4db80` feat(cmd-k): chat history + directives providers ( subset)
 - `654ecefe` feat(founding): STT sweep harness + complete app-wide inference inventory
 - `a316cf49` feat(founding): managed-inference speed/cost sweep harness + Brain tier results
 - `850f563d` feat(founding): /v1/founders wall endpoint + launch checklist
-- `9fe1f622` feat(review): rich preview toggle for markdown + images
 
 ## 2026-06-21
 
 - `97deca18` feat: founding cohort count endpoint + metadata-signal robustness
-- `000d3366` design(chrome): design system pass on keyboard-shortcuts modal + agent-panel top-nav
 - `049403e1` feat: realign Founding Operator tier to locked spec (plan: founder, early access, tiered)
 - `14c058f8` feat: Founding Operator purchase
-
-## 2026-05-27
-
-- `40f12611` design(session-replay): staggered entrance + ambient hover on lane cards
-- `fec90f86` design(timeline): drop inline play + design system pass on timeline + Session Replay page
-- `80b5b012` design(typography): repo hover + alert toast + mobile pair to design system spec
 - `77897ded` feat: local models
-- `0704b61a` design(chrome-button): bespoke per-icon motion — gear spins, phone leans, folder lifts
 
 ## 2026-06-20
 
 - `80cd1b0f` feat(dispatch): make defaultDispatchModel writable via the operator-defaults API
-- `ff86b224` design(chrome-button): tilt + nudge icon, not scale
 - `0f6e8bca` feat(dispatch): run workers on local models
-- `8b651e29` design(chrome-button): icon micro-motion on hover — match title-bar pattern
 - `820c53a8` feat(voice): o8_status reports each agent's canvas name — spoken roster
 - `fb902e4a` feat(voice): address a working agent by its canvas name — "Atlas, run the tests"
-- `b27bc207` design(o8-panel): repo selector + Ask o8 button get flat hover bg
-- `162f0a5d` design(o8-panel): activity filter pills get flat hover bg
 - `b28496d5` feat(canvas): memorable agent codenames + color-by-runtime + grid voice verb
-- `352e5e1b` design(globals): kill the global button:hover translateY — flat-button lock
-- `41ae0eb4` design(agent-panel): flat hover chips for header rows — match terminal toggle
-- `15b4ee0f` design(empty-state): thinner title + questions above composer
 - `adb9e13d` design(canvas): chat title weight 400 — match every other card
-- `d9b0034e` design(empty-state): tighten title↔composer gap + repo chip leftmost in chip row
-- `bc5228b9` feat(update-card): real release summary from free OpenRouter pool
-- `50830b88` design(layout): center empty state in available space + relocate UpdateCard
 - `12cc9625` design(canvas): reconcile chrome spec — header layout + zoom-in ladder
-- `711d9e68` design(bottom-panel): tab pill weight 300 — design system chrome lock
-- `b0276500` feat(bottom-panel): surfaces beyond terminal
-- `1ae2acc5` feat(settings): drop the 1080 width cap — content fills the full viewport
 - `c50d72b7` feat(canvas): zoom IN
-- `8a551b1a` feat(settings): full viewport — fixed position instead of column-bound
 - `b9adc34c` feat(voice): meter realtime voice spend → usage_logs + cost dashboard
-- `04aa8761` design(add-repo): design system font pass + simpler copy + Scan hidden until folder picked
-- `3e8f5cb9` design(status-bar): drop pill chrome on solo settings + inbox active
-- `e52b2eae` design(chat): professional paragraph spacing — gap on every block
-- `96ac792b` feat(agent-panel): hover preview = real AgentPanel below traffic lights
 - `866e4ced` design(canvas): chat-card header
-- `bca12941` feat(agent-panel): merge ports + inbox pills into one locked cluster
-- `551d2ce7` feat(agent-panel): outer margin + wider default + hover-preview drop
-- `818d6ee8` feat(agent-panel): wire orchestrator worktree pick to bottom status pill
-- `e7653ef9` feat(agent-panel): simplify composer chips (mode + repo)
 - `af6a00c9` design(canvas): lock the canvas-chrome system into design system.md
-- `98a39c54` feat(brain): caption images in spec ingest so Engineering Brain can see specs
-- `53f13374` design(agent-panel): surface-aware ink + transparency in glass mode
-- `3fa3a58c` design(ui): sweep entire o8 surface to locked design system font spec
 - `3213cd7c` design(canvas): media cards into the shared chrome family
-- `f584b07d` feat: push mobile live activity updates
-- `4054b610` feat(orchestrator): compose-first empty state + sidebar lifecycle fixes
-
-## 2026-05-26
-
-- `bc5946b1` design(agent-panel): Antigravity pass — Iconoir launcher + right-rail alignment
 - `d464bd53` design(canvas): browser card header into the shared chrome family
-- `a8dc5736` feat(drag-drop): native shell 2 bridge for Finder file paths
-- `c3452456` feat(projects): SQLite is now source of truth for color + sort + active ( phase 2)
 - `0dfc1ab1` design(canvas): one chrome vocabulary across cards — shared sizes + dynamic floor
-- `d49c3089` feat(db): schema v25 + projects ledger JSON→SQLite migration ( phase 1)
-- `00f8168c` feat(compactor): weekly digest cron + delivery wrapper ( phase 2)
-- `cb137903` feat(compactor): --digest-to flag writes markdown summary
 - `99db49b5` feat(canvas): render-on-screen
-
-## 2026-05-25
-
-- `270dcc34` feat: tray dropdown lists awaiting-review packets
 - `3e915d24` feat(voice): show in-flight worker count inside the voice-live dock capsule
-- `ec169eda` feat: directive surfacing in review + agent runtime-only worker enum
 
 ## 2026-06-19
 
 - `bc072654` feat(voice): voice-live presence shows in the screen dock, not only the IDE window
-- `bb3b95fe` feat: inline TurnSummaryCard + ChatActionCard for orchestrator turns
 - `6f94b77d` feat(voice): double-tap right Cmd toggles voice-to-voice mode (live indicator + idle auto-off)
-- `32842551` design: design system theming pass
-- `9f48b482` feat: emit mobile activity preview urls
-- `0e7a6cfe` feat: route orchestrator ws events by thread
-- `98ce11f4` feat: broadcast orchestrator thread sync events
 - `77b99843` design(chrome): ≥44px hit target on header pills + the panel ✕
-- `995155ef` feat: add mobile orchestrator thread creation
 - `b1f1e161` feat(voice): voice agent can reset/retry + wait on a packet by voice — closes
-- `19880826` feat: add steer packet MCP tool [via-o8]
-- `dfa569be` feat(orchestrator): layered escalation on merge-tsc failure
-
-## 2026-05-24
-
-- `d26c5929` perf(brain): soften composer tightening from — restore factual accuracy
-- `3d0e9af3` feat(orchestrator): parallel mission queries via SQLite registry
 - `3a849d8c` feat(voice): voice agent can annotate o8.md by voice — o8_spec_annotate
-- `c17a5367` feat(brain): three-way memory-substrate eval harness
 - `fb165675` feat(voice): voice agent competing product
-- `d78d590d` perf(brain): warm OpenRouter pool at boot to kill cold-start classifier
-- `9d0632c7` design(scratch): premium dot + cost-hint legend on O8ScratchChat composer
 - `81e04238` feat(voice): voice agent can drive a browser + inspect a packet diff by voice
-- `e21a1ce4` perf(brain): split H2 spec chunks on H3 when ≥3 kids or >4KB
 - `dfacd737` feat(zoom): global ⌘-/⌘=/⌘+/⌘0 zoom for the IDE shell
-- `71815282` perf(brain): classifier — OpenRouter tier 1 + 60s cache
-- `4e1666ca` feat(brain): Ask Brain composer button in O8ScratchChat
 - `d306b55c` feat(voice): voice agent can spawn agent cards by voice — wire spawn-agents canvas verb
-- `11550c82` feat(brain): spec ingestion at repo connect
-
-## 2026-05-23
-
-- `5778d610` design(panel): cascade flat-button language to scratch chat + inbox + activity
-- `8f11e0cc` design(panel): cascade flat-button language to O8 + PR panel surfaces
 - `019329f1` feat(voice): voice agent realtime
-- `8239d483` design(spec): lock flat-button language in DESIGN.md + flatten shared primitives
-- `e16fd1f4` design(panel): flatten all remaining header buttons to match HeaderIconPill
-- `690c7e40` design(panel): generic HeaderIconPill — flat icon pill for header strips
 - `306bbe73` feat(voice): voice agent realtime — expose all 10 AI modelrealtime voices
-- `0bf0d592` design(panel): flat toggle pill, baseline-matched across sidebar open/closed
 - `114139fc` feat(voice): voice agent realtime
-- `d9e5dd05` feat(panel): toggle pill matches HeaderPill language + framer-motion variants + traffic lights y=22
-- `2552f651` feat(panel): floating-card pattern for left column
 - `6be1f57b` feat(voice): voice agent realtime
-- `2aa5df5e` feat(left-panel): dainty 1px divider between left panel and workspace
-- `e19413b6` feat(left-panel): hide Control tab from project-focus drawer
 - `e4c92d7f` feat(voice): voice agent realtime
-- `272704b1` feat: use git diff review icon [via-o8]
-- `c5e718e8` feat: auto-widen o8.md panel tab
 - `c1a4daef` feat(voice): voice agent realtime
-- `8042207a` perf: short-TTL cache on repo registry readStore (5s)
 - `97f4362c` feat(canvas): voice spawn-agents
-- `155ae223` feat: stamp mergedClean on session_outcomes when a merge lands
 - `ed4cae05` feat(canvas): stream the dock's assistant prose with the smooth-text reveal
-- `e15d9357` perf: stale-while-revalidate cache on getRepoReadiness (Phase 5)
 
 ## 2026-06-18
 
 - `92dd94db` perf(chat): make the streaming reveal fast, not just smooth
-- `e73440cb` feat: directive proposals close the loop in-app — Accept writes the file (Phase 3)
-- `cdf82754` feat: persist packet completions to session_outcomes ledger (Phase 2 of)
 - `020fe456` feat: smooth streaming reveal in the orchestrator chat (no more bursty text)
 - `7cb0116c` design(shell): right-panel glass squircle fill, flat composer, no o8.md auto-collapse
 - `d8f29a5c` design(shell): glass-mode left-column cohesion + lisse hover-preview edges
 - `8c8fd3df` design(panel): lisse squircle corners on the right O8Panel
 - `696f45f2` perf: kill dashboard render storm + realtime snapshot timeout spiral
-
-## 2026-05-22
-
-- `07cc6d5f` feat: pre-launch typecheck gate on freshly-created worktrees
 - `7b4f17d5` feat: wire canvas + mobile orchestrator surfaces into the stream replay path
-- `f3fb7caf` feat: right-click an o8.md inline image to add it to the chat
 - `9e9363eb` feat: orchestrator stream replay buffer
-- `47470584` feat: o8.md inline images render consecutive lines as a gallery row
-- `948dcf0b` feat: render inline images in o8.md (small thumbnails + lightbox)
 - `f636bc47` feat: voice agent changes o8 UI settings by voice (theme, surface, canvas mode)
-- `aba43281` feat: inline image authoring in o8.md (drop/paste → o8-assets)
 
 ## 2026-06-17
 
 - `af842ed6` perf(voice agent): persistent AI provider session + keydown pre-warm to cut agent latency
-- `21ccce3f` feat: o8_view_scroll + o8_view_press_key webview tools (pre-ship Phase 4)
-- `ced12e70` feat: o8 packet diff/commit + o8_packet_diff MCP tool (pre-ship Phase 4)
-- `d0de2c1c` perf: parallelize packet-info's events + scope fetches (pre-ship Phase 3)
 - `b6d866fb` feat(voice agent): additive teaching diagrams — keep building on the live drawing
-- `aa9012ee` perf: token-bound the o8 CLI command outputs (pre-ship Phase 2b)
-- `54f8dc21` perf: token-bound the MCP + webview tool outputs (pre-ship Phase 2a)
 - `1e0ba04f` feat(voice agent): draw teaching diagrams on screen instead of writing an HTML file
-- `89757b76` feat: wide control-room mode
 - `35909e3b` feat: surface native AI provider scouts as a live crew card (orchestrator + canvas)
-
-## 2026-05-21
-
-- `e04bdae6` feat: shared project-scoped repo selector across Workspace + Activity
-- `f8990fe0` feat: split project select from open-control-room (row click selects, chevron opens control room)
-- `bfedb404` feat: switching the active project re-points the whole app (O8 panel + new orchestrator) to its primary repo
 - `2b10a786` perf: smoother orchestrator streaming
-- `b20ea567` feat: lone pool repos surface as switchable single-repo projects
 - `9ff2071c` feat: orchestrator turns can run far longer — raise hang watchdog 30m to 4h
-- `9bcd5a80` feat: o8.md review notes fade in on the rail (framer-motion enter, new notes only)
 - `0bad2db6` feat(voice): teaching-mode P1
-- `9223b62a` feat: o8.md review runs headless one-shot, no orchestrator chat turn
-- `f5d1464c` feat: o8.md note color - add black + neutral swatches alongside the hue picker
-- `9c3f54d3` feat: o8.md note settings - hue chooser drawer + desaturated in-note buttons
-- `857b49eb` feat: o8.md notes reserve prose room only-when-needed via block spacers (no anchor drift)
 - `4b0ea4d6` feat(voice): screen-draw snaps to the real UI element + Fn paste targets o8 + mail draft opens visible
-- `44cb1aae` feat: tighten o8.md review prompt - only-when-real, read-first, commit-aware
 - `c9eabe99` feat(voice): interrupt a running task + keep the working indicator lit for background work
-- `a24f03de` feat: o8.md click-first review button + reply lands at thread bottom
-- `a30a837f` perf: debounce o8.md rail recompute + comment resolve/reply
-- `cf752f36` feat: o8.md panel now uses the CodeMirror review editor (the swap)
-- `4ea7e4df` feat: interactive task checkboxes in the o8.md editor
 - `189b42f3` feat(voice): voice agent Draws — [DRAW:rect/arrow] screen annotations
-- `736624e9` feat: o8.md margin-note rail + accept/dismiss in the CM6 editor
-- `ed3df3bb` feat: wire the o8.md suggest verb across API + CLI + MCP
 - `0a9a8a96` feat(voice): read_screen tool
-- `c53fd53a` feat: surface operator o8.md threads in dispatch context (phase 3)
-- `6138ceaf` feat: external AI provider can read + annotate o8.md via CLI + MCP (phase 2)
 - `b8f0e806` feat(voice): o8_canvas tool — drive the Canvas by voice
-- `04353aa9` feat: theme-align proposed directives + unread hierarchy
 
 ## 2026-06-16
 
 - `84ea9c5c` feat(voice): VoiceTab escalation-policy toggle (Off / Auto / Deep)
-- `855fd27a` feat: power-user chrome keyboard shortcuts
-- `dce591cc` feat: keyboard shortcuts reference overlay (⌘/ or ?)
-- `b948a32b` feat: popover menus always mounted (display toggle) for agent enumeration
 - `3864da09` feat(voice): escalation-policy backend + concurrent-task safety
-- `309d85dc` feat: tab icon morphs to close-X on hover + disambiguate split aria-labels
-
-## 2026-05-20
-
-- `7edc04b4` feat: group picker is icon-only + sits inline with first group label
-- `344a6f22` feat: chat-list group-by picker (Repo / Date / Flat) + uppercase headers
 - `f7490085` feat(voice): two-speed escalation routing for the voice agent
-- `5b9dcd9d` feat: shimmer placeholder during thread restore (no more empty-state flash)
-- `06b4a7a3` feat: pre-set tab.label from saved orchestrator title at tab creation
 - `b4cd5704` feat(voice): AI provider background brain + escalate handoff for the voice agent
-- `01586566` feat: GC orphan empty thread files during list calls
-- `13df1493` feat: persist last-active orchestrator thread across reloads
 - `860c658e` design(settings): cleaner iOS-style switches, native selects & segmented controls + bold tab headers
-- `219ceae3` feat: inline rename for chat titles in column header
 - `0c4853e3` feat(canvas): in-app feedback capture + auto-hiding navigator loupe
-- `e38e6e49` feat: per-pane ▶ play + one × close, all in split header
 
 ## 2026-06-15
 
 - `d45865f9` feat(canvas): ship the operator o8 glass theme + universal orb default
-- `31ca3c9d` feat: side-by-side header pills for splits with center divider
 - `1bb0db39` feat(canvas): unified corner-resize on all cards + framed terminal + spawn fit
-- `e9b15be9` feat: merge-state preview cycler in status bar
 - `c4ea5412` feat(canvas): live dispatch dock, balanced grid, alerts open the PR diff
-- `f871fe9a` feat: terminal toggle moves to status bar next to branch label
 - `32edb114` feat: founding-pass beta invites
-- `bb380bf0` feat: terminal toggle moves to bottom-center floating chip
 - `367a36b9` design: harmonize the status-bar branch label with the composer chip type
-- `8b7796f0` feat: inline split-pane controls (▶ + ×) + cap at 1 split
 - `e71c4606` feat: unify composer chip menus onto ComposerPopover
-- `4c796ed8` feat: kill the lower per-workspace TabBar — pills are the only tab UI
 - `f91031a4` feat: composer popovers portal out via a shared ComposerPopover primitive
-- `dd7ec93b` feat: top header morphs into agent runtime-style pill strip when 2+ tabs
 - `752a7e7f` feat: auto-collapse the left panel while the o8.md notes tab is open
-- `1a7bc860` feat: ▶ play button in global header when single workspace (trial)
 - `bd8b266e` feat: composer button row collapses to icons when narrow
-- `06a8ca65` feat: hide lower TabBar in single workspace mode
 - `59c4847c` feat: supervisor inbox self-closes via escalated/resolved states
-- `a4b8e28e` feat: title-bar … menu (rename/archive/share) + tighten 44→36
 - `e1b09345` design(canvas): grey-on-white media rim + integrated header + matched resize arc
-- `9f5656c8` feat: chat title moves UP into the column header (agent runtime pattern)
 - `1d486014` design(canvas): defined rim + off-edge resize arc on photo & video cards
-- `7f1f50fe` feat: chat name lives IN the workspace header (step 1)
 
 ## 2026-06-14
 
 - `ba729883` feat(workspace): smooth push for the workspace-detail rail + clearer toggle
-- `082a067b` feat: top tab bar goes flat
 - `bbc32b57` feat: o8 menu-bar tray icon → new o8 monogram (white template)
-- `0c0d01b9` feat: top tab bar is now bespoke — width-gated, spawned-only
 - `01b866af` design(canvas): rename Alerts dropdown + make rows jump to their surface
-- `beef2a76` feat: unified packet-state color scheme for top tabs + left rail
 - `cee2ba1f` feat(workspace): footer merge beacon -- fleet-wide "ready to merge" pill
-- `42e49884` feat: archived agent sessions inline under each repo in left rail
 - `36045df8` feat: new o8 app icon — aurora Liquid Glass o8 monogram
-- `e3d5f0cf` feat: orchestrator history merges into left rail (Chats + Agents tabs)
 - `815d183b` design(canvas): glass onboarding panels + behind-glass motes reel, match reel type
-- `13ee3b47` feat: orchestrator composer trim — drop enhance + copy, compact send
 - `b14bd28d` feat(workspace): consolidate orchestrator composer chip row + adaptive icons + blocky-o8 boot loader
 - `6da8ab74` feat(canvas): first-run welcome modal + guided coach-mark tour
-
-## 2026-05-19
-
-- `bde123b4` feat: Automations scheduler
 - `d9d1fab3` feat(canvas): add orchestration MODE selector (Fleet / Single / Fusion) to the canvas composer
-- `393dfe24` feat: Automations polish
 - `a25816f0` feat(canvas): add Clerk account dossier to the canvas top-right
-- `e21f1bab` feat: Automations nav entry in left rail (agent runtime borrow)
 - `54fd494e` feat(canvas): add video cards
-- `39ff9331` feat: Automations
 - `136a31d4` feat(auth): desktop ticket exchange + sign-in handoff (Clerk signals API)
-- `5c89d378` feat: scratchpad falls back to workspace-wide diff when no file is selected
 - `ec5836a7` feat(auth): GitHub sign-in via Clerk — shared hook, account UI, o8:// receive
-- `77ddbefb` feat: ⌘⏎ steer queue in orchestrator + chat composer
 - `b980aaac` feat(canvas): merge composer model+thinking into one drawer; wrap file cards
-- `3c841613` feat: timeline off by default
 - `0e3c9168` feat(canvas): sphere-projection orb navigator + single-toggle bubble UI
-- `3fd3e2d0` feat: Shell layout
 - `f0835922` feat(canvas): readable o8.md + terminal fonts, caret-correct spec card
-- `3d51860e` feat: Shell layout
 
 ## 2026-06-13
 
 - `b8740e13` feat(mcp): operator MCP server supports a shared HTTP transport
-- `adb50379` feat: Shell layout — per-column header strip components
 - `9861ef86` feat(canvas): result-card synthesis from the orchestrator tool stream
-- `0452b9eb` feat: add agent runtime-only task pool routing
 - `aa47b98c` feat(canvas): rich response blocks shared + o8 bench parity + reasoning in seconds
-- `01afe962` feat: Review surface
 - `55476668` feat(canvas): dock solid edge + chat modal at agent-card bench parity
-- `33f829f1` feat: Review surface — repo selector in the header
 - `a35ac23f` feat(canvas): all-angle hidden resize on the chat-card
-- `70419245` feat: Review surface — untracked files render as all-added
 - `ba13e494` feat(canvas): shared CardComposer
-- `1c96abc3` feat: Review surface — word diffs + hide-whitespace toggles
 - `24b81051` feat(canvas): smooth borderless chrome on dock + chat-card
-- `ba9a681b` feat: Review surface — Commit / Push / Open PR toolbar actions
 - `78e1e612` feat(canvas): borderless DockEntryView
-- `2d28cc0b` feat: add project task control plane
 - `575876ee` feat(canvas): agent-card bench — side-by-side presence comparison
-- `fe79f706` feat: Review surface
 - `6d7fa7ad` feat(canvas): agent-card bench — PR + edited-files result variants
-- `ead10259` feat: Review surface
 - `ddcaf9d4` feat(canvas): agent-card bench
-- `0b074d5f` feat: agent runtime-style Review surface
 - `996ec5e9` feat(canvas): agent-card bench — user messages + smooth Brain citations
 - `45040818` feat(canvas): agent-card bench
-
-## 2026-05-18
-
-- `1d79b928` feat: agent runtime orchestrator — governed gateway + per-request agent
 - `2e534d50` feat(canvas): agent-card bench
-- `86c8d7a9` feat: mobile agent runtime orchestrator surface — backend-tagged threads + contract
 - `374945e2` feat(canvas): pinned orchestrator dock + split-tab orchestrator modals
-- `6f22e99b` feat: agent runtime orchestrator backend + per-request backend selection
 - `e9dd88b7` feat(canvas): default theme is the operator's tuned light look
-
-## 2026-05-17
-
-- `c8262a79` feat: mobile activity feed + orchestrator packets API routes
 - `024e91b9` feat(canvas): match reference
 - `3b4d3b6d` feat(canvas): orchestrator is a floating draggable card, Brain tab renamed o8
-
-## 2026-05-16
-
-- `650ee259` feat: desktop QR pairing emitter for the o8 mobile app
 - `2efcd3da` feat(canvas): orchestrator + brain spawn as one tabbed pane — never orchestrator-alone
-
-## 2026-05-15
-
-- `450c15da` feat: add AI provider billing verification smoke
 - `3a8f8958` feat(canvas): unified theme panel
-- `bd8a9167` feat: add agent runtime interactive session [via-o8]
 - `275584df` feat(canvas): dock orchestrator gets its own light/dark + tint dial
-- `8c8d6811` feat: render agent runtime chat events [via-o8]
 
 ## 2026-06-12
 
 - `116ef97d` feat(browser-engine): headless installed-Chrome tier
-- `4d9eb0dc` feat: extract AI provider-code stream-json parser into a module
 - `afea081e` feat(canvas): intent bus
-- `ebf444e7` feat: AI provider-code composer model pill + plan/bypass toggles
 - `1bf20111` feat(browser-agent): agents drive the embedded browser
-- `a87bfaa7` feat: restore AI provider-code as interactive chat-tab runtime
 - `55a05cf2` feat(canvas): the everything run
 - `94d7ba97` feat(canvas): UNIVERSAL text slider
 - `05fb9a4e` feat(canvas): chat ink control (Auto/White/Dark) + 100px chat frost + reasoning TIMELINE
-
-## 2026-05-14
-
-- `d3feecf1` feat: github intake dual-path
 - `4fb1867e` feat(canvas): glass TONE axis (dark/Ivory light) + floating-chat sliders + live reasoning & image entries
-- `d875c80a` feat: promote agent runtime CLI to effective tier 1 in Q&A cascade when in-app orchestrator is off (epic child 4)
 - `ee9a94b2` feat(canvas): agent lifecycle lands live
-- `38f242db` feat: add agent runtime-orchestrator-session + wire auto-review dual-path (epic child 2)
 - `92061a8b` feat(canvas): persistence + talkable chat cards + project-grouped repos; drop scratch chat from o8.md card
 - `68bafe30` feat(canvas): o8.md card at FULL parity — mounts the real spec pane in glass
-- `d1d2f042` feat: gate AI provider-billed paths behind in-app orchestrator toggle
 - `93421332` feat(canvas): agents can open pages in the canvas browser via o8:open-browser
-- `7c417f02` feat(cli): phase 3 polish + native shell bundling + npm-publish prep
 - `97226227` feat(canvas): browser tabs in glass browser cards + review drawer refetch-on-open
-
-## 2026-05-13
-
-- `a717af60` feat: modernize workspace runtime reconnect banner
 - `fab3fa08` feat(canvas): real diff cards with governance row + review drawer; retire center emblem; sessions repo filter
 - `0f02946d` feat(canvas): element picker in browser cards — front-end selector tools
-- `98b54fce` feat: modernize stale-gateway alert in AgentPanel
 - `55002928` feat(orchestrator): composer images actually reach the model — both surfaces
-- `04fd4e64` feat: branch details launcher + modernized connection banner + chrome polish
 - `86e6e178` feat(canvas): dock gets its own composer + turn cards + drawer-styled term picker
-- `77d7f21d` feat: add packet mission tail stream [via-o8]
 - `72b80175` feat(canvas): Pulse is the real agents-working mark — the o8 binary orbit
-- `9e81c74c` feat: add o8 observation proposals [via-o8]
 - `cf881d3c` feat(canvas): Pulse rebranded — the o8 dual-orbit mark in faded dither
-- `ac752fce` feat: add lane touch lookup
 - `187a2963` feat(canvas): sessions drawer on the left nav + the amber Pulse backdrop
 - `d1150d22` feat(canvas): dock tool calls collapse into one live activity line
-- `56cb0236` feat: add packet agent report events [via-o8]
 - `663f2ef3` feat(canvas): operator-picked depth set — wind-dots field + custom shader moods
-- `e72dead6` feat: add packet scope surface [via-o8]
 - `a788f12d` feat(canvas): real Paper Shaders depth layers — WebGL, barely moving
-- `eaff9cf2` feat: /api/panel/status returns server version for o8 CLI
 - `0e61e8ab` feat(canvas): depth backdrops + opaque popovers + o8.md reads like a page
-- `93f951e8` feat(cli): scaffold Phase 1 of the o8 CLI (epic)
 - `a6fad007` feat(canvas): past sessions open as their own draggable glass boxes
 - `263f112b` feat(canvas): senior pass
 - `faa80abb` feat(canvas): photos surface reference-style — image cards, stacks, top-right search
 - `522e0367` feat(canvas): Apple-smooth squircle corners + the dock becomes a real panel
 - `94f1f0dd` feat(canvas): markdown rendering in the docked chat
-
-## 2026-05-12
-
-- `370b9b8e` perf: symlink node_modules into worktrees instead of cp -cR
 - `7c9350f3` feat(canvas): talk to the REAL orchestrator from the canvas composer
 - `2d81c231` feat(canvas): Finder "Open With → o8" — OS file opens land as canvas file cards
 - `b213e4ce` feat(canvas): file cards
 - `0391c53e` feat(canvas): spawn reveal easter egg + summoning verbs + edge-rail handles
 - `c5cf3b52` feat(canvas): terminal cards v2
-- `1938fba8` feat: add MCP repo+project bootstrap tools — wedge unlock
 - `d5c7a79a` feat(canvas): real terminals as glass cards + Liquid frost floor
 - `695caf87` feat(canvas): glass tuner docks under the Canvas word + "Save as my default" personal preset
 - `5fdbfafc` feat(canvas): Liquid frost dial
 - `6e156f1a` feat(canvas): docked orchestrator, component cards, image drop, liquid-clear background
-- `89e5ce91` feat: add MCP repo+project bootstrap tools — wedge unlock
 - `6c75607d` feat(canvas): background controls
-- `d9c98abc` feat: add MCP repo+project bootstrap tools — wedge unlock [via-o8]
 
 ## 2026-06-11
 
 - `dbab17d4` feat(canvas): desktop-clear glass, material presets, kivo summon choreography
 - `351fe29c` feat(canvas): v2 glass slice
 - `4a1f5b1b` feat(canvas): fleet-canvas v1
-- `b883fa94` feat: add MCP repo+project bootstrap tools — wedge unlock
 - `74225234` feat: workers get the Engineering Brain
-- `1a12fa75` feat: add MCP repo bootstrap tools
-- `7c7bf11d` feat: default to light theme + solid chrome on fresh install [via-o8]
 - `7b2c8e4e` perf(brain): classify/retrieve overlap + semantic answer cache
 - `2359908c` feat(brain): sources parity
-- `08640c96` feat: default to light theme + solid chrome on fresh install
 - `74c9f3f3` feat(brain): Ask Brain streams — UI switches to the SSE route
-
-## 2026-05-11
-
-- `ab8cd18b` feat: add typed webview latch
 - `5471ea8e` feat(brain): spend ledger + daily cap on the OpenRouter tier, 'fastest' composer knob
 - `d6d4e92a` perf(brain): warm REPL pool
-
-## 2026-05-10
-
-- `d5996773` feat(projects): seed scope:project directive + projects field doc [via-o8]
 - `eddc17a2` perf(brain): Tier-0 latency pass
 - `468010b7` feat(composer): orchestrator model switcher in the thinking chip + Ultracode label
 - `11d760c0` feat: voice agent terminal voice control adds iTerm2
-- `796cb1f1` feat(projects): seed scope:project directive + projects field doc
 
 ## 2026-06-10
 
@@ -1288,30 +598,20 @@ and internal chores live in the private engineering log.
 - `168567de` feat: voice agent update verbs
 - `a86b7a84` feat: voice agent second-ten-minutes
 - `6f020d59` feat: voice agent day-one basics
-- `90faf7b2` feat(projects): seed scope:project directive + projects field doc
 - `5c1e1680` feat: voice agent parity round 3
 - `8c490252` feat: voice agent terminal brake + keys + new session, o8 recap + usage (parity round 2)
 - `f64eaf1b` feat: voice agent terminal voice control v1
 - `36a4ffd8` feat(mcp): o8_operator_defaults tool + EXTERNAL_AGENTS.md — external-agent control parity
-- `b03e5420` feat(projects): seed scope:project directive + document projects field
 - `8fad1f02` feat: voice agent controls Apple Music
 - `f7267e37` feat: voice agent edit lane works inside o8 + o8-control frontier v1
-- `74d44dcf` feat: timeline reads 24h of session history (tail 500 → 15000) + finer cells
 - `808c6c21` feat: permissions health
 - `46f512eb` feat: voice agent Guide pointer — dwell variant of Points (magic roadmap)
 - `c85b8b67` feat: voice agent "what needs me?"
 - `53180b4b` feat: selection-as-object
-- `15e189f3` feat: add mcp__o8__rerun_with_feedback tool
 - `5dcbe634` feat: dock chat continuity
-- `a7e1dee8` feat: scope orchestrator memory by project [via-o8]
 - `8e48df45` feat: voice agent routing doctrine in the system prompt + presence-layer architecture doc
-- `ff8e885f` feat: render chat tool calls as chips [via-o8]
 - `67b614ff` feat: memory glints + worker-pulse orbit
 - `f7aaa7c1` feat: drag-files-into-voice agent
-
-## 2026-05-09
-
-- `3364a166` feat: vocabulary cleanup
 - `1e81dc7b` feat: voice agent Points
 - `6361ff5e` feat: Option = voice agent agent (both keys), double-tap Option = long question, say -> Option+S
 - `dba8203d` feat: voice agent opens any installed app — fuzzy open_app + list_apps tools
@@ -1319,200 +619,95 @@ and internal chores live in the private engineering log.
 ## 2026-06-09
 
 - `fc9e9c96` feat: unit-test harness (vitest + cargo), CI test gate, CLI version armor
-- `a611d67d` feat: live HTML rendering — .html viewer + richer o8.md renderer
-- `50d5c396` feat: one-click install of o8 MCP into Hermes Agent + agent runtime
-
-## 2026-05-08
-
-- `e8e75310` feat: voice agent-style push-to-talk dictation
-- `920e629d` feat: competing product-style PR panel + segmented context popover
-- `033f580e` feat: add macOS APFS workspace isolation
-- `4bb987a4` feat: agents archive drawer shows every concluded packet
-- `987202e9` feat: unified project panel + agent / timeline polish
-- `76dcc4f0` feat: add slash orchestration routing
-- `c46e8b3c` feat: pulse the rightmost timeline cell, drop drilldown trigger
-- `7251e0a1` feat: rolling 24h timeline + error surfacing + settings toggle
-- `f7c64712` feat: rewrite SessionTimeline as Tracker strip + redesign hover card
-
-## 2026-05-06
-
-- `5800c266` feat: flatten new-tab drawer to Orchestrator / Chat / Terminal
 
 ## 2026-06-07
 
 - `55c24ca5` feat: catch dashboard mount crashes in preship gate [via-o8]
-- `b32cef59` feat: orchestrator mode chip + slash-command routing
-- `5f672464` feat: two-axis theme system (palette × surface) + reduce-transparency toggle
-- `c017bc38` feat: skiper-style motion on search + browser titlebar buttons
-- `98f546b5` feat: skiper-style motion on titlebar left buttons
-- `e1010740` feat: align titlebar left buttons with right side; agents glows orange
-- `ab71b761` feat: empty project gets a primary "Add a repo" + quick-pick from other projects
 - `17c17370` feat: add blind second-pass auto-review [via-o8]
-- `b70b1027` feat(palette): switch projects + move repo from Cmd+K
-- `4de26a1a` feat: project colors + drag-drop repos onto dots + empty-project hint
-- `56fc03ad` feat: rename / delete projects + move repos between them
-- `d82af473` feat: status bar centers under the workspace + cluster matches chrome chip shape
-- `1ec86716` feat: status bar centers branch + adds contextual merge action pill
-- `8952101e` feat: O8 right panel opens on the Pulse tab by default
 - `72507a60` feat: one-click "Clean up" button for stale workspace tabs [via-o8]
-- `26e98fb2` feat: projects scope the left panel with a bottom-bar dot switcher
-- `d4c07597` feat: hover × on each spawned agent row to dismiss it from the panel
 
 ## 2026-06-06
 
 - `be57c039` feat: doctor flags runtimes that are installed but not authed
-- `3666075d` feat: single-runtime chat lifecycle + 3-word tab labels everywhere
 - `261f676f` feat: keyboard-navigable orchestrator steer queue
-- `dcd8c7d8` feat: breadcrumb minimizes to filename only by default
-- `4d1b05b4` feat: Changes count gains a cool-to-warm urgency badge
 
 ## 2026-06-04
 
 - `ed97edb9` feat: open a non-Git folder as a repo
-- `67960804` feat: move repo selector into the changes rail to free file path space
 
 ## 2026-06-03
 
 - `591d6296` feat: align feedback report embed fields [via-o8]
-- `5c564bf0` feat: chat tabs adopt 3-word summary from latest user message
 - `993f1dbf` feat: add settings feedback reports [via-o8]
-- `01613ebb` feat: tab strip uses theme-tinted glass instead of raw vibrancy
 
 ## 2026-06-02
 
 - `f2f8c5e4` feat: add webview idle guard lint [via-o8]
-- `71187351` feat: round workspace top corners and inset tab cluster
 - `0ac73eab` feat: add preship webview boot gate [via-o8]
-- `38a9edc2` feat: tab strip becomes vibrancy-passthrough glass
 
 ## 2026-06-01
 
 - `01a8bd2e` feat: add repeatable benchmark suite [via-o8]
-- `ef5357fb` feat: hide thinking chooser in chat tabs and rename Assistant row to Chat
 - `21d95daa` perf: defer cold boot desktop polling [via-o8]
-- `56744b34` feat: chat-mode chooser spawns dedicated tabs with tool-wired chat
 - `4b834805` feat: route literal o8 lookups to grep [via-o8]
-- `fa396dbe` feat: align orchestrator empty state
 - `e5d24652` feat(qa-eval): rigorous 4-way Brain-vs-grep
-- `1aee38c5` feat: refine o8 settings and analytics ui
 - `f57815b9` feat: add strong grep qa eval baseline [via-o8]
-- `62100102` feat: refine o8 activity review surfaces
 - `a9fdbfe8` perf: lazy hydrate o8 secondary panes [via-o8]
-
-## 2026-05-05
-
-- `7c43f059` feat: redesign o8 pulse briefing
 - `1125c05f` perf: add server timing to hot routes [via-o8]
-- `478ec8bf` feat: refine o8 workspace panel
 - `67d1ad38` perf: add client benchmark instrumentation [via-o8]
-
-## 2026-05-03
-
-- `6d63cfe2` feat(workspace-tab): green tab marker when packet status === released
 - `33e075ea` perf: add app speed measurement harness [via-o8]
-- `3a6c58c5` feat(workspace-chat): inline status banner at bottom of dispatched chat
-- `5fbce8ae` feat(o8-panel): consolidate Mission rail into Activity tab
-- `0b48b875` feat(o8-panel): packets render in Activity timeline behind opt-in flag
 - `1d19900a` feat: mirror agent visual proof onto GitHub PRs via release assets
-- `56c30780` feat(orchestrator): NEEDS YOU click pops O8 Workspace pinned to the lane's worktree
-- `58554aa3` feat(orchestrator): per-section click routing for Recent Work rows
-- `5fbd890e` feat(orchestrator): status-anchored Recent Work — Needs you / In flight / Done today
-- `c4dfad89` feat(o8-panel): path-lens chip on Workspace tab — shows main vs worktree at a glance
 - `8baa3b36` feat: live WS artifacts channel so proof strips update in real time
-- `7b1eac39` feat: replace o8 file tabs with workspace
-- `0ff128a5` feat: add o8 workspace pane components
-
-## 2026-05-02
-
-- `b7e0affe` feat(o8-panel): restore Pulse tab — live fleet temperature surface
 - `c5e26bdf` feat: surface agent visual-proof stills on the PR Changes tab
-- `8319ee71` feat(orchestrator): composer footer threads/copy/new + thinking <details> popover
-- `3a44bba7` feat: stream orchestrator chat from gateway
-- `5e28f087` feat: add clerk gated chat route
-- `54771cb9` feat: add chat gateway server helpers
 - `2f7d04ac` feat: o8 packet capture --clip <selector> — frame the proof to the change
 - `c15ecbc5` feat: visual proof UI + agent capture awareness ( phase 1 UI)
-- `daa4cef7` feat: route orchestrator chat mode locally
 - `0a381e2f` feat: visual verification artifacts
-- `22273536` feat: add chat mode card
 
 ## 2026-05-31
 
 - `66f2b40a` feat: enable mic capture for voice dictation + harden orchestrator steer preempt
-- `d937e6c1` feat: add orchestrator chat model picker
 - `06bac7d2` feat: route long worker processes through o8 run by default
-- `7a4b4fb8` feat(mcp): wait_for_mission_ready
 - `bcdcdf02` feat: operator controls for o8 run — stop + list
-- `c83eebfa` feat(orchestrator): wire useFileDrop into ComposerArea
 - `1a66517f` feat: live o8 run strip in the orchestrator chat
-
-## 2026-05-01
-
-- `6cae523e` feat: auto-release merged review packets
 - `c8784b2d` feat: persist managed-runs registry across restarts
-- `b2b90f3c` feat: tighten supervisor inbox signal
 - `df2738fd` feat: footer ports 3-bucket view + watch agent runs live
-- `4dace31a` feat(browser-button): hover preview iframe of the active browser tab
 - `7658c11a` feat: ContextualPanel.attachLiveAgentTerminal — watch o8 run sessions live
-- `f50020d3` feat(titlebar): promote Browser to top header slot
 - `d8eabac0` feat: o8 run
-- `58c842fb` feat(left-panel): collapse branch + agent rows into one work-unit line
 - `0902aa99` feat: tag ports as agent/browser/noise from managed-runs registry
-- `c794c1e5` feat(left-panel): repo focus expands the column inline, no overlay
 - `82fcfa5c` feat: managed-runs registry + API for o8 run
-- `30ff04aa` feat(chrome): move update notice to footer pill, drop top-right toast
 - `65672340` design(analytics): lead with Autonomy + Governance (01/02), cost below
 - `ddeca542` feat(analytics): cost stays king + autonomy & governance on top
-- `ff3f0c12` feat(repo-focus): back-arrow polish + ESC-to-close
 - `0f6e279b` feat(chat): hide the o8-Default casual chat for alpha behind experimentalChat
-- `9d5ebc1d` feat: add o8 diff and spec tabs
 - `eb0d8eab` design(settings): neutral + royal-blue accent, squircle corners — no orange
-- `3ff8e1f6` feat: add ambient right panel
 - `6d1362f9` feat(dispatch): ship AI provider + agent runtime only
-- `e1402ef0` feat(repo-focus): Spec + Files tabs + first-class CLI usage strip
 - `971b6f45` feat(orchestrator): UltraCode swarm = native AI provider sub-agents (workflow) + agent runtime via o8
-- `717f5567` feat(ui): repo-focused left-panel mode with Agents/Context/Mission tabs
-- `f28c2029` feat(native shell): O8_DEV_FRONTEND_URL override for hot-reload prod loop [via-o8]
 
 ## 2026-05-30
 
 - `5a46ace6` perf(webview): kill the transcript-poll socket leak + remove dead git-watch SSE
-- `22bddea0` feat(native shell): O8_DEV_FRONTEND_URL override for hot-reload prod loop [via-o8]
 - `f2e977ae` feat(orchestrator): UltraCode swarm tier + inline crew cards; retire Cmd+Shift+O popover
-- `2885036a` feat(native shell): O8_DEV_FRONTEND_URL override for hot-reload prod loop [via-o8]
 - `d5ca5262` feat(dispatch): swarm composer
-- `a41bc632` feat: support dev frontend override in native shell
 - `f0afce0b` feat(dispatch): allow agent runtime+AI provider mixed swarms (relax force-to-agent runtime gate)
-
-## 2026-04-30
-
-- `81e51e7b` feat(ui): hide agent runtime pickers behind experimentalagent runtime + thicker tabs
 - `8ebc4b50` feat(status): lower long-run orbit threshold 7min → 1min
-- `1166d5d4` feat(operator): default thinkingEffort to high (was adaptive)
 - `280eca60` feat(status): wire the dot vocabulary into every agent surface
-- `de689665` feat(runtime): drop agent runtime from default dispatch picker
 - `c33021b9` feat(agents): deterministic per-agent identicon
 - `c67772fc` feat(status): orbit working-indicator everywhere — orchestrator + LLM chat
 - `0e887fde` feat(status-dots): full motion vocabulary + long-running orbit on agent dots
 - `329d1180` feat(orchestrator): inline detail drawer for status cards, not a modal
 - `afc041e0` feat(sidebar): surface spawned agents + archived in every session grouping
-- `d76702b3` feat(brain): fs.watch on docs — incremental re-distill
 - `9136fa58` feat: add review last turn scope [via-o8]
 - `8f11b892` feat(pr-panel): wrap PR diff lines by default
 - `d8305f0c` feat(workspace-header): wheel-scroll + edge-fade for overflowing tab strip
 - `034b08c2` feat(review): word-wrap diff lines by default
-- `b8212560` feat(brain): embeddings column + hybrid retrieval
 
 ## 2026-05-29
 
 - `8e52fcef` feat(orchestrator): deliver the Mission-complete card for dispatched missions
 - `dad4712d` feat(orchestrator): explain what shipped in the mission-complete detail modal
 - `48dac586` design: extend locked typography to Activity packet card + session strip
-- `3f18657c` feat(brain): qa-eval regression dashboard
 - `b9a73e0a` design: bring packet/status/merge cards to the locked typography spec
 - `f2303f96` feat(orchestrator): merge + self-heal status cards with click-through detail view
 - `5d3688fa` feat(orchestrator): themed animated status card for mission-complete events
-- `28aade08` feat(brain): post-commit hook feeds facts substrate
 - `24dd2212` perf: prewarm bundled next server [via-o8]
 - `557678d5` perf: log dashboard boot timing [via-o8]
 
@@ -1520,55 +715,44 @@ and internal chores live in the private engineering log.
 
 - `15f78045` feat(agent runtime-composer): wire attached images into the send payload (sub-pass B)
 - `532ef6c1` feat(agent runtime-composer): in-composer footer parity via shared InputButtons (Pass 3)
-- `0d3d7d00` feat(ui): /ask quick action in chat composer
 - `eaefb2b8` feat(agent runtime-composer): repo / branch / runtime chip row below the composer (Pass 2)
 - `18f722d0` feat(agent runtime-composer): image attachment chips above the textarea (Pass 1)
 - `b715a353` design(tabs): V1 continuity transition on the workspace tab strip
 - `6668aa09` design(automations): design system pass on AutomationsPage typography
-- `e3f12505` feat(brain): in-process compactor scheduler
 - `8db6ed27` design(chrome): design system pass on Cmd+K palette typography
 - `90a4db80` feat(cmd-k): chat history + directives providers ( subset)
-- `5d15d1b4` feat(brain): bring-your-own OpenRouter / AI provider key surface
 - `9fe1f622` feat(review): rich preview toggle for markdown + images
 - `000d3366` design(chrome): design system pass on keyboard-shortcuts modal + agent-panel top-nav
 
 ## 2026-05-27
 
 - `40f12611` design(session-replay): staggered entrance + ambient hover on lane cards
-- `1a8432b9` feat(ui): Recall Card — top-N facts ambient surface
 - `fec90f86` design(timeline): drop inline play + design system pass on timeline + Session Replay page
 - `80b5b012` design(typography): repo hover + alert toast + mobile pair to design system spec
 - `0704b61a` design(chrome-button): bespoke per-icon motion — gear spins, phone leans, folder lifts
 - `ff86b224` design(chrome-button): tilt + nudge icon, not scale
-- `3cf3d4fb` feat(qa): configurable Class A composer model
 - `8b651e29` design(chrome-button): icon micro-motion on hover — match title-bar pattern
 - `b27bc207` design(o8-panel): repo selector + Ask o8 button get flat hover bg
 - `162f0a5d` design(o8-panel): activity filter pills get flat hover bg
 - `352e5e1b` design(globals): kill the global button:hover translateY — flat-button lock
 - `41ae0eb4` design(agent-panel): flat hover chips for header rows — match terminal toggle
-- `19f4451d` feat(qa): Phase 2b
 - `15b4ee0f` design(empty-state): thinner title + questions above composer
 - `d9b0034e` design(empty-state): tighten title↔composer gap + repo chip leftmost in chip row
 - `bc5228b9` feat(update-card): real release summary from free OpenRouter pool
 - `50830b88` design(layout): center empty state in available space + relocate UpdateCard
 - `711d9e68` design(bottom-panel): tab pill weight 300 — design system chrome lock
-- `f92d7ed2` feat(qa): source-update detection + source-of-truth hierarchy
 - `b0276500` feat(bottom-panel): surfaces beyond terminal
 - `1ae2acc5` feat(settings): drop the 1080 width cap — content fills the full viewport
 - `8a551b1a` feat(settings): full viewport — fixed position instead of column-bound
 - `04aa8761` design(add-repo): design system font pass + simpler copy + Scan hidden until folder picked
-- `c38e4d93` feat(qa): fact compactor
 - `3e8f5cb9` design(status-bar): drop pill chrome on solo settings + inbox active
 - `e52b2eae` design(chat): professional paragraph spacing — gap on every block
 - `96ac792b` feat(agent-panel): hover preview = real AgentPanel below traffic lights
 - `bca12941` feat(agent-panel): merge ports + inbox pills into one locked cluster
 - `551d2ce7` feat(agent-panel): outer margin + wider default + hover-preview drop
-- `a31eb634` feat(qa): Phase 2a
 - `818d6ee8` feat(agent-panel): wire orchestrator worktree pick to bottom status pill
 - `e7653ef9` feat(agent-panel): simplify composer chips (mode + repo)
-- `cd883202` feat(indexer): heuristic noise pre-filter at enqueue ( north star follow-up)
 - `98a39c54` feat(brain): caption images in spec ingest so Engineering Brain can see specs
-- `e1005e18` feat(indexer): parallel worker with O8_INDEXER_CONCURRENCY ( north star follow-up)
 - `53f13374` design(agent-panel): surface-aware ink + transparency in glass mode
 - `3fa3a58c` design(ui): sweep entire o8 surface to locked design system font spec
 - `f584b07d` feat: push mobile live activity updates
@@ -1577,7 +761,6 @@ and internal chores live in the private engineering log.
 ## 2026-05-26
 
 - `bc5946b1` design(agent-panel): Antigravity pass — Iconoir launcher + right-rail alignment
-- `5fb0e0df` feat(qa): Engineering Brain Indexer worker
 - `a8dc5736` feat(drag-drop): native shell 2 bridge for Finder file paths
 - `c3452456` feat(projects): SQLite is now source of truth for color + sort + active ( phase 2)
 - `d49c3089` feat(db): schema v25 + projects ledger JSON→SQLite migration ( phase 1)
@@ -1588,13 +771,11 @@ and internal chores live in the private engineering log.
 
 - `270dcc34` feat: tray dropdown lists awaiting-review packets
 - `ec169eda` feat: directive surfacing in review + agent runtime-only worker enum
-- `33fde327` feat(qa): pin top-6 facts above other retrieval rows ( north star)
 - `bb3b95fe` feat: inline TurnSummaryCard + ChatActionCard for orchestrator turns
 - `32842551` design: design system theming pass
 - `9f48b482` feat: emit mobile activity preview urls
 - `0e7a6cfe` feat: route orchestrator ws events by thread
 - `98ce11f4` feat: broadcast orchestrator thread sync events
-- `c742f23a` feat(qa): smoke:qa fast eval (6 cases, <2min) replaces 30-case heavy eval ( north star)
 - `995155ef` feat: add mobile orchestrator thread creation
 - `19880826` feat: add steer packet MCP tool [via-o8]
 - `dfa569be` feat(orchestrator): layered escalation on merge-tsc failure
@@ -1604,15 +785,11 @@ and internal chores live in the private engineering log.
 - `d26c5929` perf(brain): soften composer tightening from — restore factual accuracy
 - `3d0e9af3` feat(orchestrator): parallel mission queries via SQLite registry
 - `c17a5367` feat(brain): three-way memory-substrate eval harness
-- `7baed364` feat(qa): facts schema v17 + retriever foundation ( north star)
 - `d78d590d` perf(brain): warm OpenRouter pool at boot to kill cold-start classifier
 - `9d0632c7` design(scratch): premium dot + cost-hint legend on O8ScratchChat composer
-- `69631b3a` feat(qa): docs_fts ingestion for project rules / README / AGENTS.md ( path-to-70 phase 1.7-)
 - `e21a1ce4` perf(brain): split H2 spec chunks on H3 when ≥3 kids or >4KB
 - `71815282` perf(brain): classifier — OpenRouter tier 1 + 60s cache
-- `bcd0cf22` feat(qa): github_comments_fts ingestion ( path-to-70 phase 1.7-)
 - `4e1666ca` feat(brain): Ask Brain composer button in O8ScratchChat
-- `63aa9d81` feat(qa): rebench OpenRouter primary with credited key ( path-to-70 phase 1.7.1)
 - `11550c82` feat(brain): spec ingestion at repo connect
 
 ## 2026-05-23
@@ -1620,7 +797,6 @@ and internal chores live in the private engineering log.
 - `5778d610` design(panel): cascade flat-button language to scratch chat + inbox + activity
 - `8f11e0cc` design(panel): cascade flat-button language to O8 + PR panel surfaces
 - `8239d483` design(spec): lock flat-button language in DESIGN.md + flatten shared primitives
-- `e18f0aa6` feat(qa): lock OpenRouter primary to grok-4.1-fast from empirical bake-off
 - `e16fd1f4` design(panel): flatten all remaining header buttons to match HeaderIconPill
 - `690c7e40` design(panel): generic HeaderIconPill — flat icon pill for header strips
 - `0bf0d592` design(panel): flat toggle pill, baseline-matched across sidebar open/closed
@@ -1630,7 +806,6 @@ and internal chores live in the private engineering log.
 - `e19413b6` feat(left-panel): hide Control tab from project-focus drawer
 - `272704b1` feat: use git diff review icon [via-o8]
 - `c5e718e8` feat: auto-widen o8.md panel tab
-- `ae9bd305` feat(qa): project + project_repo retrieval in sqlRetriever ( path-to-70 phase 1.4)
 - `8042207a` perf: short-TTL cache on repo registry readStore (5s)
 - `155ae223` feat: stamp mergedClean on session_outcomes when a merge lands
 - `e15d9357` perf: stale-while-revalidate cache on getRepoReadiness (Phase 5)
@@ -1641,10 +816,6 @@ and internal chores live in the private engineering log.
 
 - `07cc6d5f` feat: pre-launch typecheck gate on freshly-created worktrees
 - `f3fb7caf` feat: right-click an o8.md inline image to add it to the chat
-
-## 2026-04-29
-
-- `0f3483df` feat(qa): 30-question eval set + runner skeleton (epic sub-3 wave A)
 - `47470584` feat: o8.md inline images render consecutive lines as a gallery row
 - `948dcf0b` feat: render inline images in o8.md (small thumbnails + lightbox)
 - `aba43281` feat: inline image authoring in o8.md (drop/paste → o8-assets)
@@ -1653,7 +824,6 @@ and internal chores live in the private engineering log.
 - `d0de2c1c` perf: parallelize packet-info's events + scope fetches (pre-ship Phase 3)
 - `aa9012ee` perf: token-bound the o8 CLI command outputs (pre-ship Phase 2b)
 - `54f8dc21` perf: token-bound the MCP + webview tool outputs (pre-ship Phase 2a)
-- `7b60b3a4` feat(qa): Schema v14 + FTS5 + retrievers (epic sub-1)
 - `89757b76` feat: wide control-room mode
 
 ## 2026-05-21
@@ -1663,13 +833,11 @@ and internal chores live in the private engineering log.
 - `bfedb404` feat: switching the active project re-points the whole app (O8 panel + new orchestrator) to its primary repo
 - `b20ea567` feat: lone pool repos surface as switchable single-repo projects
 - `9bcd5a80` feat: o8.md review notes fade in on the rail (framer-motion enter, new notes only)
-- `c3107842` feat(qa): Ask Anything UI scaffold + mock stream (epic sub-4)
 - `9223b62a` feat: o8.md review runs headless one-shot, no orchestrator chat turn
 - `f5d1464c` feat: o8.md note color - add black + neutral swatches alongside the hue picker
 - `9c3f54d3` feat: o8.md note settings - hue chooser drawer + desaturated in-note buttons
 - `857b49eb` feat: o8.md notes reserve prose room only-when-needed via block spacers (no anchor drift)
 - `44cb1aae` feat: tighten o8.md review prompt - only-when-real, read-first, commit-aware
-- `f529dff4` feat(projects): AI Stage 2 LLM project suggestions + Confident/Plausible UI (epic wave 2)
 - `a24f03de` feat: o8.md click-first review button + reply lands at thread bottom
 - `a30a837f` perf: debounce o8.md rail recompute + comment resolve/reply
 - `cf752f36` feat: o8.md panel now uses the CodeMirror review editor (the swap)
@@ -1678,13 +846,11 @@ and internal chores live in the private engineering log.
 - `ed3df3bb` feat: wire the o8.md suggest verb across API + CLI + MCP
 - `c53fd53a` feat: surface operator o8.md threads in dispatch context (phase 3)
 - `6138ceaf` feat: external AI provider can read + annotate o8.md via CLI + MCP (phase 2)
-- `f5b3b608` feat(projects): Settings → Projects UI with manual linking + GitHub-org auto-suggest (epic wave 2)
 - `04353aa9` feat: theme-align proposed directives + unread hierarchy
 - `855fd27a` feat: power-user chrome keyboard shortcuts
 - `dce591cc` feat: keyboard shortcuts reference overlay (⌘/ or ?)
 - `b948a32b` feat: popover menus always mounted (display toggle) for agent enumeration
 - `309d85dc` feat: tab icon morphs to close-X on hover + disambiguate split aria-labels
-- `628495ba` feat(projects): Recall Card Project pulse section (epic wave 2)
 
 ## 2026-05-20
 
@@ -1696,7 +862,6 @@ and internal chores live in the private engineering log.
 - `13df1493` feat: persist last-active orchestrator thread across reloads
 - `219ceae3` feat: inline rename for chat titles in column header
 - `e38e6e49` feat: per-pane ▶ play + one × close, all in split header
-- `ebbfd6da` feat(projects): scope:project directives + cross-repo proposer rewrite (epic wave 1)
 - `31ca3c9d` feat: side-by-side header pills for splits with center divider
 - `e9b15be9` feat: merge-state preview cycler in status bar
 - `f871fe9a` feat: terminal toggle moves to status bar next to branch label
@@ -1705,14 +870,12 @@ and internal chores live in the private engineering log.
 - `4c796ed8` feat: kill the lower per-workspace TabBar — pills are the only tab UI
 - `dd7ec93b` feat: top header morphs into agent runtime-style pill strip when 2+ tabs
 - `1a7bc860` feat: ▶ play button in global header when single workspace (trial)
-- `ec4e3ce5` feat(projects): schema v13 + storage + API + MCP tools (epic wave 1)
 - `06a8ca65` feat: hide lower TabBar in single workspace mode
 - `a4b8e28e` feat: title-bar … menu (rename/archive/share) + tighten 44→36
 - `9f5656c8` feat: chat title moves UP into the column header (agent runtime pattern)
 - `7f1f50fe` feat: chat name lives IN the workspace header (step 1)
 - `082a067b` feat: top tab bar goes flat
 - `0c0d01b9` feat: top tab bar is now bespoke — width-gated, spawned-only
-- `2fcade70` feat(projects): AI semantics Stage 1 fingerprint extractor (epic wave 1)
 - `beef2a76` feat: unified packet-state color scheme for top tabs + left rail
 - `42e49884` feat: archived agent sessions inline under each repo in left rail
 - `e3d5f0cf` feat: orchestrator history merges into left rail (Chats + Agents tabs)
@@ -1723,7 +886,6 @@ and internal chores live in the private engineering log.
 - `bde123b4` feat: Automations scheduler
 - `393dfe24` feat: Automations polish
 - `e21f1bab` feat: Automations nav entry in left rail (agent runtime borrow)
-- `2576b08f` feat: agent-proposed spec approval flow
 - `39ff9331` feat: Automations
 - `5c89d378` feat: scratchpad falls back to workspace-wide diff when no file is selected
 - `77ddbefb` feat: ⌘⏎ steer queue in orchestrator + chat composer
@@ -1733,7 +895,6 @@ and internal chores live in the private engineering log.
 - `adb50379` feat: Shell layout — per-column header strip components
 - `0452b9eb` feat: add agent runtime-only task pool routing
 - `01afe962` feat: Review surface
-- `dc0508a4` feat(diagnostics): extend demo runner with mission/settings/context-graph steps (closes)
 - `33f829f1` feat: Review surface — repo selector in the header
 - `70419245` feat: Review surface — untracked files render as all-added
 - `1c96abc3` feat: Review surface — word diffs + hide-whitespace toggles
@@ -1741,7 +902,6 @@ and internal chores live in the private engineering log.
 - `2d28cc0b` feat: add project task control plane
 - `fe79f706` feat: Review surface
 - `ead10259` feat: Review surface
-- `099b6a46` feat(diagnostics): in-app demo-sequence runner (closes)
 - `0b074d5f` feat: agent runtime-style Review surface
 
 ## 2026-05-18
@@ -1757,7 +917,6 @@ and internal chores live in the private engineering log.
 ## 2026-05-16
 
 - `650ee259` feat: desktop QR pairing emitter for the o8 mobile app
-- `9d0fd5e6` feat(panel): loop-state writer endpoint + shell helper (closes)
 
 ## 2026-05-15
 
@@ -1767,7 +926,6 @@ and internal chores live in the private engineering log.
 - `4d9eb0dc` feat: extract AI provider-code stream-json parser into a module
 - `ebf444e7` feat: AI provider-code composer model pill + plan/bypass toggles
 - `a87bfaa7` feat: restore AI provider-code as interactive chat-tab runtime
-- `29b370cc` feat(settings): in-app loop status widget — cron + lanes + recent merges (closes)
 
 ## 2026-05-14
 
@@ -1776,7 +934,6 @@ and internal chores live in the private engineering log.
 - `38f242db` feat: add agent runtime-orchestrator-session + wire auto-review dual-path (epic child 2)
 - `d1d2f042` feat: gate AI provider-billed paths behind in-app orchestrator toggle
 - `7c417f02` feat(cli): phase 3 polish + native shell bundling + npm-publish prep
-- `24fb98f9` feat(mcp): o8_view_console_errors + o8_view_active_route — close loop observability gaps (closes)
 
 ## 2026-05-13
 
@@ -1786,27 +943,21 @@ and internal chores live in the private engineering log.
 - `77d7f21d` feat: add packet mission tail stream [via-o8]
 - `9e81c74c` feat: add o8 observation proposals [via-o8]
 - `ac752fce` feat: add lane touch lookup
-- `40124d3c` feat(o8): cross-repo learning
 - `56cb0236` feat: add packet agent report events [via-o8]
 - `e72dead6` feat: add packet scope surface [via-o8]
 - `eaff9cf2` feat: /api/panel/status returns server version for o8 CLI
 - `93f951e8` feat(cli): scaffold Phase 1 of the o8 CLI (epic)
-- `e74dfa91` feat(o8): per-runtime outcome telemetry → dispatch routing recommendation (closes)
 
 ## 2026-05-12
 
 - `370b9b8e` perf: symlink node_modules into worktrees instead of cp -cR
 - `1938fba8` feat: add MCP repo+project bootstrap tools — wedge unlock
-- `7409a9be` feat(o8): auto-directive proposer
 - `89e5ce91` feat: add MCP repo+project bootstrap tools — wedge unlock
 - `d9c98abc` feat: add MCP repo+project bootstrap tools — wedge unlock [via-o8]
-- `44ef75b1` feat(o8): temporal validity windows on session_outcomes — auto-decay 30d (closes)
 - `b883fa94` feat: add MCP repo+project bootstrap tools — wedge unlock
 - `1a12fa75` feat: add MCP repo bootstrap tools
 - `7c7bf11d` feat: default to light theme + solid chrome on fresh install [via-o8]
-- `ead15d33` feat(mobile): Browser tab gates the chat+iframe split (closes)
 - `08640c96` feat: default to light theme + solid chrome on fresh install
-- `8edf1dc2` feat(mobile): wire url-push listener into split shell + DevHostFrame handler
 
 ## 2026-05-11
 
@@ -1815,14 +966,10 @@ and internal chores live in the private engineering log.
 ## 2026-05-10
 
 - `d5996773` feat(projects): seed scope:project directive + projects field doc [via-o8]
-- `1d489b16` feat(mobile): long-press port chip pushes URL to connected phone over WS (closes)
 - `796cb1f1` feat(projects): seed scope:project directive + projects field doc
-- `b01eb931` feat(mobile): wire DevHostFrame into MobileSplitShell right pane
 - `90faf7b2` feat(projects): seed scope:project directive + projects field doc
-- `dcc44eae` feat(mobile): landscape split-view shell
 - `b03e5420` feat(projects): seed scope:project directive + document projects field
 - `74d44dcf` feat: timeline reads 24h of session history (tail 500 → 15000) + finer cells
-- `7df82d56` feat(mobile): DevHostFrame iframe with URL bar + LAN host discovery (closes)
 - `15e189f3` feat: add mcp__o8__rerun_with_feedback tool
 - `a7e1dee8` feat: scope orchestrator memory by project [via-o8]
 - `ff8e885f` feat: render chat tool calls as chips [via-o8]
@@ -1830,10 +977,8 @@ and internal chores live in the private engineering log.
 ## 2026-05-09
 
 - `3364a166` feat: vocabulary cleanup
-- `a8415187` feat(context-engine): editable packet spec.md feeds live orchestrator context (closes)
 - `a611d67d` feat: live HTML rendering — .html viewer + richer o8.md renderer
 - `50d5c396` feat: one-click install of o8 MCP into Hermes Agent + agent runtime
-- `e1b47aa8` feat(mission-control): status-grouped lanes (closes)
 
 ## 2026-05-08
 
@@ -1842,7 +987,6 @@ and internal chores live in the private engineering log.
 - `033f580e` feat: add macOS APFS workspace isolation
 - `4bb987a4` feat: agents archive drawer shows every concluded packet
 - `987202e9` feat: unified project panel + agent / timeline polish
-- `371c020e` feat(orchestrator): suggested-reply chips under Coordinator messages
 - `76dcc4f0` feat: add slash orchestration routing
 - `c46e8b3c` feat: pulse the rightmost timeline cell, drop drilldown trigger
 - `7251e0a1` feat: rolling 24h timeline + error surfacing + settings toggle
@@ -1851,36 +995,28 @@ and internal chores live in the private engineering log.
 ## 2026-05-06
 
 - `5800c266` feat: flatten new-tab drawer to Orchestrator / Chat / Terminal
-- `9dceb63c` feat(o8): living specs
 - `b32cef59` feat: orchestrator mode chip + slash-command routing
 - `5f672464` feat: two-axis theme system (palette × surface) + reduce-transparency toggle
 - `c017bc38` feat: skiper-style motion on search + browser titlebar buttons
 - `98f546b5` feat: skiper-style motion on titlebar left buttons
 - `e1010740` feat: align titlebar left buttons with right side; agents glows orange
-- `1ead5f84` feat(context-engine): /context-graph test page — 3-column flow viz (closes)
 - `ab71b761` feat: empty project gets a primary "Add a repo" + quick-pick from other projects
 - `b70b1027` feat(palette): switch projects + move repo from Cmd+K
 - `4de26a1a` feat: project colors + drag-drop repos onto dots + empty-project hint
 - `56fc03ad` feat: rename / delete projects + move repos between them
 - `d82af473` feat: status bar centers under the workspace + cluster matches chrome chip shape
-- `5674f2d2` feat(native shell): dispatch popover redesign
 - `1ec86716` feat: status bar centers branch + adds contextual merge action pill
 - `8952101e` feat: O8 right panel opens on the Pulse tab by default
 - `26e98fb2` feat: projects scope the left panel with a bottom-bar dot switcher
 - `d4c07597` feat: hover × on each spawned agent row to dismiss it from the panel
 - `3666075d` feat: single-runtime chat lifecycle + 3-word tab labels everywhere
 - `dcd8c7d8` feat: breadcrumb minimizes to filename only by default
-
-## 2026-04-28
-
-- `61138692` feat(o8): demo polish
 - `4d1b05b4` feat: Changes count gains a cool-to-warm urgency badge
 - `67960804` feat: move repo selector into the changes rail to free file path space
 - `5c564bf0` feat: chat tabs adopt 3-word summary from latest user message
 - `01613ebb` feat: tab strip uses theme-tinted glass instead of raw vibrancy
 - `71187351` feat: round workspace top corners and inset tab cluster
 - `38a9edc2` feat: tab strip becomes vibrancy-passthrough glass
-- `9a0492ac` feat(o8): inject <context> block into packet bodies on dispatch (closes)
 - `ef5357fb` feat: hide thinking chooser in chat tabs and rename Assistant row to Chat
 - `56744b34` feat: chat-mode chooser spawns dedicated tabs with tool-wired chat
 - `fa396dbe` feat: align orchestrator empty state
@@ -1890,7 +1026,6 @@ and internal chores live in the private engineering log.
 ## 2026-05-05
 
 - `7c43f059` feat: redesign o8 pulse briefing
-- `f3b26e4e` feat(orchestrator): context recall card 3-row hero (closes)
 - `478ec8bf` feat: refine o8 workspace panel
 
 ## 2026-05-03
@@ -1900,7 +1035,6 @@ and internal chores live in the private engineering log.
 - `5fbce8ae` feat(o8-panel): consolidate Mission rail into Activity tab
 - `0b48b875` feat(o8-panel): packets render in Activity timeline behind opt-in flag
 - `56c30780` feat(orchestrator): NEEDS YOU click pops O8 Workspace pinned to the lane's worktree
-- `42bbf86d` feat(o8): auto-index registered repos at boot via codebase-memory-mcp (closes)
 - `58554aa3` feat(orchestrator): per-section click routing for Recent Work rows
 - `5fbd890e` feat(orchestrator): status-anchored Recent Work — Needs you / In flight / Done today
 - `c4dfad89` feat(o8-panel): path-lens chip on Workspace tab — shows main vs worktree at a glance
@@ -1910,13 +1044,11 @@ and internal chores live in the private engineering log.
 ## 2026-05-02
 
 - `b7e0affe` feat(o8-panel): restore Pulse tab — live fleet temperature surface
-- `d4f25cb3` feat(mcp): register codebase-memory-mcp in .mcp.json + setup generator (closes)
 - `8319ee71` feat(orchestrator): composer footer threads/copy/new + thinking <details> popover
 - `3a44bba7` feat: stream orchestrator chat from gateway
 - `5e28f087` feat: add clerk gated chat route
 - `54771cb9` feat: add chat gateway server helpers
 - `daa4cef7` feat: route orchestrator chat mode locally
-- `4ae59a8c` feat(mcp): runtime-download codebase-memory-mcp on first launch (closes)
 - `22273536` feat: add chat mode card
 - `d937e6c1` feat: add orchestrator chat model picker
 - `7a4b4fb8` feat(mcp): wait_for_mission_ready
@@ -1926,24 +1058,20 @@ and internal chores live in the private engineering log.
 
 - `6cae523e` feat: auto-release merged review packets
 - `b2b90f3c` feat: tighten supervisor inbox signal
-- `b65834f6` feat(native shell): global-shortcut + notification + menu bar tray (closes)
 - `4dace31a` feat(browser-button): hover preview iframe of the active browser tab
 - `f50020d3` feat(titlebar): promote Browser to top header slot
 - `58c842fb` feat(left-panel): collapse branch + agent rows into one work-unit line
 - `c794c1e5` feat(left-panel): repo focus expands the column inline, no overlay
 - `30ff04aa` feat(chrome): move update notice to footer pill, drop top-right toast
 - `ff3f0c12` feat(repo-focus): back-arrow polish + ESC-to-close
-- `30b1e411` feat(orchestrator): packet review card 3-pane (closes)
 - `9d5ebc1d` feat: add o8 diff and spec tabs
 - `3ff8e1f6` feat: add ambient right panel
-- `d52ff056` perf(dashboard): defer non-critical work off the bootstrap path (closes)
 - `e1402ef0` feat(repo-focus): Spec + Files tabs + first-class CLI usage strip
 - `717f5567` feat(ui): repo-focused left-panel mode with Agents/Context/Mission tabs
 - `f28c2029` feat(native shell): O8_DEV_FRONTEND_URL override for hot-reload prod loop [via-o8]
 - `22bddea0` feat(native shell): O8_DEV_FRONTEND_URL override for hot-reload prod loop [via-o8]
 - `2885036a` feat(native shell): O8_DEV_FRONTEND_URL override for hot-reload prod loop [via-o8]
 - `a41bc632` feat: support dev frontend override in native shell
-- `afa0aff1` feat(workspaces): hover-reveal trash + confirm-strip + git branch -D
 
 ## 2026-04-30
 
@@ -1951,78 +1079,117 @@ and internal chores live in the private engineering log.
 - `1166d5d4` feat(operator): default thinkingEffort to high (was adaptive)
 - `de689665` feat(runtime): drop agent runtime from default dispatch picker
 - `d76702b3` feat(brain): fs.watch on docs — incremental re-distill
-- `e255f348` feat(desktop): auto-hide merged + agent worktrees in Workspaces sidebar + hover-prune
 - `b8212560` feat(brain): embeddings column + hybrid retrieval
 - `3f18657c` feat(brain): qa-eval regression dashboard
-- `60c892da` perf(desktop): memoize ThoughtsChatPanel message bubbles
 - `28aade08` feat(brain): post-commit hook feeds facts substrate
 - `0d3d7d00` feat(ui): /ask quick action in chat composer
-- `cb9e73b9` perf(desktop): widen / remove short polling intervals
 - `e3f12505` feat(brain): in-process compactor scheduler
-- `ac058e40` perf(desktop): reduce SessionVisualizer render churn
 - `5d15d1b4` feat(brain): bring-your-own OpenRouter / AI provider key surface
 - `1a8432b9` feat(ui): Recall Card — top-N facts ambient surface
-- `bb3bcc1f` feat(desktop): hit-zone audit — Settings page (44pt minimum)
 - `3cf3d4fb` feat(qa): configurable Class A composer model
 - `19f4451d` feat(qa): Phase 2b
-- `4662f5c4` feat(desktop): hit-zone audit
 - `f92d7ed2` feat(qa): source-update detection + source-of-truth hierarchy
-- `f0da0757` feat(desktop): hit-zone audit — Approval surfaces (44pt minimum)
 - `c38e4d93` feat(qa): fact compactor
-- `5c22d514` feat(desktop): multi-window / split-pane orchestrator transcripts
 - `a31eb634` feat(qa): Phase 2a
-- `592029bb` feat(orchestrator): bump AI provider defaultModel to AI provider-3.1-pro
 - `cd883202` feat(indexer): heuristic noise pre-filter at enqueue ( north star follow-up)
 - `e1005e18` feat(indexer): parallel worker with O8_INDEXER_CONCURRENCY ( north star follow-up)
-- `2c6fb4b7` feat(desktop): Cmd+K command palette across the app
 - `5fb0e0df` feat(qa): Engineering Brain Indexer worker
-- `32dbcd77` feat(desktop): one-click rerun-with-feedback on rejected reviews
-- `e8b447ce` feat(desktop): inline diff viewer in workspace center
 - `33fde327` feat(qa): pin top-6 facts above other retrieval rows ( north star)
-- `9af81251` feat(desktop): steer-in-flight composer on active agent transcripts
 - `c742f23a` feat(qa): smoke:qa fast eval (6 cases, <2min) replaces 30-case heavy eval ( north star)
 - `7baed364` feat(qa): facts schema v17 + retriever foundation ( north star)
-- `0bc22ad0` feat(orchestrator): drop AI provider-code from dispatch picker
-- `067183e3` feat(mobile): offline send queue + replay on reconnect
 - `69631b3a` feat(qa): docs_fts ingestion for project rules / README / AGENTS.md ( path-to-70 phase 1.7-)
-- `df18c17c` feat(mobile): push notifications + Web Push infra
 - `bcd0cf22` feat(qa): github_comments_fts ingestion ( path-to-70 phase 1.7-)
-- `d825fcad` feat(mobile): haptic feedback
-- `8c0b38f3` feat(mobile): pull-to-refresh across mobile surfaces
 - `63aa9d81` feat(qa): rebench OpenRouter primary with credited key ( path-to-70 phase 1.7.1)
-- `e25d03a4` feat(mobile): universal search ('/') across chats/threads/activity
 - `e18f0aa6` feat(qa): lock OpenRouter primary to grok-4.1-fast from empirical bake-off
-- `3fa902ec` feat(mobile): markdown + code blocks in agent transcripts
-- `e1caad40` feat(mobile): swipe-to-approve/reject gestures on approvals
 - `ae9bd305` feat(qa): project + project_repo retrieval in sqlRetriever ( path-to-70 phase 1.4)
-- `b6a04b17` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts
-- `fa09d3ae` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts
 
 ## 2026-04-29
 
 - `0f3483df` feat(qa): 30-question eval set + runner skeleton (epic sub-3 wave A)
+- `7b60b3a4` feat(qa): Schema v14 + FTS5 + retrievers (epic sub-1)
+- `c3107842` feat(qa): Ask Anything UI scaffold + mock stream (epic sub-4)
+- `f529dff4` feat(projects): AI Stage 2 LLM project suggestions + Confident/Plausible UI (epic wave 2)
+- `f5b3b608` feat(projects): Settings → Projects UI with manual linking + GitHub-org auto-suggest (epic wave 2)
+- `628495ba` feat(projects): Recall Card Project pulse section (epic wave 2)
+- `ebbfd6da` feat(projects): scope:project directives + cross-repo proposer rewrite (epic wave 1)
+- `ec4e3ce5` feat(projects): schema v13 + storage + API + MCP tools (epic wave 1)
+- `2fcade70` feat(projects): AI semantics Stage 1 fingerprint extractor (epic wave 1)
+- `2576b08f` feat: agent-proposed spec approval flow
+- `dc0508a4` feat(diagnostics): extend demo runner with mission/settings/context-graph steps (closes)
+- `099b6a46` feat(diagnostics): in-app demo-sequence runner (closes)
+- `9d0fd5e6` feat(panel): loop-state writer endpoint + shell helper (closes)
+- `29b370cc` feat(settings): in-app loop status widget — cron + lanes + recent merges (closes)
+- `24fb98f9` feat(mcp): o8_view_console_errors + o8_view_active_route — close loop observability gaps (closes)
+- `40124d3c` feat(o8): cross-repo learning
+- `e74dfa91` feat(o8): per-runtime outcome telemetry → dispatch routing recommendation (closes)
+- `7409a9be` feat(o8): auto-directive proposer
+- `44ef75b1` feat(o8): temporal validity windows on session_outcomes — auto-decay 30d (closes)
+- `ead15d33` feat(mobile): Browser tab gates the chat+iframe split (closes)
+- `8edf1dc2` feat(mobile): wire url-push listener into split shell + DevHostFrame handler
+- `1d489b16` feat(mobile): long-press port chip pushes URL to connected phone over WS (closes)
+- `b01eb931` feat(mobile): wire DevHostFrame into MobileSplitShell right pane
+- `dcc44eae` feat(mobile): landscape split-view shell
+- `7df82d56` feat(mobile): DevHostFrame iframe with URL bar + LAN host discovery (closes)
+- `a8415187` feat(context-engine): editable packet spec.md feeds live orchestrator context (closes)
+- `e1b47aa8` feat(mission-control): status-grouped lanes (closes)
+- `371c020e` feat(orchestrator): suggested-reply chips under Coordinator messages
+- `9dceb63c` feat(o8): living specs
+- `1ead5f84` feat(context-engine): /context-graph test page — 3-column flow viz (closes)
+- `5674f2d2` feat(native shell): dispatch popover redesign
+
+## 2026-04-28
+
+- `61138692` feat(o8): demo polish
+- `9a0492ac` feat(o8): inject <context> block into packet bodies on dispatch (closes)
+- `f3b26e4e` feat(orchestrator): context recall card 3-row hero (closes)
+- `42bbf86d` feat(o8): auto-index registered repos at boot via codebase-memory-mcp (closes)
+- `d4f25cb3` feat(mcp): register codebase-memory-mcp in .mcp.json + setup generator (closes)
+- `4ae59a8c` feat(mcp): runtime-download codebase-memory-mcp on first launch (closes)
+- `b65834f6` feat(native shell): global-shortcut + notification + menu bar tray (closes)
+- `30b1e411` feat(orchestrator): packet review card 3-pane (closes)
+- `d52ff056` perf(dashboard): defer non-critical work off the bootstrap path (closes)
+- `afa0aff1` feat(workspaces): hover-reveal trash + confirm-strip + git branch -D
+- `e255f348` feat(desktop): auto-hide merged + agent worktrees in Workspaces sidebar + hover-prune
+- `60c892da` perf(desktop): memoize ThoughtsChatPanel message bubbles
+- `cb9e73b9` perf(desktop): widen / remove short polling intervals
+- `ac058e40` perf(desktop): reduce SessionVisualizer render churn
+- `bb3bcc1f` feat(desktop): hit-zone audit — Settings page (44pt minimum)
+- `4662f5c4` feat(desktop): hit-zone audit
+- `f0da0757` feat(desktop): hit-zone audit — Approval surfaces (44pt minimum)
+- `5c22d514` feat(desktop): multi-window / split-pane orchestrator transcripts
+- `592029bb` feat(orchestrator): bump AI provider defaultModel to AI provider-3.1-pro
+- `2c6fb4b7` feat(desktop): Cmd+K command palette across the app
+- `32dbcd77` feat(desktop): one-click rerun-with-feedback on rejected reviews
+- `e8b447ce` feat(desktop): inline diff viewer in workspace center
+- `9af81251` feat(desktop): steer-in-flight composer on active agent transcripts
+- `0bc22ad0` feat(orchestrator): drop AI provider-code from dispatch picker
+- `067183e3` feat(mobile): offline send queue + replay on reconnect
+- `df18c17c` feat(mobile): push notifications + Web Push infra
+- `d825fcad` feat(mobile): haptic feedback
+- `8c0b38f3` feat(mobile): pull-to-refresh across mobile surfaces
+- `e25d03a4` feat(mobile): universal search ('/') across chats/threads/activity
+- `3fa902ec` feat(mobile): markdown + code blocks in agent transcripts
+- `e1caad40` feat(mobile): swipe-to-approve/reject gestures on approvals
+- `b6a04b17` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts
+- `fa09d3ae` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts
 - `29882140` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts
 - `97fc6936` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts [via-o8]
 - `78412db7` design(mobile): dark mode transcript bubble polish [via-o8]
 - `5ec52cf6` feat(mobile): voice input via long-press to dictate [via-o8]
-- `7b60b3a4` feat(qa): Schema v14 + FTS5 + retrievers (epic sub-1)
 - `da4f2232` feat(mobile): voice input via long-press to dictate
 
 ## 2026-04-27
 
 - `cdac1e25` feat(mobile): read-only agent transcript sheet (v1 mobile model)
-- `c3107842` feat(qa): Ask Anything UI scaffold + mock stream (epic sub-4)
 - `fc6c9899` feat(mobile): orchestrator brain chip + thread card opacity fix
 - `57f05cee` feat(mobile): rename Chats→Assistant, action-weight order, sidebar subtitles, orchestrator New button
 - `1c0e5a1d` feat(release): post-bundle sign + notarize for nested Node native modules
 - `efc3bbfe` feat(release): wire Apple Developer ID signing + notarization
 - `edf81be4` design(orchestrator): match Assistant chat breathing room and typography
-- `f529dff4` feat(projects): AI Stage 2 LLM project suggestions + Confident/Plausible UI (epic wave 2)
 - `ecb1fa2f` design(mobile): unify standard topbar across all 5 new tabs
 - `83daf55c` design(mobile): scroll-fade masks on chat list/transcript/orchestrator/approvals scroll surfaces
 - `a625c992` feat(mobile): profile button + Settings sheet under drawer footer
 - `6a7058ef` feat(mobile): wire 5 unwired tabs (agents/issues/activity/costs/orchestrator)
-- `f5b3b608` feat(projects): Settings → Projects UI with manual linking + GitHub-org auto-suggest (epic wave 2)
 - `d521569e` design(mobile): filter pills, day groupings, FAB, HIG touch-target sweep
 
 ## 2026-04-25
@@ -2031,11 +1198,9 @@ and internal chores live in the private engineering log.
 - `f9684e54` feat(mobile): bind bundled Next server to 0.0.0.0 for LAN access
 - `6f5388b8` feat(mobile): orchestrator composer wiring polish
 - `17518b30` feat(mobile): orchestrator tab — thread strip + transcript + composer
-- `628495ba` feat(projects): Recall Card Project pulse section (epic wave 2)
 - `49482d9f` feat(settings): factory reset button in Diagnostics tab
 - `25c74382` feat(mobile): orchestrator WS hook with transcript buffer
 - `6dedea6b` feat(mobile): orchestrator threads list API + types
-- `ebbfd6da` feat(projects): scope:project directives + cross-repo proposer rewrite (epic wave 1)
 
 ## 2026-04-23
 
@@ -2046,20 +1211,17 @@ and internal chores live in the private engineering log.
 
 - `8830d978` feat(AI provider): model fallback cascade on quota + in-chat pill
 - `05d5039c` feat(agent-panel): Orchestrator + Assistant rows with accurate shimmer
-- `ec4e3ce5` feat(projects): schema v13 + storage + API + MCP tools (epic wave 1)
 - `77184bde` feat(hotkeys): Cmd+1-9 jump, Cmd+Opt+Arrow cycle, Cmd+W close + tab flash
 - `8c57d71f` perf: kill AgentTilePane polling + fleet invalidate route + urgent WS (Packet D,)
 - `fa6a8ef7` perf: rewire WorkspaceChatPane to transcript store (Packet B,)
 - `3e2e844c` design(AI provider-code-transcript): emit structured toolCalls for agent runtime-parity italic dropdowns
 - `1c82ea51` perf: visibility swap + render memo on tab panes ( Packet C)
-- `2fcade70` feat(projects): AI semantics Stage 1 fingerprint extractor (epic wave 1)
 - `f3eb16b3` perf: client transcript store + workspace bootstrap ( Packet A)
 - `a9790994` design(chat): collapsible PacketHeaderCard replaces giant packet prompt
 - `da098e4c` design(branch-hover): Rams-style status rows matching repo hover
 - `6aee18d6` design(branch-hover): match repo-hover theme — solid panel, no glass
 - `e53c8be7` feat(workspace): wire AI provider + agent runtime chat-pane transcript + steering
 - `40f2c5eb` design: hide SessionTimeline + punchier shimmer + strip branch tooltip
-- `2576b08f` feat: agent-proposed spec approval flow
 - `102e3e8e` design: o8 boot splash + shimmer on active agent panel label
 
 ## 2026-04-20
@@ -2069,7 +1231,6 @@ and internal chores live in the private engineering log.
 - `dc61c806` feat(runtimes): add first-class AI provider CLI adapter
 - `f835da1c` feat(runtimes): add first-class agent runtime CLI adapter
 - `23c8ca11` design(chrome): shimmer sweep on active workspace tab label
-- `dc0508a4` feat(diagnostics): extend demo runner with mission/settings/context-graph steps (closes)
 - `be784c13` feat(runtimes): add turn-dispatcher primitive (no callers yet)
 
 ## 2026-04-19
@@ -2077,54 +1238,44 @@ and internal chores live in the private engineering log.
 - `559a9c98` design(theme): unify midnight chrome glass + solid page surface on Settings/Analytics + inbox pill
 - `b4785637` design(settings): RamsButton pill sweep + CornerBrackets selection + SectionLabel brightness
 - `66eaa4b9` design(chrome): Rams palette, remove alerts tray, quiet timeline strip, tighten Session Replay
-- `099b6a46` feat(diagnostics): in-app demo-sequence runner (closes)
 - `ef1268ba` feat(ui): reload banner in ThoughtsChatPanel [via-o8]
 - `4d04dacc` feat(orchestrator): graceful reload endpoint with transcript resume [via-o8]
 - `e861f1e5` feat(mcp-register): add o8.register_mcp tool for conversational MCP install [via-o8]
 - `6a0b58b5` feat(mcp): adaptive probe timeout + npx prewarm [via-o8]
 - `3f7a3734` feat(mcp): test connection button with live tools probe [via-o8]
-- `9d0fd5e6` feat(panel): loop-state writer endpoint + shell helper (closes)
 - `82295a64` feat(mcp): paste-JSON config input [via-o8]
 - `6c4606a3` design(settings): acronym casing — MCP + configuration [via-o8]
 - `8cef91d6` design(settings): visual polish sweep — spacing, acronyms, typography [via-o8]
 - `c3a722a1` design(analytics): Rams pass [via-o8]
-- `29b370cc` feat(settings): in-app loop status widget — cron + lanes + recent merges (closes)
 - `5e91e677` design(settings): Rams pass on Settings shell + tab bar [via-o8]
 - `83931920` design(settings): Rams pass on About tab [via-o8]
 - `3209c5fa` design(settings): Rams pass on Diagnostics tab [via-o8]
 - `7407acfa` design(settings): Rams pass on Appearance tab [via-o8]
-- `24fb98f9` feat(mcp): o8_view_console_errors + o8_view_active_route — close loop observability gaps (closes)
 - `ab05c4c3` design(settings): Rams pass on Cloud Workers tab [via-o8]
 - `86984414` design(settings): Rams pass on Workers tab [via-o8]
 - `facc19cb` design(settings): Rams pass on Dispatch tab [via-o8]
 - `4e70379e` design(settings): Rams pass on MCP tab [via-o8]
 - `910321dc` design(settings): Rams pass on configuration tab [via-o8]
-- `40124d3c` feat(o8): cross-repo learning
 - `b305eb09` design(settings): Rams pass on Connectors tab [via-o8]
 - `2c6e1be2` design(settings): add TabBreadcrumb + TabHeading + FieldLabel Rams primitives [via-o8]
 - `2565109c` feat(agent-hover): diff + last-tool + elapsed on hover [via-o8]
 - `b852c1e7` feat(security): promote configuration encryption to macOS Keychain-backed master key
 - `78f69c26` feat(delegate): accept baseBranch param for fix dispatches against feature branches [via-o8]
-- `e74dfa91` feat(o8): per-runtime outcome telemetry → dispatch routing recommendation (closes)
 - `bfeb1ea6` feat(orchestrator): edge-case surfacer at dispatch-prep time [via-o8]
 - `cb588908` feat(governance): autonomous post-merge decomposition pipeline [via-o8]
 - `8e6f8a14` feat(chat): streaming DiffCard with partial-apply and interrupt [via-o8]
-- `7409a9be` feat(o8): auto-directive proposer
 - `b37468c2` feat(runtime): cloud adapter scaffolding with outbound-only worker protocol [via-o8]
 - `e82f2250` feat(orchestrator): render ComparisonCard + fan-out cost warning in mission panel [via-o8]
 - `784bfee7` feat(orchestrator): guard PacketCard against comparison-group packets [via-o8]
 - `58f9a244` feat(orchestrator): ComparisonCard mission-panel UI for best-of-n groups [via-o8]
 - `60fc6e25` feat(orchestrator): comparison-meta API route for best-of-n meta-agent [via-o8]
-- `44ef75b1` feat(o8): temporal validity windows on session_outcomes — auto-decay 30d (closes)
 - `59e578be` feat(orchestrator): add global AgentsSidebar for all-origin agent visibility
 - `4e79747c` feat(orchestrator): external MCP servers as orchestrator context sources
 - `0257de19` feat(agent runtime): eager-parse auth.json to expose authed providers as picker sub-rows
 - `96c09660` feat(worktree): force managed mode for AI provider-code lanes so pre-launch rebase runs [via-o8]
 - `6892fdb5` feat(orchestrator): wire packet issueUrl into PacketActionStrip open action [via-o8]
 - `e401b1b3` feat(composer): wire stop pill to real interrupt channel [via-o8]
-- `ead15d33` feat(mobile): Browser tab gates the chat+iframe split (closes)
 - `c1d8632e` feat(mcp-agent): o8_merge_preview tool + structured gate verdict on workflow action
-- `8edf1dc2` feat(mobile): wire url-push listener into split shell + DevHostFrame handler
 - `d2ff2a4f` feat(orchestrator): packet card details popover [via-o8]
 - `3ef5fe56` feat(mcp-agent): o8_packet_transcript MCP tool paginates packet agent runtime events [via-o8]
 - `e39e9245` feat(orchestrator): Cmd+K quick-action palette in OrchestratorTab
@@ -2133,118 +1284,89 @@ and internal chores live in the private engineering log.
 
 - `129d5775` feat(mcp-agent): o8_lane_events MCP tool long-polls workflow transition [via-o8]
 - `9bd9bb2f` feat(mcp-agent): o8_review_state MCP tool [via-o8]
-- `1d489b16` feat(mobile): long-press port chip pushes URL to connected phone over WS (closes)
 - `ae0128ca` feat(orchestrator): packet card action strip — retry / reset / open / copy [via-o8]
-- `b01eb931` feat(mobile): wire DevHostFrame into MobileSplitShell right pane
 - `7e2e43b5` feat(orchestrator): history row actions — pin / rename / export / delete [via-o8]
 - `f62fefb5` feat(orchestrator): synchronous worktree cleanup across all merge paths [via-o8]
 - `201a9e71` feat(orchestrator): history sidebar search with first-message match [via-o8]
 - `30477f11` feat(composer): Rams-style send pill with idle / armed / working states [via-o8]
-- `dcc44eae` feat(mobile): landscape split-view shell
 - `132f8aab` feat(orchestrator): packet file-reference validator + emoji fix
 - `6f5b3372` feat(dispatch): learned-rules promotion/demotion cron
-- `7df82d56` feat(mobile): DevHostFrame iframe with URL bar + LAN host discovery (closes)
 - `43a64b0c` feat(orchestrator): inject learned rules into packet prompt
 - `ea5aabed` feat(orchestrator): preserve pinned turns during auto-compact
 - `a90a4b27` feat: archive orchestrator threads on clear
 - `4b3f07a3` feat(orchestrator): finish remaining slash commands
-- `a8415187` feat(context-engine): editable packet spec.md feeds live orchestrator context (closes)
 - `bd4e7cb1` feat: usage.jsonl dispatch instrumentation for agent runtime + agent runtime runtimes [via-o8]
 - `306b48f5` feat: wire Thoughts operator-defaults into panel [via-o8]
 - `7705f45d` feat: default operator settings [via-o8]
 - `a76283e0` design(agent-chat): unify agent runtime + agent runtime composer with orchestrator aesthetic
-- `e1b47aa8` feat(mission-control): status-grouped lanes (closes)
 - `019c78f1` feat(orchestrator): context inspector side panel with click-to-evict
 - `4febf47f` feat(worktree): stale local ref check + fetch_unreachable supervisor inbox kind so offline launches don't revert upstream [via-o8]
-- `371c020e` feat(orchestrator): suggested-reply chips under Coordinator messages
 - `e9f30de5` feat(worktree): thread packetId through RuntimeLaunchRequest so rebase-conflict inbox rows deep-link to the packet [via-o8]
 - `724c81bd` design(orchestrator): ThinkingChip matches ContextMeter pill aesthetic [via-o8]
 - `b8dad79c` design(governance): move Supervisor Inbox from lingering /dashboard/inbox route into the O8 right panel as a proper tab [via-o8]
 - `cc0f14e0` feat(agent runtime-debug): attach native review screenshots
-- `9dceb63c` feat(o8): living specs
 - `08ab4c68` feat: add orchestrator composer token estimate
 - `816c29e7` design: ThinkingChip uses theme tokens, drops Material shadow + backdrop-blur
 - `5e5d78cd` feat: add orchestrator thinking footer chip
 - `a6eb6640` feat(orchestrator): refine slash command controls
 - `91cf88a2` feat: add supervisor escalation inbox
-- `1ead5f84` feat(context-engine): /context-graph test page — 3-column flow viz (closes)
 - `24eb3839` feat(governance): add heal-bot inbox worker
 - `3922c796` design: slim orchestrator file mutation rows
 - `a5d07539` feat: add adaptive orchestrator thinking summaries
 - `b7753c32` feat(orchestrator): rotate thread after mission completion
-- `5674f2d2` feat(native shell): dispatch popover redesign
 - `eea81143` design(orchestrator): drop SESSIONS strip, compact packet tab labels, highlight latest dispatch
 - `4b461625` design(orchestrator): CommandStripNode density pass — theme tokens, no Material shadow [via-o8]
 
 ## 2026-04-17
 
 - `f47b717d` feat(orchestrator): /clear /compact /focus /status /recall /handoff slash commands [via-o8]
-
-## 2026-04-28
-
-- `61138692` feat(o8): demo polish
 - `7c95bd0c` feat: add orchestrator slash command controls
 - `6b084ea7` feat(orchestrator): /clear command + fresh-thread-preserves-mission-state [via-o8]
 - `179e14e7` feat: add orchestrator clear command
-- `9a0492ac` feat(o8): inject <context> block into packet bodies on dispatch (closes)
 - `76316b21` feat(infra): wire prompt caching for AI provider 4.7 orchestrator [via-o8]
 - `32220e18` feat: cache AI provider prompt prefixes in llm proxy
 - `d4a92b29` design(agent-chat): share DesktopToolCallStack in MessageBubble [via-o8]
 - `58d9674c` design(agent-chat): share DesktopToolCallStack in MessageBubble [via-o8]
-- `f3b26e4e` feat(orchestrator): context recall card 3-row hero (closes)
 - `4022f13c` feat: auto-compact orchestrator threads at 30 percent context
 - `7a9cd813` design(orchestrator): move context down, copy up, shrink session cards [via-o8]
 - `4566a63c` feat(orchestrator): token meter + ThreadsDropdown + header compression [via-o8]
 - `b72264ac` design(orchestrator): unify expanded tool lines — read uses same format
 - `6b51b6f4` design(orchestrator): invert batchable — only file writes/edits earn cards
 - `d6c5d4ce` design(orchestrator): collapse tool calls into italic Rams-style line
-- `42bbf86d` feat(o8): auto-index registered repos at boot via codebase-memory-mcp (closes)
 - `6cb250b2` design(chrome): lift text + chrome-pill colors over vibrancy
 - `956cbf68` design(approvals): ghost-orange buttons + clearer expand affordance
 - `070132b0` design(approvals+orchestrator): tighten to Rams density
 - `8fa84cbf` feat(approvals): first-class merge-gate banner under TitleBar
-- `d4f25cb3` feat(mcp): register codebase-memory-mcp in .mcp.json + setup generator (closes)
 - `239c765f` feat(orchestrator): unified busy-state UI + stream event routing [via-o8]
-- `4ae59a8c` feat(mcp): runtime-download codebase-memory-mcp on first launch (closes)
 - `a1d88504` feat(lane): tag merged lane tip commits with [via-o8] suffix
 - `6f637586` feat(theme): shift light-mode glass family from white to paper base
 - `be12215d` feat(theme): light-mode content surfaces use paper (#F4F2ED) — match o8-site
-- `b65834f6` feat(native shell): global-shortcut + notification + menu bar tray (closes)
 
 ## 2026-04-16
 
 - `e336cd03` feat(cloud): standalone worker CLI reference implementation
-- `30b1e411` feat(orchestrator): packet review card 3-pane (closes)
 - `781f6870` feat(lane): route remote-customer merges through merge gate
 - `1cf339c2` feat(settings): Workers tab UI + worker tokens API + feature-flag helper
 - `dfd061f3` feat(dispatch): inject learned rules into packet prompt
-- `d52ff056` perf(dashboard): defer non-critical work off the bootstrap path (closes)
 - `57206196` feat(dispatch): learned-rules promotion/demotion cron
 - `2d58081c` feat(cloud): CustomerWorkerTransport + register remote-customer adapter
-- `afa0aff1` feat(workspaces): hover-reveal trash + confirm-strip + git branch -D
 - `7fdbd070` feat(cloud): worker poll + event endpoints with token auth
 - `bd05bb2b` feat(db): worker_tokens + worker_runs + worker_events tables
-- `e255f348` feat(desktop): auto-hide merged + agent worktrees in Workspaces sidebar + hover-prune
 - `f58ed2f5` feat(dispatch): dispatch_rules table + record from lane merge events
 - `5517075d` feat(runtimes): scaffold remote runtime protocol types
-- `60c892da` perf(desktop): memoize ThoughtsChatPanel message bubbles
 - `f9bf7ef5` feat(sidebar): replace 'Idle' label with 3-word task summary
 - `19b52557` feat(governance): autonomous decomposition pipeline
-- `cb9e73b9` perf(desktop): widen / remove short polling intervals
 
 ## 2026-04-15
 
 - `7d08afa2` feat(supervisor): mechanical project rules rule enforcement at post-completion
-- `ac058e40` perf(desktop): reduce SessionVisualizer render churn
 - `ae92dcef` feat: add design mode overlay
 - `c18aecf9` feat: branch picker wizard in packet dispatch
 - `6f5fce13` feat(delegate): synthesize packet shell so governance tools find the lane
-- `bb3bcc1f` feat(desktop): hit-zone audit — Settings page (44pt minimum)
 - `d6301dc8` feat: persist orchestrator plan text in chat history
 - `c850fea3` feat: auto-capture lane review screenshots
 - `5cacf223` feat: add external orchestrator mcp servers
 - `4fd3a664` feat(orchestrator): Apple-style tool call cards + sticky working bar
-- `4662f5c4` feat(desktop): hit-zone audit
 
 ## 2026-04-14
 
@@ -2252,18 +1374,14 @@ and internal chores live in the private engineering log.
 - `1dba6aa9` feat(orchestrator): anti-patterns section + final-message format doctrine
 - `10373985` feat(lane): reap idle abandoned lanes + safety guard main tree
 - `c8d18e01` feat(history): archive tab in orchestrator history drawer
-- `f0da0757` feat(desktop): hit-zone audit — Approval surfaces (44pt minimum)
 - `14badaf1` feat(workspace): merged read-only banner on retired chat tabs
 - `1ae6852f` feat(lane): hide sidebar cards + packets bound to archived lanes
 - `a9610331` feat(lane): auto-wrap manual runtime launches in a governance lane
 - `6f83e71b` feat(mcp): add o8_view_wait_for for polling UI readiness
-- `5c22d514` feat(desktop): multi-window / split-pane orchestrator transcripts
 - `fcf31aa1` feat(lane): auto-archive stuck reviewing lanes + retire standalone native shell-mcp bridge
-- `592029bb` feat(orchestrator): bump AI provider defaultModel to AI provider-3.1-pro
 - `d772218c` feat(mcp): bundle o8_view_* webview tools + session picker + UI polish
 - `2023d61d` feat: add timeline toggle to appearance settings
 - `47867953` feat(theme): chrome-surface sweep + light blue accent + add-repo redesign
-- `2c6fb4b7` feat(desktop): Cmd+K command palette across the app
 
 ## 2026-04-13
 
@@ -2271,10 +1389,8 @@ and internal chores live in the private engineering log.
 - `9a5948d2` feat(theme): ship Light + Midnight only, light becomes glass chrome
 - `3b1ee213` feat(mcp): ship native shell-plugin-mcp with the production build
 - `31ea6297` feat(ship): local release script + ship npm scripts
-- `32dbcd77` feat(desktop): one-click rerun-with-feedback on rejected reviews
 - `fd1fe3c2` feat: Operator live fallback notice + Plan/Code permission chip
 - `4d6394d6` feat: o8 Operator + drop legacy provider keys + agent runtime CLI runtime
-- `e8b447ce` feat(desktop): inline diff viewer in workspace center
 
 ## 2026-04-12
 
@@ -2282,533 +1398,239 @@ and internal chores live in the private engineering log.
 - `1f41c0f6` feat: unified user bubbles across all chats — subtle tinted pill
 - `3d5cfe03` feat: thinner orchestrator chat text
 - `9bbe71da` feat: roll Plus Jakarta Sans as the app-wide typeface
-- `9af81251` feat(desktop): steer-in-flight composer on active agent transcripts
 - `1d62ec13` feat: add Satoshi, Outfit, Manrope to typography specimen + match app sizes
 - `58401eda` feat: add /text typography specimen page for font comparison
 - `c392a174` feat: agent click scopes workspace panel to agent's worktree
-- `0bc22ad0` feat(orchestrator): drop AI provider-code from dispatch picker
 - `a95d6d88` feat: aggregated Issues panel shows all repos grouped by sections
 - `5e3d2c83` feat: repo alignment gesture — click repo name aligns whole app
 - `38bc7c18` feat: multiple repos can be expanded simultaneously in sidebar
-- `067183e3` feat(mobile): offline send queue + replay on reconnect
 - `8adcc059` feat: fleet orchestrator UI — repo focus indicator + sidebar status
 - `cc1eef1a` feat: orchestrator system prompt is fleet-aware across all repos
 - `ee4054d4` feat: drag-to-reorder workspace tabs
 - `ec5140ac` feat: session rows match orchestrator row layout
-- `df18c17c` feat(mobile): push notifications + Web Push infra
 - `3eba2a8a` feat: rename CLI session tabs from 'Assistant' to 'Agent'
 - `8d937cdb` feat: orchestrator tab is visually elevated and un-closeable
-- `d825fcad` feat(mobile): haptic feedback
 - `d5073897` feat: agent session tabs show repo + runtime instead of "Assistant"
 - `f8c4889d` feat: apple squircle corners on right panel (O8 + workspace review)
 - `0a98f238` feat: move permission + issues controls into composer toolbar
-- `8c0b38f3` feat(mobile): pull-to-refresh across mobile surfaces
 
 ## 2026-04-11
 
 - `c14077cb` feat: analytics apple pass + empty state respace + element picker iframe-proxy
 - `e5948b7d` feat: midnight-aware terminal theme + navrail/titlebar consolidation
 - `ef1ff62d` perf: gate headless sprint loop on queued packets
-- `e25d03a4` feat(mobile): universal search ('/') across chats/threads/activity
 - `ec9d2328` perf: slim ws-server + lazy-spawn dashboard PTY
 - `fefe98af` feat: orchestrator becomes a workspace tab with integrated history + mission
 
 ## 2026-04-10
 
 - `df128de8` feat: mission dispatch echo + plan-mode banner in orchestrator tile
-- `3fa902ec` feat(mobile): markdown + code blocks in agent transcripts
 - `43c84672` feat: NavRail launchers for Mission Control + Orchestrator History
 - `0ee546ef` feat: side-effect-class tool rendering + cross-tile orchestrator bus
 - `89386ed9` feat: orchestrator/mission/history as tile-native components
 - `98d7ef57` feat: thread permissionMode through sendToOrchestrator
-- `e1caad40` feat(mobile): swipe-to-approve/reject gestures on approvals
 - `31287253` feat: production hardening
 - `aed9b509` feat: Node pre-flight + dynamic port allocation
 
 ## 2026-04-09
 
 - `1d16f4ee` feat: AI provider Desktop auto-register + setupComplete schema fix
-- `b6a04b17` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts
 - `04e4c360` feat: MCP production hardening — auth, config distribution, bundling
 - `e0e70743` feat: add shared token formatter
 - `92ddffd7` feat: o8 v2 observability — Ledger + Preview tabs in Memory view
-- `fa09d3ae` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts
 
 ## 2026-04-08
 
 - `c8c14ef9` feat: o8 v2 Phase 1 — directives store + session ledger + API
 - `0bd6a4c4` feat: @-mention file suggestions on mobile chat compose
-- `29882140` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts
-- `97fc6936` feat(mobile): inline diff viewer for approvals + PR cards + agent transcripts [via-o8]
-- `78412db7` design(mobile): dark mode transcript bubble polish [via-o8]
 - `69be1685` feat: shared useFileDrop hook
-- `5ec52cf6` feat(mobile): voice input via long-press to dictate [via-o8]
 - `6f94da5b` feat: enriched approval cards
-- `da4f2232` feat(mobile): voice input via long-press to dictate
 - `79d7bc33` feat: pre-dispatch file overlap gate
-
-## 2026-04-27
-
-- `cdac1e25` feat(mobile): read-only agent transcript sheet (v1 mobile model)
 - `48a878f7` feat: expandable detail rows in O8 Activity pane — click to expand inline context
-- `fc6c9899` feat(mobile): orchestrator brain chip + thread card opacity fix
-- `57f05cee` feat(mobile): rename Chats→Assistant, action-weight order, sidebar subtitles, orchestrator New button
-- `1c0e5a1d` feat(release): post-bundle sign + notarize for nested Node native modules
 - `ff56a196` feat: specialized mobile tool call cards — diff, shell, read, search
-- `efc3bbfe` feat(release): wire Apple Developer ID signing + notarization
 
 ## 2026-04-07
 
 - `f3ccb7a4` feat: mobile CLI chat backend
-- `edf81be4` design(orchestrator): match Assistant chat breathing room and typography
 - `2a8f9a1a` feat: CLI chat backend
-- `ecb1fa2f` design(mobile): unify standard topbar across all 5 new tabs
-- `83daf55c` design(mobile): scroll-fade masks on chat list/transcript/orchestrator/approvals scroll surfaces
-- `a625c992` feat(mobile): profile button + Settings sheet under drawer footer
 - `95f139ca` feat: o8 Assistant rebrand
-- `6a7058ef` feat(mobile): wire 5 unwired tabs (agents/issues/activity/costs/orchestrator)
-- `d521569e` design(mobile): filter pills, day groupings, FAB, HIG touch-target sweep
-
-## 2026-04-25
-
-- `c8547569` feat(mobile): orchestrator tool bubble flips to done with output preview
 - `0398f528` feat: add OpenRouter + xAI providers + key validation on save
-- `f9684e54` feat(mobile): bind bundled Next server to 0.0.0.0 for LAN access
-- `6f5388b8` feat(mobile): orchestrator composer wiring polish
 - `a6b95fe8` feat: inline missions
-- `17518b30` feat(mobile): orchestrator tab — thread strip + transcript + composer
-- `49482d9f` feat(settings): factory reset button in Diagnostics tab
 
 ## 2026-04-06
 
 - `1425daa5` feat: commit viewer in O8 Changes tab — click commit to review inline
-- `25c74382` feat(mobile): orchestrator WS hook with transcript buffer
-- `6dedea6b` feat(mobile): orchestrator threads list API + types
-
-## 2026-04-23
-
-- `84460bc5` feat(onboarding): add default dispatch runtime step to first-run wizard
 - `98f5fc5a` feat: click worktree to open agent transcript
-- `e3374aa8` feat(v1): gate agent runtime behind experimentalagent runtime flag
-
-## 2026-04-21
-
-- `8830d978` feat(AI provider): model fallback cascade on quota + in-chat pill
-- `05d5039c` feat(agent-panel): Orchestrator + Assistant rows with accurate shimmer
 - `c926c6f2` feat: collapse tool calls in transcript bubbles
-- `77184bde` feat(hotkeys): Cmd+1-9 jump, Cmd+Opt+Arrow cycle, Cmd+W close + tab flash
-- `8c57d71f` perf: kill AgentTilePane polling + fleet invalidate route + urgent WS (Packet D,)
-- `fa6a8ef7` perf: rewire WorkspaceChatPane to transcript store (Packet B,)
-- `3e2e844c` design(AI provider-code-transcript): emit structured toolCalls for agent runtime-parity italic dropdowns
 - `18e0d587` feat: Activity tab in O8 Panel — unified activity feed
-- `1c82ea51` perf: visibility swap + render memo on tab panes ( Packet C)
-- `f3eb16b3` perf: client transcript store + workspace bootstrap ( Packet A)
-- `a9790994` design(chat): collapsible PacketHeaderCard replaces giant packet prompt
 - `54797028` feat: compact activity badges on repo cards for ambient awareness
-- `da098e4c` design(branch-hover): Rams-style status rows matching repo hover
-- `6aee18d6` design(branch-hover): match repo-hover theme — solid panel, no glass
 - `f5eebb22` feat: show conversation preview in chat tab labels instead of generic "Chat"
-- `e53c8be7` feat(workspace): wire AI provider + agent runtime chat-pane transcript + steering
 - `6e361fcc` feat: show agent runtime/AI provider brand logo in chat tab headers
 - `15d20d74` feat: use official agent runtime + AI provider brand logos across all surfaces
-- `40f2c5eb` design: hide SessionTimeline + punchier shimmer + strip branch tooltip
 
 ## 2026-04-05
 
 - `6bc9ebd9` feat: add runtime icons to session agent rows + collapsed branch badges
-- `102e3e8e` design: o8 boot splash + shimmer on active agent panel label
 - `9b5c03ca` feat: replace CX/CC text badges with agent runtime and AI provider SVG logo icons
-
-## 2026-04-20
-
-- `3e66b94f` feat(workspace): wire AI provider + agent runtime into CLI Session live-tail pane
 - `4e193f7a` perf: extract DashboardInner state into grouped context hooks
-- `073aa41a` feat(orchestrator): expand OrchestratorRuntime union to four runtimes + capability map
 - `61c81451` perf: native shell IPC for SQLite endpoints
-- `dc61c806` feat(runtimes): add first-class AI provider CLI adapter
-- `f835da1c` feat(runtimes): add first-class agent runtime CLI adapter
-- `23c8ca11` design(chrome): shimmer sweep on active workspace tab label
-- `be784c13` feat(runtimes): add turn-dispatcher primitive (no callers yet)
 - `4ae7f87d` perf: virtualize transcript list for long agent sessions
-
-## 2026-04-19
-
-- `559a9c98` design(theme): unify midnight chrome glass + solid page surface on Settings/Analytics + inbox pill
-- `b4785637` design(settings): RamsButton pill sweep + CornerBrackets selection + SectionLabel brightness
-- `66eaa4b9` design(chrome): Rams palette, remove alerts tray, quiet timeline strip, tighten Session Replay
 - `a6282dd4` perf: lazy-load heavy Canvas tab components + o8TaskBoard
-- `ef1268ba` feat(ui): reload banner in ThoughtsChatPanel [via-o8]
 - `7a4da553` perf: deduplicate workspaces + inbox API calls on initial load
-- `4d04dacc` feat(orchestrator): graceful reload endpoint with transcript resume [via-o8]
-- `e861f1e5` feat(mcp-register): add o8.register_mcp tool for conversational MCP install [via-o8]
-- `6a0b58b5` feat(mcp): adaptive probe timeout + npx prewarm [via-o8]
-- `3f7a3734` feat(mcp): test connection button with live tools probe [via-o8]
 - `052980c2` perf: eliminate transcript render storm + 11 more polls → WS-driven + API dedup
-- `82295a64` feat(mcp): paste-JSON config input [via-o8]
-- `6c4606a3` design(settings): acronym casing — MCP + configuration [via-o8]
-- `8cef91d6` design(settings): visual polish sweep — spacing, acronyms, typography [via-o8]
 - `5916e096` perf: native shell IPC commands for hot-path data reads — bypass HTTP stack
-- `c3a722a1` design(analytics): Rams pass [via-o8]
 - `312262c9` perf: WS-driven invalidation for 18 polling loops + React.memo on 31 components (,)
-- `5e91e677` design(settings): Rams pass on Settings shell + tab bar [via-o8]
-- `83931920` design(settings): Rams pass on About tab [via-o8]
-- `3209c5fa` design(settings): Rams pass on Diagnostics tab [via-o8]
-- `7407acfa` design(settings): Rams pass on Appearance tab [via-o8]
 - `babfed33` perf: replace 2 polling loops with useReactiveQuery
-- `ab05c4c3` design(settings): Rams pass on Cloud Workers tab [via-o8]
-- `86984414` design(settings): Rams pass on Workers tab [via-o8]
-- `facc19cb` design(settings): Rams pass on Dispatch tab [via-o8]
 - `ce00a347` feat: TanStack Query + WS event bridge for reactive data layer
-- `4e70379e` design(settings): Rams pass on MCP tab [via-o8]
-- `910321dc` design(settings): Rams pass on configuration tab [via-o8]
 - `d9206f54` feat: MCP dispatch DX overhaul
-- `b305eb09` design(settings): Rams pass on Connectors tab [via-o8]
 - `b7ccc195` feat: truthful worktree status + cleanup stale worktrees
-- `2c6e1be2` design(settings): add TabBreadcrumb + TabHeading + FieldLabel Rams primitives [via-o8]
 - `83743d32` feat: click worktree → open agent transcript in canvas ( v1)
-- `2565109c` feat(agent-hover): diff + last-tool + elapsed on hover [via-o8]
-- `b852c1e7` feat(security): promote configuration encryption to macOS Keychain-backed master key
-- `78f69c26` feat(delegate): accept baseBranch param for fix dispatches against feature branches [via-o8]
 - `1ad88484` feat: thinking indicator + faster polling for active agent sessions
-- `bfeb1ea6` feat(orchestrator): edge-case surfacer at dispatch-prep time [via-o8]
 - `2bd6c5ba` feat: port hover popover + open ports in O8 browser tab
 - `23a33dbf` feat: open activity commits in O8 changes pane
-- `cb588908` feat(governance): autonomous post-merge decomposition pipeline [via-o8]
 - `376f426d` feat: instant PR cache invalidation after merge/approve/request changes
-- `8e6f8a14` feat(chat): streaming DiffCard with partial-apply and interrupt [via-o8]
 - `e8333127` feat: inline file diffs + merge conflict badge in O8 PR review
-- `b37468c2` feat(runtime): cloud adapter scaffolding with outbound-only worker protocol [via-o8]
 - `04a5a761` feat: PR count badge on repo card — click to open O8 PRs list
-- `e82f2250` feat(orchestrator): render ComparisonCard + fan-out cost warning in mission panel [via-o8]
 - `067dd2f1` feat: PR list view in O8 panel — all open PRs on one page
-- `784bfee7` feat(orchestrator): guard PacketCard against comparison-group packets [via-o8]
 - `da722f7e` feat: PR review tab in O8 panel — replaces canvas PR viewer
-- `58f9a244` feat(orchestrator): ComparisonCard mission-panel UI for best-of-n groups [via-o8]
 - `0601aada` feat: collapsible root files section in O8 file tree
-- `60fc6e25` feat(orchestrator): comparison-meta API route for best-of-n meta-agent [via-o8]
 - `a7493851` feat: editable file viewer in O8 Files tab — competing product-style editing
-- `59e578be` feat(orchestrator): add global AgentsSidebar for all-origin agent visibility
 - `08a5f973` feat: file browser in O8 panel Files tab — competing product-style split layout
-- `4e79747c` feat(orchestrator): external MCP servers as orchestrator context sources
 - `88e94cd9` feat: dispatch pipeline hardening
-- `0257de19` feat(agent runtime): eager-parse auth.json to expose authed providers as picker sub-rows
 - `779d9a4c` feat: wire Edit with AI + Open Source callbacks in O8 element panel
-- `96c09660` feat(worktree): force managed mode for AI provider-code lanes so pre-launch rebase runs [via-o8]
 - `65d73b1f` feat: visual element selection panel for O8 Browser tab
-- `6892fdb5` feat(orchestrator): wire packet issueUrl into PacketActionStrip open action [via-o8]
 
 ## 2026-04-04
 
 - `f454b6fa` feat: element picker bridge + source mapper API + rate limit fixes
-- `e401b1b3` feat(composer): wire stop pill to real interrupt channel [via-o8]
 - `5d6b8bd7` feat: O8 Browser tab — wire LocalhostPreviewTabs into O8 panel
-- `c1d8632e` feat(mcp-agent): o8_merge_preview tool + structured gate verdict on workflow action
 - `d07fd20c` feat: O8 panel Changes tab — git status + inline diff + tab bar
-- `d2ff2a4f` feat(orchestrator): packet card details popover [via-o8]
 - `e55df291` feat: O8 panel
-- `3ef5fe56` feat(mcp-agent): o8_packet_transcript MCP tool paginates packet agent runtime events [via-o8]
-- `e39e9245` feat(orchestrator): Cmd+K quick-action palette in OrchestratorTab
-
-## 2026-04-18
-
-- `129d5775` feat(mcp-agent): o8_lane_events MCP tool long-polls workflow transition [via-o8]
 - `cce11bbb` feat: mobile WS reconnect with exponential backoff + approval recovery
-- `9bd9bb2f` feat(mcp-agent): o8_review_state MCP tool [via-o8]
-- `ae0128ca` feat(orchestrator): packet card action strip — retry / reset / open / copy [via-o8]
 - `f656a6ed` feat: startup lane reconciliation
-- `7e2e43b5` feat(orchestrator): history row actions — pin / rename / export / delete [via-o8]
-- `f62fefb5` feat(orchestrator): synchronous worktree cleanup across all merge paths [via-o8]
-- `201a9e71` feat(orchestrator): history sidebar search with first-message match [via-o8]
-- `30477f11` feat(composer): Rams-style send pill with idle / armed / working states [via-o8]
 - `46a33161` feat: startup lane reconciliation
-- `132f8aab` feat(orchestrator): packet file-reference validator + emoji fix
 - `0b84a771` feat: GitHub intake pipeline — issue assignment to plan approval
-- `6f5b3372` feat(dispatch): learned-rules promotion/demotion cron
 - `65272faf` feat: persist runtime session costs to usage logs
 - `b4022648` feat: o8 agent safety hooks
-- `43a64b0c` feat(orchestrator): inject learned rules into packet prompt
-- `ea5aabed` feat(orchestrator): preserve pinned turns during auto-compact
 - `9dc48663` feat: mobile repo picker for multi-repo chat
-- `a90a4b27` feat: archive orchestrator threads on clear
-- `4b3f07a3` feat(orchestrator): finish remaining slash commands
-- `bd4e7cb1` feat: usage.jsonl dispatch instrumentation for agent runtime + agent runtime runtimes [via-o8]
 - `f6777faa` feat: repo-scoped tool execution + repos API
-- `306b48f5` feat: wire Thoughts operator-defaults into panel [via-o8]
-- `7705f45d` feat: default operator settings [via-o8]
-- `a76283e0` design(agent-chat): unify agent runtime + agent runtime composer with orchestrator aesthetic
 
 ## 2026-04-03
 
 - `eaf7ae52` feat: apply file edits on approval approve
 - `53c82c13` feat: add github tool for AI provider — gh CLI access
-- `019c78f1` feat(orchestrator): context inspector side panel with click-to-evict
-- `4febf47f` feat(worktree): stale local ref check + fetch_unreachable supervisor inbox kind so offline launches don't revert upstream [via-o8]
-- `e9f30de5` feat(worktree): thread packetId through RuntimeLaunchRequest so rebase-conflict inbox rows deep-link to the packet [via-o8]
 - `88140fad` feat: expand shell allowlist — npm, npx, node, cargo
-- `724c81bd` design(orchestrator): ThinkingChip matches ContextMeter pill aesthetic [via-o8]
-- `b8dad79c` design(governance): move Supervisor Inbox from lingering /dashboard/inbox route into the O8 right panel as a proper tab [via-o8]
-- `cc0f14e0` feat(agent runtime-debug): attach native review screenshots
 - `8bcba207` feat: add create_file tool for AI provider
-- `08ab4c68` feat: add orchestrator composer token estimate
 - `b673d369` feat: syntax-highlighted tool output — expand shows real code colors
-- `816c29e7` design: ThinkingChip uses theme tokens, drops Material shadow + backdrop-blur
-- `5e5d78cd` feat: add orchestrator thinking footer chip
 - `421cab7e` feat: Apple-style collapsible tool call cards
-- `a6eb6640` feat(orchestrator): refine slash command controls
-- `91cf88a2` feat: add supervisor escalation inbox
-- `24eb3839` feat(governance): add heal-bot inbox worker
 - `bc512cb3` feat: AI provider tool execution backend
-- `3922c796` design: slim orchestrator file mutation rows
 - `4f7fe6d4` feat: compact model selector + fix theme toggle in settings
-- `a5d07539` feat: add adaptive orchestrator thinking summaries
 - `e3c65623` feat: restore light mode with proper theme toggle
-- `b7753c32` feat(orchestrator): rotate thread after mission completion
 - `9e18da3a` feat: tool call card renderer components
-- `eea81143` design(orchestrator): drop SESSIONS strip, compact packet tab labels, highlight latest dispatch
-- `4b461625` design(orchestrator): CommandStripNode density pass — theme tokens, no Material shadow [via-o8]
 - `9af39728` feat: tool call SSE protocol types and parser
-
-## 2026-04-17
-
-- `f47b717d` feat(orchestrator): /clear /compact /focus /status /recall /handoff slash commands [via-o8]
 - `e28fcf3b` feat: theme-aware markdown renderer + light mode code blocks
-- `7c95bd0c` feat: add orchestrator slash command controls
 - `898d5551` feat: rebrand mobile shell for o8
-- `6b084ea7` feat(orchestrator): /clear command + fresh-thread-preserves-mission-state [via-o8]
-- `179e14e7` feat: add orchestrator clear command
 - `dea51852` feat: rebuild mobile approvals and sidebar surfaces
 - `8b4199fd` feat: rebuild mobile approvals and sidebar surfaces
-- `76316b21` feat(infra): wire prompt caching for AI provider 4.7 orchestrator [via-o8]
-- `32220e18` feat: cache AI provider prompt prefixes in llm proxy
 - `fcd91ca5` feat: replace custom mobile chat with @assistant-ui/react Thread
-- `d4a92b29` design(agent-chat): share DesktopToolCallStack in MessageBubble [via-o8]
 - `9cce9754` feat: build mobile assistant-ui thread chat
-- `58d9674c` design(agent-chat): share DesktopToolCallStack in MessageBubble [via-o8]
-- `4022f13c` feat: auto-compact orchestrator threads at 30 percent context
 - `d3f045f6` feat: mobile settings view + decompose monolithic client into focused modules
-- `7a9cd813` design(orchestrator): move context down, copy up, shrink session cards [via-o8]
 - `e89b6a65` feat: mobile redesign
 - `289f3a09` feat: mobile settings view + decompose monolithic client into focused modules
-- `4566a63c` feat(orchestrator): token meter + ThreadsDropdown + header compression [via-o8]
 - `0576fce9` feat: mobile settings view + decompose monolithic client into focused modules
-- `b72264ac` design(orchestrator): unify expanded tool lines — read uses same format
 - `af1a7152` feat: mobile settings view + decompose monolithic client into focused modules
-- `6b51b6f4` design(orchestrator): invert batchable — only file writes/edits earn cards
 - `3b7046b8` feat: mobile settings view + decompose monolithic client into focused modules
-- `d6c5d4ce` design(orchestrator): collapse tool calls into italic Rams-style line
 - `b44386f9` feat: mobile settings view + decompose monolithic client into focused modules
-- `6cb250b2` design(chrome): lift text + chrome-pill colors over vibrancy
 - `9ebbc383` feat: add mobile settings view to glass sidebar
-- `956cbf68` design(approvals): ghost-orange buttons + clearer expand affordance
 
 ## 2026-04-02
 
 - `17f58ba7` feat: full glass input field + glass send button + scroll-to-bottom arrow
-- `070132b0` design(approvals+orchestrator): tighten to Rams density
-- `8fa84cbf` feat(approvals): first-class merge-gate banner under TitleBar
 - `a4e0d289` feat: glassmorphic buttons
 - `75aa5d29` feat: collapsible code blocks with diff coloring and file path labels
 - `ec45fa7b` feat: TTS play button on assistant messages + AI provider-style input bar
 - `c2327191` feat: starred + recents sections in sidebar, revert dots back to long-press
 - `ca8ad50c` feat: long-press context menu on chat list — star, rename, delete
-- `239c765f` feat(orchestrator): unified busy-state UI + stream event routing [via-o8]
 - `d63d2172` feat: AI provider-style chat list view
-- `a1d88504` feat(lane): tag merged lane tip commits with [via-o8] suffix
 - `500dc19b` feat: AI provider-style message rendering + mobile markdown for code blocks
-- `6f637586` feat(theme): shift light-mode glass family from white to paper base
 - `8763c403` feat: wire mobile chat to real chat history store + conversation list in sidebar
-- `be12215d` feat(theme): light-mode content surfaces use paper (#F4F2ED) — match o8-site
 - `7a1aef00` feat: AI provider-style sliding sidebar + AI provider chat on mobile
 - `3c40bb84` feat: add npm run tunnel for remote mobile access via Cloudflare
 - `3b1c52ce` perf: prefetch mobile inbox on server
-
-## 2026-04-16
-
-- `e336cd03` feat(cloud): standalone worker CLI reference implementation
 - `a6aed2a0` perf: break route barrel imports
 - `ba662510` perf: switch dev to turbopack and lazy init db
 - `14a417c0` feat: bound onAgentCompletion retry loop
-- `781f6870` feat(lane): route remote-customer merges through merge gate
 - `7d82733a` feat: add attempt learning persistence
 - `acb9bb3c` feat: add low-risk auto-approve policy
 - `998b96e4` feat: add packet self-review confidence gate
-- `1cf339c2` feat(settings): Workers tab UI + worker tokens API + feature-flag helper
-- `dfd061f3` feat(dispatch): inject learned rules into packet prompt
 - `56be609e` feat: objective exit criteria
 - `471225d0` feat: compact Apple-style dropdown menu, no full-screen overlay
-- `57206196` feat(dispatch): learned-rules promotion/demotion cron
 - `bc19c545` feat: AI provider-style tool cards in mobile chat
-- `2d58081c` feat(cloud): CustomerWorkerTransport + register remote-customer adapter
 - `4228c8bb` feat: organize mobile sessions by type — Chats, Sessions, Missions
 - `84f79425` feat: warm grey + light beige palette across all 30 mobile surfaces
 - `5631e6c4` feat: slim compose bar
-- `7fdbd070` feat(cloud): worker poll + event endpoints with token auth
 - `73ba8564` feat: in-process mutex on orchestrator-state.json
-- `bd05bb2b` feat(db): worker_tokens + worker_runs + worker_events tables
 - `4b610bbf` feat: merge conflict escalation via approval card
-- `f58ed2f5` feat(dispatch): dispatch_rules table + record from lane merge events
 - `16818234` feat: persist workflow watcher state to SQLite
-- `5517075d` feat(runtimes): scaffold remote runtime protocol types
-- `f9bf7ef5` feat(sidebar): replace 'Idle' label with 3-word task summary
 - `dc3b6355` feat: orchestrator session health monitor — 90s timeout + auto-recovery
-- `19b52557` feat(governance): autonomous decomposition pipeline
 - `77a08e40` feat: persistent SQLite-backed review queue
-
-## 2026-04-15
-
-- `7d08afa2` feat(supervisor): mechanical project rules rule enforcement at post-completion
 - `32fa1ce8` feat: inline mission creation — no GitHub dependency
-- `ae92dcef` feat: add design mode overlay
 - `6481fce0` perf: mobile page is now client-only — zero server-side bootstrap
-- `c18aecf9` feat: branch picker wizard in packet dispatch
 - `294efd58` perf: mobile optimization
 - `79698cec` feat: copy AI provider mobile session list — clean rows, status groups, FAB
-- `6f5fce13` feat(delegate): synthesize packet shell so governance tools find the lane
-- `d6301dc8` feat: persist orchestrator plan text in chat history
-- `c850fea3` feat: auto-capture lane review screenshots
 - `bf22b7de` feat: mobile new chat — launch LLM session from phone
-- `5cacf223` feat: add external orchestrator mcp servers
 - `7da466ac` feat: mobile wave 4
-- `4fd3a664` feat(orchestrator): Apple-style tool call cards + sticky working bar
 - `c7260974` feat: purge 4,277 lines of remodex CSS + remaining className from mobile
 
 ## 2026-04-01
 
 - `d9e2df4d` feat: mobile waves 2+3
-
-## 2026-04-14
-
-- `857df131` feat(orchestrator): export thread to markdown (closes)
 - `e5b78197` feat: mobile wave 1
-- `1dba6aa9` feat(orchestrator): anti-patterns section + final-message format doctrine
 - `276c93b8` perf: P1 bundle + network optimizations
-- `10373985` feat(lane): reap idle abandoned lanes + safety guard main tree
 - `a648a890` perf: P0 performance fixes
-- `c8d18e01` feat(history): archive tab in orchestrator history drawer
-- `14badaf1` feat(workspace): merged read-only banner on retired chat tabs
-- `1ae6852f` feat(lane): hide sidebar cards + packets bound to archived lanes
 - `e161191d` feat: wire recommendMergeOrder() into merge pipeline
-- `a9610331` feat(lane): auto-wrap manual runtime launches in a governance lane
-- `6f83e71b` feat(mcp): add o8_view_wait_for for polling UI readiness
-- `fcf31aa1` feat(lane): auto-archive stuck reviewing lanes + retire standalone native shell-mcp bridge
-- `d772218c` feat(mcp): bundle o8_view_* webview tools + session picker + UI polish
 - `56443ba9` feat: merge gate file size block + operator override
-- `2023d61d` feat: add timeline toggle to appearance settings
 - `a9961db6` feat: add FILE_SIZE_WAIVERS for layout orchestrators and multiplexers
-- `47867953` feat(theme): chrome-surface sweep + light blue accent + add-repo redesign
-
-## 2026-04-13
-
-- `4af65f91` feat(theme): chrome-surface scope for light mode glass buttons
-- `9a5948d2` feat(theme): ship Light + Midnight only, light becomes glass chrome
 - `e7dd4b3b` feat: skeleton map file size check at dispatch time
-- `3b1ee213` feat(mcp): ship native shell-plugin-mcp with the production build
 - `51227542` feat: InfinityGlow animated status indicator for agent cards
-- `31ea6297` feat(ship): local release script + ship npm scripts
-- `fd1fe3c2` feat: Operator live fallback notice + Plan/Code permission chip
-- `4d6394d6` feat: o8 Operator + drop legacy provider keys + agent runtime CLI runtime
-
-## 2026-04-12
-
-- `2f185245` feat: thinner fonts + desaturated diff in Changes panel
 - `551e9952` feat: FTUX progressive feature reveal
-- `1f41c0f6` feat: unified user bubbles across all chats — subtle tinted pill
-- `3d5cfe03` feat: thinner orchestrator chat text
-- `9bbe71da` feat: roll Plus Jakarta Sans as the app-wide typeface
-- `1d62ec13` feat: add Satoshi, Outfit, Manrope to typography specimen + match app sizes
 - `43dd5381` feat: FTUX first-merge celebration state
-- `58401eda` feat: add /text typography specimen page for font comparison
-- `c392a174` feat: agent click scopes workspace panel to agent's worktree
-- `a95d6d88` feat: aggregated Issues panel shows all repos grouped by sections
 - `366bd6fa` feat: FTUX mobile QR prompt
-- `5e3d2c83` feat: repo alignment gesture — click repo name aligns whole app
-- `38bc7c18` feat: multiple repos can be expanded simultaneously in sidebar
-- `8adcc059` feat: fleet orchestrator UI — repo focus indicator + sidebar status
 - `34f9348e` feat: FTUX First Mission Card contextual CTA
-- `cc1eef1a` feat: orchestrator system prompt is fleet-aware across all repos
-- `ee4054d4` feat: drag-to-reorder workspace tabs
-- `ec5140ac` feat: session rows match orchestrator row layout
 - `932ee1cb` feat: FTUX empty states for all dashboard panels
-- `3eba2a8a` feat: rename CLI session tabs from 'Assistant' to 'Agent'
-- `8d937cdb` feat: orchestrator tab is visually elevated and un-closeable
-- `d5073897` feat: agent session tabs show repo + runtime instead of "Assistant"
 - `bd6c7c8a` feat: FTUX warm dashboard state
-- `f8c4889d` feat: apple squircle corners on right panel (O8 + workspace review)
-- `0a98f238` feat: move permission + issues controls into composer toolbar
-
-## 2026-04-11
-
-- `c14077cb` feat: analytics apple pass + empty state respace + element picker iframe-proxy
 - `23b1bdb6` feat: FTUX personalized chat greeting
-- `e5948b7d` feat: midnight-aware terminal theme + navrail/titlebar consolidation
 - `2bba0bfd` feat: workflow transition WebSocket channel
-- `ef1ff62d` perf: gate headless sprint loop on queued packets
 - `b79ae61f` feat: workflow transition WebSocket channel for real-time status streaming
-- `ec9d2328` perf: slim ws-server + lazy-spawn dashboard PTY
 - `0dd778db` feat: migrate approval store from JSON to SQLite
-- `fefe98af` feat: orchestrator becomes a workspace tab with integrated history + mission
 - `3b8deb9f` feat: migrate approval store from JSON to SQLite
-
-## 2026-04-10
-
-- `df128de8` feat: mission dispatch echo + plan-mode banner in orchestrator tile
 
 ## 2026-03-31
 
 - `4f261749` feat: migrate lane registry from JSON to SQLite — kill cross-process clobber
-- `43c84672` feat: NavRail launchers for Mission Control + Orchestrator History
-- `0ee546ef` feat: side-effect-class tool rendering + cross-tile orchestrator bus
 - `fd0baca9` feat: sprint 6 wave 3
-- `89386ed9` feat: orchestrator/mission/history as tile-native components
 - `a18bc0af` perf: sprint 6 wave 2
-- `98d7ef57` feat: thread permissionMode through sendToOrchestrator
 - `e3321db6` feat: workflow watcher coordination
-- `31287253` feat: production hardening
 - `67d7083f` feat: route Audit Log to workspace tab instead of Inspector panel
-- `aed9b509` feat: Node pre-flight + dynamic port allocation
 - `0386c4b0` feat: sprint 5
-
-## 2026-04-09
-
-- `1d16f4ee` feat: AI provider Desktop auto-register + setupComplete schema fix
 - `72ddf139` feat: sprint 4
-- `04e4c360` feat: MCP production hardening — auth, config distribution, bundling
 - `9fb9baa7` feat: sprint 3
-- `e0e70743` feat: add shared token formatter
 - `26592858` feat: sprint 2
-- `92ddffd7` feat: o8 v2 observability — Ledger + Preview tabs in Memory view
-
-## 2026-04-08
-
-- `c8c14ef9` feat: o8 v2 Phase 1 — directives store + session ledger + API
 - `ff3a21c2` feat: structured multi-file diff in approval review gate
-- `0bd6a4c4` feat: @-mention file suggestions on mobile chat compose
 - `fe2a36d0` feat: workflow watcher triggers workflow transition
-- `69be1685` feat: shared useFileDrop hook
-- `6f94da5b` feat: enriched approval cards
 - `9eb53b0b` feat: agent runtime PreToolUse hook script for policy enforcement
-- `79d7bc33` feat: pre-dispatch file overlap gate
-- `48a878f7` feat: expandable detail rows in O8 Activity pane — click to expand inline context
 - `df5857f5` feat: one-shot send-as-task from ThoughtsCard chat
-- `ff56a196` feat: specialized mobile tool call cards — diff, shell, read, search
 - `f388970c` feat: server-side packet auto-dispatch loop
-
-## 2026-04-07
-
-- `f3ccb7a4` feat: mobile CLI chat backend
 - `24173f2f` feat: integrate native shell-plugin-mcp for native app automation in dev builds
-- `2a8f9a1a` feat: CLI chat backend
 - `3e409e61` perf: JSONL tail-reads, cache-first actions, fingerprint optimization, sleep removal
 - `947b47ac` perf: strip JSON pretty-printing from MCP server responses
 
 ## 2026-03-30
 
 - `a58cd341` feat: native shell vibrancy polish, operator bridge fix, ghost session eviction, right panel cleanup
-- `95f139ca` feat: o8 Assistant rebrand
 - `f008f584` feat: operator MCP bridge — agent runtime as o8 control surface
 - `7644e08a` feat: workspace UI overhaul
 - `125caca2` feat: UI polish pass
-- `0398f528` feat: add OpenRouter + xAI providers + key validation on save
 
 ## 2026-03-29
 
@@ -2816,58 +1638,39 @@ and internal chores live in the private engineering log.
 - `b1507b5a` feat: orchestrator loop — plan, delegate, review, approve
 - `234f8c00` feat: governance engine
 - `8b973087` feat: refine o8 product brief from 3-turn brainstormer session
-- `a6b95fe8` feat: inline missions
 - `75c90b23` feat: add REVIEW.md, agent delegation table in project rules, update agent descriptions
 - `ca15b5ce` feat: add o8 product brief, update project rules with orchestrator model, create subagents
 - `6c5d722f` feat: scrollable workspace lane tabs with transparent arrow overlays
-
-## 2026-04-06
-
-- `1425daa5` feat: commit viewer in O8 Changes tab — click commit to review inline
 - `cf6807ee` feat: tab scroll arrows, tool cards in Thoughts, right panel defaults to review
 - `df8bff52` feat: workspace tab shows issue context + diagnostics settings tab (,)
-- `98f5fc5a` feat: click worktree to open agent transcript
 - `4a090261` feat: one-click issue launch icon + lane-scoped review rail (,)
 
 ## 2026-03-28
 
 - `6fc1e9c8` feat: add orchestrator MCP server, delegation tools, and agent supervisor
 - `281a4906` feat: add GitHub issues to ThoughtsCard Mission Control
-- `c926c6f2` feat: collapse tool calls in transcript bubbles
 
 ## 2026-03-27
 
 - `463ff8de` feat: add translucent desktop dark mode shell
 - `aac8e09d` feat: harden workspace shell and terminal sessions
 - `5c765358` feat: add o8 board and restore system-wide timeline
-- `18e0d587` feat: Activity tab in O8 Panel — unified activity feed
 - `578e411e` feat: move repo selection into workspace headers
 
 ## 2026-03-26
 
 - `24b6ae1f` feat: fix branch-scoped review flow
 - `c0eacdba` feat: turn workspace side panel into repo companion surface
-- `54797028` feat: compact activity badges on repo cards for ambient awareness
 - `6cf89a78` feat: route repo surfaces into workspace tabs
 
 ## 2026-03-25
 
 - `ec9aee42` feat: tighten workflow lifecycle and operator recovery
-- `f5eebb22` feat: show conversation preview in chat tab labels instead of generic "Chat"
 - `0981e995` feat: refine desktop dark mode theme
-- `6e361fcc` feat: show agent runtime/AI provider brand logo in chat tab headers
 - `39c7bb54` feat: migrate ide to fact-backed o8 recall
-- `15d20d74` feat: use official agent runtime + AI provider brand logos across all surfaces
 - `153b76ec` feat: enrich workspace cli chat parity
-
-## 2026-04-05
-
-- `6bc9ebd9` feat: add runtime icons to session agent rows + collapsed branch badges
 - `2f2b0fcf` feat: polish timeline and workspace chat surfaces
-- `9b5c03ca` feat: replace CX/CC text badges with agent runtime and AI provider SVG logo icons
-- `4e193f7a` perf: extract DashboardInner state into grouped context hooks
 - `bf8d4e89` feat: scope agent surfaces to ide sessions
-- `61c81451` perf: native shell IPC for SQLite endpoints
 - `ca06e24b` feat: route workspace launches and github flows through broker
 
 ## 2026-03-24
@@ -2877,17 +1680,13 @@ and internal chores live in the private engineering log.
 ## 2026-03-23
 
 - `d655dabc` feat: Unified ContextualPanel — canvas tabs merged into bottom panel
-- `4ae7f87d` perf: virtualize transcript list for long agent sessions
 - `a22ec01e` feat: Drop bundled Node (prerequisite) + bundle memory binary
 - `5bb7f329` feat: WS server bundled in native shell app — terminals + chat work in production
 - `36cade24` feat: GitHub App authentication — 5,450 req/hr, auto-refreshing tokens
-- `a6282dd4` perf: lazy-load heavy Canvas tab components + o8TaskBoard
 - `1111c6e9` feat: GitHub PAT support + config lives in the user data dir/
-- `7a4da553` perf: deduplicate workspaces + inbox API calls on initial load
 - `c5085de2` feat: Bundle Node.js inside the app — zero-config for users
 - `a9233f80` feat: Standalone server bundling for native shell — real distributable app
 - `41f1f02f` feat: Inline edit
-- `052980c2` perf: eliminate transcript render storm + 11 more polls → WS-driven + API dedup
 - `658912fb` feat: 'Environments' filter in files dropdown — quick access to .env files
 - `0d8a7365` feat: Inline AI widget
 
@@ -2895,306 +1694,167 @@ and internal chores live in the private engineering log.
 
 - `39ee35a4` feat: Tab autocomplete — AI ghost text suggestions while typing
 - `20074d83` feat: Cmd+E inline AI edit
-- `5916e096` perf: native shell IPC commands for hot-path data reads — bypass HTTP stack
 - `e813ed40` feat: Resizable files panel — drag handle between files and activity
-- `312262c9` perf: WS-driven invalidation for 18 polling loops + React.memo on 31 components (,)
 - `67887fda` feat: Monaco Frost v2
 - `c9938b4e` feat: Monaco 'o8 Frost' theme — icy light blue editor
 - `6ecb9fc4` feat: Monaco Editor v3 — full IDE-grade file editing
-- `babfed33` perf: replace 2 polling loops with useReactiveQuery
 - `96449e5f` feat: File editor v2
 - `dca28235` feat: Inline file editor with Cmd+S save + files default to Changes view
 - `048d3039` feat(branding): add o8 logo component + concept assets
-- `ce00a347` feat: TanStack Query + WS event bridge for reactive data layer
 - `610d71af` feat: In-app update banner + landing page + version sync
-- `d9206f54` feat: MCP dispatch DX overhaul
 - `3866ea48` feat: native shell updater + GitHub Actions release workflow
-- `b7ccc195` feat: truthful worktree status + cleanup stale worktrees
 
 ## 2026-03-21
 
 - `d98a2ae3` feat: add sidebar runtime capability layer
-- `83743d32` feat: click worktree → open agent transcript in canvas ( v1)
 - `9eaeb618` feat: refine sidebar approval polish
 - `50541b1d` feat: polish sidebar approvals and file actions
 - `7f4399cd` feat: polish sidebar file actions
-- `1ad88484` feat: thinking indicator + faster polling for active agent sessions
 - `40d53b58` feat: add sidebar source actions
-- `2bd6c5ba` feat: port hover popover + open ports in O8 browser tab
 - `9002c69e` feat: unify sidebar active turn surface
 - `51e28207` feat: show sidebar web source links
-- `23a33dbf` feat: open activity commits in O8 changes pane
 - `9e8e44c4` feat: enrich desktop sidebar source context
-- `376f426d` feat: instant PR cache invalidation after merge/approve/request changes
-- `e8333127` feat: inline file diffs + merge conflict badge in O8 PR review
 - `6347fa0f` feat: refine desktop sidebar runtime turns
-- `04a5a761` feat: PR count badge on repo card — click to open O8 PRs list
-- `067dd2f1` feat: PR list view in O8 panel — all open PRs on one page
-- `da722f7e` feat: PR review tab in O8 panel — replaces canvas PR viewer
 - `0bbef267` feat: Conflict Resolution UI in Memory settings tab
 - `7acca95f` feat: polish desktop sidebar runtime chat
-- `0601aada` feat: collapsible root files section in O8 file tree
 - `05d04422` feat: add intent board v1
-- `a7493851` feat: editable file viewer in O8 Files tab — competing product-style editing
-- `08a5f973` feat: file browser in O8 panel Files tab — competing product-style split layout
 - `6e79944a` feat: unify desktop thoughts and sidebar chat rendering
-- `88e94cd9` feat: dispatch pipeline hardening
-- `779d9a4c` feat: wire Edit with AI + Open Source callbacks in O8 element panel
-- `65d73b1f` feat: visual element selection panel for O8 Browser tab
 - `c1af442d` feat: Codebase seeding engine — solve cold start for new users
-
-## 2026-04-04
-
-- `f454b6fa` feat: element picker bridge + source mapper API + rate limit fixes
-- `5d6b8bd7` feat: O8 Browser tab — wire LocalhostPreviewTabs into O8 panel
-- `d07fd20c` feat: O8 panel Changes tab — git status + inline diff + tab bar
 - `78c8fc8c` feat: Unified chat send route + type fixes
-- `e55df291` feat: O8 panel
 - `3714eb17` perf: WebSocket RPC replaces CLI fallback — agents load in <500ms
-- `cce11bbb` feat: mobile WS reconnect with exponential backoff + approval recovery
 - `b6f3b5da` feat: First Launch Setup Wizard — blue glass onboarding flow
-- `f656a6ed` feat: startup lane reconciliation
 - `7097222a` feat: Setup detection + config API for first-launch wizard
-- `46a33161` feat: startup lane reconciliation
 - `57c08ba1` feat: Graceful degradation when gateway unreachable
 - `0ef0b44c` feat: Production polish
 - `af7c99cb` feat: Blocklist guard for public changelog + project rules rule
-- `0b84a771` feat: GitHub intake pipeline — issue assignment to plan approval
 
 ## 2026-03-20
 
 - `248dbb62` feat: context-aware recursive compaction — three-pass smart compression
-- `65272faf` feat: persist runtime session costs to usage logs
 - `3a510e6d` feat: project rules
-- `b4022648` feat: o8 agent safety hooks
 - `3514bbf2` feat: Chat compaction
 - `cf171d8b` feat: File system tools
 - `698ce992` feat: Terminal command tool with three-tier safety + editable approval
-- `9dc48663` feat: mobile repo picker for multi-repo chat
 - `2e69153a` feat: Chat-optimized recall — structured facts over raw chunks
-- `f6777faa` feat: repo-scoped tool execution + repos API
 - `84e34172` feat: Phase B
-
-## 2026-04-03
-
-- `eaf7ae52` feat: apply file edits on approval approve
 - `d5eea79d` feat: memory settings
 - `18bead76` feat: memory settings tab — configure models, view stats
 - `44cb6d5b` feat: memory recall — Phase A
 - `fa565a22` feat: Steve Jobs polish — 5 UX refinements for LLM chat
-- `53c82c13` feat: add github tool for AI provider — gh CLI access
 - `740c2ef9` feat: Unified input container — model picker moves to bottom toolbar
 - `4554694e` feat: GitHub tools for LLM chat
-- `88140fad` feat: expand shell allowlist — npm, npx, node, cargo
 - `40a9b698` feat: Syntax highlighting, thinking text style, citation hover cards
 - `f6e81b5e` feat: Chat history sidebar — search, star, open in new tab
 - `8aa2868a` feat: Streaming code highlights, keyboard shortcuts, conversation forking
-- `8bcba207` feat: add create_file tool for AI provider
 - `b0e064f1` feat: Inline citations, slash commands, Run in Terminal
 - `09e2f7b9` feat: Code block actions — Apply to File + Open in Canvas
-- `b673d369` feat: syntax-highlighted tool output — expand shows real code colors
-- `421cab7e` feat: Apple-style collapsible tool call cards
 - `c1a749fe` feat: Smart follow-ups + beautiful empty state onboarding
 - `6350e48d` feat: Phase 3 — Tool use with live indicators + sources
-- `bc512cb3` feat: AI provider tool execution backend
 - `87387fa9` feat: Edge TTS voice playback with animated player
-- `4f7fe6d4` feat: compact model selector + fix theme toggle in settings
 - `e8f6b5e0` feat: AI provider Desktop-style message action bar + proxy logging
 - `3af4c3dd` feat: Chat persistence + mermaid error isolation
-- `e3c65623` feat: restore light mode with proper theme toggle
 - `b6f2fcb3` feat: Full image support
 - `9a2ef511` feat: Rich markdown renderer for LLM Chat
-- `9e18da3a` feat: tool call card renderer components
 - `ebc58980` feat: LLM Chat Phase 1+2 — workspace context + @file attachment
 - `654b36e2` feat: Add all latest AI provider models (3.1 Pro, 3 Pro, 3 Flash)
 - `dba630fa` feat: configuration settings tab
-- `9af39728` feat: tool call SSE protocol types and parser
-- `e28fcf3b` feat: theme-aware markdown renderer + light mode code blocks
-- `898d5551` feat: rebrand mobile shell for o8
 - `a2571da2` feat: LLM Token Relay — provider proxy with metering
-- `dea51852` feat: rebuild mobile approvals and sidebar surfaces
 - `73cd1789` feat: LLM Chat v1 — standalone model access panel
-- `8b4199fd` feat: rebuild mobile approvals and sidebar surfaces
 - `829b2ac2` perf: GitHub API caching + worktrees auth fix across all routes
 - `68b59ac3` perf: Kill scroll jitter — remove per-frame CSS recalculation
-- `fcd91ca5` feat: replace custom mobile chat with @assistant-ui/react Thread
-- `9cce9754` feat: build mobile assistant-ui thread chat
 - `7b675e6c` feat: client abstraction — Local/Cloud/Hybrid
-- `d3f045f6` feat: mobile settings view + decompose monolithic client into focused modules
 - `c844b850` feat: Tier 2+3 intelligence layer
-- `e89b6a65` feat: mobile redesign
 
 ## 2026-03-19
 
 - `5701631b` feat: Repo switcher for Issues & PRs + deeper chat history
-- `289f3a09` feat: mobile settings view + decompose monolithic client into focused modules
 - `d25c4988` feat: Issues & PRs combined page + collapsible agents + deploy
-- `0576fce9` feat: mobile settings view + decompose monolithic client into focused modules
 - `52db245f` feat: Issues + Deploy Status + CI on mobile — monitoring & deciding
-- `af1a7152` feat: mobile settings view + decompose monolithic client into focused modules
 - `4ba2f2eb` feat: land realtime control plane and shell-first render path
-- `3b7046b8` feat: mobile settings view + decompose monolithic client into focused modules
 - `26afd0c3` feat: Memory page
-- `b44386f9` feat: mobile settings view + decompose monolithic client into focused modules
-- `9ebbc383` feat: add mobile settings view to glass sidebar
 - `4ce4c01e` feat: Tap-to-reveal message actions + Telegram-style photo grids
-
-## 2026-04-02
-
-- `17f58ba7` feat: full glass input field + glass send button + scroll-to-bottom arrow
 - `d5f9fbaa` feat: Dark mode
-- `a4e0d289` feat: glassmorphic buttons
 - `f6fd5939` feat: Tier 1 UX
 - `144a5f58` feat: Smooth crossfade animation between expanded header and compact pill
-- `75aa5d29` feat: collapsible code blocks with diff coloring and file path labels
-- `ec45fa7b` feat: TTS play button on assistant messages + AI provider-style input bar
 - `c27c9728` feat: Hide RuntimeBar when keyboard is up — clean compose
-- `c2327191` feat: starred + recents sections in sidebar, revert dots back to long-press
 - `18e70561` feat: Auto-grow input + RuntimeBar at true bottom + frosted status bar
-- `ca8ad50c` feat: long-press context menu on chat list — star, rename, delete
 - `1ac71b60` feat: Compaction indicator on mobile chat — matches desktop ThoughtsCard
-- `d63d2172` feat: AI provider-style chat list view
 - `45175e53` feat: Header collapse-to-pill + repo/branch/diff in bottom footer
-- `500dc19b` feat: AI provider-style message rendering + mobile markdown for code blocks
 - `797df06f` feat: Costs page
-- `8763c403` feat: wire mobile chat to real chat history store + conversation list in sidebar
 - `e728c1da` feat: Settings + PR Reviews in Activity + panel status APIs
-- `7a1aef00` feat: AI provider-style sliding sidebar + AI provider chat on mobile
 - `21413a25` feat: Notifications + PR Review from mobile
-- `3c40bb84` feat: add npm run tunnel for remote mobile access via Cloudflare
 - `f7c7f5f4` feat: Activity Feed + Launch-to-chat + Fleet → Agents rename
-- `3b1c52ce` perf: prefetch mobile inbox on server
 - `e80ca9c7` feat: Launch Agent — fire agents from mobile
 - `de47c496` feat: Fleet View — Apple-level agent dashboard for mobile
-- `a6aed2a0` perf: break route barrel imports
-- `ba662510` perf: switch dev to turbopack and lazy init db
 - `ec02c8a6` feat: Glass slash commands on mobile — frosted popover matching desktop
-- `14a417c0` feat: bound onAgentCompletion retry loop
 - `8c5b1e9c` feat: Speed Dial navigation — floating menu like Mister Copy Trade
-- `7d82733a` feat: add attempt learning persistence
 - `aadb6232` feat: ThoughtsCard Apple pass
-- `acb9bb3c` feat: add low-risk auto-approve policy
 
 ## 2026-03-18
 
 - `bb31b56c` feat: Slash commands + glass attach popover in workspace chat
-- `998b96e4` feat: add packet self-review confidence gate
 - `e3bfe466` feat: Chat V2 pass 2 — model/thinking, search, media button
-- `56be609e` feat: objective exit criteria
 - `7c85af66` feat: Chat V2
-- `471225d0` feat: compact Apple-style dropdown menu, no full-screen overlay
 - `8478ec0a` feat: competing product-style compact agent cards + always-visible running agents
 - `e6fb7355` feat: Add agent runtime + agent runtime to Open In dropdown
-- `bc19c545` feat: AI provider-style tool cards in mobile chat
 - `a6326d5f` feat: Open In button
-- `4228c8bb` feat: organize mobile sessions by type — Chats, Sessions, Missions
 - `a9ee6543` feat: Global Repo Context Bar — first-class repo selector above tabs
-- `84f79425` feat: warm grey + light beige palette across all 30 mobile surfaces
 - `75064758` feat: Workspace Chat V1 — full chat tabs alongside terminals
-- `5631e6c4` feat: slim compose bar
 - `511de9f8` feat: Dedicated Checks tab on PR viewer — competing product-style CI status
 - `cbaafa8d` feat: Files tab — Changes filter dropdown
 - `dba6c6fc` feat: Close remaining workspace gaps
-- `73ba8564` feat: in-process mutex on orchestrator-state.json
 - `7f3e7cd3` feat: Branch switching from panel — git checkout with dirty check
-- `4b610bbf` feat: merge conflict escalation via approval card
 - `8742abff` feat: Running indicator on collapsed repo card
 - `b1ee78c0` feat: Dev server launch from repo card — one-click Run/Stop
-- `16818234` feat: persist workflow watcher state to SQLite
 - `f26ed102` feat: Port preview pane — in-IDE iframe via proxy
-- `dc3b6355` feat: orchestrator session health monitor — 90s timeout + auto-recovery
 - `5d1fba5c` feat: Agent ↔ Branch association — bidirectional linking
-- `77a08e40` feat: persistent SQLite-backed review queue
 - `91d57d8c` feat: First-class ports in NavRail — auto-detect + grouped display
-- `32fa1ce8` feat: inline mission creation — no GitHub dependency
-- `6481fce0` perf: mobile page is now client-only — zero server-side bootstrap
 - `73caa0de` feat: Branch management — create, delete, cleanup
 - `2181b75c` feat: Optional worktree launch + stale branch detection (,)
-- `294efd58` perf: mobile optimization
 - `e431c0a1` feat: Expandable repo cards — branch list with worktree indicators
-- `79698cec` feat: copy AI provider mobile session list — clean rows, status groups, FAB
 - `ad609f3d` feat: Colored file icons + repo-aware file tree
 - `8a4eaa8e` feat: PR Review opens in canvas + remove Issues/PRs/CI tabs
 - `629cc421` feat: Repo-scoped Activity
-- `bf22b7de` feat: mobile new chat — launch LLM session from phone
 - `f69959eb` feat: Repo-aware Activity feed — selector, agent-scoped, PR merge banner
-- `7da466ac` feat: mobile wave 4
 - `0c3133a7` feat: Activity feed
-- `c7260974` feat: purge 4,277 lines of remodex CSS + remaining className from mobile
 - `07046189` feat: Unified Activity Feed — Apple-grade timeline with GitHub data
-
-## 2026-04-01
-
-- `d9e2df4d` feat: mobile waves 2+3
-- `e5b78197` feat: mobile wave 1
 - `9c726d5d` feat: Show all main agent surfaces + smart cron collapsing + fleet display setting
-- `276c93b8` perf: P1 bundle + network optimizations
 - `096f11ee` feat: Pin main agents + collapse cron sessions into single card per agent
-- `a648a890` perf: P0 performance fixes
 - `935e9ead` feat: Stall detection for launched agents — 5min silence triggers warning
-- `e161191d` feat: wire recommendMergeOrder() into merge pipeline
 
 ## 2026-03-17
 
 - `fd5b95be` feat: Proxy localhost previews to strip frame-busting headers
-- `56443ba9` feat: merge gate file size block + operator override
 - `dc767c4a` feat: Agent lifecycle
-- `a9961db6` feat: add FILE_SIZE_WAIVERS for layout orchestrators and multiplexers
 - `4ed8d0d5` feat: Live localhost preview
-- `e7dd4b3b` feat: skeleton map file size check at dispatch time
 - `34dbbbce` feat: Live activity dots + elapsed time on terminal tabs
-- `51227542` feat: InfinityGlow animated status indicator for agent cards
 - `07783010` feat: Terminal tab persistence — tabs survive app restarts
 - `796e1050` feat: Inline images rendered as HTML — bypass xterm IIP entirely
 - `c77d971a` feat: Inline image rendering
-- `551e9952` feat: FTUX progressive feature reveal
 - `0adbabb6` feat: Inline image rendering in terminal — Sixel + iTerm2 IIP support
 - `c4c521b7` feat: Auto-register folders opened via picker — shows as Recent next time
 - `c3b0f1f9` feat: Native folder picker
 - `83d80632` feat: Open folder picker — launch CLI agents in any directory
-- `43dd5381` feat: FTUX first-merge celebration state
 - `457ff44c` feat: Two-step CLI picker with repo selection ( foundation)
 - `c7f59308` feat: Terminal polish
-- `366bd6fa` feat: FTUX mobile QR prompt
 - `a8ed6a3e` feat: Terminal-first workspace
-- `34f9348e` feat: FTUX First Mission Card contextual CTA
 - `18741a2b` feat: Live review file-change push via WS — repos + worktrees
-- `932ee1cb` feat: FTUX empty states for all dashboard panels
 - `90bd3250` feat: Mobile terminal surface — xterm.js on mobile + Terminal/Chat lane
 - `128957d9` feat: Terminal infrastructure
-- `bd6c7c8a` feat: FTUX warm dashboard state
 - `71ad1442` feat: Launch modal UI
 - `e24244b3` feat: Universal launch pipeline
-- `23b1bdb6` feat: FTUX personalized chat greeting
 - `f6c89fd3` feat: Repo registry polish
-- `2bba0bfd` feat: workflow transition WebSocket channel
 - `6a67da78` feat: Analytics page — cost dashboard with real data
-- `b79ae61f` feat: workflow transition WebSocket channel for real-time status streaming
-- `0dd778db` feat: migrate approval store from JSON to SQLite
 - `7a17612f` feat: Agents section collapsible — same pattern as Activity
 - `9df7f9b5` feat: Activity as collapsible dropdown above agent cards
-- `3b8deb9f` feat: migrate approval store from JSON to SQLite
 - `5f3eef1a` feat: Issue assignment panel + ThoughtsCard z-index fix
-
-## 2026-03-31
-
-- `4f261749` feat: migrate lane registry from JSON to SQLite — kill cross-process clobber
 - `6c049e46` feat: Active session pulse on timeline drill-down cards
-- `fd0baca9` feat: sprint 6 wave 3
 - `1a6d4216` feat: Session cost tracking — real token usage + spend per session
-- `a18bc0af` perf: sprint 6 wave 2
 - `b1018474` feat: Connected session panel with live SVG bezier connector
-- `e3321db6` feat: workflow watcher coordination
-- `67d7083f` feat: route Audit Log to workspace tab instead of Inspector panel
-- `0386c4b0` feat: sprint 5
 - `9bc30cef` feat: Timeline drill-down — double-click for per-agent breakdown
-- `72ddf139` feat: sprint 4
 - `5c43c1d3` feat: Clickable PR diff on agent cards — opens PR viewer in Canvas
-- `9fb9baa7` feat: sprint 3
 - `63963edc` feat: WS-driven AgentPanel + TitleBar status dot + full dedup (-6)
-- `26592858` feat: sprint 2
 - `670bee13` perf: Wire WS for diff stats + remove redundant polls
-- `ff3a21c2` feat: structured multi-file diff in approval review gate
 
 ## 2026-03-16
 
@@ -3202,347 +1862,166 @@ and internal chores live in the private engineering log.
 - `c81120e3` feat: agent runtime agents show their active repo's diff
 - `43e2b39d` feat: Live Diffs for all 3 runtimes + UX fixes
 - `e648662e` feat: Live Diffs — beautiful real-time code change viewer
-- `fe2a36d0` feat: workflow watcher triggers workflow transition
 - `5d3075c8` feat: Live Agent Output panel + agent card pulse
 - `94c26159` feat: Real diff stats on main + real timeline activity bars
 - `0fbccc8b` feat: Real context % for agent runtime sessions + diff stats
-- `9eb53b0b` feat: agent runtime PreToolUse hook script for policy enforcement
 - `0622226b` feat: Wire real workspace data — PR status + diff stats on agent cards
-- `df5857f5` feat: one-shot send-as-task from ThoughtsCard chat
 - `54549618` feat: agent runtime sidebar chat
 - `ce6ea21c` feat: agent runtime transcript — read session JSONL into sidebar
 - `3fbfd2c6` feat: Smart naming on collapsed card dots too
-- `f388970c` feat: server-side packet auto-dispatch loop
 - `893de1aa` feat: Better naming in agent cards
-- `24173f2f` feat: integrate native shell-plugin-mcp for native app automation in dev builds
 - `7e177ece` feat: agent runtime sidebar chat — send messages via CLI print mode
-- `3e409e61` perf: JSONL tail-reads, cache-first actions, fingerprint optimization, sleep removal
 - `fef1a678` feat: agent runtime synthetic sessions for unmatched live processes
-- `947b47ac` perf: strip JSON pretty-printing from MCP server responses
 - `8a67d35e` feat: agent runtime sessions appear in fleet with live PID detection
-
-## 2026-03-30
-
-- `a58cd341` feat: native shell vibrancy polish, operator bridge fix, ghost session eviction, right panel cleanup
 - `b579ca74` feat: Status-grouped agent cards + Apple design polish
-- `f008f584` feat: operator MCP bridge — agent runtime as o8 control surface
 - `662ead41` feat: Full-size agent cards with everything visible
-- `7644e08a` feat: workspace UI overhaul
-- `125caca2` feat: UI polish pass
 - `d6b4ac39` feat: Show heartbeat intervals on agent cards (read-only)
 - `6634243c` feat: Agents tab in Settings — fleet dashboard with model editing
-
-## 2026-03-29
-
-- `52b9ba3b` feat: o8 brand mark — three-circle logo in accent blue
 - `5572534e` feat: Merge WorkspacesPanel into AgentPanel — unified view
-- `b1507b5a` feat: orchestrator loop — plan, delegate, review, approve
-- `234f8c00` feat: governance engine
 - `f857ea13` feat: WorkspacesPanel — status-grouped workspace cards
-- `8b973087` feat: refine o8 product brief from 3-turn brainstormer session
 - `ae1aeef7` feat: Cmd+K keyboard shortcut to toggle Thoughts Card
 - `231ecf00` feat: Context-aware suggestions in Thoughts Card
-- `75c90b23` feat: add REVIEW.md, agent delegation table in project rules, update agent descriptions
 - `508b34b3` feat: Agent picker in Task chat — route to any agent
-- `ca15b5ce` feat: add o8 product brief, update project rules with orchestrator model, create subagents
 - `4d921c15` feat: Approval routing in Thoughts Card + test simulation
-- `6c5d722f` feat: scrollable workspace lane tabs with transparent arrow overlays
 - `c5baa97f` feat: Task mode — mini chat inside Thoughts Card
-- `cf6807ee` feat: tab scroll arrows, tool cards in Thoughts, right panel defaults to review
 - `2cef4fc3` feat: Thoughts Card — Issue vs Task modes + resize fix
-- `df8bff52` feat: workspace tab shows issue context + diagnostics settings tab (,)
 - `ff5e6d1b` feat: Thoughts Card — resize handles + agent connection
-- `4a090261` feat: one-click issue launch icon + lane-scoped review rail (,)
 - `818e1a6d` feat: Thoughts Card — floating glass command surface
-
-## 2026-03-28
-
-- `6fc1e9c8` feat: add orchestrator MCP server, delegation tools, and agent supervisor
 - `00802a96` feat: Settings page with GitHub connection status
-- `281a4906` feat: add GitHub issues to ThoughtsCard Mission Control
 - `7b5a14ab` feat: Intent Canvas V0 — Fleet Command Center in workspace
-
-## 2026-03-27
-
-- `463ff8de` feat: add translucent desktop dark mode shell
 - `6da96c2b` feat: SessionTimeline Phase 1 — hover scrubber + real data API
-- `aac8e09d` feat: harden workspace shell and terminal sessions
 - `01ace93f` feat: Timeline Expanded View — full session replay in Canvas
-- `5c765358` feat: add o8 board and restore system-wide timeline
 - `bf8c66e6` feat: SessionTimeline V0 — agent activity replay bar
-- `578e411e` feat: move repo selection into workspace headers
 - `b9e4f6d3` feat: TitleBar window controls — sidebar/back/fwd/bottom/chat/settings
-
-## 2026-03-26
-
-- `24b6ae1f` feat: fix branch-scoped review flow
 - `0146dedf` feat: TitleBar search is now live UniversalSearch + red settings gear
 - `0c0e6313` feat: TitleBar
-- `c0eacdba` feat: turn workspace side panel into repo companion surface
 - `f5263e84` feat: Desktop NavRail
-- `6cf89a78` feat: route repo surfaces into workspace tabs
 - `16a2b8ca` feat: Session Info Sheet
-
-## 2026-03-25
-
-- `ec9aee42` feat: tighten workflow lifecycle and operator recovery
 - `e54a7db8` feat: Universal search
-- `0981e995` feat: refine desktop dark mode theme
 - `df7367b3` feat: Proactive alert system — engine, context, bell, tray, toast
-- `39c7bb54` feat: migrate ide to fact-backed o8 recall
-- `153b76ec` feat: enrich workspace cli chat parity
 - `4419a11a` feat: REST API resilience
-- `2f2b0fcf` feat: polish timeline and workspace chat surfaces
 
 ## 2026-03-15
 
 - `b63f3eff` perf: gateway REST API client — 23ms vs 38s CLI cold-start
 - `18c90fc2` feat: Heat map top-down view + fix fly-in stale closure
-- `bf8d4e89` feat: scope agent surfaces to ide sessions
 - `377f27c7` feat: Search dropdown with grouped clickable results
-- `ca06e24b` feat: route workspace launches and github flows through broker
 - `e4d52e59` feat: Knowledge Graph v3 — double-click fly-in + search fact nodes
-
-## 2026-03-24
-
-- `eab62fb3` feat: ship github app broker foundation
 - `418ef8f1` feat: Knowledge Graph v2.3 — zoom-aware labels + ambient fireflies
-
-## 2026-03-23
-
-- `d655dabc` feat: Unified ContextualPanel — canvas tabs merged into bottom panel
 - `ffc54c54` feat: Knowledge Graph v2.2 — depth fog + all labels + text polish
-- `a22ec01e` feat: Drop bundled Node (prerequisite) + bundle memory binary
 - `b6b6dbc4` feat: Knowledge Graph v2.1 — bar gradients + floor reflections
 - `8be40cd0` feat: Knowledge Graph v2
-- `5bb7f329` feat: WS server bundled in native shell app — terminals + chat work in production
 - `059b44f2` feat: Auto-refresh Knowledge Graph stats every 60s
-- `36cade24` feat: GitHub App authentication — 5,450 req/hr, auto-refreshing tokens
-- `1111c6e9` feat: GitHub PAT support + config lives in the user data dir/
-- `c5085de2` feat: Bundle Node.js inside the app — zero-config for users
 - `2d45dca2` feat: Replace lava lamp with Interactive 3D Knowledge Graph Explorer
-- `a9233f80` feat: Standalone server bundling for native shell — real distributable app
 - `48c367e3` feat: Memory lava lamp v2
-- `41f1f02f` feat: Inline edit
-- `658912fb` feat: 'Environments' filter in files dropdown — quick access to .env files
 - `3f487938` feat: memory Lava Lamp — living particle visualization
-- `0d8a7365` feat: Inline AI widget
 - `3fbbf87d` feat: Image rendering in mobile chat + click-to-expand lightbox
 - `4b0d8e0a` feat: Image rendering in chat + click-to-expand lightbox
-
-## 2026-03-22
-
-- `39ee35a4` feat: Tab autocomplete — AI ghost text suggestions while typing
-- `20074d83` feat: Cmd+E inline AI edit
 - `638a8a7f` feat: Typing indicator — animated dots while agent is thinking
-- `e813ed40` feat: Resizable files panel — drag handle between files and activity
 - `f47ed9f1` feat: Deployment Status (Vercel) + Git Log + Image Preview complete
-- `67887fda` feat: Monaco Frost v2
 - `2dc08c3d` feat: Git Log viewer + Image/Asset preview
-- `c9938b4e` feat: Monaco 'o8 Frost' theme — icy light blue editor
 - `ef3c82b4` feat: Issue Creator with AI enhancement (AI provider)
-- `6ecb9fc4` feat: Monaco Editor v3 — full IDE-grade file editing
 - `67a5f5b0` feat: Global workspace search + PR review comments with diff context
-- `96449e5f` feat: File editor v2
 - `72e05c70` feat: CI tab in agent panel
-- `dca28235` feat: Inline file editor with Cmd+S save + files default to Changes view
 - `7ef90f9c` feat: Changed file highlighting, clickable files, CI button
-- `048d3039` feat(branding): add o8 logo component + concept assets
 - `a1887636` feat: README viewer, CI/GitHub Actions, file diff preview
 - `8dc375a4` feat: Stop button + project-scoped data + no auto-transcript popup
-- `610d71af` feat: In-app update banner + landing page + version sync
 - `b3e9d0e0` feat: Project-scoped Issues, PRs, and Files — data follows workspace
 - `5d9591dc` feat: PR Review tab + canvas viewer — full GitHub PR detail inline
-- `3866ea48` feat: native shell updater + GitHub Actions release workflow
 - `3af091ab` feat: Commit detail viewer — click any commit in Activity tab
-
-## 2026-03-21
-
-- `d98a2ae3` feat: add sidebar runtime capability layer
 - `0b305939` feat: Agent panel groups by workspace — matches chat session picker
-- `9eaeb618` feat: refine sidebar approval polish
 - `19b82c0b` feat: Show all agents including agent runtime/agent runtime in agent panel
-- `50541b1d` feat: polish sidebar approvals and file actions
 - `352b261c` feat: Issue detail full-width + diff opens in canvas tab
-- `7f4399cd` feat: polish sidebar file actions
 - `ac13ffe7` feat: Drag-and-drop + paste + click-to-attach files in desktop chat
-- `40d53b58` feat: add sidebar source actions
 - `86d5fbac` feat: Vertical drag handle for canvas — resize workspace/canvas split
-- `9002c69e` feat: unify sidebar active turn surface
-- `51e28207` feat: show sidebar web source links
-- `9e8e44c4` feat: enrich desktop sidebar source context
-- `6347fa0f` feat: refine desktop sidebar runtime turns
 - `508f8525` feat: Contextual Canvas — bottom-half tabbed workspace
 - `b4b2d9af` feat: Click agent surface → switches chat to that session
 - `c1135d56` feat: Agent cards v2
-- `0bbef267` feat: Conflict Resolution UI in Memory settings tab
 - `653a1829` feat: Proper markdown rendering in issue modal
-- `7acca95f` feat: polish desktop sidebar runtime chat
 - `ab157be0` feat: Light theme + clickable issues with glass modal
-- `05d04422` feat: add intent board v1
 - `e65be2d0` feat: Three-column layout — Agent Panel | Workspace | Chat
-- `6e79944a` feat: unify desktop thoughts and sidebar chat rendering
 - `6ab46211` feat: Agent Command Center
 - `e71d2edd` feat: Glass diff modal
 - `e4690cb7` feat: Draggable compose bar — resize input height by dragging up
-- `c1af442d` feat: Codebase seeding engine — solve cold start for new users
 - `2c697aa0` feat: Glass modal for Mermaid diagrams — expand, zoom, pan
 - `beedb8ac` feat: Mermaid diagrams on mobile — same o8 frost theme
-- `78c8fc8c` feat: Unified chat send route + type fixes
 - `8c1f6b55` feat: Styled CodeBlock + Mermaid diagram viewer
-- `3714eb17` perf: WebSocket RPC replaces CLI fallback — agents load in <500ms
-- `b6f3b5da` feat: First Launch Setup Wizard — blue glass onboarding flow
 - `276067e0` feat: Transport controls — message actions morph during playback
-- `7097222a` feat: Setup detection + config API for first-launch wizard
 - `0c91779a` feat: Point-to-Play
 - `f0c24f64` feat: TTS Engine + Message Action Bar — Play/Copy/Retry on every message
 - `1338f05e` feat: Desktop chat header — exact mobile TopBar clone
-- `57c08ba1` feat: Graceful degradation when gateway unreachable
 - `575541bd` feat: Desktop chat sidebar — mobile-identical chat on Dashboard v1
-- `0ef0b44c` feat: Production polish
 - `9560da73` feat: Dashboard v1
-- `af7c99cb` feat: Blocklist guard for public changelog + project rules rule
 - `2b53d21f` feat: wire o8 v1.2.5 fixes — fact_ids, stale flags, real graph
 - `a6bfb253` feat: grouped squad picker with expand/collapse
-
-## 2026-03-20
-
-- `248dbb62` feat: context-aware recursive compaction — three-pass smart compression
-- `3a510e6d` feat: project rules
-- `3514bbf2` feat: Chat compaction
-- `cf171d8b` feat: File system tools
-- `698ce992` feat: Terminal command tool with three-tier safety + editable approval
 - `4b7698b2` feat: native shell v2 desktop shell
 - `9af1036a` feat: squad picker dropdown on TopBar title tap
-- `2e69153a` feat: Chat-optimized recall — structured facts over raw chunks
 - `e31ca632` feat: wire memory surfaces into shell
-- `84e34172` feat: Phase B
-- `d5eea79d` feat: memory settings
-- `18bead76` feat: memory settings tab — configure models, view stats
-- `44cb6d5b` feat: memory recall — Phase A
-- `fa565a22` feat: Steve Jobs polish — 5 UX refinements for LLM chat
 - `6f2b969f` feat: memory Integration — all 8 issues (-)
-- `740c2ef9` feat: Unified input container — model picker moves to bottom toolbar
-- `4554694e` feat: GitHub tools for LLM chat
-- `40a9b698` feat: Syntax highlighting, thinking text style, citation hover cards
-- `f6e81b5e` feat: Chat history sidebar — search, star, open in new tab
-- `8aa2868a` feat: Streaming code highlights, keyboard shortcuts, conversation forking
-- `b0e064f1` feat: Inline citations, slash commands, Run in Terminal
-- `09e2f7b9` feat: Code block actions — Apply to File + Open in Canvas
-- `c1a749fe` feat: Smart follow-ups + beautiful empty state onboarding
 
 ## 2026-03-14
 
 - `fff88386` feat: Phase 2
-- `6350e48d` feat: Phase 3 — Tool use with live indicators + sources
-- `87387fa9` feat: Edge TTS voice playback with animated player
-- `e8f6b5e0` feat: AI provider Desktop-style message action bar + proxy logging
-- `3af4c3dd` feat: Chat persistence + mermaid error isolation
-- `b6f2fcb3` feat: Full image support
-- `9a2ef511` feat: Rich markdown renderer for LLM Chat
 - `f41508ca` feat: worktree isolation Phase 1
 - `c773f3d9` feat: universal runtime adapter contract + agent runtime integration
 - `58091a6f` feat: code block rendering — fenced code + tool output cards
 - `ae4290f3` feat: native markdown table rendering — beautiful HTML tables in chat view
-- `ebc58980` feat: LLM Chat Phase 1+2 — workspace context + @file attachment
 - `af6455b7` feat: unified WebSocket — real-time push replaces SSE + polling
-- `654b36e2` feat: Add all latest AI provider models (3.1 Pro, 3 Pro, 3 Flash)
 - `6078ff69` feat: PWA
 - `ae4baf29` feat: virtual scrolling for transcript — DOM bloat eliminated
-- `dba630fa` feat: configuration settings tab
 - `0143de0f` feat: consolidated sync API — 5 requests → 1
 - `95b06c78` feat: prompt enhancement
-- `a2571da2` feat: LLM Token Relay — provider proxy with metering
 - `cffa471b` feat: approval primitive
 - `a28dbb33` feat: cost dashboard
 - `9360ccbc` feat: wire json-render Renderer into mobile shell
-- `73cd1789` feat: LLM Chat v1 — standalone model access panel
 - `ac850ea6` feat: json-render integration
-- `829b2ac2` perf: GitHub API caching + worktrees auth fix across all routes
 - `04965e55` feat: agent runtime chat parity
 - `4a282df2` feat: seamless agent runtime chat
-- `68b59ac3` perf: Kill scroll jitter — remove per-frame CSS recalculation
 - `2cfbf887` feat: auto-switch to launched agent runtime session
 - `9d8aa6bb` feat: clean agent runtime chat view
 - `ea09b713` feat: discovered agent runtime session transcript
-- `7b675e6c` feat: client abstraction — Local/Cloud/Hybrid
 - `07f0dcd7` feat: live process fallback
-- `c844b850` feat: Tier 2+3 intelligence layer
 - `286f3397` feat: mobile agent runtime launch
-
-## 2026-03-19
-
-- `5701631b` feat: Repo switcher for Issues & PRs + deeper chat history
 
 ## 2026-03-13
 
 - `ce3a5ef7` feat: unified chat for agent runtime sessions
-- `d25c4988` feat: Issues & PRs combined page + collapsible agents + deploy
 - `6d9cf064` feat: show all agent runtime sessions in squad (no stale filter), dedupe by branch, show branch in pills
-- `52db245f` feat: Issues + Deploy Status + CI on mobile — monitoring & deciding
 - `59dd7471` feat: project-grouped squad rail
-- `4ba2f2eb` feat: land realtime control plane and shell-first render path
 - `e3abcb80` feat: native streaming
-- `26afd0c3` feat: Memory page
 - `2766c248` feat: commit summary card in diff view (zero AI
-- `4ce4c01e` feat: Tap-to-reveal message actions + Telegram-style photo grids
 - `3a295ceb` feat: observable agents
-- `d5f9fbaa` feat: Dark mode
 - `53bde190` feat: squad cards
-- `f6fd5939` feat: Tier 1 UX
 - `5efa10b5` perf: diff view
-- `144a5f58` feat: Smooth crossfade animation between expanded header and compact pill
 - `d6e646b9` perf: review-file 10s cache + only poll when diff open, tighter idle behavior
 - `f27d88b6` perf: request dedup, 8s inbox cache, 5s transcript cache, round usedPercent, suppress hydration
-- `c27c9728` feat: Hide RuntimeBar when keyboard is up — clean compose
 - `d6f0f4ad` perf: adaptive polling (20s idle, pause on hidden tab, resume on focus), CSS containment, layout isolation
-- `18e70561` feat: Auto-grow input + RuntimeBar at true bottom + frosted status bar
 - `f9c82c32` perf: diff-and-patch transcript + snapshot — eliminate flash on idle polls
-- `1ac71b60` feat: Compaction indicator on mobile chat — matches desktop ThoughtsCard
 - `4384eb8f` perf: skeleton loading, lazy images, send click, API caching (3s transcript, 5s inbox)
-- `45175e53` feat: Header collapse-to-pill + repo/branch/diff in bottom footer
 - `8731f592` perf: smooth scroll, message fade-in, optimistic user messages, image caching, typing bubble animation
 - `9887ba66` design: red send button + red typing dots — matches hamburger accent
-- `797df06f` feat: Costs page
 - `c9cf14f4` design: solid red menu button, context pressure in bottom bar, doc tab apple redesign
-- `e728c1da` feat: Settings + PR Reviews in Activity + panel status APIs
 - `1e30be56` design: full mobile UX pass
-- `21413a25` feat: Notifications + PR Review from mobile
 - `2715fee5` design: apple-grade controls sheet + sticky diff files survive compaction
-- `f7c7f5f4` feat: Activity Feed + Launch-to-chat + Fleet → Agents rename
 - `b4ae629d` design: apple-grade diff polish
-- `e80ca9c7` feat: Launch Agent — fire agents from mobile
 
 ## 2026-03-12
 
 - `00c14dbf` feat: surface queued agent runtime turns and clearer mobile send actions
-- `de47c496` feat: Fleet View — Apple-level agent dashboard for mobile
 - `f7f54ffc` feat: add quick thread switching for mobile agent runtime lane
-- `ec02c8a6` feat: Glass slash commands on mobile — frosted popover matching desktop
 - `b6324594` feat: make owned agent runtime mobile lane feel conversational
 - `7bf408ef` feat: allow owned agent runtime interrupt on mobile
-- `8c5b1e9c` feat: Speed Dial navigation — floating menu like Mister Copy Trade
 - `e480039e` feat: preload owned mobile diff context on focus
 - `c740a25d` feat: extend owned agent runtime review and resume on mobile
-- `aadb6232` feat: ThoughtsCard Apple pass
 - `b42b018d` feat: make owned review packets actionable
-
-## 2026-03-18
-
-- `bb31b56c` feat: Slash commands + glass attach popover in workspace chat
 - `4a316a59` feat: add owned agent runtime review packets
-- `e3bfe466` feat: Chat V2 pass 2 — model/thinking, search, media button
 - `6de73096` feat: surface owned agent runtime watch lane on mobile
 - `e1a47bb2` feat: harden owned agent runtime lifecycle and tail views
 - `dc221164` feat: add owned agent runtime launch and resume lane
 - `6b7ffeea` feat: add runtime action ownership seam
-- `7c85af66` feat: Chat V2
 - `fdc24f56` feat: promote runtime inventory and agent runtime activity detection
-- `8478ec0a` feat: competing product-style compact agent cards + always-visible running agents
 - `7217d071` feat: surface local agent runtime runtime discovery in desktop shell
-- `e6fb7355` feat: Add agent runtime + agent runtime to Open In dropdown
 - `b1650ee5` feat: harden mobile operator chrome and review cockpit
-- `a6326d5f` feat: Open In button
 - `6a3cdd20` feat: add panel and terminal shells to mobile queue
 - `ffd2e4a6` feat: add mobile per-file review drilldown
 - `add6a8e7` feat: deepen mobile review lane and glass styling
@@ -3554,11 +2033,4 @@ and internal chores live in the private engineering log.
 - `bbe5dab3` feat: add mobile control inbox foundation
 - `e63edc8d` feat: wire live agent runtime bridge and workflow review
 - `868b012d` feat: add native desktop shell wrapper and guardrail surfaces
-- `a9ee6543` feat: Global Repo Context Bar — first-class repo selector above tabs
 - `8a8b0775` feat: bootstrap command center shell and runtime contracts
-- `75064758` feat: Workspace Chat V1 — full chat tabs alongside terminals
-- `511de9f8` feat: Dedicated Checks tab on PR viewer — competing product-style CI status
-- `cbaafa8d` feat: Files tab — Changes filter dropdown
-- `dba6c6fc` feat: Close remaining workspace gaps
-- `7f3e7cd3` feat: Branch switching from panel — git checkout with dirty check
-- `8742abff` feat: Running indicator on collapsed repo card
