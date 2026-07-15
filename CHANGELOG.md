@@ -7,8 +7,21 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-15
+
+- `74e537d1` feat(workspace): drag a chat from the left rail into the workspace to split it (agent runtime parity)
+- `8671b8cf` feat(voice agent): localize embedded browser targets
+- `ceeb601f` feat(voice agent): ground screen guidance in accessibility
+- `232cae1d` design(chrome): stoplights + sidebar toggle share one centerline; light-clearance survives UI zoom
+- `4e76746c` perf(dashboard): stop re-rendering the whole page tree on every resize frame
+- `67cd9d39` feat(license-server): comp-founder script — grant a comped Founding Operator seat
+- `cd11e44e` design(theme): dark header chrome matches the paper anchor
+- `66e89770` design(theme): de-blue the dark palette — neutral graphite, ThemeLab-picked
+
 ## 2026-07-14
 
+- `ba0b7fb0` feat(dev): ThemeLab
+- `f2073b01` perf(voice): resolve the dictation caret target in one AX round-trip
 - `e581041c` feat(voice): add caret streaming and smart compose
 - `2d63e524` feat(workspace-rail): pill stays at any window size, left panel auto-collapses when narrow, real Sources from the conversation
 - `cac3b4dc` feat(workspace-rail): the branch-details pill floats its card on click instead of pushing the chat
