@@ -9,6 +9,12 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-14
 
+- `e581041c` feat(voice): add caret streaming and smart compose
+- `2d63e524` feat(workspace-rail): pill stays at any window size, left panel auto-collapses when narrow, real Sources from the conversation
+- `cac3b4dc` feat(workspace-rail): the branch-details pill floats its card on click instead of pushing the chat
+- `b56d85cd` design(brain): drop the cost-shape legend cluttering the brain tab bottom
+- `dfb38823` feat(panel): Incident Queue is a closeable utility tab, not a forced main pane
+- `bbc725a2` design(rail): shimmer flare goes blue on light — orange read too quiet
 - `0d936041` feat(workspace): the Orchestrator chat is THE chat — casual Chat surface retired
 - `77af8e68` feat(ports): footer ports popover becomes a dev-server launcher
 - `b40c8174` design(panel): terminal-first add-tab menu — shells lead, opens upward
