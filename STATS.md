@@ -7,5 +7,5 @@ Last updated: 2026-07-16
 | Features shipped (180d) | 1762 |
 | Merged through o8 (180d) | 247 |
 | Days active | 123 |
-| This week | 158 features |
+| This week | 156 features |
 | Today | 17 features |

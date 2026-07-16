@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-15
 
+- `52961c50` feat(telemetry): non-crash anomalies phone home
 - `d480dbb8` feat(reports): every bug report carries its own forensics
 - `58c63cda` design(workspace-rail): floating branch-details card gets Lisse corners nested to the workspace corner
 - `2a136189` feat(spawn): failed New-session spawns surface a visible error toast — never silent
