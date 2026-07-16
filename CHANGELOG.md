@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-16
+
+- `b9fcc9bf` feat(reports): workspace-state snapshot + session-spawn journal in report diagnostics
+
 ## 2026-07-15
 
 - `52961c50` feat(telemetry): non-crash anomalies phone home
