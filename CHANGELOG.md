@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-15
 
+- `58c63cda` design(workspace-rail): floating branch-details card gets Lisse corners nested to the workspace corner
+- `2a136189` feat(spawn): failed New-session spawns surface a visible error toast — never silent
 - `cf45225c` feat(composer): agent runtime + Hermes selectable in the backend picker; chip shows the real next-turn backend
 - `98f43be6` feat(tts): free Steffan male voice is the default for everyone, not the OS voice
 - `74e537d1` feat(workspace): drag a chat from the left rail into the workspace to split it (agent runtime parity)
