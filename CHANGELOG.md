@@ -9,6 +9,13 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-16
 
+- `64a8aed9` design(sidebar): left panel becomes a flush dock; account row + drawer lose their duplicate verbs
+- `249804a1` feat(status): the branch chip goes quiet on the default branch
+- `a484b7f3` feat(chrome): move the operator's utilities onto the surfaces they belong to
+- `a166fa76` design(status): failed runs wear bright red, distinct from the declined-review orange
+- `fe75069f` feat(chrome): DOM traffic lights that scale with UI zoom — native stoplights hidden
+- `1ce73c51` feat(orchestrator): pull Hermes from the composer picker + exec-probe its availability
+- `466a89f1` feat(orchestrator): pull agent runtime from the backend pickers (not one-click yet)
 - `b9fcc9bf` feat(reports): workspace-state snapshot + session-spawn journal in report diagnostics
 
 ## 2026-07-15
