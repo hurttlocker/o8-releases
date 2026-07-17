@@ -9,6 +9,10 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-16
 
+- `d0ea149b` feat(mobile): OpenAI-compatible genui streaming endpoint for the generative-UI spike
+- `de47c3c5` design(all-glass): sidebar preview + toggle polish round
+- `8d8cbca6` feat(theme): All Glass mode (experimental)
+- `fc4092db` design(drawer): merge Theme + Glass into one Appearance row
 - `64a8aed9` design(sidebar): left panel becomes a flush dock; account row + drawer lose their duplicate verbs
 - `249804a1` feat(status): the branch chip goes quiet on the default branch
 - `a484b7f3` feat(chrome): move the operator's utilities onto the surfaces they belong to
