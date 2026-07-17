@@ -9,6 +9,17 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-16
 
+- `7443b30c` perf: repo switching serves per-repo snapshots and skips work for surfaces that aren't open [via-o8]
+- `39afb297` perf: workspace/thread restore paints known state instantly — no forced loader hold [via-o8]
+- `71b0275f` perf: workspace/thread restore paints known state instantly — no forced loader hold [via-o8]
+- `8c41ead7` perf: Settings takeover and right-panel close keep the workspace alive [via-o8]
+- `42314e9c` perf: DesktopStatusBar stops observing the entire body subtree for composer position [via-o8]
+- `4f9750cb` perf: O8Panel hidden panes stop doing N-repo git scans and duplicate review pipelines [via-o8]
+- `372b398a` perf: PR detail + panel fetches get stale-while-revalidate snapshots instead of refetch-on-mount [via-o8]
+- `22159a09` perf: lifecycle WS events emit once and reconcile through one coalesced pass [via-o8]
+- `fa4b3a0e` perf: branch route serves a snapshot instantly, refreshes async with batched git [via-o8]
+- `2eafecb3` perf(speed-sprint wave 1a): PTY output and tab clicks stop re-rendering the workspace tree
+- `f9e0578d` perf(speed-sprint wave 0): 15 quick wins
 - `d0ea149b` feat(mobile): OpenAI-compatible genui streaming endpoint for the generative-UI spike
 - `de47c3c5` design(all-glass): sidebar preview + toggle polish round
 - `8d8cbca6` feat(theme): All Glass mode (experimental)
