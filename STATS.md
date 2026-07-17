@@ -8,4 +8,4 @@ Last updated: 2026-07-17
 | Merged through o8 (180d) | 247 |
 | Days active | 124 |
 | This week | 160 features |
-| Today | 16 features |
+| Today | 14 features |
