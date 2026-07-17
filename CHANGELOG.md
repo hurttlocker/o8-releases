@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-17
+
+- `f2269dcb` design(chrome): AI provider-desktop sidebar float (solid surfaces) + the day's locks in design system.md
+- `c578d1d4` feat(canvas): Glass look + the free theme trio — Light / Dark / Glass match the IDE side
+- `02543df2` feat(theme): ALL GLASS locked
+
 ## 2026-07-16
 
 - `7443b30c` perf: repo switching serves per-repo snapshots and skips work for surfaces that aren't open [via-o8]
