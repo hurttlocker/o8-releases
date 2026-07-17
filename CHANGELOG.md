@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-17
 
+- `9a704477` feat(all-glass): white ink inside the composer — no slate text on the glass
+- `a3b78e4d` perf(boot): coalesce the boot API storm
+- `b5fd06fd` feat(boot): splash owns the window from first paint, one complete reveal
 - `f2269dcb` design(chrome): AI provider-desktop sidebar float (solid surfaces) + the day's locks in design system.md
 - `c578d1d4` feat(canvas): Glass look + the free theme trio — Light / Dark / Glass match the IDE side
 - `02543df2` feat(theme): ALL GLASS locked
