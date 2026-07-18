@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-18
 
+- `821040dd` feat(settings): permissions concierge — live macOS permission status + fix flow
+- `bbcbfb7c` feat(security): Tier-2 macOS worker sandbox
 - `2d959004` feat(rail): 'missing' repo state first-class across every surface
 - `f89450db` feat(chat): inline 'Initialize Git here' cure on the no-git-repo orchestrator error
 - `116b71f1` feat(repos): 'missing' readiness state
