@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-18
 
+- `5f5bc262` feat(orchestrator): client reconciles against server turn truth
+- `de53bfd4` feat(orchestrator): server-authoritative turn ledger
 - `5e6c525e` feat(orchestrator): review-ready self-continuation
 - `2453cd79` perf(review): incremental review scan — dirty-set + stat gate, 60s full sweep
 - `7c7f8184` perf(fleet): stat-keyed run-log parse cache — stop re-parsing megabytes per poll
