@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-18
 
+- `5761dc7e` feat(governance): every run gets a definite ending — no silent archives
 - `9dd430b0` feat(orchestrator): backend-neutral plan-update snapshots for mobile turn progress
 - `a07e1a09` feat(rail): finished agents stay in the clean view — Recent tail with truthful outcome chips
 - `8670345c` feat(review): merge from the review surface
