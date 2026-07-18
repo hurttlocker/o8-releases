@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-18
 
+- `2d959004` feat(rail): 'missing' repo state first-class across every surface
+- `f89450db` feat(chat): inline 'Initialize Git here' cure on the no-git-repo orchestrator error
+- `116b71f1` feat(repos): 'missing' readiness state
 - `5f5bc262` feat(orchestrator): client reconciles against server turn truth
 - `de53bfd4` feat(orchestrator): server-authoritative turn ledger
 - `5e6c525e` feat(orchestrator): review-ready self-continuation
