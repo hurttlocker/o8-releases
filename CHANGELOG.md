@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-18
 
+- `5e6c525e` feat(orchestrator): review-ready self-continuation
+- `2453cd79` perf(review): incremental review scan — dirty-set + stat gate, 60s full sweep
 - `7c7f8184` perf(fleet): stat-keyed run-log parse cache — stop re-parsing megabytes per poll
 - `5761dc7e` feat(governance): every run gets a definite ending — no silent archives
 - `9dd430b0` feat(orchestrator): backend-neutral plan-update snapshots for mobile turn progress
