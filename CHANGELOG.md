@@ -7,6 +7,14 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-18
+
+- `9dd430b0` feat(orchestrator): backend-neutral plan-update snapshots for mobile turn progress
+- `a07e1a09` feat(rail): finished agents stay in the clean view — Recent tail with truthful outcome chips
+- `8670345c` feat(review): merge from the review surface
+- `3d3235d2` feat(review): summary-first header above the packet diff — agent runtime PR-view parity, our style
+- `352de796` feat(spawn): agent-originated workers surface quietly — no screen hijack
+
 ## 2026-07-17
 
 - `9a704477` feat(all-glass): white ink inside the composer — no slate text on the glass
