@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-18
 
+- `e5429f2d` feat(mobile): managed remote-access desktop contracts — terminal routes + device-scoped steer
 - `821040dd` feat(settings): permissions concierge — live macOS permission status + fix flow
 - `bbcbfb7c` feat(security): Tier-2 macOS worker sandbox
 - `2d959004` feat(rail): 'missing' repo state first-class across every surface
