@@ -7,8 +7,13 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-19
+
+- `040b7f56` feat(repos): repoint registered repository paths
+
 ## 2026-07-18
 
+- `3270456a` feat: close packets without merging
 - `4c8e287c` feat(voice agent): teach the phone voice session to render gen-UI surfaces
 - `e5429f2d` feat(mobile): managed remote-access desktop contracts — terminal routes + device-scoped steer
 - `821040dd` feat(settings): permissions concierge — live macOS permission status + fix flow
