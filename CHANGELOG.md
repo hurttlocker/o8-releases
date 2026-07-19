@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-19
 
+- `dfea7eb6` feat(desktop): Resources tab — tidy pass + guarded per-row Kill action
+- `69542b23` feat(desktop): Resources tab
 - `040b7f56` feat(repos): repoint registered repository paths
 
 ## 2026-07-18
