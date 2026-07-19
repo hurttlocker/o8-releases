@@ -9,6 +9,10 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-19
 
+- `49718535` feat: add declarative CLI runtime adapters
+- `5d0e72fb` feat(governance): 'surface' approval posture
+- `05a24176` feat: add operator-controlled merge approvals
+- `80fe569e` perf(brain): share one MCP session across symbol-graph traces — recall p95 1643ms to 146ms
 - `dfea7eb6` feat(desktop): Resources tab — tidy pass + guarded per-row Kill action
 - `69542b23` feat(desktop): Resources tab
 - `040b7f56` feat(repos): repoint registered repository paths
