@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-19
 
+- `e4214be2` feat(voice agent): ground phone Code workspace sessions
 - `49718535` feat: add declarative CLI runtime adapters
 - `5d0e72fb` feat(governance): 'surface' approval posture
 - `05a24176` feat: add operator-controlled merge approvals
