@@ -9,6 +9,11 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-19
 
+- `be36276e` feat(o8md): per-note reply / apply / act on annotations — no full re-review
+- `5cfdf04b` feat(voice agent): brain runtime fallback
+- `6512c3e1` feat: add declarative community worker adapters
+- `6012400f` feat(onboarding): discovery-driven runtime picker
+- `7801cea6` feat(runtime): kill agent runtime-only production pin
 - `e4214be2` feat(voice agent): ground phone Code workspace sessions
 - `49718535` feat: add declarative CLI runtime adapters
 - `5d0e72fb` feat(governance): 'surface' approval posture
