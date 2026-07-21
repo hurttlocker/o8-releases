@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-21
 
+- `27fdb8ac` feat: add composer undo-send buffer
 - `0a53b927` feat(runtimes): centralize dispatch registry
 
 ## 2026-07-20
