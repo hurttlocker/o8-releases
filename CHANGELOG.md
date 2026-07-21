@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-20
 
+- `348143e5` feat: enforce hardened composer modes
 - `8b30ec6d` feat(voice agent): ship repo-scoped Code voice control
 - `91874e5e` feat(mcp): host the operator MCP once as an in-app /api/mcp HTTP endpoint + thin stdio proxy
 - `b7561517` feat(report): preview + consent-gate the auto-attached screenshot before send
