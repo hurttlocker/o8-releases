@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-21
+
+- `0a53b927` feat(runtimes): centralize dispatch registry
+
 ## 2026-07-20
 
 - `348143e5` feat: enforce hardened composer modes
