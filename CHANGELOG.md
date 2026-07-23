@@ -7,8 +7,14 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-22
+
+- `7462da2a` feat(voice agent): add governed chained plans
+- `d756d895` feat(voice agent): require spoken packet review before approval
+
 ## 2026-07-21
 
+- `17c46343` feat(voice agent): add durable action ledger
 - `27fdb8ac` feat: add composer undo-send buffer
 - `0a53b927` feat(runtimes): centralize dispatch registry
 
