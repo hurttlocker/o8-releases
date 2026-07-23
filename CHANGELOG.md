@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-23
+
+- `95f63f2c` feat(entitlement): default to free/BYO when no license server configured
+
 ## 2026-07-22
 
 - `7462da2a` feat(voice agent): add governed chained plans
