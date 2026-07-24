@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-24
 
+- `6c4bbae1` feat(runtimes): certify the 12-runtime claim
 - `4780b88a` feat(voice): agent runtime app-server voice capability probe
 
 ## 2026-07-23
