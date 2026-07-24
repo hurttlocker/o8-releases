@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-24
+
+- `4780b88a` feat(voice): agent runtime app-server voice capability probe
+
 ## 2026-07-23
 
 - `95f63f2c` feat(entitlement): default to free/BYO when no license server configured
