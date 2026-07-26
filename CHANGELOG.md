@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-26
+
+- `250c03b3` feat(voice): wire dormant narration core to the live lane-event bus
+
 ## 2026-07-24
 
 - `6c4bbae1` feat(runtimes): certify the 12-runtime claim
