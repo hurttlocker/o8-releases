@@ -7,6 +7,13 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-27
+
+- `773b642b` feat(voice): agent runtime app-server S2S transport - OAuth-sub realtime lifecycle, capability fencing, visible text fallback (,)
+- `83071bf7` feat(voice): "Voice via your ChatAI model plan" settings row + narration speaker host
+- `49371203` design(settings): plan ladder reads Free/Pro/Team
+- `925252a3` design(desktop): founder serial chip moves off the status bar into the settings drawer account row
+
 ## 2026-07-26
 
 - `250c03b3` feat(voice): wire dormant narration core to the live lane-event bus
