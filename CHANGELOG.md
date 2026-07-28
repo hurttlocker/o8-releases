@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-27
 
+- `277d9df4` perf(motion): FLIP tile morphs, DictationPill off width/filter tweens, scaleX analytics bars; view-options glyph loses the ellipsis costume
+- `ccbe30ca` perf(motion): replace every transition:all in desktop components with explicit property lists
+- `0fa2ef65` perf(motion): active-row text cue is an opacity pulse, not a background-clip paint loop; delete 6 dead keyframes; slide-in-preview off max-height
 - `773b642b` feat(voice): agent runtime app-server S2S transport - OAuth-sub realtime lifecycle, capability fencing, visible text fallback (,)
 - `83071bf7` feat(voice): "Voice via your ChatAI model plan" settings row + narration speaker host
 - `49371203` design(settings): plan ladder reads Free/Pro/Team
