@@ -7,6 +7,11 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-29
+
+- `367ba4a7` feat(connect): o8 connect phase 1a - CLI verbs, machine identity, registry client, server contract (t3-connect answer)
+- `f3cc0b57` feat(composer): prompt stash - park a half-written orchestrator prompt, get it back anywhere
+
 ## 2026-07-28
 
 - `3f638c01` feat: support repo-less orchestrator home sessions
