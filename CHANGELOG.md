@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-28
 
+- `3f638c01` feat: support repo-less orchestrator home sessions
 - `7d8a76fe` design(settings+motion): All-glass honestly locks the Appearance controls; both palettes open with a 120ms fade
 - `4e4ec843` perf(motion): stop transitioning box-shadow, font-weight and width at the 7 flagged sites
 
