@@ -9,6 +9,10 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-29
 
+- `13606c73` feat(runtimes): Qoder CLI as the 13th certified worker runtime, pinned to Qwen3.8-Max-Preview
+- `9c27d00f` feat(connect): machine-scoped relay tickets + relay machine routing (phase 1b remainder)
+- `c299b0d1` feat(connect): phase 1b machine registry
+- `cb921ce4` feat(ship): release.mjs announces each release in the community #releases channel
 - `367ba4a7` feat(connect): o8 connect phase 1a - CLI verbs, machine identity, registry client, server contract (t3-connect answer)
 - `f3cc0b57` feat(composer): prompt stash - park a half-written orchestrator prompt, get it back anywhere
 
