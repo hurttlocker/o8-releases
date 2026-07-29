@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-29
 
+- `2ca6b823` feat(connect): the browser bridge
 - `7bd59a8d` feat(connect): cut 3a
 - `08215e13` feat(connect): cut 2
 - `13606c73` feat(runtimes): Qoder CLI as the 13th certified worker runtime, pinned to Qwen3.8-Max-Preview
