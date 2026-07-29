@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-07-29
 
+- `7bd59a8d` feat(connect): cut 3a
 - `08215e13` feat(connect): cut 2
 - `13606c73` feat(runtimes): Qoder CLI as the 13th certified worker runtime, pinned to Qwen3.8-Max-Preview
 - `9c27d00f` feat(connect): machine-scoped relay tickets + relay machine routing (phase 1b remainder)
