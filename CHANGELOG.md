@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-07-30
+
+- `9bbb8436` perf(approvals): stop shipping every stored diff in list responses
+
 ## 2026-07-29
 
 - `fd4d04da` feat(connect): relayed surfaces talk over the machine tunnel and paint solid
