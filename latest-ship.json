@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.738",
+  "tag": "v0.1.738",
+  "publishedAt": "2026-09-06T18:14:38Z",
+  "title": "Workers stay signed in and start clean",
+  "summary": "Login rotation is fixed with a dedicated worker token, Claude and Codex worker startup is repaired, and false finished and merged states are closed.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.738",
+  "sourceCommits": [
+    "387eac28a",
+    "24f5d0dcf",
+    "a2b0f692c",
+    "aa4247292",
+    "e88ab83ae",
+    "d3ca5a683",
+    "6902f0646",
+    "c0272d6ea",
+    "2faf3393f",
+    "db9ba20bc",
+    "55b854124",
+    "765090a19"
+  ],
+  "sections": [
+    {
+      "title": "What this ship changes for you",
+      "items": [
+        "Claude stops logging you out. Workers use a dedicated inference-only token instead of a copy of your login, so a worker refreshing its token no longer signs you out.",
+        "Before you upgrade, stop any running workers. A worker already running when 0.1.738 starts cannot be signaled by the new build and has to be stopped by hand.",
+        "After you upgrade, run npm run worker:login once from a source checkout, or Claude workers fail closed with a worker-token error. The installed app cannot run this step yet.",
+        "Claude workers start signed in. The sandbox is built after the worker config directory exists.",
+        "Codex workers start again. The sandbox grants the exact read of the repo's own .codex/config.toml; neighboring reads and all config writes stay denied.",
+        "Fewer false finished and merged states. Failed and stopped turns report their real outcome, and review state derives from the lane outcome or the merge commit.",
+        "The Codex orchestrator default moves to the newest flagship Codex model. Workers keep the current default, and hosts without the new model fall back automatically.",
+        "Not fixed in this ship: workers still run under your macOS user and can read operator-scope environment state a same-user process can reach. Per-worker isolation is next."
+      ]
+    },
+    {
+      "title": "Fixes",
+      "items": [
+        "Retirement of an already-deleted managed worktree completes in one sweep instead of refusing forever; one install logged about 2,400 refusals per start.",
+        "Merge preview admits packet-bound workers instead of rejecting their own preview request.",
+        "A stale review turn is abandoned when a new one starts or the packet closes.",
+        "A same-head lane with no work can still be marked merged; tracked for the next ship."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "The voice agent can call tools from attached external MCP servers.",
+        "Interactive task artifacts with a return channel."
+      ]
+    }
+  ]
+}
