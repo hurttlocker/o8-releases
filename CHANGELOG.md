@@ -7,8 +7,261 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-05
+
+- `2faf3393f` feat: voice agent can call tools from attached external MCP servers [via-o8]
+- `55b854124` feat: interactive task artifacts with a return channel
+- `281ff3aff` perf: lazy-load noncritical dashboard panels
+- `18985d5a7` perf: bound desktop launch work
+
+## 2026-09-04
+
+- `7e574cf52` perf: prune incompatible Mac prebuilds
+- `ebda6e240` perf: bound Mac repository discovery
+- `1c5e2e285` perf: add interaction performance receipts
+- `77841e9d1` perf: strengthen Mac footprint receipts
+
+## 2026-09-02
+
+- `1eb12881c` feat: publish Linux AppImage and signature to the updater mirror on dispatch
+- `c8baf0b4a` feat: operator step to sign and manifest the Linux AppImage
+- `7743fc6d0` feat: declare Linux nodejs dependency and document unsupported surfaces
+
+## 2026-09-01
+
+- `061194179` feat: add declarative worker runtimes
+
+## 2026-08-31
+
+- `bdba5fa7b` feat(desktop): attach the shell to a healthy headless daemon
+- `d83c3bea6` feat(cli): headless serve service lifecycle, update story, and drift guard
+
+## 2026-08-30
+
+- `429732494` feat(cli): headless o8 serve daemon ( phase 1)
+- `639f2a960` feat(dispatch): low-latency runtime preset for UI edit turns
+- `0bfb875ca` feat(merge): lint changed files in the governed merge gate
+- `3797d7d4d` feat: add rich Markdown slash menu
+- `54e5a8a6e` feat: add find to rich markdown editor
+
+## 2026-08-29
+
+- `ec6be55df` feat(truth): repo-scoped spectator tokens and receipt-backed truth queries
+- `4c19f467a` feat(receipts): signed packet receipts with a dedicated key and offline verification
+- `df227720c` feat(status): one authority per terminal session state, with evidence on every surface
+- `c761ff2c2` feat(brain): probe AI provider-compatible local model endpoints
+
+## 2026-08-28
+
+- `29cecb558` feat(terminal): buffer hidden terminal views and resync on reveal
+- `1ecc82173` feat(bench): add the terminal workload fixture and baseline receipt
+- `c9e4a626a` feat: govern voice agent proactive attention
+- `d17bdbea9` feat: add governed voice agent memory
+- `753553d4f` feat: wait for the preview deterministically and attach a before/after proof card to each UI-loop turn
+- `4affc287e` feat: steer the warm design-mode packet on follow-up UI edits
+- `ea1aa8347` feat: carry frontmatter, tables, task lists, details and math through rich mode as opaque blocks
+- `997cd9943` feat: settle workspace manifest runs into lifecycle receipts
+- `6822f83d4` feat: commit from the canvas diff card and refresh it against the working tree
+- `fd972b67b` feat: add a rich Markdown editor core over the source transport
+- `185cf4930` feat: open files by name and browse a file tree on the canvas
+- `d970961f3` feat: gate workspace manifest execution behind an operator policy
+- `19bfe5b78` perf: keep canvas card moves from re-rendering every card
+- `3c90af141` feat: detect on-disk conflicts with a content hash on file save
+- `72299beea` feat: apply the workspace manifest at packet launch with port isolation
+
+## 2026-08-27
+
+- `19812548d` feat: add managed voice agent Messages
+- `c86df86a2` feat: add a source-preserving Markdown transport layer with a round-trip harness
+- `fe45253b3` feat: add the versioned repository workspace manifest schema
+- `97022f274` feat: open the command palette on canvas surfaces
+- `c75ce21bd` feat: search the repository from the canvas search overlay
+- `4c7f91b71` feat: publish Linux release artifacts and updater entries when present
+- `8d208d893` feat: include DOM context and a screenshot crop in the element edit context
+- `37da4d2ca` feat: gate exact message sends
+- `125037070` feat: expose voice agent capability discovery
+- `d936df492` feat: arm the pre-edit task contract by default for agent runtime and agent runtime packets
+- `2f531c500` feat: add durable role runtime routing
+- `d7d205b35` feat: add a reversible Terminal Mode to the center workspace
+- `2af1d6a05` feat: surface outside contributors waiting on a reply in the inbox
+- `5800e0e58` feat: inject attached MCP servers into agent runtime workers via config overrides
+- `142d3562a` feat: attach operator-registered MCP servers to dispatched workers
+- `f24448b8f` feat: add invariant completeness trace to review protocol
+- `a0e235454` feat: add saved prompt library
+- `e3ecb4520` feat: cache changed release intermediates
+- `b3f5ee189` feat: add voice mode to agent chats
+- `cee70ae21` feat: add release benchmark preflight
+- `7bceb71ba` feat: persist browser workspace state
+- `288d2611b` feat: schedule shipped-dark flag audits
+- `00fcf4ea6` feat: add isolated first-run preview
+
+## 2026-08-26
+
+- `f4300e0c8` feat: add governed event-driven automations
+- `c1e805cf9` feat: unify durable jobs and automation fires
+- `b750f64a5` feat: complete truthful runtime handoffs
+- `e869d5faa` feat: seed cross-backend handoffs
+- `71150d251` feat: build truthful handoff packets
+
+## 2026-08-25
+
+- `2ebc3c031` feat: surface agent message activity
+- `6007b355f` feat: auto-connect live agent sessions
+- `9aed83ebd` feat: add durable cloud job leases
+
+## 2026-08-22
+
+- `9ed98c553` feat: surface resolved worker models
+- `dc090426d` feat: audit shipped-but-dark flags
+- `c43b0f1d2` feat: broadcast release progress
+- `bc50c433d` feat: make broadcast activity glanceable
+
+## 2026-08-21
+
+- `f578f2f6b` feat: add Broadcast voice triggers
+- `481e9493e` feat: add durable agent message bus
+- `17fe1c10e` feat: add broadcast focus and theme controls
+- `93985dfb3` feat: add broadcast commentary events
+- `c21d793cc` feat: polish broadcast spectator stage
+- `f25ef103d` feat: add read-only broadcast spectator feed
+- `5afc4b80c` feat: add per-packet worker carrier pins
+
+## 2026-08-20
+
+- `c4d6ab05d` feat: add durable resource leases
+- `0ab7c1677` feat: add APFS dependency image operator default
+
+## 2026-08-17
+
+- `bfcca8bc6` feat: add APFS dependency images
+
+## 2026-08-15
+
+- `a1a03d0a4` feat: add governed workspace dependency caching
+- `8b86e3d2c` feat: add governed thin workspaces
+
+## 2026-08-14
+
+- `e63edb903` feat: normalize model carriers and harness telemetry
+- `f6342f5ff` feat: adopt official ACP worker transport
+- `d60c31176` feat: normalize current multi-provider runtime evidence
+
+## 2026-08-13
+
+- `67fa42d89` feat: add governed json-rpc harness runtime
+- `488b0f5fd` feat: add recurring problem closure loop
+
+## 2026-08-12
+
+- `d5f92b415` feat: teach agents outcome ownership
+- `23d4d6963` feat: unify governed agent control
+
+## 2026-08-11
+
+- `663f5d552` feat: make local use account optional
+
+## 2026-08-10
+
+- `5b0313177` feat: add visible local agent runtime
+- `24e1012ef` feat: add resumable 3code workers
+- `d69c11583` feat: expand governed CLI runtime support
+- `587df4c9e` feat: connect outside workers to split sessions
+
+## 2026-08-09
+
+- `d2fb3e8d5` feat: add inline fleet and spec target pickers
+- `000067faa` feat: supervise transient repository workers
+- `b226ed09b` feat: add cross-platform release signing
+
+## 2026-08-08
+
+- `1fd37ed9f` feat: publish port previews and extend MCP setup
+
+## 2026-08-06
+
+- `68d1f83f3` feat(entitlement): free o8 model works without sign-in
+
+## 2026-08-05
+
+- `3854ff97a` feat(runtimes): add prime-agent as the 14th dispatchable runtime
+- `37c8f0be9` feat(build): vendor the MIT native shell-plugin-mcp fork so fresh clones resolve
+- `0724c16d1` feat(windows): trust the WebView2 shell origin at the API gate + ws CORS
+- `a4de32672` feat(composer): mode chip joins the right cluster + fleet worker chip selects the dispatch runtime inline
+- `6e78eacd0` feat: add agent runtime model pins to o8_operator_defaults MCP tool
+- `cdc85e17a` feat(composer): name the running model, remember recent picks
+- `9f5e1d2ec` feat(orchestrator): emit the handoff seam on a live model swap
+
+## 2026-08-04
+
+- `be33b20f0` feat(orchestrator): stamp per-message backend + model attribution
+- `30456c167` feat(settings): pin agent runtime orchestrator and worker models
+- `97bdc618a` feat(orchestrator): searchable model picker for agent runtime in the composer
+- `bb42613df` feat(orchestrator): agent runtime as a model-agnostic orchestrator backend
+
+## 2026-08-03
+
+- `30d7350c6` feat(bench): three-outcome arm validity and durable-state reconciliation
+- `37d592e61` feat(bench): score the governed arm at review-approved state and split the e2e experiment
+
+## 2026-08-02
+
+- `7a1931a46` feat(bench): add the end-to-end shipped-output experiment and harden contract detection
+- `fc217823b` feat(governance): enforce task-contract coverage at durable approval
+- `c2124c985` feat(bench): add contract-first factorial harness
+- `ee011cc4e` feat: add contract-guided quality search
+- `86692fbf1` feat(bench): scale governance fixtures and separate blocked from flagged
+- `0de13ed16` feat(bench): automate the coding track with blinded judging and a noise-margin guard
+- `057d6aebe` feat(bench): automate the governance track and harden qa-case validation
+- `5efe8aa58` feat(telemetry): ask once, honestly — first-run consent card
+- `9111def91` feat(telemetry): add release download reporter and verify the crash-reporting path
+
+## 2026-08-01
+
+- `063dc8685` feat: reusable audit workflows
+- `f0511fe82` feat(voice agent): move machine control to lower-right rail
+- `19c7d5a0f` feat(canvas): update browser lifecycle and performance
+- `75a2c381b` feat: add self-tuning harness
+- `6adf4abfc` feat(settings): add canonical settings.toml defaults
+- `b3e265a90` feat(sandbox): harden opt-in worker profile
+- `08d613c2b` feat(voice agent): session watcher sees agent runtime rollouts too
+- `350462a2c` feat(voice agent): add active-machine SSH control
+- `6a9b2d9b6` feat(voice agent): session watcher
+- `a856059d9` feat(fallback): extend cross-house quota fallback fleet-wide
+- `c0868bc9a` feat(search): add Brain Recall to palette
+- `7cccb06a3` feat(search): add Stage 1 full-text recall
+
+## 2026-07-31
+
+- `7a276807e` design(sidebar): repo always shows on the meta line — glanceability over dedup
+- `d051797ba` design(sidebar): show repo metadata only across multi-repo fleets (o8.md c3)
+- `1dee1cb07` design(sidebar): lock session rows to 47px (o8.md c3 phase B)
+- `98f2434f4` design(sidebar): refine session cards to compact two-line density (o8.md c3 phase B)
+- `965e23db9` feat(sidebar): activity grouping mode
+- `acf5c71ad` design(sidebar): two-line session cards
+- `a72da10aa` design(drawer): CLI usage visible for everyone — local telemetry needs no account
+- `19de3745c` design(drawer): quiet founding serial, connected update check, canonical Discord invite, stronger ship-note model
+- `f88b5a789` feat(desktop): add workspace rail PiP previews
+- `d7be15e37` feat(updater): remote-apply verb + idle-window auto-apply for headless nodes
+- `0a3f2b9f2` design(spec): margin-note actions collapse to an icon row with hover labels
+- `5880d4981` feat(voice agent): GitHub maintainer tool family — read deep, triage, reply carded
+- `5ef7f2730` feat(browser): PIP orientation toggle
+- `f87d95c0c` feat(browser): floating PIP preview on browser-cluster hover when no panels are open
+- `4c5220aa9` feat(release): ping @everyone only on big ships or necessary updates
+- `e59f18273` feat(release): @everyone on community ship announcements + source-repo line
+- `4ff292a5f` feat(capture): o8 packet capture rides the in-house browser engine
+- `704ae72b3` perf(realtime): review/browser snapshots emit on real change only, coalesced to 1Hz
+- `fc0d02003` feat(voice agent): honor phone model selection at text-session mint (contract v1.1)
+- `04c7eaad3` feat(voice agent): repo_commit_diff — on-demand commit patch inspection
+- `c28d2b464` feat(voice agent): text-first say loop — desktop half of phone Ask CLI mode
+- `9d58bfcdc` feat(workspace): live browser preview inside the workspace tab
+- `38f2569bd` feat(sidebar): fleet reveal on orchestrator hover + hover card polish
+- `798774b3f` feat(sidebar): flat three-section sidebar with attention inversion
+
 ## 2026-07-30
 
+- `6fda2bc3e` feat: add bounded Git evidence to mobile activity
+- `60c0256f9` feat: observe activity across tracked repo refs
+- `ce3e5d501` perf(approvals): stop shipping every stored diff in list responses
 - `72b9459b` perf(approvals): stop shipping every stored diff in list responses
 
 ## 2026-07-29
