@@ -1,24 +1,20 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.739",
-  "tag": "v0.1.739",
-  "publishedAt": "2026-09-06T21:04:18Z",
-  "title": "o8 0.1.739",
-  "summary": "Preserve worker outcomes and package operator login.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.739",
+  "version": "0.1.740",
+  "tag": "v0.1.740",
+  "publishedAt": "2026-09-06T23:39:03Z",
+  "title": "o8 0.1.740",
+  "summary": "Refresh dedicated worker readiness after login.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.740",
   "sourceCommits": [
-    "0fe1c10027156b667a882f2237cdfd82c6393879",
-    "5fe6d3f8e0bf7b12f04e33b636e4fec902d4f57d",
-    "eae6ed5bdcd8d22c3cf09ce72db593b97c22fed4",
-    "7635fdba9b5e546c96dba3251e98a597baa3eef5"
+    "e352a5242d16cfabb7dc8cb9d95fbaaab7f71a15",
+    "8610f5d09a89ba2b2b43dd855168a7342b06cd78"
   ],
   "sections": [
     {
       "title": "Fixes",
       "items": [
-        "Preserve worker outcomes and package operator login",
-        "Restore public changelog publishing",
-        "Coalesce durable inbox wakes"
+        "Refresh dedicated worker readiness after login"
       ]
     }
   ]
