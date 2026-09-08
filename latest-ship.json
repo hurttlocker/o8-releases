@@ -1,20 +1,27 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.740",
-  "tag": "v0.1.740",
-  "publishedAt": "2026-09-06T23:39:03Z",
-  "title": "o8 0.1.740",
-  "summary": "Refresh dedicated worker readiness after login.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.740",
+  "version": "0.1.741",
+  "tag": "v0.1.741",
+  "publishedAt": "2026-09-08T19:01:57Z",
+  "title": "o8 0.1.741",
+  "summary": "Avoid redundant hidden-idle background probes.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.741",
   "sourceCommits": [
-    "e352a5242d16cfabb7dc8cb9d95fbaaab7f71a15",
-    "8610f5d09a89ba2b2b43dd855168a7342b06cd78"
+    "f9549f193d169d0d5bb14024881925e06273fd08",
+    "1c17867fdd3a7dc9817d1047865d4c6843199f9a",
+    "72ecc8202662db990fbb25cebd8724bece62f224",
+    "3c2014235b4dac9e8522a6cf366e46afb08738ef",
+    "6d7e850adcbdcecba6e99713ec496704d53bc4a6",
+    "ac98befb95fd2dcb5ea4f2ebcfa7027b4544f904"
   ],
   "sections": [
     {
       "title": "Fixes",
       "items": [
-        "Refresh dedicated worker readiness after login"
+        "Avoid redundant hidden-idle background probes",
+        "Preserve stop state and reduce idle discovery work",
+        "Admit managed runs for accepted steered turns",
+        "Keep preview publication off stable feeds"
       ]
     }
   ]
