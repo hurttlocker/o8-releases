@@ -4,7 +4,7 @@ Last updated: 2026-09-09
 
 | Metric | Value |
 |---|---|
-| Features shipped (180d) | 1985 |
+| Features shipped (180d) | 1973 |
 | Merged through o8 (180d) | 259 |
 | Days active | 177 |
 | This week | 8 features |

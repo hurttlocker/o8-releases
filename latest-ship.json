@@ -1,29 +1,27 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.743",
-  "tag": "v0.1.743",
-  "publishedAt": "2026-09-09T15:24:12Z",
-  "title": "o8 0.1.743",
-  "summary": "Reduce idle background work with narrower history reads and suspended hidden review scans.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.743",
+  "version": "0.1.744",
+  "tag": "v0.1.744",
+  "publishedAt": "2026-09-09T23:09:56Z",
+  "title": "o8 0.1.744",
+  "summary": "Finish writing large CLI replies before exit, including piped JSON output and slow readers.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.744",
   "sourceCommits": [
-    "4cc1e4bd1e5c7efebfe530e7ece42b7c406a2a32"
+    "97cdf8aabcfbbf82b0fed44eaba67681b0fb3970",
+    "b2886d8ac17cb974741d6631749620009c22ff93"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Reduce idle background work with narrower history reads and suspended hidden review scans.",
-        "Exclude compiler caches from the app bundle and reject oversized packages before signing and notarization.",
-        "Make automatic AI commentary optional, suppress unnecessary startup speech, and retire the unused session timeline from desktop navigation.",
-        "Preserve spacing and Markdown in streamed replies, and correct fleet session identity and activity-age reporting.",
-        "Update framework, provider, and test dependencies while preserving local build and test compatibility fixes."
+        "Finish writing large CLI replies before exit, including piped JSON output and slow readers.",
+        "Restore branch merge-gate loading and limit the reviewed CLI shutdown exception to the exact approved wrapper."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Exclude development artifacts from native releases"
+        "Complete CLI output and preserve worker resume pins"
       ]
     }
   ]
