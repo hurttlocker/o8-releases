@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.745",
-  "tag": "v0.1.745",
-  "publishedAt": "2026-09-10T01:24:33Z",
-  "title": "o8 0.1.745",
+  "version": "0.1.746",
+  "tag": "v0.1.746",
+  "publishedAt": "2026-09-10T02:55:13Z",
+  "title": "o8 0.1.746",
   "summary": "Continue owned worker conversations using their saved session and runtime settings.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.745",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.746",
   "sourceCommits": [
-    "591e53cd077bda5b62f8fb0b6c58815c564fc9ad",
-    "ebb89af268471a9613c17a7c12e8febb021827c6",
-    "b2f13cd6224713046e21aee345dab59c12d50d3b"
+    "1ec5dd038160bb14fc5fdc05661a2f2d7c12888b",
+    "e83458c9673c48a2fd3f84e9f6a7b7f9e8f089c0",
+    "88dae819bcc16c4934360814e2640a2c05efba2d"
   ],
   "sections": [
     {
@@ -23,9 +23,7 @@
     {
       "title": "Fixes",
       "items": [
-        "Preserve owned Stop outcomes and prepare 0.1.745",
-        "Continue owned worker conversations with saved session pins",
-        "Guard completion effects against newer worker turns"
+        "Keep completed workers reviewable until merge"
       ]
     }
   ]
