@@ -1,27 +1,31 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.744",
-  "tag": "v0.1.744",
-  "publishedAt": "2026-09-09T23:09:56Z",
-  "title": "o8 0.1.744",
-  "summary": "Finish writing large CLI replies before exit, including piped JSON output and slow readers.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.744",
+  "version": "0.1.745",
+  "tag": "v0.1.745",
+  "publishedAt": "2026-09-10T01:24:33Z",
+  "title": "o8 0.1.745",
+  "summary": "Continue owned worker conversations using their saved session and runtime settings.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.745",
   "sourceCommits": [
-    "97cdf8aabcfbbf82b0fed44eaba67681b0fb3970",
-    "b2886d8ac17cb974741d6631749620009c22ff93"
+    "591e53cd077bda5b62f8fb0b6c58815c564fc9ad",
+    "ebb89af268471a9613c17a7c12e8febb021827c6",
+    "b2f13cd6224713046e21aee345dab59c12d50d3b"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Finish writing large CLI replies before exit, including piped JSON output and slow readers.",
-        "Restore branch merge-gate loading and limit the reviewed CLI shutdown exception to the exact approved wrapper."
+        "Continue owned worker conversations using their saved session and runtime settings.",
+        "Keep late completion callbacks from settling a newer follow-up turn.",
+        "Record delivered operator Stops as interruptions while preserving failure reports for unrequested signal exits."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Complete CLI output and preserve worker resume pins"
+        "Preserve owned Stop outcomes and prepare 0.1.745",
+        "Continue owned worker conversations with saved session pins",
+        "Guard completion effects against newer worker turns"
       ]
     }
   ]
