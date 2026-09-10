@@ -1,29 +1,27 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.746",
-  "tag": "v0.1.746",
-  "publishedAt": "2026-09-10T02:55:13Z",
-  "title": "o8 0.1.746",
-  "summary": "Continue owned worker conversations using their saved session and runtime settings.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.746",
+  "version": "0.1.747",
+  "tag": "v0.1.747",
+  "publishedAt": "2026-09-10T15:16:31Z",
+  "title": "o8 0.1.747",
+  "summary": "Verify the current worker process before confirming Stop, even when an earlier turn already finished.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.747",
   "sourceCommits": [
-    "1ec5dd038160bb14fc5fdc05661a2f2d7c12888b",
-    "e83458c9673c48a2fd3f84e9f6a7b7f9e8f089c0",
-    "88dae819bcc16c4934360814e2640a2c05efba2d"
+    "8bde3690dbda87ab78ff5d37eed2fc2229339919",
+    "65a01ad397b2faba7546643de56e77ec5e5631c8"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Continue owned worker conversations using their saved session and runtime settings.",
-        "Keep late completion callbacks from settling a newer follow-up turn.",
-        "Record delivered operator Stops as interruptions while preserving failure reports for unrequested signal exits."
+        "Verify the current worker process before confirming Stop, even when an earlier turn already finished.",
+        "Keep Stop unconfirmed while a new worker turn is preparing, and avoid counting an already-idle session as newly interrupted."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Keep completed workers reviewable until merge"
+        "Verify current owned worker before confirming stop"
       ]
     }
   ]
