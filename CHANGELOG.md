@@ -7,6 +7,14 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-10
+
+- `ae1b26658` feat: let the voice agent front brain read the planner registry seam
+- `74e0c1044` perf: trim the voice agent planner first-turn payload
+- `eff69cf25` feat: make the voice agent brain a planner registry with an operator setting
+- `8d18eb5b2` feat: presentation quiet mode and a review-notification setting with coalescing
+- `fe25f49fe` perf: reduce terminal decoding allocation and correct workload accounting
+
 ## 2026-09-05
 
 - `2faf3393f` feat: voice agent can call tools from attached external MCP servers [via-o8]

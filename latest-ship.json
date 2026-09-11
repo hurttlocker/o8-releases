@@ -1,27 +1,82 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.747",
-  "tag": "v0.1.747",
-  "publishedAt": "2026-09-10T15:16:31Z",
-  "title": "o8 0.1.747",
-  "summary": "Verify the current worker process before confirming Stop, even when an earlier turn already finished.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.747",
+  "version": "0.1.748",
+  "tag": "v0.1.748",
+  "publishedAt": "2026-09-11T13:10:23Z",
+  "title": "Let the voice agent front brain read the planner registry seam",
+  "summary": "Recover pending review queues when the desktop API restarts, and preserve worker ownership across execution carriers.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.748",
   "sourceCommits": [
-    "8bde3690dbda87ab78ff5d37eed2fc2229339919",
-    "65a01ad397b2faba7546643de56e77ec5e5631c8"
+    "ef1db0b145434ad9f5589a137592d034a991f777",
+    "1a3371f09806ee4cecb4a5cb4bfa962abea601b4",
+    "c74c551d9e3e12bef7e77e7a7638710ba9cd60c5",
+    "ae1b266582af8ed5118d5dce2a27bb13447b50e5",
+    "d120c87bcc82c225bbeddd6f6a9ea997746034d7",
+    "74e0c10440db4734aaa1f3795a8193e4140682bb",
+    "eff69cf25e571ab16aa09f5677eb68441cf9a6e5",
+    "8d18eb5b2786b8e7f38dce271dedc29a5eb51de3",
+    "d22761a599cf02cbf3ab8af0a9b74ad46ee0d7da",
+    "69ef04684225e45c8eff6010b180c65be1a31f68",
+    "df7c7591cd3d308a64f4a8e10dae737081534542",
+    "449ec83284f8360954306106a46d4b050c2c750f",
+    "6746900165a7e78d61f75e88d4d6a9a3a60e4b29",
+    "0fe27c13f3d1b835cb7c37486e5abc93ac05fe80",
+    "29d07fea2b6dc76a41813f01fc5ffeb842cdbb21",
+    "b25e72d7ba389d06e7025bd922693005f8ec1e4f",
+    "4ea70fe6bcbdd34c3e5fb88390d7611e3174e82a",
+    "fe25f49fe6240c610281808094fecd70b8f5fe2d",
+    "f03a4d92e7887b0a1f63f49167df207a50509d71",
+    "21a6a62b55c58bcfb15fcdc3bd4ebc286376f157",
+    "f19517a4330312ff3bb6cfc1f19f9098a567e746",
+    "11b16e496602394c65b46d017ac150c9e8c0237a",
+    "533eccd7080b4f4c5c2da29ee99be31dda130717",
+    "6dcb6abb53cfa1a9f5a78a37c51b076d9c3dd799",
+    "59c225677f208a19686c9a52f7b14638e3c26606",
+    "44f4d473fbb89c4044878ec737af2640d9104c8b",
+    "ba040c5de2e3e922208477ebe76d8c9e7458deea",
+    "3d84360aa0ae607dac8669b33d7f4620c768137f"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Verify the current worker process before confirming Stop, even when an earlier turn already finished.",
-        "Keep Stop unconfirmed while a new worker turn is preparing, and avoid counting an already-idle session as newly interrupted."
+        "Recover pending review queues when the desktop API restarts, and preserve worker ownership across execution carriers.",
+        "Reduce terminal decoding allocations and record the accepted Mac interaction baseline for future regression checks.",
+        "Bound completed dependency-download caches by size, count, and age while preserving active installs, installed dependencies, and legacy caches.",
+        "Choose voice agent's front and background brains in Voice settings through the shared planner registry.",
+        "Keep the background planner on the worker tier by default, reuse its agent runtime server, and trim repeated first-turn instructions.",
+        "Resume the open-runtime text planner on its existing conversation, with session handles fenced to the runtime that created them.",
+        "Add presentation quiet mode and a review-notification setting with coalesced notices.",
+        "Scope the Control-key Fn substitute to an attached external keyboard and reject unsupported realtime model selections before connection."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "Let the voice agent front brain read the planner registry seam",
+        "Make the voice agent brain a planner registry with an operator setting",
+        "Presentation quiet mode and a review-notification setting with coalescing",
+        "Add typed execution carriers"
+      ]
+    },
+    {
+      "title": "Performance",
+      "items": [
+        "Trim the voice agent planner first-turn payload",
+        "Reduce terminal decoding allocation and correct workload accounting"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Verify current owned worker before confirming stop"
+        "Bind the text surface to a planner seat by registry id",
+        "Exclude driver delay from startup interaction timing",
+        "Bound completed dependency download caches",
+        "Refuse realtime model ids the realtime endpoint will not accept",
+        "Seat the background planner on the worker tier and keep agent runtime resident",
+        "Scope the external-keyboard Fn substitute to an attached non-Apple board",
+        "Preserve benchmark input and gesture evidence",
+        "Restart review queues with packaged API server"
       ]
     }
   ]
