@@ -1,25 +1,29 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.751",
-  "tag": "v0.1.751",
-  "publishedAt": "2026-09-12T16:37:13Z",
-  "title": "o8 0.1.751",
-  "summary": "Resolve composer defaults at turn time.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.751",
+  "version": "0.1.752",
+  "tag": "v0.1.752",
+  "publishedAt": "2026-09-12T21:57:24Z",
+  "title": "o8 0.1.752",
+  "summary": "Preserve approvals across merge failures.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.752",
   "sourceCommits": [
-    "7fd05325f32134893c2a1dd47071ccc179790d21",
-    "af6452612b81b66f71e8a57ca25057f1547341d5",
-    "fb65859a4deb01cd4dd98dfb0f206672d36a3d26",
-    "0a2989a54a1295ce33a203df73dd826fd236d618",
-    "dc11501e56ba5536fb17608767466bea86f90e98",
-    "7298b7e92fc7f1372c44a3129622f7b8dc17a500"
+    "f7226b583deaf5ec2f73be2c9b9ff70ce3b5b282",
+    "aeabbc68315a5f96db185b746ce4e8753f0db040",
+    "6538f876041e62550042140cd57fb828ad0c5cc6",
+    "3bbc349a1f6a2c841148f1a57eac9234d466ed21",
+    "ee74fa4e37f4bd235198d12977d4e6a120e73831",
+    "c4e3f0cde96756c15546417289652436a550ce3e",
+    "7e6cfe44652de65ecc4987cd01aa7880f6eacff4",
+    "4bdf4fcf3bd3c2cab5a6fa85b891b9887bc94908"
   ],
   "sections": [
     {
       "title": "Fixes",
       "items": [
-        "Resolve composer defaults at turn time",
-        "Detach resident services from packet workers"
+        "Preserve approvals across merge failures",
+        "Parallelize bounded packet reviews",
+        "Distinguish missing updater checks",
+        "Record lane merge failure reasons"
       ]
     }
   ]
