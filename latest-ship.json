@@ -1,29 +1,68 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.752",
-  "tag": "v0.1.752",
-  "publishedAt": "2026-09-12T21:57:24Z",
-  "title": "o8 0.1.752",
-  "summary": "Preserve approvals across merge failures.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.752",
+  "version": "0.1.753",
+  "tag": "v0.1.753",
+  "publishedAt": "2026-09-14T00:31:38Z",
+  "title": "Centralize composer selector state and labels",
+  "summary": "Pick work mode, lead and worker models, and effort from one composer selector.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.753",
   "sourceCommits": [
-    "f7226b583deaf5ec2f73be2c9b9ff70ce3b5b282",
-    "aeabbc68315a5f96db185b746ce4e8753f0db040",
-    "6538f876041e62550042140cd57fb828ad0c5cc6",
-    "3bbc349a1f6a2c841148f1a57eac9234d466ed21",
-    "ee74fa4e37f4bd235198d12977d4e6a120e73831",
-    "c4e3f0cde96756c15546417289652436a550ce3e",
-    "7e6cfe44652de65ecc4987cd01aa7880f6eacff4",
-    "4bdf4fcf3bd3c2cab5a6fa85b891b9887bc94908"
+    "38196cbf48e2d487a04c4800b211ea46c74195d3",
+    "0ad1258ffba6437a8ea82d6fa783fde2daf71701",
+    "9a9d5245b84d86c70510ed9674907df8f88baeab",
+    "9b45413e77cc57e81644326de8e62480e9f2a8ea",
+    "4911480a87d79adf5b70345c1cc979d10eb49f6e",
+    "b30f80a9a2a49aa21232152c767665ddc0fe45d3",
+    "db9cecd1e092b8412f62e06d49d728aaaf1fda5d",
+    "cccebd52ab92f93812a2d93f3355eacb6e5a15fa",
+    "c7cfa575f0b745186053d5d2c7d9bbe2ec0192fd",
+    "5fb77303c838e76960953b0fd37dd85ec17cf26e",
+    "8220d5a3f3f516aa447f7d2c95cec024bdabb95a",
+    "5e0318bbdfd3f9a4bfacc1c55a6ccd5b8c1901ad",
+    "dca9d5d452cb743b6e16a8ff5a941ea07876a8ba",
+    "3d5ca84bd93a2adaea2d888e7cfa0f3cf6fdd880",
+    "916e3b29fed4f360ae89cad6036e30fdf3c641ad",
+    "cbbf53208d5d52648872ee9c442e4460204fdadb",
+    "050a0383fce839a9c49bda668546e781f6dce4da",
+    "588fc0f0b7c435753e522e49963f692395c45777",
+    "6ac2a599345246d7ea0a18de3c0b4095097529d5",
+    "e9baab9fb984701e5da7417f099038eb99a1c175",
+    "43aac7c4cc5427ed1d0d1d875f388d86bc75b8fb"
   ],
   "sections": [
     {
+      "title": "What this ship changes for you",
+      "items": [
+        "Pick work mode, lead and worker models, and effort from one composer selector.",
+        "See the effective execution settings alongside each orchestrator turn.",
+        "Retry saved-chat repository checks without reloading the app.",
+        "Fix stale display selection when moving the Mac window between screens.",
+        "Merge worker packets into their own repository target while preserving review evidence.",
+        "Recover interrupted retry results without duplicating work or accepting a stale approval.",
+        "Keep staged missions waiting for dispatch and preserve active checks when an overlapping steer is refused.",
+        "Isolate managed test fixtures and report process cleanup failures accurately."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "Centralize composer selector state and labels",
+        "Composer selector is the default; work mode and effort are independent",
+        "Composer effort slider with hot band and Ultra setting",
+        "Composer selector v1 behind a flag"
+      ]
+    },
+    {
       "title": "Fixes",
       "items": [
-        "Preserve approvals across merge failures",
-        "Parallelize bounded packet reviews",
-        "Distinguish missing updater checks",
-        "Record lane merge failure reasons"
+        "Keep the window on the chosen display",
+        "Retry saved workspace validation without reload",
+        "A busy-refused steer no longer closes another turn's admitted grant",
+        "Reconcile interrupted retry receipts",
+        "Stage missions until explicitly dispatched",
+        "Centralize Plan first worker start label",
+        "Read right-panel widths after mount",
+        "Merge packets into their recorded target repository"
       ]
     }
   ]

@@ -7,6 +7,13 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-13
+
+- `db9cecd1e` feat: centralize composer selector state and labels
+- `5fb77303c` feat: composer selector is the default; work mode and effort are independent
+- `3d5ca84bd` feat: composer effort slider with hot band and Ultra setting
+- `916e3b29f` feat: composer selector v1 behind a flag
+
 ## 2026-09-10
 
 - `ae1b26658` feat: let the voice agent front brain read the planner registry seam
