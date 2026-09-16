@@ -1,30 +1,37 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.754",
-  "tag": "v0.1.754",
-  "publishedAt": "2026-09-14T12:13:10Z",
-  "title": "o8 0.1.754",
-  "summary": "Managed workspaces keep their ownership receipts valid after a restart when macOS changes the volume device number.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.754",
+  "version": "0.1.755",
+  "tag": "v0.1.755",
+  "publishedAt": "2026-09-16T04:18:24Z",
+  "title": "o8 0.1.755",
+  "summary": "Stop the merge gate calling a silent compiler exit a type error.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.755",
   "sourceCommits": [
-    "572e655a90abde8086937f0c12929e841b067059",
-    "69ab8cda0b0062f2f549e47d5e1417171de0044b",
-    "dae6e91a7e1903a99203ff958e266b94698dfee7",
-    "67b3c9465e0688859ef23480b608dd33fb730b18"
+    "d6e23ec576e236993bfe2f8d8a686fcdfa89c49a",
+    "dd6dff1828d881a9942cffb037d7c9745a81d66e",
+    "1572de1e430f49560f0ea5506e8df0fdcd14eb8c",
+    "d5bda440f6d514121f85a48eba4a119b72a5c89b",
+    "0d0b30ae1cbcbae41dd9e8444f29f6ec87b05fac",
+    "ebd29e2e27ce93cbf9fbafcee9d0ad475f36b186",
+    "8a936049d2878e9d7b22f8471c0d04d4d15871d4",
+    "480a649fd124b4f8daccab00871c24fba018d0e0",
+    "43ca2d9debdaa076e1fdbabc02fcc67f7747391f",
+    "131f384c97b5bad692168d5dffec6d668345afe8",
+    "c744b275922a5c9897c4255d369d915438b270f1",
+    "6a2317da1209dc70b57e030b45ff8e1f368085ef"
   ],
   "sections": [
     {
-      "title": "What this ship changes for you",
-      "items": [
-        "Managed workspaces keep their ownership receipts valid after a restart when macOS changes the volume device number. Path and inode mismatches still block access.",
-        "Failed worktree provisioning releases its storage reservation when the checkout is confirmed absent. Uncertain cleanup keeps the reservation and shows an operator decision."
-      ]
-    },
-    {
       "title": "Fixes",
       "items": [
-        "Release reservation after provision failure",
-        "Make workspace receipts stable across reboot"
+        "Stop the merge gate calling a silent compiler exit a type error",
+        "Report active workspace identity through surface state",
+        "Keep narrow composer model controls readable",
+        "Recover retired workspace lane outcomes after restart",
+        "Keep worker tile headers readable at narrow widths",
+        "Retire confirmed missing worktree entries",
+        "Preserve operator Stop during merge recovery",
+        "Patch TLS handshake boundary validation"
       ]
     }
   ]
