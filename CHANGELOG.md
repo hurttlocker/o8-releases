@@ -9,6 +9,11 @@ and internal chores live in the private engineering log.
 
 ## 2026-09-17
 
+- `4c04d0b40` feat: gate-failure warning recorded before the layer-1 automatic rerun
+- `7d137547e` feat: advisory referee row on approval cards
+- `effdeaed4` feat: calibration replay over local approval history
+- `125745181` feat: typed referee as the Brain classifier's first tier
+- `b736a6343` feat: typed judgment client with receipts, setting, and diff sanitizer
 - `82ce89e2b` feat: let a paired phone read and clear its voice agent watches
 - `d16ec924c` feat: let a paid plan choose voice agent's live brain from the phone
 - `8f22763bf` feat: let voice agent hold a standing intent past the turn

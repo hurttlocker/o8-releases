@@ -1,38 +1,37 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.757",
-  "tag": "v0.1.757",
-  "publishedAt": "2026-09-17T07:12:51Z",
-  "title": "Let a paired phone read and clear its voice agent watches",
-  "summary": "Wait on a live control-plane lock holder instead of writing past it.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.757",
+  "version": "0.1.758",
+  "tag": "v0.1.758",
+  "publishedAt": "2026-09-17T21:11:52Z",
+  "title": "Gate-failure warning recorded before the layer-1 automatic rerun",
+  "summary": "Reconcile a pre-existing judgment_receipts table on boot.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.758",
   "sourceCommits": [
-    "319be4651f423160283efcd34db122efd75920e4",
-    "37c66a88c7e8afe5bd19d5ffeec72d844cd71c2d",
-    "7d3d864dc301254ffdc938cd413260f96770182e",
-    "9a7f7c06e5343a12a25c6ff82b2ea236e6fa9068",
-    "82ce89e2b70853bf92e701f14d2cc7bc28f611c3",
-    "c155bc57663ae1f39a238ed7e482bb2667742996",
-    "d16ec924ca4b54c8a48e9d12a171a088777d795b",
-    "1d9dc807369fe626d4ad469c8fea7be9945bf803",
-    "8f22763bf55eac7d9feda9f2850a6b11879e6151",
-    "9248bb218e271b656f29754304434ad71774375b"
+    "8239fd755cbe0602d3acb5d7a835d86fa35cddd9",
+    "9aa9520c39bd5bb6e24abd2b56f08c268e7859a9",
+    "4c04d0b40ea328cd3afc00f1e669beb81ab6d41a",
+    "9dc0a0d4b4fa2c612aede5d0a55d00bb75367f18",
+    "7d137547e237c936b53c26ad4b3f3bfdcde98f49",
+    "effdeaed458d59bb51e69347002a27b0db88329a",
+    "125745181f1aa857cdcb73d93a374c68e2ff7805",
+    "b736a6343f30ce07b5ce756e89275990eeafa709"
   ],
   "sections": [
     {
       "title": "Features",
       "items": [
-        "Let a paired phone read and clear its voice agent watches",
-        "Let a paid plan choose voice agent's live brain from the phone",
-        "Let voice agent hold a standing intent past the turn",
-        "Brief phone voice agent on the fleet at session mint"
+        "Gate-failure warning recorded before the layer-1 automatic rerun",
+        "Advisory referee row on approval cards",
+        "Calibration replay over local approval history",
+        "Typed referee as the Brain classifier's first tier",
+        "Typed judgment client with receipts, setting, and diff sanitizer"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Wait on a live control-plane lock holder instead of writing past it",
-        "Give only operator-sourced steers operator standing"
+        "Reconcile a pre-existing judgment_receipts table on boot",
+        "Retry cold saved-scope validation instead of dead-ending"
       ]
     }
   ]
