@@ -1,37 +1,50 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.755",
-  "tag": "v0.1.755",
-  "publishedAt": "2026-09-16T04:18:24Z",
-  "title": "o8 0.1.755",
-  "summary": "Stop the merge gate calling a silent compiler exit a type error.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.755",
+  "version": "0.1.756",
+  "tag": "v0.1.756",
+  "publishedAt": "2026-09-17T03:28:25Z",
+  "title": "Admit AI modellive-1 behind a delegated phone Code variant",
+  "summary": "Admit AI modellive-1 behind a delegated phone Code variant.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.756",
   "sourceCommits": [
-    "d6e23ec576e236993bfe2f8d8a686fcdfa89c49a",
-    "dd6dff1828d881a9942cffb037d7c9745a81d66e",
-    "1572de1e430f49560f0ea5506e8df0fdcd14eb8c",
-    "d5bda440f6d514121f85a48eba4a119b72a5c89b",
-    "0d0b30ae1cbcbae41dd9e8444f29f6ec87b05fac",
-    "ebd29e2e27ce93cbf9fbafcee9d0ad475f36b186",
-    "8a936049d2878e9d7b22f8471c0d04d4d15871d4",
-    "480a649fd124b4f8daccab00871c24fba018d0e0",
-    "43ca2d9debdaa076e1fdbabc02fcc67f7747391f",
-    "131f384c97b5bad692168d5dffec6d668345afe8",
-    "c744b275922a5c9897c4255d369d915438b270f1",
-    "6a2317da1209dc70b57e030b45ff8e1f368085ef"
+    "1cccda14ade3395f84e46ba26091f29ffe18f63d",
+    "94c610977a180177c33a382c2196f3cae0c6fa4c",
+    "d866c16eef9118bbc47140a1a00529180619a987",
+    "564a7c3c38596ca5d33b0a56ea9b628c5701fed2",
+    "7f35082a9da29855329a1ead45cff251e18f3bf9",
+    "1d1ec7d85a14f8d858ffef3429cb4928e1bf73a8",
+    "4e4983dd3a592639150ae7eeefaa5f1d6284f600",
+    "0380ad8b5cbd9e9f256546cc28a7ca95284608fd",
+    "2d344eed61c9735d61d1279b27749ec78193f922",
+    "82aaf746a92c2e38f5bce367f7b3ef463ab79ee5",
+    "0fb0eca3e6c9fc0d9a07be4eef0fcd05577e2374",
+    "f741eb71019290bf235cf4bbde951d617475d063",
+    "c060d1ba71263e7b4044caa63809312689d2cb6c",
+    "23dd52318464a8dd0061cc60312968705c89c622",
+    "ef85a47271e6e631d2ff2b48f95047a893ab3f7d",
+    "70bf30b23bc41db643b25bb85bbc0e9bbb1e65c1",
+    "aa9569ee821915815906f452ae9fbbd6e65d9081",
+    "a097c6ac5662526430732767b9a5d8fcb4b4d7a4"
   ],
   "sections": [
     {
+      "title": "Features",
+      "items": [
+        "Admit AI modellive-1 behind a delegated phone Code variant",
+        "Route rejection and steer reasons to the next worker and the Brain"
+      ]
+    },
+    {
       "title": "Fixes",
       "items": [
-        "Stop the merge gate calling a silent compiler exit a type error",
-        "Report active workspace identity through surface state",
-        "Keep narrow composer model controls readable",
-        "Recover retired workspace lane outcomes after restart",
-        "Keep worker tile headers readable at narrow widths",
-        "Retire confirmed missing worktree entries",
-        "Preserve operator Stop during merge recovery",
-        "Patch TLS handshake boundary validation"
+        "Return per-day commit counts for the mobile 7-day chart",
+        "Scope phone voice agent tool packs",
+        "Guard voice agent billing source changes",
+        "Default mobile E2EE pairing on so recovery works in the field",
+        "Supersede an older-HEAD workspace snapshot when capturing merge evidence",
+        "Limit durable review coverage to the reviewed commit",
+        "Rate merge-mechanics approvals from the changed paths",
+        "Keep server-persisted packets when a stale client mission snapshot is posted"
       ]
     }
   ]

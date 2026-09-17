@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-16
+
+- `9248bb218` feat: brief phone voice agent on the fleet at session mint
+- `1cccda14a` feat: admit AI modellive-1 behind a delegated phone Code variant
+- `c060d1ba7` feat: route rejection and steer reasons to the next worker and the Brain
+
 ## 2026-09-13
 
 - `db9cecd1e` feat: centralize composer selector state and labels
