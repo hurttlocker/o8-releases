@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-17
+
+- `82ce89e2b` feat: let a paired phone read and clear its voice agent watches
+- `d16ec924c` feat: let a paid plan choose voice agent's live brain from the phone
+- `8f22763bf` feat: let voice agent hold a standing intent past the turn
+
 ## 2026-09-16
 
 - `9248bb218` feat: brief phone voice agent on the fleet at session mint
