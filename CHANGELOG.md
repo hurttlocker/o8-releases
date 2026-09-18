@@ -7,8 +7,27 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-18
+
+- `c8443a79b` feat: record catch-up item identity in the receipt selection and add the catchUp replay label
+- `0d47cd764` feat: fuzzy voice agent watches with a natural-language condition
+- `6374a5006` feat: record-only wake triage before an orchestrator wake
+- `ea4c92ce0` feat: catch-up ranking orders the phone briefing by attention, advisory
+- `b85017bd6` feat: record loop checks on the supervisor tick and raise an advisory possible_loop
+- `f32ba7184` feat: record-only push gate answer on every outgoing push
+- `ede3ad659` feat: advisory rule citations on the merge preview, threshold 0.6 from the lab run
+- `5460b1366` feat: record-only judgment scores for compacted entries, with a compaction replay label
+- `d70970241` feat: claim-versus-evidence check on the worker's final report, record-only
+- `16fede861` feat: Managed option on the judgment referee row behind an operator flag, subtitle names the path in use
+- `10b7a87ec` feat: managed judgment allowance and beta end date as operator settings, cap fall-through to the direct key
+- `010f01580` feat: judgment route resolver with managed provider value and one shared enabled check
+- `3e5c335d7` feat: record the route on every judgment receipt
+
 ## 2026-09-17
 
+- `335e286bb` feat: docs-only approve chip on phone inbox cards from stored referee facts
+- `2c6de76ec` feat: referee-ordered mobile inbox with per-item urgency score
+- `22edf2c4f` feat: offer the iPhone app where the pairing QR is shown
 - `4c04d0b40` feat: gate-failure warning recorded before the layer-1 automatic rerun
 - `7d137547e` feat: advisory referee row on approval cards
 - `effdeaed4` feat: calibration replay over local approval history
