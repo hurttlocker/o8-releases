@@ -1,61 +1,37 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.759",
-  "tag": "v0.1.759",
-  "publishedAt": "2026-09-18T23:20:47Z",
-  "title": "Record catch-up item identity in the receipt selection and add the catchUp replay label",
-  "summary": "Record catch-up item identity in the receipt selection and add the catchUp replay label.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.759",
+  "version": "0.1.760",
+  "tag": "v0.1.760",
+  "publishedAt": "2026-09-19T22:53:41Z",
+  "title": "Add persistent Brain warmup control",
+  "summary": "Honor Brain warmup opt-out during pool refill.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.760",
   "sourceCommits": [
-    "6656ce416c0b8cf807db620651a1c692a564a465",
-    "c8443a79b1012fe90a6e6235503f073ea55f455b",
-    "0d47cd764b03eba84398cdcd8296fa65e7d41aa8",
-    "6374a50069884a4b37eab2a7510652da052ba81e",
-    "ea4c92ce02a1c28e2fd95bd5cfb99df6b0b52421",
-    "b85017bd62ab8bf656311238954ef5001a5f7edf",
-    "f32ba718494a569015eed188ed860c0c647ce62e",
-    "a13d02179f8776aee31fe4fdd4a88d083fddac7a",
-    "ff6c0feff50fff7aaabcdd2ab6d622a867f8f527",
-    "c8677e9c1014bac38c7f781c1430e1ed0339a79e",
-    "eb6317ba2fb041c85b93d17f7377f5312714d875",
-    "ede3ad659fa0ca012817d1e1edc3176c5c30c0b1",
-    "5460b13666bd66a8cb4db15e2c9ffec1fcb67101",
-    "d70970241e1580b893d3a412958a9ec567bcdce3",
-    "b2f2770eda0829d20d9036e6ec3a312af5593e6a",
-    "16fede86129904118573fa39ac41be17a7fd1792",
-    "10b7a87ecac37b5743de37fea2a9b526d66e48ed",
-    "010f01580c1118ca0345e1dffd7f4bf50b62e77f",
-    "3e5c335d786e308639b2d39fa250296d4c473438",
-    "01988637b07314405168b951daa0eef3ef609cc4",
-    "335e286bbe35fe6a28686ee3eeb035b056766249",
-    "a6a995bcea9a945776e533a0771d3a432ef41f94",
-    "1dcad9f4fd751213c2f3ed76da01cdef16263a30",
-    "2c6de76ecf177a530a32226a9666403cd985a0b8",
-    "22edf2c4ffb2c14d0c12d9ad0d3d13f60ad27783"
+    "754cabacb7d1d79068c52863c616d34579662416",
+    "15512ce8b2996c86d83882f398c1274b516710d2",
+    "990137733e88f5ee511129e37e5ee431e01a3712",
+    "2eeabecbee054b19b9afc27ad7d892a5492d3d73",
+    "a3cf0844d589aa97d873ab168e21d0d06e7faf98",
+    "f4eda74786fd748c9778056dfde11701f96a4cec",
+    "c20fb0057fc42eb3b895950c1890f269101ac0a5",
+    "854da84ee6f58e78417da65d69d33a60da6100aa"
   ],
   "sections": [
     {
       "title": "Features",
       "items": [
-        "Record catch-up item identity in the receipt selection and add the catchUp replay label",
-        "Fuzzy voice agent watches with a natural-language condition",
-        "Record-only wake triage before an orchestrator wake",
-        "Catch-up ranking orders the phone briefing by attention, advisory",
-        "Record loop checks on the supervisor tick and raise an advisory possible_loop",
-        "Record-only push gate answer on every outgoing push",
-        "Advisory rule citations on the merge preview, threshold 0.6 from the lab run",
-        "Record-only judgment scores for compacted entries, with a compaction replay label"
+        "Add persistent Brain warmup control",
+        "Replay labels for recorded claim and citation answers, and --label all-recorded (,)"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Return the launch result without waiting on the start capacity snapshot",
-        "Record the skipped post-merge worktree cleanup and its reason on the lane",
-        "Write the session outcome row without waiting on the end capacity snapshot",
-        "Re-ask mobile inbox urgency when merge-card referee facts arrive",
-        "Reap non-git packet directories once instead of retrying every tick",
-        "Bound ACP orchestrator turns by the turn watchdog, not the RPC timeout"
+        "Honor Brain warmup opt-out during pool refill",
+        "Preserve explicit mission effort through launch",
+        "Fail closed managed Brain routing",
+        "Publish vendor names in the changelog instead of rewriting them",
+        "Replace a model name whole in the public changelog scrub"
       ]
     }
   ]

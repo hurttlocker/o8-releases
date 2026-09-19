@@ -7,8 +7,13 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-19
+
+- `990137733` feat: add persistent Brain warmup control
+
 ## 2026-09-18
 
+- `c20fb0057` feat: replay labels for recorded claim and citation answers, and --label all-recorded (,)
 - `c8443a79b` feat: record catch-up item identity in the receipt selection and add the catchUp replay label
 - `0d47cd764` feat: fuzzy voice agent watches with a natural-language condition
 - `6374a5006` feat: record-only wake triage before an orchestrator wake
