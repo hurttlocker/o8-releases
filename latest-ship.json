@@ -1,25 +1,19 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.761",
-  "tag": "v0.1.761",
-  "publishedAt": "2026-09-20T15:36:44Z",
-  "title": "o8 0.1.761",
-  "summary": "Add persistent lead handoff lifecycle.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.761",
+  "version": "0.1.762",
+  "tag": "v0.1.762",
+  "publishedAt": "2026-09-20T16:41:36Z",
+  "title": "o8 0.1.762",
+  "summary": "Repair persisted lead schema bootstrap.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.762",
   "sourceCommits": [
-    "e1ce8d52dbdacadceed7efa72d5568e6366d7b72",
-    "49fe687cb11d5e7f4204b6a3cf91575cbe361961",
-    "8423d8ef7c873fcee7ee28018b9d9def8bd7aa34",
-    "dea0ddb03ca863fa21e1d6d780af8c1997a6210c",
-    "9e4474d6577177481ac2eb2af03992e7d5cab224"
+    "7ec08a7e4e13f2c6c191bd4088b0ef4fe34ab880"
   ],
   "sections": [
     {
       "title": "Fixes",
       "items": [
-        "Add persistent lead handoff lifecycle",
-        "Preserve spawn prompt effort pins",
-        "Honor verified worker effort capabilities"
+        "Repair persisted lead schema bootstrap"
       ]
     }
   ]
