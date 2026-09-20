@@ -1,37 +1,25 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.760",
-  "tag": "v0.1.760",
-  "publishedAt": "2026-09-19T22:53:41Z",
-  "title": "Add persistent Brain warmup control",
-  "summary": "Honor Brain warmup opt-out during pool refill.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.760",
+  "version": "0.1.761",
+  "tag": "v0.1.761",
+  "publishedAt": "2026-09-20T15:36:44Z",
+  "title": "o8 0.1.761",
+  "summary": "Add persistent lead handoff lifecycle.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.761",
   "sourceCommits": [
-    "754cabacb7d1d79068c52863c616d34579662416",
-    "15512ce8b2996c86d83882f398c1274b516710d2",
-    "990137733e88f5ee511129e37e5ee431e01a3712",
-    "2eeabecbee054b19b9afc27ad7d892a5492d3d73",
-    "a3cf0844d589aa97d873ab168e21d0d06e7faf98",
-    "f4eda74786fd748c9778056dfde11701f96a4cec",
-    "c20fb0057fc42eb3b895950c1890f269101ac0a5",
-    "854da84ee6f58e78417da65d69d33a60da6100aa"
+    "e1ce8d52dbdacadceed7efa72d5568e6366d7b72",
+    "49fe687cb11d5e7f4204b6a3cf91575cbe361961",
+    "8423d8ef7c873fcee7ee28018b9d9def8bd7aa34",
+    "dea0ddb03ca863fa21e1d6d780af8c1997a6210c",
+    "9e4474d6577177481ac2eb2af03992e7d5cab224"
   ],
   "sections": [
     {
-      "title": "Features",
-      "items": [
-        "Add persistent Brain warmup control",
-        "Replay labels for recorded claim and citation answers, and --label all-recorded (,)"
-      ]
-    },
-    {
       "title": "Fixes",
       "items": [
-        "Honor Brain warmup opt-out during pool refill",
-        "Preserve explicit mission effort through launch",
-        "Fail closed managed Brain routing",
-        "Publish vendor names in the changelog instead of rewriting them",
-        "Replace a model name whole in the public changelog scrub"
+        "Add persistent lead handoff lifecycle",
+        "Preserve spawn prompt effort pins",
+        "Honor verified worker effort capabilities"
       ]
     }
   ]
