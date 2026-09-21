@@ -1,19 +1,54 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.762",
-  "tag": "v0.1.762",
-  "publishedAt": "2026-09-20T16:41:36Z",
-  "title": "o8 0.1.762",
-  "summary": "Repair persisted lead schema bootstrap.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.762",
+  "version": "0.1.763",
+  "tag": "v0.1.763",
+  "publishedAt": "2026-09-21T00:50:43Z",
+  "title": "Select configured worker models independently",
+  "summary": "Reworked model selection: provider sections lead to model choices, effort has its own slider, and configured worker runtimes can keep their own model pin.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.763",
   "sourceCommits": [
-    "7ec08a7e4e13f2c6c191bd4088b0ef4fe34ab880"
+    "ecf106fc743a58d5a19f73303da3c4808c4c1b80",
+    "673a3e1d357b2cc4a49b54d60b8dc6f8d2be5e4c",
+    "aa8538d65e789112c60d65948d565f5d61225484",
+    "93d24b9d30c18d89aafb811fd3024d36341a80e4",
+    "4e222f37411aad4e2797464d5f9518d2752f4f32",
+    "92d1bd8502c444c0ff11139beda128fbeb6fcb65",
+    "35435f7270a0b3db2fbce200ddc6abc8f98f0696",
+    "b07b6625d587cf56402b1057b63fa01cbb4bf2a2",
+    "477492494c34e4ece2cd447fb06b1405bbfb577b",
+    "75d357adb419c7b06ca053b97190f64d225a3dca",
+    "fdbce080ae8cfc722f7a9866023b72cc9f1cef08"
   ],
   "sections": [
     {
+      "title": "What this ship changes for you",
+      "items": [
+        "Reworked model selection: provider sections lead to model choices, effort has its own slider, and configured worker runtimes can keep their own model pin.",
+        "Hid worker controls in Solo mode and removed duplicate voice controls while keeping dictation.",
+        "Kept composer menus aligned with their controls when interface zoom changes.",
+        "Made worker catalogues easier to browse with provider navigation, recent choices, Popular and Newest sorting, Coding and Free filters, and stable effort variants.",
+        "Kept runtime registration stable across development reloads.",
+        "Grouped streamed worker transcript fragments while preserving message boundaries and tool results.",
+        "Added a read-only merge preview for the selected approved lane, with a chooser when several are ready."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "Select configured worker models independently",
+        "Organize and rank worker model catalogues"
+      ]
+    },
+    {
       "title": "Fixes",
       "items": [
-        "Repair persisted lead schema bootstrap"
+        "Review exact lane changes before merging",
+        "Organize composer provider and effort selection",
+        "Anchor composer menus across UI zoom",
+        "Simplify composer voice controls",
+        "Preserve runtime registrations through module reloads",
+        "Remove redundant header terminal controls",
+        "Preserve MCP mission effort pin"
       ]
     }
   ]

@@ -7,6 +7,11 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-20
+
+- `673a3e1d3` feat: select configured worker models independently
+- `aa8538d65` feat: organize and rank worker model catalogues
+
 ## 2026-09-19
 
 - `990137733` feat: add persistent Brain warmup control
