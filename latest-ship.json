@@ -1,54 +1,77 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.763",
-  "tag": "v0.1.763",
-  "publishedAt": "2026-09-21T00:50:43Z",
-  "title": "Select configured worker models independently",
-  "summary": "Reworked model selection: provider sections lead to model choices, effort has its own slider, and configured worker runtimes can keep their own model pin.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.763",
+  "version": "0.1.764",
+  "tag": "v0.1.764",
+  "publishedAt": "2026-09-23T00:52:05Z",
+  "title": "Add advisory architecture attention",
+  "summary": "Settings now opens in its own full-screen view, with clearer section headings, centered layouts, and quick navigation to subsections.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.764",
   "sourceCommits": [
-    "ecf106fc743a58d5a19f73303da3c4808c4c1b80",
-    "673a3e1d357b2cc4a49b54d60b8dc6f8d2be5e4c",
-    "aa8538d65e789112c60d65948d565f5d61225484",
-    "93d24b9d30c18d89aafb811fd3024d36341a80e4",
-    "4e222f37411aad4e2797464d5f9518d2752f4f32",
-    "92d1bd8502c444c0ff11139beda128fbeb6fcb65",
-    "35435f7270a0b3db2fbce200ddc6abc8f98f0696",
-    "b07b6625d587cf56402b1057b63fa01cbb4bf2a2",
-    "477492494c34e4ece2cd447fb06b1405bbfb577b",
-    "75d357adb419c7b06ca053b97190f64d225a3dca",
-    "fdbce080ae8cfc722f7a9866023b72cc9f1cef08"
+    "f39d4b2170cab1d388fce515272d94f8ed0984bb",
+    "ced9c887102d04c6f82a81668f68ba27f9ffde7c",
+    "53df53142af3403122a865c93e66bd1b536e8073",
+    "04fa581c2a2852d488f75646c3acb7164808c263",
+    "10d3f49bd6a93d0c809fd035472d0233218229d2",
+    "df5328887fee50618d816d6c09d054ffae6f568f",
+    "411d4a045f6328bf672aad3802f3f392151342a3",
+    "e03687ebea39923a873f3affed272bef173a6b7f",
+    "260f8475ee37a19f39cd40d485530f60f5002987",
+    "593eb774c8e355d990bfc11de2c661c408e3fe38",
+    "a11266cb4f3593db4a19e9272365389b8b160149",
+    "5cbf9de36e7a1fba06a2ec24cb24fc0fd97932b9",
+    "6b5ab2ef65ef35be2070730c68a327cfd7f67305",
+    "a66adebea0c2bde2bca5cbb7f147fff82a20fe85",
+    "693b194138ad28f8cd4f2b3873e22c757e5aa12d",
+    "fd24b1995acbb885e38aa6d97cbd98109ea36fec",
+    "fbc0a2e54a45f38f004b517303976032c46d32c6",
+    "549c855aafb41e7b8ad15b00b71c5febbcdf77a5",
+    "5581f0eb85adbb1f353a89c01c99196bb92002df",
+    "09e20ff1a02c3f0f8a0dce42f69c08377e0257ed",
+    "3f6d4d10e6e63ca5ab4548934254912971969dfd",
+    "00ba974020ac6de61069877809104be1dc0f4acb",
+    "6090c2f7fe7b05a40bb8dc5a4df7098721388a4a",
+    "3d24654a315a868778bea8c9164db4eb10892b72",
+    "2abc674d3a3f40828d1f2b9d32d7f29dc552036f",
+    "8fa5e793fe667819d2f9d89be70c5292161f8889",
+    "3ca8f5b131196ff16a103befc193c8536e32344d",
+    "a637310e28cd0f9c36802dd07a0e02800d401140",
+    "1457552c3e692d4db086eb0d2c14ef6ff35d7ed5"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Reworked model selection: provider sections lead to model choices, effort has its own slider, and configured worker runtimes can keep their own model pin.",
-        "Hid worker controls in Solo mode and removed duplicate voice controls while keeping dictation.",
-        "Kept composer menus aligned with their controls when interface zoom changes.",
-        "Made worker catalogues easier to browse with provider navigation, recent choices, Popular and Newest sorting, Coding and Free filters, and stable effort variants.",
-        "Kept runtime registration stable across development reloads.",
-        "Grouped streamed worker transcript fragments while preserving message boundaries and tool results.",
-        "Added a read-only merge preview for the selected approved lane, with a chooser when several are ready."
+        "Settings now opens in its own full-screen view, with clearer section headings, centered layouts, and quick navigation to subsections.",
+        "Reorganized provider, voice, storage, and dispatch controls to reduce duplicate settings and explain what each choice changes.",
+        "Added a full Projects page for finding, creating, editing, and opening projects while preserving multiple repositories and shared instructions.",
+        "Expanded Customize with shared skill discovery, Markdown skill import, and an instruction-plugin library. Project guide is the first bundled plugin, with reviewed installation, updates, enable/disable, and removal.",
+        "Kept selected project instructions and repository scope consistent from Customize through orchestrator turns, including projects with matching names.",
+        "Added architecture change maps to Review, with optional advisory attention suggestions and separate receipts for each review source.",
+        "Simplified MCP setup with command entry and configuration preview. Saving a server configuration no longer downloads or starts its command.",
+        "Centralized supported API-key setup, added confirmation before removing native keys, and improved connected worker detection."
       ]
     },
     {
       "title": "Features",
       "items": [
-        "Select configured worker models independently",
-        "Organize and rank worker model catalogues"
+        "Add advisory architecture attention",
+        "Open a full-page project library",
+        "Add a development plugin preview to Customize",
+        "Show architecture deltas in review",
+        "Enable owned headless account worker"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Review exact lane changes before merging",
-        "Organize composer provider and effort selection",
-        "Anchor composer menus across UI zoom",
-        "Simplify composer voice controls",
-        "Preserve runtime registrations through module reloads",
-        "Remove redundant header terminal controls",
-        "Preserve MCP mission effort pin"
+        "Keep architecture analysis within watchdog",
+        "Clarify navigation and customization destinations",
+        "Preserve multi-repository project context in Customize",
+        "Organize provider setup and worker customization",
+        "Remove duplicate composer model controls",
+        "Simplify orchestrator and provider setup",
+        "Clarify automatic cleanup thresholds",
+        "Clarify storage usage and empty repository state"
       ]
     }
   ]

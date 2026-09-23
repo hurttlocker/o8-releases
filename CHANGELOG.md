@@ -7,6 +7,17 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-22
+
+- `53df53142` feat(review): add advisory architecture attention
+- `10d3f49bd` feat(projects): open a full-page project library
+- `e03687ebe` feat: add a development plugin preview to Customize
+- `593eb774c` feat: show architecture deltas in review
+
+## 2026-09-21
+
+- `2abc674d3` feat(runtime): enable owned headless account worker
+
 ## 2026-09-20
 
 - `673a3e1d3` feat: select configured worker models independently
