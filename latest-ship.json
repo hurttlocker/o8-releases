@@ -1,27 +1,35 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.767",
-  "tag": "v0.1.767",
-  "publishedAt": "2026-09-23T09:15:09Z",
-  "title": "o8 0.1.767",
-  "summary": "Keeps shared iMessage replies focused on the newest question, so narrow follow-ups do not repeat unrelated project status.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.767",
+  "version": "0.1.768",
+  "tag": "v0.1.768",
+  "publishedAt": "2026-09-23T16:04:28Z",
+  "title": "Show connected agent schedules in Automations",
+  "summary": "Lets approved iMessage chats use a connected agent workspace without opening extra planner chats.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.768",
   "sourceCommits": [
-    "9bc3ef625da299d4e424fedabc00dfd72cd1f85e",
-    "2cd57bef4d4de7c9473e07835ce85cbe27e9b987",
-    "ba57d5000d5ec61311cf81003a10a570ea546a35"
+    "74a5bc28c353ceb4a469376b00f261b82ede8ad0",
+    "f4c88a088cc4f02b1043e7d0144ac62504e6f60b",
+    "89e5dac52db0daf937c34223371c1be3b74f6b76",
+    "e283a8f4ed836b41c039d4a651bf5564c0c759aa"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Keeps shared iMessage replies focused on the newest question, so narrow follow-ups do not repeat unrelated project status."
+        "Lets approved iMessage chats use a connected agent workspace without opening extra planner chats.",
+        "Shows connected agent schedules in Automations with their time zone, run status, and Pause or Resume control."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "Show connected agent schedules in Automations"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Scope shared voice agent replies to newest question"
+        "Allow voice agent iMessage to use a bound native agent"
       ]
     }
   ]

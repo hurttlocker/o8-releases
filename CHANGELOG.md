@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-09-23
 
+- `f4c88a088` feat: show connected agent schedules in Automations
 - `f67193b8c` feat(voice agent): show approved iMessage direct number in settings
 - `e76e432f8` feat(voice agent): control iMessage routing from settings
 
