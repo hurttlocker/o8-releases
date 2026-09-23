@@ -1,48 +1,27 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.766",
-  "tag": "v0.1.766",
-  "publishedAt": "2026-09-23T06:11:15Z",
-  "title": "Show approved iMessage direct number in settings",
-  "summary": "Repairs Solo agent runtime tool access for repository work, including GitHub actions and the in-app attention queue.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.766",
+  "version": "0.1.767",
+  "tag": "v0.1.767",
+  "publishedAt": "2026-09-23T09:15:09Z",
+  "title": "o8 0.1.767",
+  "summary": "Keeps shared iMessage replies focused on the newest question, so narrow follow-ups do not repeat unrelated project status.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.767",
   "sourceCommits": [
-    "69a3555af9f62d9d3ebabc4c2cb45e1ce20b2de9",
-    "e5cf63d350300c5e1f472bbeeda3ac8f480743fc",
-    "f67193b8c12a222418253f66755166965b76c7e2",
-    "e76e432f88cfefd961c8ba60c8b27163be4f1b40",
-    "e5a203c2f92e01f4d68bc82fd6084631ec8ee672",
-    "02c341dc56f2a0ac575517c03fff9b13f2f25b6b",
-    "094570f912fc648d53e2416c1fe8ba2d6090d0be",
-    "07562b87b354776bc6178d75bbb6a281fd915c44",
-    "a8c5fac5f05eb900b1e5cd7f1fe84c1f68fb44e8",
-    "4e14a258ec4c712b5525211754a37ba00401552e"
+    "9bc3ef625da299d4e424fedabc00dfd72cd1f85e",
+    "2cd57bef4d4de7c9473e07835ce85cbe27e9b987",
+    "ba57d5000d5ec61311cf81003a10a570ea546a35"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Repairs Solo agent runtime tool access for repository work, including GitHub actions and the in-app attention queue.",
-        "Keeps sent chat photos visible, supports image-only messages, and shows an error when an attachment cannot reach the selected agent or be safely retried.",
-        "Renames the mixed-action inbox to Needs Attention and clears waiting cards when their GitHub threads are verified closed.",
-        "Adds an iMessage switch in voice agent Settings and shows the approved direct-chat number by its last four digits. Group access remains separately controlled."
-      ]
-    },
-    {
-      "title": "Features",
-      "items": [
-        "Show approved iMessage direct number in settings",
-        "Control iMessage routing from settings"
+        "Keeps shared iMessage replies focused on the newest question, so narrow follow-ups do not repeat unrelated project status."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Keep image-only sends and reject incomplete retries",
-        "Label mixed actions as Needs Attention",
-        "Clear waiting cards on verified thread closure",
-        "Show and deliver composer images in agent runtime turns",
-        "Allow signed agent runtime tool host without CLI relaunch"
+        "Scope shared voice agent replies to newest question"
       ]
     }
   ]
