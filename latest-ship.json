@@ -1,35 +1,22 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.768",
-  "tag": "v0.1.768",
-  "publishedAt": "2026-09-23T16:04:28Z",
-  "title": "Show connected agent schedules in Automations",
-  "summary": "Lets approved iMessage chats use a connected agent workspace without opening extra planner chats.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.768",
+  "version": "0.1.770",
+  "tag": "v0.1.770",
+  "publishedAt": "2026-09-25T21:07:35Z",
+  "title": "o8 0.1.770",
+  "summary": "Stage native boot gate outside checkout.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.770",
   "sourceCommits": [
-    "74a5bc28c353ceb4a469376b00f261b82ede8ad0",
-    "f4c88a088cc4f02b1043e7d0144ac62504e6f60b",
-    "89e5dac52db0daf937c34223371c1be3b74f6b76",
-    "e283a8f4ed836b41c039d4a651bf5564c0c759aa"
+    "db355e1160102331982f2bd3c7b7c769dc4807b8",
+    "75934a7c047f0108ae2f02b47d4bc2e696ad8b36",
+    "6f75196af4fbf09c5605608d0e57afeab44dcc8b"
   ],
   "sections": [
     {
-      "title": "What this ship changes for you",
-      "items": [
-        "Lets approved iMessage chats use a connected agent workspace without opening extra planner chats.",
-        "Shows connected agent schedules in Automations with their time zone, run status, and Pause or Resume control."
-      ]
-    },
-    {
-      "title": "Features",
-      "items": [
-        "Show connected agent schedules in Automations"
-      ]
-    },
-    {
       "title": "Fixes",
       "items": [
-        "Allow voice agent iMessage to use a bound native agent"
+        "Stage native boot gate outside checkout",
+        "Pause hidden peer-message polling"
       ]
     }
   ]

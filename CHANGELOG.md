@@ -7,8 +7,20 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-25
+
+- `d8976b265` feat(workspace): show many chats and terminals in a pane grid
+- `805f4d3a2` feat(handoffs): make agent exchanges readable in the workspace
+
+## 2026-09-24
+
+- `07998f09a` feat: bound peer conversations across agent handoffs
+
 ## 2026-09-23
 
+- `4440c84f3` feat: show agent handoffs in split transcripts
+- `be58e4012` feat(composer): put project and permission controls beneath input
+- `9a531d637` feat: separate plugins from skill bundles in Customize
 - `f4c88a088` feat: show connected agent schedules in Automations
 - `f67193b8c` feat(voice agent): show approved iMessage direct number in settings
 - `e76e432f8` feat(voice agent): control iMessage routing from settings
