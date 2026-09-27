@@ -1,34 +1,32 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.771",
-  "tag": "v0.1.771",
-  "publishedAt": "2026-09-27T15:27:43Z",
-  "title": "o8 0.1.771",
-  "summary": "Start with the runtimes already on your machine, guided project setup, and optional microphone and permission checks that resume after a restart.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.771",
+  "version": "0.1.772",
+  "tag": "v0.1.772",
+  "publishedAt": "2026-09-27T21:41:15Z",
+  "title": "o8 0.1.772",
+  "summary": "Retain unsent project choice across reload.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.772",
   "sourceCommits": [
-    "034875099c1b93cfc0e1d7a3438dc18f7a367f59",
-    "aca93aa6fff99c8d1adc5e07610ee99608fa93ed",
-    "585cd5baffabd47999dee4ebbb59b72f5ae57fc5",
-    "e39b56d1ab700d0a523861f41cd945fce07d1b74",
-    "f329e7929a780358ef137ad795f93612cfe6cf19",
-    "f8e9befdf41f4d09b3d91ed614f27c74cf7040e1"
+    "290411ffeae68415db21734d9e24db030b0b45cf",
+    "0f5f678ca6a2422c99580287bcf28705ccdd7ce5",
+    "a10e65b9780e2d986cee47c75dd96d6483693e77",
+    "6b7fa603f6af7e6ccf71b30b44c1afad69b4195e",
+    "b38056bb62fe7ccee6a3e8de8084076756d43604",
+    "bf53b7c3b3c2155bede6262c5cf7c2137ae31905",
+    "9063cc34421246f9ccc3d87cbce89765fc243958",
+    "e7f8881b5386a36595988eb0d30313c228a62803",
+    "5400d12c0db20d410d847aa5de5f43b4ee060b53"
   ],
   "sections": [
     {
-      "title": "What this ship changes for you",
-      "items": [
-        "Start with the runtimes already on your machine, guided project setup, and optional microphone and permission checks that resume after a restart.",
-        "Keep workers beside a full-height chat, with readable compact layouts, adjustable panes, saved placement, and completion status that updates without reloading.",
-        "Choose Fast teams to run scoped workers in one shared checkout, then review and commit the combined result.",
-        "Move between Projects, Customize, Automations, and Handoffs with consistent navigation and workspace controls.",
-        "Keep project changes when continuing an existing chat, recover missing runtime threads, and inspect worker terminals without changing their input or size."
-      ]
-    },
-    {
       "title": "Fixes",
       "items": [
-        "Release steered read-only packets from latest receipt"
+        "Retain unsent project choice across reload",
+        "Preserve unsent workspace when selecting a project",
+        "Preserve Brain cache source provenance",
+        "Phrase voice agent watch plan summaries",
+        "Expose compact desktop navigation in production",
+        "Hide Brain citation markers in rail"
       ]
     }
   ]
