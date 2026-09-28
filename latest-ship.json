@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.772",
-  "tag": "v0.1.772",
-  "publishedAt": "2026-09-27T21:41:15Z",
-  "title": "o8 0.1.772",
-  "summary": "Retain unsent project choice across reload.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.772",
+  "version": "0.1.773",
+  "tag": "v0.1.773",
+  "publishedAt": "2026-09-28T15:30:07Z",
+  "title": "o8 0.1.773",
+  "summary": "Load protected transcript images with bearer fetch.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.773",
   "sourceCommits": [
-    "290411ffeae68415db21734d9e24db030b0b45cf",
-    "0f5f678ca6a2422c99580287bcf28705ccdd7ce5",
-    "a10e65b9780e2d986cee47c75dd96d6483693e77",
-    "6b7fa603f6af7e6ccf71b30b44c1afad69b4195e",
-    "b38056bb62fe7ccee6a3e8de8084076756d43604",
-    "bf53b7c3b3c2155bede6262c5cf7c2137ae31905",
-    "9063cc34421246f9ccc3d87cbce89765fc243958",
-    "e7f8881b5386a36595988eb0d30313c228a62803",
-    "5400d12c0db20d410d847aa5de5f43b4ee060b53"
+    "a9882c8d96e8e2192ac68d6243fffd54aee1d042",
+    "4e212c615b8a082ada617ce01aa9119aa988a853",
+    "de4cbcb75c336ce8a5937efa7414c06be8785bc4",
+    "5d16f2fb8f7be2d27a93c2f432bc1d65986ffeb7",
+    "0b2d3d4676a3422df2b79c304bc0e624e39b19df",
+    "6d9eba3643146721203243dc5f143aab3938c98b",
+    "84439236306da94dd95b71b08f8b8800fabc659c",
+    "cc160cb14750dee4bfde9b27c8c05f0cbc0e41de",
+    "24fd8918179ba2b63a989fb405d698012a04f4df",
+    "2775545201b17e7e3aecd9d86fa0f2c76a09a693"
   ],
   "sections": [
     {
       "title": "Fixes",
       "items": [
-        "Retain unsent project choice across reload",
-        "Preserve unsent workspace when selecting a project",
-        "Preserve Brain cache source provenance",
-        "Phrase voice agent watch plan summaries",
-        "Expose compact desktop navigation in production",
-        "Hide Brain citation markers in rail"
+        "Load protected transcript images with bearer fetch",
+        "Preserve relocated Solo tool host",
+        "Retain terminal tabs across repo-less restores",
+        "Refuse implicit external CLI resume",
+        "Preserve packet lifecycle across stale state writes"
       ]
     }
   ]
