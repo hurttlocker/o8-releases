@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-28
+
+- `94e167ff5` feat(cli): observe existing dashboard terminals
+
 ## 2026-09-25
 
 - `d8976b265` feat(workspace): show many chats and terminals in a pane grid

@@ -1,32 +1,28 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.773",
-  "tag": "v0.1.773",
-  "publishedAt": "2026-09-28T15:30:07Z",
-  "title": "o8 0.1.773",
-  "summary": "Load protected transcript images with bearer fetch.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.773",
+  "version": "0.1.774",
+  "tag": "v0.1.774",
+  "publishedAt": "2026-09-29T04:30:29Z",
+  "title": "Observe existing dashboard terminals",
+  "summary": "Observe existing dashboard terminals.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.774",
   "sourceCommits": [
-    "a9882c8d96e8e2192ac68d6243fffd54aee1d042",
-    "4e212c615b8a082ada617ce01aa9119aa988a853",
-    "de4cbcb75c336ce8a5937efa7414c06be8785bc4",
-    "5d16f2fb8f7be2d27a93c2f432bc1d65986ffeb7",
-    "0b2d3d4676a3422df2b79c304bc0e624e39b19df",
-    "6d9eba3643146721203243dc5f143aab3938c98b",
-    "84439236306da94dd95b71b08f8b8800fabc659c",
-    "cc160cb14750dee4bfde9b27c8c05f0cbc0e41de",
-    "24fd8918179ba2b63a989fb405d698012a04f4df",
-    "2775545201b17e7e3aecd9d86fa0f2c76a09a693"
+    "750a87eb2b63e83153a8d6dbf8207c64ab243023",
+    "94e167ff5946deef66a1fe9813f5579f0be0ec64",
+    "98a3b35fba0f357ee15cf814b7d9d1c0acb586a8",
+    "397254815ff124baeb32dfc292b7aea70ba348ef"
   ],
   "sections": [
     {
+      "title": "Features",
+      "items": [
+        "Observe existing dashboard terminals"
+      ]
+    },
+    {
       "title": "Fixes",
       "items": [
-        "Load protected transcript images with bearer fetch",
-        "Preserve relocated Solo tool host",
-        "Retain terminal tabs across repo-less restores",
-        "Refuse implicit external CLI resume",
-        "Preserve packet lifecycle across stale state writes"
+        "Persist comparison packets before launch"
       ]
     }
   ]
