@@ -7,6 +7,18 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-29
+
+- `e8e4d998b` feat: run approved services in leased cloud worker
+- `1deaae34e` feat: bind project tasks to remote worker attempts
+- `082651a61` feat: show authenticated cloud worker presence
+- `dac1d6436` feat(cloud): connect standalone worker to durable jobs
+- `ce3562a39` feat: scope the orchestrator prompt to the turn's tool surface
+- `11497de85` feat(cli): attach interactively to saved machine terminals
+- `84ce38586` feat(cli): wait for output from persistent terminals
+- `a71f1a4b0` feat: route terminal CLI through saved SSH machines
+- `32306d17a` feat: add exclusive CLI control for existing terminal sessions
+
 ## 2026-09-28
 
 - `94e167ff5` feat(cli): observe existing dashboard terminals
