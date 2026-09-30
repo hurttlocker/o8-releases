@@ -1,55 +1,28 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.775",
-  "tag": "v0.1.775",
-  "publishedAt": "2026-09-30T00:54:45Z",
-  "title": "Run approved services in leased cloud worker",
-  "summary": "Run approved services in leased cloud worker.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.775",
+  "version": "0.1.776",
+  "tag": "v0.1.776",
+  "publishedAt": "2026-09-30T02:53:19Z",
+  "title": "o8 0.1.776",
+  "summary": "Verify packaged desktop server startup before release.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.776",
   "sourceCommits": [
-    "f0d77f4c0429ddaddea09936bb37562924d272ad",
-    "e8e4d998bb0134a6077ae025e9704b6d890f773e",
-    "1deaae34e3f613940bb631cb2d53bc9d29a8ff6b",
-    "082651a615b1b5600600a827e3a3601408ca2ad9",
-    "dac1d6436a6f3488a6345fc1ed38c8261d2f9cd5",
-    "5d5fb68600ecb693c11e5c47a0abb26b170805a9",
-    "c7466ec43a6af197c522ac025a5973ba281da40b",
-    "ea8ff806a81165b1cbf2c1fc40ba1cef39ad456f",
-    "b517ee283a6e8e16ad8e7f4e79e882aa2fd64524",
-    "90d6a85916171fd837fde40b811396d1f285ade0",
-    "6c8beeed4a44c5333c4530d88672b6c99228e04b",
-    "ce3562a399064aeedf141a41d6ebce800d2b222f",
-    "43fc190f638da4db22d7b0481ab72551d3504ea2",
-    "11497de85d3d3d6381717ba123bc5053ad704b4c",
-    "84ce38586dd6bd4f6e4a1b329c752bf4983a443a",
-    "a71f1a4b0d921a0c20ecfcdd62a7cb682a905287",
-    "32306d17a962c63fd849686b9ed3e0fc50a07378",
-    "1d3f8f31531e30c716cff13e3f4957de50b89f99"
+    "03b676e27628d23f65fa3c68f87e53f2e6aa4959",
+    "45252c749c03e9fee3dd0865161c9d30beb6f00f",
+    "671891d8ab6c4f458b0421927f35f67c12dfe732",
+    "d2af19c59da58dcf4ca376181919600435072b13",
+    "2257c5f5d030ba9138a620c61ac70b51a723138b",
+    "234ec50f16d3266356d5e63d96a6fd0a166020fd"
   ],
   "sections": [
     {
-      "title": "Features",
-      "items": [
-        "Run approved services in leased cloud worker",
-        "Bind project tasks to remote worker attempts",
-        "Show authenticated cloud worker presence",
-        "Connect standalone worker to durable jobs",
-        "Scope the orchestrator prompt to the turn's tool surface",
-        "Attach interactively to saved machine terminals",
-        "Wait for output from persistent terminals",
-        "Route terminal CLI through saved SSH machines"
-      ]
-    },
-    {
       "title": "Fixes",
       "items": [
-        "Fail closed for native test instances",
-        "Isolate telemetry and compaction by thread",
-        "Preserve and recover AI provider orchestrator sessions",
-        "Give resumed AI provider orchestrator sessions the current prompt",
-        "Use a relocatable agent runtime CLI for Solo turns",
-        "Let the orchestrator use gh where the GitHub tools stop",
-        "Give Solo turns one mode banner and no dispatch receipt"
+        "Verify packaged desktop server startup before release",
+        "Read contraction negations in the false-dispatch guard",
+        "State each orchestrator prompt rule once",
+        "Name the running orchestrator backend in its prompt",
+        "Count create_mission as a dispatch in the false-dispatch guard"
       ]
     }
   ]
