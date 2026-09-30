@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-09-30
+
+- `db2ff338d` feat: open saved SSH terminals in the native workspace
+
 ## 2026-09-29
 
 - `e8e4d998b` feat: run approved services in leased cloud worker
