@@ -1,20 +1,31 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.777",
-  "tag": "v0.1.777",
-  "publishedAt": "2026-09-30T05:50:16Z",
-  "title": "Open saved SSH terminals in the native workspace",
-  "summary": "Open saved SSH terminals in the native workspace.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.777",
+  "version": "0.1.778",
+  "tag": "v0.1.778",
+  "publishedAt": "2026-09-30T13:30:11Z",
+  "title": "Expose reviewed action plugins through CLI",
+  "summary": "Expose reviewed action plugins through CLI.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.778",
   "sourceCommits": [
-    "9a0074801bc67da3108de83356a07aa4b49a3ffb",
-    "db2ff338d9bb67f8145ffeab98abdf7a36b93b90"
+    "0eb00eedcc82371f1dc652e587ebc15d7db636f9",
+    "c79bafced7561d1e0d0190eb3a0982042fcb0807",
+    "5e4e840dd14b9070ee81aea93d9875dc9b92a410",
+    "7780e2f49af8e00509dde8200d64902211117616",
+    "abf7e613335b7610179bde541d53bb320c878279"
   ],
   "sections": [
     {
       "title": "Features",
       "items": [
-        "Open saved SSH terminals in the native workspace"
+        "Expose reviewed action plugins through CLI",
+        "Add local executable action plugins"
+      ]
+    },
+    {
+      "title": "Fixes",
+      "items": [
+        "Keep saved SSH terminal input clean on reattach",
+        "Center empty workspace content in each pane"
       ]
     }
   ]

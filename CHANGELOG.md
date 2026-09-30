@@ -9,6 +9,8 @@ and internal chores live in the private engineering log.
 
 ## 2026-09-30
 
+- `c79bafced` feat: expose reviewed action plugins through CLI
+- `5e4e840dd` feat: add local executable action plugins
 - `db2ff338d` feat: open saved SSH terminals in the native workspace
 
 ## 2026-09-29
