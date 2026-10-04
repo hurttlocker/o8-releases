@@ -7,8 +7,30 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-03
+
+- `03cad5061` feat: add scoped Threads navigation with mounted acknowledgement
+- `0281ca38e` feat: expose bounded saved-image inspection and app reload
+- `bd9932444` feat: opt into bound background image attachment
+- `dcb0e8677` feat: add scoped operator composer image attachment
+- `cbedc12b6` feat: allow process-scoped Codex review model selection
+
+## 2026-10-02
+
+- `852941116` feat: add persistent plugin terminals and recoverable remote previews
+- `a0c1e8cd9` feat: import verified remote macOS release builds
+- `87eb9d5c8` feat: reuse pinned remote worker objects across attempts
+
+## 2026-10-01
+
+- `bbcf1f279` feat(desktop): inspect threads in the contextual panel
+- `846db8d79` feat: add GPT-6.1 Sol with Codex compatibility retry
+- `2a5b75b74` feat: route desktop update checks through update service
+
 ## 2026-09-30
 
+- `972ca044d` feat: show current remote worker evidence in project tasks
+- `8d82f4e40` feat: expose remote task execution without local fallback
 - `c79bafced` feat: expose reviewed action plugins through CLI
 - `5e4e840dd` feat: add local executable action plugins
 - `db2ff338d` feat: open saved SSH terminals in the native workspace
