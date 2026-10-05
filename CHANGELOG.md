@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-10-04
 
+- `b662cd251` feat: prototype an opt-in managed Pi SDK worker
 - `8412c42be` feat: govern packet-worker terminal writes
 - `fbf28b019` feat: prepare connected o8 plugin and scoped desktop access
 - `283ad7fcb` feat: keep the desktop signed in with a revocable device token
