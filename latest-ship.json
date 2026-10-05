@@ -1,38 +1,23 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.781",
-  "tag": "v0.1.781",
-  "publishedAt": "2026-10-05T00:13:32Z",
-  "title": "Prototype an opt-in managed Pi SDK worker",
-  "summary": "Clean internal links in generated build output.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.781",
+  "version": "0.1.782",
+  "tag": "v0.1.782",
+  "publishedAt": "2026-10-05T01:46:54Z",
+  "title": "o8 0.1.782",
+  "summary": "Return current worker reports to hosted plugin.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.782",
   "sourceCommits": [
-    "2dfc58562ab7d60fef3cdc6fcce50eee97af7e80",
-    "3674b4bdcb1a3a04193dd432d63a5cc664c16497",
-    "8798a2a3ede500385c2dbaabaf59a2b4571bcccf",
-    "ca38c4e1e40d5309412a97f4bc86254180ec40a4",
-    "de954ed8e8eaea313f906e2e2be1d18e69ead644",
-    "b662cd251641782d10fb07f5df8ffa572afc0c64",
-    "770424841a40983967b09d304a1e986767b04132",
-    "ac62d737fe3a0d4a1307a662ebae4a35533326e5",
-    "f7964f2b8950269a387f12c6b156df5fcbf7aed0",
-    "8412c42bea862e10a8c1b1fb236c2372cfb0a7d9",
-    "259524e00301cfe221715bb481f9d414c1beb796"
+    "08b74565fd86cfef97446e32bcad53f7160dbd7f",
+    "bdcd0eaf72ce3a9198cecd699c45a11d3420101f",
+    "8800c4320fcba2984c51b4e9afb7f6fd1dc8af21",
+    "15c4a8fe7b0e4783deafd0d373fc2fd2ade81edd"
   ],
   "sections": [
     {
-      "title": "Features",
-      "items": [
-        "Prototype an opt-in managed Pi SDK worker",
-        "Govern packet-worker terminal writes"
-      ]
-    },
-    {
       "title": "Fixes",
       "items": [
-        "Clean internal links in generated build output",
-        "Keep auth payloads and raw errors out of desktop diagnostics",
-        "Include alert title in urgent toast action names"
+        "Return current worker reports to hosted plugin",
+        "Register native owned workspace lifecycle"
       ]
     }
   ]
