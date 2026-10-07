@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-07
+
+- `4e69576d4` feat(plugins): read bound controlled worker results
+
 ## 2026-10-04
 
 - `b662cd251` feat: prototype an opt-in managed Pi SDK worker

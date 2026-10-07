@@ -1,49 +1,29 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.783",
-  "tag": "v0.1.783",
-  "publishedAt": "2026-10-07T00:23:05Z",
-  "title": "o8 0.1.783",
-  "summary": "Preserve portable Git bundles before retirement.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.783",
+  "version": "0.1.784",
+  "tag": "v0.1.784",
+  "publishedAt": "2026-10-07T12:21:22Z",
+  "title": "Read bound controlled worker results",
+  "summary": "Read bound controlled worker results.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.784",
   "sourceCommits": [
-    "b12547f08180fe4aecb8bc1166708b645eb6a581",
-    "cc7127c677c8f52b65cb23cc77fffea88f48b4e7",
-    "b200228c834fd29fd23e6cbe18de9a7181d01de1",
-    "8bcc062cca45aff4ce14cf93f93d20610b60e034",
-    "acd633fdf97101ed57016508283e59620f6e2248",
-    "66715dfe921b0466ae5470c0abfda3674da0ccb6",
-    "3fbb819e232f37b590af6a471776a3301a2659ab",
-    "065bc357be4f241fe8cd811ce85ab8709f0b82ed",
-    "04b35b8da242e7f0a585f3bacb6f26bf51524753",
-    "051147805dbff0dd072d07fb193142a0e604a136",
-    "9364b199c635cc4a40d58db2c737f1c1fb24db6a",
-    "aeffb8b6e738e8c2e2ed68fb4c45b92e51952b1e",
-    "4eff706cda4bcd3ebeb3967594d0f5299ae3d3e4",
-    "ddd594289d659bde4288da89ff6a6d950a5f06bc",
-    "bc4a5ca05806780e001d9ab2f4586435cbfc70ff",
-    "1f3b6e8f118a71d9664f92f2d324e407c58a5426",
-    "b72117ccee653e09f823b8f960da8f30ace3f7e7",
-    "3921a8ec661bc47cd9d486c5cf489fefb68e286e",
-    "902872223deaf533835bd322191cf1c10e0c5387",
-    "516778a54ba30ae93812d1a91cd42adf630e0506",
-    "9e7188561d24118e4b016ca89eb07330fe4815d1",
-    "659a0db2f91430578b19589ba63c825d710d42a7",
-    "b01a69e8b4264b0a38eddd90db75d5501bf2ef2a",
-    "7a6fef8e35b48d1835b4fd2ab83d0283370af836"
+    "0d090e739dba1805a3a5f409c757ee95469d6ee5",
+    "4e69576d4b5f82923a7e0db1696989b87e0a83d4",
+    "e5227a512ee00f7c5ab3b9fc2d3842c93bb37e8f",
+    "7c59157e5c345429c84235bf4c02f35970933ccb"
   ],
   "sections": [
     {
+      "title": "Features",
+      "items": [
+        "Read bound controlled worker results"
+      ]
+    },
+    {
       "title": "Fixes",
       "items": [
-        "Preserve portable Git bundles before retirement",
-        "Publish current mission dispatch lane bindings",
-        "Finalize close against captured registry lifecycle",
-        "Settle queued session resume admission receipts",
-        "Bind artifact recovery to successor revision",
-        "Use portable owned-run marker scans",
-        "Preserve packet work before close cleanup",
-        "Preserve retained artifacts before retirement"
+        "Report persisted execution on preparation retries",
+        "Polish ChatAI model plan pane and connection entry"
       ]
     }
   ]
