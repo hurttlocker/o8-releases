@@ -7,8 +7,45 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-11
+
+- `72abc571b` feat: integrate desktop workspace navigation and provider controls
+- `a72c3efe3` feat: add dormant Pi host source-continuity guard
+- `42b743ff6` feat(workspace): register and retire generated build output
+- `ccf2535a3` feat(feedback): add text-only feedback sheet in Settings
+
+## 2026-10-09
+
+- `74022d868` feat: record desktop voice sessions into the voice agent store
+- `96b53c823` feat: read-only o8 commands for the durable voice agent brain
+- `c36957576` feat: record planner, phone and voice turns into the voice agent store
+- `16739e4b6` feat: build a bounded fix prompt from failing pull request checks
+- `c3ae82b22` feat: answer phone voice agent text sessions on the durable Pi brain
+- `e2ba1c1f9` feat: receive authorized iMessages natively on macOS
+- `ac661d9ea` feat: credit outside contributors by handle in release notes and changelog
+- `80eea7c36` feat: list, read and continue voice agent conversations through one API
+- `fbefa00b1` feat: run voice agent text on a durable built-in Pi brain
+- `9503c3038` feat: bundle Pi 1.1.0 and the durable Pi harness
+- `4198ed1c1` feat: share one cached refresh policy for GitHub pull request and issue lists
+
+## 2026-10-08
+
+- `c8e7d64c5` feat: detect an existing Pi setup and resume its sessions from o8
+- `583d74dbf` feat(runtime): add Hermes as a first-class worker runtime — thanks @kvnloo
+- `6ad314c4b` feat(mobile): add Ripple voice intent resolution — thanks @kvnloo
+- `a5fff542a` fix(desktop): connect automation history toggle to its panel — thanks @MarcBasas
+- `3511caaf9` feat: run the composer o8 model on the built-in Pi orchestrator
+- `0de9c6ab5` fix: await clipboard success in dock answer copy — thanks @phatpanda6
+
 ## 2026-10-07
 
+- `05c61c7f3` feat: run the Brain, dictation polish, and the o8 model on the managed Luna model
+- `a4c362ce5` feat: add bounded operator GitHub App evidence reads
+- `833117dbc` feat: run bundled Pi as a packet worker runtime
+- `e26f969a0` feat(onboarding): guide coding-tool sign-in recovery
+- `4f6f34d71` feat(onboarding): polish first-run setup
+- `56127021b` feat(plugin): add bounded hosted task launch and Stop
+- `81d6362dc` feat(plugin): add a bounded external-provider worker for held tasks
 - `4e69576d4` feat(plugins): read bound controlled worker results
 
 ## 2026-10-04

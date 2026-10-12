@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.784",
-  "tag": "v0.1.784",
-  "publishedAt": "2026-10-07T12:21:22Z",
-  "title": "Read bound controlled worker results",
-  "summary": "Read bound controlled worker results.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.784",
+  "version": "0.1.789",
+  "tag": "v0.1.789",
+  "publishedAt": "2026-10-12T03:10:12Z",
+  "title": "o8 0.1.789",
+  "summary": "Navigate long conversations with prompt shortcuts, folded work details, file previews and clearer progress.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.789",
   "sourceCommits": [
-    "0d090e739dba1805a3a5f409c757ee95469d6ee5",
-    "4e69576d4b5f82923a7e0db1696989b87e0a83d4",
-    "e5227a512ee00f7c5ab3b9fc2d3842c93bb37e8f",
-    "7c59157e5c345429c84235bf4c02f35970933ccb"
+    "f7c7688c00bce8644eaeeceb13d37b4aa9d66dc4"
   ],
   "sections": [
     {
-      "title": "Features",
+      "title": "What this ship changes for you",
       "items": [
-        "Read bound controlled worker results"
+        "Navigate long conversations with prompt shortcuts, folded work details, file previews and clearer progress.",
+        "Organize repositories into projects, add local folders or Git URLs, and move between workspace tools more easily.",
+        "Read source files with syntax colors, formatted documents and quick-document shortcuts.",
+        "Keep browser previews nearby, expand side panels and inspect installed iOS simulators from the workspace.",
+        "Connect supported agent runtimes and choose which provider models appear in the composer.",
+        "Keep saved conversations and review replies easier to find, with smoother repository refreshes.",
+        "Restore the main window from the Dock and preserve application permissions during installation.",
+        "Improve workspace ownership, recovery and storage cleanup while preserving unfinished work."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Report persisted execution on preparation retries",
-        "Polish ChatAI model plan pane and connection entry"
+        "Trim packaged build inputs for desktop release 0.1.789"
       ]
     }
   ]
