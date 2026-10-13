@@ -1,11 +1,11 @@
 # Development Stats
 
-Last updated: 2026-10-12
+Last updated: 2026-10-13
 
 | Metric | Value |
 |---|---|
-| Features shipped (180d) | 1547 |
+| Features shipped (180d) | 1541 |
 | Merged through o8 (180d) | 260 |
-| Days active | 208 |
-| This week | 27 features |
-| Today | 4 features |
+| Days active | 209 |
+| This week | 29 features |
+| Today | 2 features |

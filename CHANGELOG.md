@@ -7,6 +7,11 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-12
+
+- `24f513b44` feat: show turns added in the Codex app in the o8 chat
+- `fb0560ea8` feat: show Codex orchestrator chats in the Codex app
+
 ## 2026-10-11
 
 - `72abc571b` feat: integrate desktop workspace navigation and provider controls

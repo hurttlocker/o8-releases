@@ -1,32 +1,56 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.789",
-  "tag": "v0.1.789",
-  "publishedAt": "2026-10-12T03:10:12Z",
-  "title": "o8 0.1.789",
-  "summary": "Navigate long conversations with prompt shortcuts, folded work details, file previews and clearer progress.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.789",
+  "version": "0.1.790",
+  "tag": "v0.1.790",
+  "publishedAt": "2026-10-13T01:48:03Z",
+  "title": "Show agent runtime orchestrator chats in the agent runtime app",
+  "summary": "Update o8 without also updating connected agent CLIs, and get clearer version-check feedback.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.790",
   "sourceCommits": [
-    "f7c7688c00bce8644eaeeceb13d37b4aa9d66dc4"
+    "f18621296523670d5e6a920f4e020989319b57d9",
+    "fb0560ea8df8d111eeff71c5cf930de7004f946e",
+    "affe3229da69d4448305de6f44763690b1e2b6de",
+    "460cda301d3637cdd2ee27fd0093c12b1751bb90",
+    "2cb84de632733a9b3c106a9d79d271950a8b87e8",
+    "c4814ce654733125e48e00d25c0022850bc62718",
+    "15e9595d336a82511d3dd151c10965f9e594cd0c",
+    "93b6dfe33466e0a6353ab91c979ee00853b99655",
+    "12dbb8490e255535967507d2c5d789722b1a9b6e",
+    "05d16801e92071d74d5d1682d7cb0d9643c172ce",
+    "47ba1710775c95c23fc8529fb328712d7a11ea6a",
+    "f3ca97fd48e60fdc48041e6c0dbd35d3d522e25e",
+    "30257ed52f32f52db0a67f4bd36c6b29e2d63537"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Navigate long conversations with prompt shortcuts, folded work details, file previews and clearer progress.",
-        "Organize repositories into projects, add local folders or Git URLs, and move between workspace tools more easily.",
-        "Read source files with syntax colors, formatted documents and quick-document shortcuts.",
-        "Keep browser previews nearby, expand side panels and inspect installed iOS simulators from the workspace.",
-        "Connect supported agent runtimes and choose which provider models appear in the composer.",
-        "Keep saved conversations and review replies easier to find, with smoother repository refreshes.",
-        "Restore the main window from the Dock and preserve application permissions during installation.",
-        "Improve workspace ownership, recovery and storage cleanup while preserving unfinished work."
+        "Update o8 without also updating connected agent CLIs, and get clearer version-check feedback.",
+        "Retry a failed workspace Review check without losing the error or showing an empty result as success.",
+        "Distinguish an Instructions search with no matches from an empty instruction list.",
+        "Run routine Pi commands and file edits directly in Full access, with clearer explanations when a tool call is refused.",
+        "Find pending Pi approvals across projects, inspect the workspace and proposed file content, and keep time to make a decision.",
+        "Keep the o8 model consistent when starting a conversation after using another provider.",
+        "Improve isolated worker launch checks and update a native transport dependency."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "Show agent runtime orchestrator chats in the agent runtime app"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Trim packaged build inputs for desktop release 0.1.789"
+        "Bound the approved 0.1.790 package allowance",
+        "Keep managed model attribution consistent across turns",
+        "Make runtime Inbox approvals visible and actionable",
+        "Update native transport dependency security patch",
+        "Prove the server's own process identity without an async timer",
+        "Tell the built-in agent why o8 refused a tool call and accept absolute workspace paths",
+        "Run the built-in orchestrator's writes and commands without asking in Full access",
+        "Preserve failed workspace review checks and allow retry"
       ]
     }
   ]
