@@ -7,6 +7,13 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-13
+
+- `351c5686` feat: add commit-pinned pull request review guides
+- `00d238d8` feat: share GitHub quota and durable PR watch state
+- `42e9fcd0` feat: add explicit ACP registry onboarding
+- `03a2ab22` feat: add native Muse Code conversations and owned workers
+
 ## 2026-10-12
 
 - `24f513b44` feat: show turns added in the Codex app in the o8 chat

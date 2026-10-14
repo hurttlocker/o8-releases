@@ -1,28 +1,33 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.791",
-  "tag": "v0.1.791",
-  "publishedAt": "2026-10-13T04:20:56Z",
-  "title": "Show turns added in the agent runtime app in the o8 chat",
-  "summary": "See turns you add to an o8 chat from the agent runtime app, on desktop or phone, in the o8 chat.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.791",
+  "version": "0.1.794",
+  "tag": "v0.1.794",
+  "publishedAt": "2026-10-14T08:43:12Z",
+  "title": "o8 0.1.794",
+  "summary": "Connect Muse Code and choose the models your installed CLI reports, including Wonder Full when your account provides it.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.794",
   "sourceCommits": [
-    "ba8ea5706d31150b0c0ff8307fe5c2ebb218c2c2",
-    "183a76ae507b867793ae57d7dbd8932e756012b7",
-    "b8b65fd16711b0fb6367f1aac13966849daad54b",
-    "24f513b44f1a5bc814dac88f1ff5d788eb142c7b"
+    "70727545482296e3e48ea751e9a9d7ebe645d2bf",
+    "63524b28b0cad6b2e5340326283ff0da7c9ce54c"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "See turns you add to an o8 chat from the agent runtime app, on desktop or phone, in the o8 chat. Requires Settings > Models > agent runtime app > Show chats in the agent runtime app, which stays off by default."
+        "Connect Muse Code and choose the models your installed CLI reports, including Wonder Full when your account provides it.",
+        "Browse ACP providers in Settings and explicitly prepare supported adapters before connecting them.",
+        "Keep linked pull request watches across restarts, with shared GitHub refreshes and rate-limit cooldowns.",
+        "Start a review guide tied to the exact pull request commit, with file references you can open in Review.",
+        "See clearer provider model availability, capability limits and session recovery messages.",
+        "Keep drafts and attachments after recoverable send failures. Queued messages stay paused after reload until you resume them.",
+        "Keep runtime response caches from changing the signed macOS app."
       ]
     },
     {
-      "title": "Features",
+      "title": "Fixes",
       "items": [
-        "Show turns added in the agent runtime app in the o8 chat"
+        "Preserve signed app caches and prepare 0.1.794",
+        "Bind release cache staging to operation identities"
       ]
     }
   ]
