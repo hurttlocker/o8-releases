@@ -7,6 +7,16 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-15
+
+- `562651ef` feat: park and restore legacy output without replacing destinations
+
+## 2026-10-14
+
+- `10c35a51` feat: renew local tokens for stopped private headless profiles
+- `334b6828` feat: add a per-run manual review hold for headless recovery
+- `23f4fd28` feat: one OpenRouter connection with checked state, an off switch and plan-first billing
+
 ## 2026-10-13
 
 - `351c5686` feat: add commit-pinned pull request review guides

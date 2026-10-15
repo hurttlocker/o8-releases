@@ -1,33 +1,84 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.794",
-  "tag": "v0.1.794",
-  "publishedAt": "2026-10-14T08:43:12Z",
-  "title": "o8 0.1.794",
-  "summary": "Connect Muse Code and choose the models your installed CLI reports, including Wonder Full when your account provides it.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.794",
+  "version": "0.1.795",
+  "tag": "v0.1.795",
+  "publishedAt": "2026-10-15T23:13:23Z",
+  "title": "Park and restore legacy output without replacing destinations",
+  "summary": "Read a built-in Pi worker's packet transcript through the operator tools, before and after the task is archived.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.795",
   "sourceCommits": [
-    "70727545482296e3e48ea751e9a9d7ebe645d2bf",
-    "63524b28b0cad6b2e5340326283ff0da7c9ce54c"
+    "f4cba45e539d4a9ea71a5d7276f82c2ce7d4f52a",
+    "394e27c622b066db9aaeab3965546da4e4bd968c",
+    "fcebe096db067ad2a0d6fa152a69f404574d6ac4",
+    "46b7aa466a019039d0c1c7be777819b1cd9c0ec2",
+    "e5067b0c93de9c8d97d8a62ea48c1fdeb1bfecc2",
+    "8ad3c56572575821a53aca39f44926b15c29390a",
+    "ddbbfcb45c1b1e107dfc223918f86999d3290ea7",
+    "c2168ca193d46b7e1fbdc5eecd99f41448af986e",
+    "bc30fbc2bf95e9558a979a9631a465f0e290a7d5",
+    "9f890e69d2888fdc36e2d3259d219424e0e6dcb4",
+    "e0957fa825ce109b74125c11073947750e179483",
+    "cf413a5de2b2d5c1709dc80d38514843a46f9371",
+    "562651efb5140505af56cf224d85f6a5fe31d4a2",
+    "bf121a11e4e3c4cd4f596eece75b9ef8cb965d2b",
+    "25295d0f052e8ef57c275878f6e973d0ad61794b",
+    "0502648dfca952730f5703fb4d43ba66f9603626",
+    "e9b17601ecc63b2f8c8a494a0a01624c42820de3",
+    "37567c814ab798832a507b81aa30ae24db7ac310",
+    "3673dfa2f9260aeebfee0d694b53e60cf99f991e",
+    "fbfbcd81d8d01a72f9f7995811c7d09cb2d551d0",
+    "255dc106e0f5ade243683af1d0397edd2bd42505",
+    "04e91f850064f6fe1ff255a20d4e7d9cf08595fc",
+    "ebcaa7dc8ddb17f59e10e8dcdc12c22153f553c6",
+    "81ad958bf25d9d27dcfa33c9a7ecf6be57516d24",
+    "10c35a51e2227cee5e3ce625298199254244d6aa",
+    "334b68287432cab51c77a77adadabd5add536379",
+    "56cebfc1b1cdbfc54a64d2179f5692e650e65a08",
+    "be48448497da4499fd8dcebe6594dfede82d8170",
+    "37c8348c880106cc27af14a37b4848b385d3c7ef",
+    "01359c279697970c747f71c250bb797ccc8508e6",
+    "63a620598d0c3f264fcdbca07b057c0452a61e9e",
+    "23f4fd2865e08c8ce161374af47eaa754a7eb230",
+    "f6c93193ca828390906102d57d4f0c3f600db299",
+    "463004c49584460d152ec053792cbbd7f9907ea7",
+    "e6a2bbe6ef5eb241096848410d7696946ff0a5ab",
+    "319820bf88f191e158a13b5cb670b268a721efe0",
+    "3c430d1f4be98074a05e0cb13ee69cb405924546"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Connect Muse Code and choose the models your installed CLI reports, including Wonder Full when your account provides it.",
-        "Browse ACP providers in Settings and explicitly prepare supported adapters before connecting them.",
-        "Keep linked pull request watches across restarts, with shared GitHub refreshes and rate-limit cooldowns.",
-        "Start a review guide tied to the exact pull request commit, with file references you can open in Review.",
-        "See clearer provider model availability, capability limits and session recovery messages.",
-        "Keep drafts and attachments after recoverable send failures. Queued messages stay paused after reload until you resume them.",
-        "Keep runtime response caches from changing the signed macOS app."
+        "Read a built-in Pi worker's packet transcript through the operator tools, before and after the task is archived.",
+        "The built-in orchestrator's Full access commands stay inside the workspace, and a stopped orchestrator turn now ends visibly with the stop recorded.",
+        "A refused worker launch now says why and lists the valid runtime ids.",
+        "A late delivery confirmation removes its \"may not have been delivered\" warning, live and after reload, without touching other identical messages.",
+        "Inbox wakes keep their own reservation, so a failed send can no longer cancel a newer wake for the same agent.",
+        "The pull request list now syncs every open pull request up to 500 instead of the first page, keeps the previous list with a clear error when a sync fails, and no longer marks the whole list as failed when a single pull r",
+        "Repositories and projects added or changed through the server or CLI appear in the open window without a reload.",
+        "A failed update install is reported in the update card, the server and the console instead of failing silently."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "Park and restore legacy output without replacing destinations",
+        "Renew local tokens for stopped private headless profiles",
+        "Add a per-run manual review hold for headless recovery",
+        "One OpenRouter connection with checked state, an off switch and plan-first billing"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Preserve signed app caches and prepare 0.1.794",
-        "Bind release cache staging to operation identities"
+        "Stop leftover benchmark processes before the ship build",
+        "Paginate bounded pull request snapshots",
+        "Preserve inbox wake reservation ownership",
+        "Preserve failed prebuild output before fresh generation",
+        "Report a failed update apply to the server, the rail and the console",
+        "Keep lane Git checks and process probes off the server event loop",
+        "Show repositories and projects changed through the server in the open window",
+        "Preserve generated dependency links in legacy output"
       ]
     }
   ]
