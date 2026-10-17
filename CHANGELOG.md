@@ -7,8 +7,17 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-16
+
+- `dc5e9d836` feat: record managed Pi calls in local usage for every role
+- `777d7d78d` feat: record every review turn's payer and cost on the receipts
+- `aa70295fe` feat: let a mission hold its merges for the operator
+- `36a5cbd0b` feat: add interactive terminal conversations
+- `ebd30cf32` feat(tern-lab): probe only Tern, pin today's text as a golden, forge-test input
+
 ## 2026-10-15
 
+- `58c872653` feat: show OpenRouter work run by o8 apart from the key figures
 - `562651ef` feat: park and restore legacy output without replacing destinations
 
 ## 2026-10-14
@@ -61,6 +70,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-10-07
 
+- `aecfda352` feat(lab): add isolated read-only Tern surface proof
 - `05c61c7f3` feat: run the Brain, dictation polish, and the o8 model on the managed Luna model
 - `a4c362ce5` feat: add bounded operator GitHub App evidence reads
 - `833117dbc` feat: run bundled Pi as a packet worker runtime
