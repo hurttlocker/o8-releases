@@ -4,6 +4,15 @@ An orchestrator that delegates, reviews, and ships.
 
 One primary orchestrator routes scoped work to specialized sub-agents. A governance layer reviews every output before it touches your main branch. Local-first. Any model.
 
+## Download o8 for macOS
+
+Get [o8 0.1.796, the signed universal macOS installer](https://github.com/hurttlocker/o8-releases/releases/download/v0.1.796/o8_0.1.796_universal.dmg)
+for Apple Silicon and Intel Macs running macOS 14 or later.
+
+If an older updater waits for idle while only saved reviews or waiting tasks
+remain, follow the [updater recovery instructions](./UPDATER_RECOVERY.md).
+You can replace the app while keeping saved tasks and application data.
+
 ---
 
 ## 00 — Preview
