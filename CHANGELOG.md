@@ -7,6 +7,22 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-18
+
+- `25cb9303f` feat(composer): integrate worker correction controls
+- `ceb7c4b89` feat: reconcile reviewed Shared checkout changes
+- `745b5305e` feat: preserve worker corrections and enforce session merge restrictions
+- `b22b7f432` feat: expose bounded observation of related workers
+- `9316ce767` feat: choose delegated workers per task from the configured pool
+- `758e25fb1` feat(desktop): rehearse delegation with the shared chat composer
+- `40d520932` feat(desktop): add interactive subagent workspace demo
+- `d46144348` feat(ui): add compact subagent card and clarify worker defaults
+
+## 2026-10-17
+
+- `d2be052df` feat(ui): open an accessible Brain PiP beside the composer
+- `461ce6340` feat(ui): persist manual ordering for sidebar chats
+
 ## 2026-10-16
 
 - `dc5e9d836` feat: record managed Pi calls in local usage for every role
