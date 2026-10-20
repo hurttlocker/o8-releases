@@ -7,8 +7,18 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-19
+
+- `228843ed8` feat(voice): add bound live conversation and restricted pilot
+
 ## 2026-10-18
 
+- `b15427526` feat(runtime): expose connection evidence across control surfaces
+- `70dc30cac` feat(composer): compact controls and task-driven shared workers
+- `9214e356d` feat(sidebar): show recorded workers in conversation hover
+- `01b767654` feat: keep worker status in the composer disclosure
+- `023054856` feat(navigation): lead the chat rail with project actions
+- `4e0a4dae9` feat: unify desktop workspace frame and dark surfaces
 - `25cb9303f` feat(composer): integrate worker correction controls
 - `ceb7c4b89` feat: reconcile reviewed Shared checkout changes
 - `745b5305e` feat: preserve worker corrections and enforce session merge restrictions
