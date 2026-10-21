@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-20
+
+- `1be61886c` feat(voice): add explicit current-chat voice access paths
+- `dd72c1912` feat(ripple): preserve current-chat visual and voice continuity
+- `0f92b23ac` perf(activity): skip transcript-only list refreshes
+
 ## 2026-10-19
 
 - `228843ed8` feat(voice): add bound live conversation and restricted pilot

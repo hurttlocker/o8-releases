@@ -1,81 +1,32 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.798",
-  "tag": "v0.1.798",
-  "publishedAt": "2026-10-20T02:48:50Z",
-  "title": "Add bound live conversation and restricted pilot",
-  "summary": "Use a unified glass frame, darker work surfaces and compact composer controls.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.798",
+  "version": "0.1.800",
+  "tag": "v0.1.800",
+  "publishedAt": "2026-10-21T12:58:42Z",
+  "title": "o8 0.1.800",
+  "summary": "Voice and visual instructions remain experimental, with real-device microphone, capture, playback, and provider recovery acceptance still in progress.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.800",
   "sourceCommits": [
-    "f54829254dc85b1b45e2459b7b21b9da9895eda2",
-    "b5c32c7a1b4549d781ec1ca128944ae1a5deea3f",
-    "fa7d20684b6fd4afb4bacfdf8ee5a42d74dbd721",
-    "aff096b53548893b255f45a8ed1f1f3edd49f1a9",
-    "a0dd2d3b8612a2d69b28b815e9bd0ce8dc72c4e9",
-    "967cbaa7b9950c42da24763fe97d1c735e9bbf35",
-    "9827ecee7974f9733a4b5044cfe120f7c23455f3",
-    "228843ed855834bea8894952b9a97a5947829a73",
-    "d630c3c45d696c8a41c914e30c75a0090a5901c8",
-    "d2357c7d893c4c21805a640d66cc054b15de7c79",
-    "215d624ca8bef5801b4423e513d7ebca7715f27b",
-    "ce71af59c1c12f8d1c437bce1d35a00922de4e6a",
-    "e7dca53f9caf16bfb93363d838295513d3aa8997",
-    "402752ec995ae619d1913a6a3fcf1f316661e104",
-    "b1542752610099c55e72296e313e8556596283f9",
-    "102cdea74a18b4c42511c2caeac87537219402e2",
-    "0459aface699cf4bd53f3141062be6c518241340",
-    "70dc30cacb70a1403bcf2f57694898fa193d23aa",
-    "9214e356dbe3c11a3778123681856fbe7dafa44d",
-    "ddfad054a95982d6b509e655daa86af838861250",
-    "01b76765451abf316ad111ab95126e916968a61b",
-    "02305485649281adda01fef51ce117a54d81a862",
-    "dafb9fcb84d96d485a32d88c4db81e1284c8902a",
-    "28e3240d75d6a827f97a5297451b86b50d5783af",
-    "4e0a4dae9718235dee27ef7c62612a7087b4581a",
-    "c412fabdc80a1f620b1cae3a9a314f2a46f0a931",
-    "d8034255d75c7a37f2056b71fd6d1fe1f6628b86",
-    "17a390ef471a34ad92723e455aad57339f48b063",
-    "6c1de64c9d7a1a976a6b4483de631d06f6b70541",
-    "2000ed4ddf42d467ac82870e96d0cea4408b5868",
-    "01edfa4173dd28018cc8fd5fd5f291cb957238a0"
+    "1c31c2faf62d01417fae4025611ed769b989570a"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Use a unified glass frame, darker work surfaces and compact composer controls.",
-        "See worker status in the composer disclosure and the workers recorded for each chat in its hover card.",
-        "Recover unsent drafts, queued sends, image previews and exact retries after interruptions; matching late acknowledgements clear stale delivery warnings.",
-        "Keep the original message in the composer when saved session storage is unavailable.",
-        "Preserve work during account recovery, retain stopped terminal sessions and replies, and recover hidden or unavailable terminal panes.",
-        "Live voice remains a restricted installed pilot with a signed, expiring grant. General voice access stays disabled.",
-        "Pilot voice follows the current chat and CLI with normal transcript bubbles and stable reading position; uncertain execution or provider closure stays unconfirmed.",
-        "Installed voice conversation and live image interpretation still require acceptance testing. The saved checklist separates source checks from microphone, speaker and conversation quality."
-      ]
-    },
-    {
-      "title": "Features",
-      "items": [
-        "Add bound live conversation and restricted pilot",
-        "Expose connection evidence across control surfaces",
-        "Compact controls and task-driven shared workers",
-        "Show recorded workers in conversation hover",
-        "Keep worker status in the composer disclosure",
-        "Lead the chat rail with project actions",
-        "Unify desktop workspace frame and dark surfaces"
+        "Voice and visual instructions remain experimental, with real-device microphone, capture, playback, and provider recovery acceptance still in progress.",
+        "Attach marked images and speech to one instruction in the current chat. Continuous screen capture requires macOS 15; image attachments remain available on macOS 14.",
+        "Live voice supports an explicitly selected personal AI provider key. Managed Live remains a limited pilot.",
+        "Use device speech recognition and playback for turn-based conversation with the selected CLI assistant. Ordinary dictation still fills the draft.",
+        "Preserve completed work and worker ownership during Stop and Retry, and let prepared tasks start their first managed test.",
+        "Wait for active CLI installation before app restart, and explain interrupted installation recovery.",
+        "Keep the selected Activity folder, show repository errors, and avoid redundant refreshes and repeated GitHub reads.",
+        "Keep historical terminal replies out of shell input, preserve mobile turn choices, and flag incomplete replies."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Keep the composer when session storage blocks Send",
-        "Restore pending image previews and exact retries",
-        "Clear correlated late-ack warnings after storage failure",
-        "Bind recording to its originating composer",
-        "Preserve queued sends through uncertain responses",
-        "Preserve unsent workspace drafts across restart",
-        "Retain replies after terminal restores history",
-        "Preserve workspace state during account recovery"
+        "Validate notes and prepare 0.1.800"
       ]
     }
   ]
