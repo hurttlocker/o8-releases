@@ -7,6 +7,12 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-21
+
+- `4f98f8323` feat: validate and compose offline harness candidates
+- `f696f461e` feat: prepare CPU-specific macOS packages
+- `5b3c11d1a` feat: show PR change counts by file category
+
 ## 2026-10-20
 
 - `1be61886c` feat(voice): add explicit current-chat voice access paths

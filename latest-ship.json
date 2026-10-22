@@ -1,32 +1,59 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.800",
-  "tag": "v0.1.800",
-  "publishedAt": "2026-10-21T12:58:42Z",
-  "title": "o8 0.1.800",
-  "summary": "Voice and visual instructions remain experimental, with real-device microphone, capture, playback, and provider recovery acceptance still in progress.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.800",
+  "version": "0.1.801",
+  "tag": "v0.1.801",
+  "publishedAt": "2026-10-22T11:58:29Z",
+  "title": "Validate and compose offline harness candidates",
+  "summary": "Expose user Pi cache-warming controls.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.801",
   "sourceCommits": [
-    "1c31c2faf62d01417fae4025611ed769b989570a"
+    "ea90c005fa6bcc99e0658e21bde3983cc22e5cb6",
+    "3001036187b1059a94513e7f565c8347d38c3630",
+    "be852ed1948488762f05166fd8bb190c84a1b52f",
+    "074ea0409bb9e0a42a2dca733630134c8a54824f",
+    "fab178d34e9fec141324610cbdce9c4c8c54b2f5",
+    "fe4e4af7916249d95af15bd58de35bcb9f010e01",
+    "54377f03461b8eea2bb434d7e1bd2eac20ac9023",
+    "743f242cf900ade54a9b9c7db92b3888593cec58",
+    "069dd76e1cd4c2516df77df43aaaf125097f781e",
+    "254959b2f5779b5fb743abe9369f516b3c23311d",
+    "035b100b3a4554001dcd9b36f8031266635f8bfd",
+    "96074a5efb6be7ca076dab171897b8c3de37dc54",
+    "aca3ff8143fd31b81a56ccf2bfa85d6a2cb1a1be",
+    "4f98f83239257f049786ecaa02f5dfd9787ef512",
+    "40f370a7dabbe545ce9991939f88af371b11d7c2",
+    "3cf50e43fcf95e6e811bf3263b85243b032f585d",
+    "f696f461e2268970c2d7478deffdf9a213947316",
+    "f1aa7e370ff465bb259d0646dd16c6e1e7dc3845",
+    "b877c64fedb62cee2a5371636aae62b9c49c82db",
+    "659c4898ee1520736082a79eea0dfb4a2f3d5396",
+    "514395e6f54cbe4bae9ddea069e697a31c0d51d2",
+    "6bf44f9b89e2b27e3ff6dae5c9517f2a545a0db3",
+    "9395a8920ffbbea9e88613e74103804a4949365e",
+    "5b3c11d1acfb5a83844e68f94ead17ba91a3aa04",
+    "d5589ea47fb969a05db7b6699f80d5ce487613e0",
+    "b83477257f1e99e81983239120492ed08e16e73c"
   ],
   "sections": [
     {
-      "title": "What this ship changes for you",
+      "title": "Features",
       "items": [
-        "Voice and visual instructions remain experimental, with real-device microphone, capture, playback, and provider recovery acceptance still in progress.",
-        "Attach marked images and speech to one instruction in the current chat. Continuous screen capture requires macOS 15; image attachments remain available on macOS 14.",
-        "Live voice supports an explicitly selected personal AI provider key. Managed Live remains a limited pilot.",
-        "Use device speech recognition and playback for turn-based conversation with the selected CLI assistant. Ordinary dictation still fills the draft.",
-        "Preserve completed work and worker ownership during Stop and Retry, and let prepared tasks start their first managed test.",
-        "Wait for active CLI installation before app restart, and explain interrupted installation recovery.",
-        "Keep the selected Activity folder, show repository errors, and avoid redundant refreshes and repeated GitHub reads.",
-        "Keep historical terminal replies out of shell input, preserve mobile turn choices, and flag incomplete replies."
+        "Validate and compose offline harness candidates",
+        "Prepare CPU-specific macOS packages",
+        "Show PR change counts by file category"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Validate notes and prepare 0.1.800"
+        "Expose user Pi cache-warming controls",
+        "Close orphaned review packets with fresh process proof",
+        "Attribute user Pi cache warming to each run",
+        "Release shared worker reservations on recovery refusal",
+        "Distinguish authored instructions from indexed references",
+        "Keep unsupported permission checks unverified",
+        "Advance consent preview from committed state",
+        "Keep reviewer run receipts in sandbox-writable scratch space"
       ]
     }
   ]
