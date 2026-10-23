@@ -7,6 +7,10 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-22
+
+- `7e92be206` feat: remove commercial UI and non-funded edition gates
+
 ## 2026-10-21
 
 - `4f98f8323` feat: validate and compose offline harness candidates

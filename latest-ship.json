@@ -1,51 +1,56 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.802",
-  "tag": "v0.1.802",
-  "publishedAt": "2026-10-22T21:47:08Z",
-  "title": "o8 0.1.802",
-  "summary": "Delete a single saved instruction or outcome from recall, with an inline confirmation.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.802",
+  "version": "0.1.803",
+  "tag": "v0.1.803",
+  "publishedAt": "2026-10-23T02:19:45Z",
+  "title": "Remove commercial UI and non-funded edition gates",
+  "summary": "Finished packets no longer keep a full copy of the repository on disk.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.803",
   "sourceCommits": [
-    "b86bf6a7f2ed2a156fc7dba3b2ffe435c5d95a05",
-    "207253e415784e16648d0101e893c6c778916596",
-    "4a804a32141fe0021b6732283a5c2359197d40e5",
-    "ce64e8716eff266a5951092c0e72e98cf29ede83",
-    "0415f10387cebdbf463d0de7b587d82976015551",
-    "e5f093e575544c7232f9e18b4f20d0f5f69a0da8",
-    "9a89beb03000ed0f1a46d19398452c80680b708e",
-    "f92c0b5062938b5d737ed629eec4ffff3f6757d1",
-    "fd9c866ad407d69a0b8ffc9737797dd498f782c8",
-    "9bb6dedc8c770050b4356a45f5bb4b7418c95c27",
-    "162a981ad49fad79408575be7e1bd48ffcf4dc01",
-    "64ec082658078d2af5ef8e78f91870435d55ffff",
-    "6386cb949cfd38c2d1ea3869feda3ed99e63c97c"
+    "7ed1ef1e28e10877729806caa7363f03cfea035f",
+    "eb5e33ecd359d2dfa281c9755b773b85caa6d30b",
+    "e22bd354d5df2b41e8ae71d2ba92a4c33d5929fc",
+    "38381c2df8bfcf0908813091fc8fbc2a046c9a4d",
+    "2e500f919697e33e9a1b144932314e2c24c57eb7",
+    "e6e636e6e84ea517b8f7ba4e410f8bef3b7e8254",
+    "7e92be20681c77f599af6044eed6405c7f25aa6d",
+    "8ef3b1b07eadab3ac77682307bd3d5d374df4430",
+    "370479f9c9003023e185feb93f80df4567bceb3f",
+    "2afbdf34bca00bce4ee942f9cd40e958a400a0e3",
+    "49e07d12eac7a344fb5e42ce95f7b5f35bf31d79",
+    "50dda440f055ef29b14a9ff76e709fe377944ff1",
+    "fa0fa718545d8e0fda5811e936c02ed40edbdefd",
+    "01e164d15f0c7e1d23436ed8e65b62591ed51fda",
+    "ece0e81437bdf15be22721eb2618f38fa2e0f677",
+    "6862cc85d83fe938afc82a4fdab3080eaed322ce"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Delete a single saved instruction or outcome from recall, with an inline confirmation.",
-        "Show Settings and Customize as separate menu entries, each with a short description.",
-        "Clearer task creation wording; side chat explains that it is a separate conversation.",
-        "Rename Fast mode to Shared mode in labels and worker instructions.",
-        "Repository cards, hovers, branch links and mission lists share one GitHub pull request lookup, so the app makes far fewer GitHub requests.",
-        "Native webview tools (zoom, navigation, local storage) return their results again.",
-        "A recovered launch agent clears its crash-loop alert after five minutes of steady running.",
-        "MacOS volume identity retries a failed probe and keeps working for repositories on network shares."
+        "Finished packets no longer keep a full copy of the repository on disk. Closing or archiving a clean, finished packet frees its checkout, and Rust workers share one build cache.",
+        "A message sent to a busy worker waits in a queue and is delivered when the worker is ready, instead of being refused.",
+        "A worker launch no longer fails when preparing its checkout outlasts the launch watchdog. Mission status shows a stuck packet as blocked, with the real reason.",
+        "Pull request, issue, CI run and activity views share cached GitHub reads. The app makes fewer GitHub requests and keeps showing the last data when a refresh fails."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "Remove commercial UI and non-funded edition gates"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Share mission repository list lookups",
-        "Share repository card PR list lookups",
-        "Share repository hover PR list lookups",
-        "Share branch PR list lookups",
-        "Deliver native tool callback results",
-        "Reconcile sustained launch-agent recovery",
-        "Clarify task creation and side chat scope",
-        "Selectively forget retained instructions and outcomes"
+        "Retain O8 Activity streams after refresh failures",
+        "Share PR timeline snapshots by repository",
+        "Share issue viewer snapshots by repository",
+        "Share Canvas CI run-list snapshots",
+        "Retain activity streams through failed refreshes",
+        "Share issue picker list reads",
+        "Retire preserved finished packet checkouts and share Rust targets",
+        "Queue packet steers until workers can resume"
       ]
     }
   ]
