@@ -1,43 +1,69 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.804",
-  "tag": "v0.1.804",
-  "publishedAt": "2026-10-23T03:55:37Z",
-  "title": "o8 0.1.804",
-  "summary": "The updater checks for updates on its own, even when no window is open, and never installs from an old check.",
-  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.804",
+  "version": "0.1.805",
+  "tag": "v0.1.805",
+  "publishedAt": "2026-10-23T09:00:17Z",
+  "title": "Show worker activity as a shared transcript trace",
+  "summary": "Worker panes read like a conversation.",
+  "releaseUrl": "https://github.com/hurttlocker/o8/releases/tag/v0.1.805",
   "sourceCommits": [
-    "473854f5d88292e26ba39d8740ff7a29bca25099",
-    "6fabcbd4089cdb3354ef554365a0c60804ec89f4",
-    "2d81d308958f0692c6e1dd1c08402d2240b74f17",
-    "d80d19993c0e7013727af39dd90c539ffadfd29b",
-    "7183d7d8d1e3068d1397a97fcdba353200f94e08",
-    "ebe07dea656ebb5348a927050d065edef83bc50c",
-    "2594ba86e1c3ccf1b6cce68e269ee8f1cc2785c9",
-    "f3c9f2613f4acfbad64366ffce444c2586a72fbd",
-    "cc9a84ae3c354276ab357fcdbba33f6374526912"
+    "a20d7cb12508bd46522f88c0e3d48ceea1e8ed4f",
+    "c0f121ef97a0001b00a764dfc8c9e20dac90e1d4",
+    "a719ffd26fe74d60e6935ed6729ae89b52d070c3",
+    "3fc3aa0669e7b64fb625a49074c3850d365b9497",
+    "ea8082305fe055e565ac233a9fb9bea1ceab7bf4",
+    "cd65b0802857549f3b5d582e24e6a1c0636bc251",
+    "d1f29eedff2e00fcde2b19725f28296247bdb4df",
+    "75da7bcc11609080bf4e75dc175f759a6f814e33",
+    "dd1e2edd0b7a91be44882450db91c107b08b53d6",
+    "c33fd40f712a5c9c933966333cf2bb60ca3d9d34",
+    "f9fefd8c375cfcc8abc100bd2f583f6a87ec1f2e",
+    "123eb7cc299e2c2ed5e7a675255c173f791f23b4",
+    "2bd50dcd23d31ddeaff2c66ef851c55d769ad897",
+    "4b323355fb2c730076e9a418ff2ea318c60af429",
+    "67f9b110e02bfc2c32f0f966fd106ae1dc75f267",
+    "bc9b2a72fd804f22687be6d4266af519dec1adfb",
+    "e3d7b6e73533017ebabf69826fdb4c21afd0dbe5",
+    "5d8c8ae79f0055177e7556bd92492ef487f9859f",
+    "62718dca0ac0d7f5b49fe3c5e11843468ac92ac6",
+    "d48d6858148f8323899cfab989e2f4b2262354e4",
+    "646aa42ca69ec7e4e8630ff6d255178de4fccb78",
+    "0df31423d88d51aec708c461b1dbe0951a006f26",
+    "850bae28f97d85d2bbe0095fa8d5a44b25bbdbb3",
+    "bf6133f23780a78d6ebc03bedcce2d59fb150756"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "The updater checks for updates on its own, even when no window is open, and never installs from an old check. Parked or finished lanes no longer block an update.",
-        "An update waits for live work to finish, and a crashed merge or terminal can no longer block updates forever. A forced update always goes through and records what was running.",
-        "Workers start much faster. Build caches and dependencies are cloned in one step instead of copied file by file.",
-        "More panels share cached GitHub reads and keep their last data when a refresh fails: pull request details, CI details, activity hovers and Diagnostics counts."
+        "Worker panes read like a conversation. A worker's own words come first, and its commands fold into one line such as \"Worked for 2m · Read 12 files · Ran 4 commands\" that expands into a step list. Each command shows once,",
+        "Worker panes have short titles taken from the task, a one-line message box, and state pills (Paused, Blocked, Needs review, Waiting) with the matching actions. Repeated tab names now show the task title.",
+        "The sidebar shows real icons instead of empty boxes, and its section headings are quieter.",
+        "Steers you type in the canvas, a thread or an interactive terminal count as your corrections. Agent steers stay machine steering.",
+        "A project with several repositories is treated as one codebase. Each repository still gets its own packet, branch and review.",
+        "Usage shows today's cache share for AI provider and agent runtime.",
+        "Brain indexes each repository's ROADMAP.md and CONTRIBUTING.md.",
+        "More GitHub panels wait for the real rate-limit reset and keep their last data when a refresh fails: Activity hovers, CI details, issue details and repository status."
+      ]
+    },
+    {
+      "title": "Features",
+      "items": [
+        "Show worker activity as a shared transcript trace",
+        "Compact worker pane frames and task tabs"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Run updater checks and idle apply without mounted UI",
-        "Share Diagnostics PR counts and retain failed reads",
-        "Share O8 Activity expanded CI snapshots and recovery",
-        "Share ActivityFeed PR hover snapshots and recovery",
-        "Share Canvas CI detail snapshots by repository",
-        "Share compact PR detail snapshots by repository",
-        "Stop unused repository-card PR detail reads",
-        "Clone packet assets and dependencies with APFS"
+        "Defer import-only Pi SDK loading in the dev host",
+        "Preserve operator provenance in packet steering",
+        "Show observed daily prompt-cache share in Usage",
+        "Index root roadmap and contribution documents in Brain",
+        "Show one feedback question on merged packet cards",
+        "Preserve worker monitor causes during service startup",
+        "Honor issue viewer quota retry deadlines",
+        "Preserve issue detail quota retry deadlines"
       ]
     }
   ]

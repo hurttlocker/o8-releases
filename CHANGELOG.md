@@ -7,6 +7,11 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-23
+
+- `c0f121ef9` feat: show worker activity as a shared transcript trace
+- `3fc3aa066` feat: compact worker pane frames and task tabs
+
 ## 2026-10-22
 
 - `7e92be206` feat: remove commercial UI and non-funded edition gates
