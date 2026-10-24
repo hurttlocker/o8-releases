@@ -7,6 +7,21 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-24
+
+- `cdc3e6ea9` feat: add o8 next native terminal pane
+- `4cbde3ac5` feat: add opt-in o8 next app shell
+- `4120a4f53` feat: add opt-in GPUI diff and packet review surface
+- `40c8ab24e` feat: add opt-in o8 next pane grid
+- `e8ba19596` feat: o8d WebSocket cutover behind an opt-in flag
+- `a04bd2546` feat: add opt-in o8d process supervisor
+- `48e07070b` fix: bind shared checkout baselines to staged entries — thanks @wcook04
+- `5e9db0372` fix(desktop): connect terminal status evidence toggle to its rows — thanks @MarcBasas
+- `96b76ca68` fix: make reviewer concurrency fixture completion explicit — thanks @Nitjsefnie
+- `dc4a2a14e` feat: add GPUI session sidebar and steer composer
+- `73fabaf57` feat: serve opt-in read-only o8d MCP tools with JSON-RPC parity
+- `10d2bc3b3` feat(next): stream saved session transcripts
+
 ## 2026-10-23
 
 - `e827cba46` feat(next): add opt-in native saved transcript surface
