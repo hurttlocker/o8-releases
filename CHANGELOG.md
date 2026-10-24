@@ -9,6 +9,13 @@ and internal chores live in the private engineering log.
 
 ## 2026-10-23
 
+- `e827cba46` feat(next): add opt-in native saved transcript surface
+- `d4dee9970` feat: add opt-in o8d WebSocket event bus parity
+- `04b7ed039` feat: steer running Codex app-server turns
+- `2af6df632` perf: add isolated speed baseline harness
+- `096021020` feat: make running-turn composer steering the default
+- `d283e620b` feat: group consecutive worker activity steps
+- `d34f15e72` feat: unify dashboard tab strip titles
 - `c0f121ef9` feat: show worker activity as a shared transcript trace
 - `3fc3aa066` feat: compact worker pane frames and task tabs
 
