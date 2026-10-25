@@ -7,8 +7,20 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-25
+
+- `e35ebc7d3` feat: coordinate simulator controller ownership and explicit handoff
+- `752e54db2` feat: add native project and repository management
+- `44e5acc0e` feat: add native issue viewing, creation and worker links
+- `89c1e7333` feat: allow independent macOS CPU downloads
+- `3a8556c9d` feat: add shared Settings controls to o8 next
+
 ## 2026-10-24
 
+- `6892d7c1c` feat: serve flagged MCP transport from o8d
+- `3c889be60` feat: port o8 next Brain conversation and memory retrieval
+- `43379d77f` feat: port Inbox to the o8 next native shell
+- `b45003853` feat: add per-slot terminals to the o8 next pane grid
 - `cdc3e6ea9` feat: add o8 next native terminal pane
 - `4cbde3ac5` feat: add opt-in o8 next app shell
 - `4120a4f53` feat: add opt-in GPUI diff and packet review surface
