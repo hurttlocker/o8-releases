@@ -7,8 +7,21 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-26
+
+- `09a8caa54` feat: open a ChatGPT plan chat from the workspace
+
 ## 2026-10-25
 
+- `d1bab39d7` feat: add native workspace thread sidebar
+- `4be649e48` feat: add native worker filters and live task list
+- `a6ff194e6` feat: record paired fixture speed for the current UI and o8 next
+- `85f66431e` feat: open shell surfaces and workspaces from the palette
+- `0eeb65889` feat: add native first-run setup
+- `417586b6b` feat: add o8 next pull request surface (partial parity)
+- `160576643` feat: add native Activity feed and CI details to o8 next
+- `3b99b20d6` feat: add native Customize inventories and saved prompts
+- `ca656ebbb` feat: extend native MCP reads to macOS
 - `e35ebc7d3` feat: coordinate simulator controller ownership and explicit handoff
 - `752e54db2` feat: add native project and repository management
 - `44e5acc0e` feat: add native issue viewing, creation and worker links
