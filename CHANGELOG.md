@@ -9,6 +9,12 @@ and internal chores live in the private engineering log.
 
 ## 2026-10-26
 
+- `1959acc98` feat(repos): open projects directly from the add entry
+- `909780527` feat: collapse finished worker panes to outcome cards
+- `ea5a59703` feat: native sidebar project header and repo chips
+- `c43a59c0f` feat: launch o8 next from Settings > Experimental
+- `aaefd43d8` feat: bundle and verify o8 next in the release
+- `4e61b4766` feat: default usage analytics on with preserved opt-outs
 - `09a8caa54` feat: open a ChatGPT plan chat from the workspace
 
 ## 2026-10-25
