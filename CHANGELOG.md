@@ -7,8 +7,27 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-28
+
+- `8b7dad2ed` feat: native sidebar row archive and Archived section
+- `2c80b0c76` feat: open o8 next on its own
+
+## 2026-10-27
+
+- `0a882bb98` perf: keep tool discovery off the launch path
+- `af25506e6` feat: Linux voice: whisper.cpp dictation, X11 push-to-talk, system TTS
+- `064724952` perf: keep optional preloads off composer startup
+- `05dc85bc6` feat: let a direct OpenRouter key choose its text model (O8_OPENROUTER_TEXT_MODEL)
+- `4476358b7` feat: opt-in glass surface on the Linux shell (O8_LINUX_GLASS=1)
+- `f96d4462f` feat: run the required CI checks locally with one command
+- `8899a85a1` feat: daily product numbers report
+
 ## 2026-10-26
 
+- `103f4a099` feat: native sidebar Recents age groups and keyboard navigation
+- `cd0648908` feat: count activation steps in usage analytics
+- `cf5205f62` feat: run the worker sandbox on Linux with bubblewrap
+- `4dc0fa2b2` feat: store secrets in the Linux Secret Service
 - `1959acc98` feat(repos): open projects directly from the add entry
 - `909780527` feat: collapse finished worker panes to outcome cards
 - `ea5a59703` feat: native sidebar project header and repo chips
