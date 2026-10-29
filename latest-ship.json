@@ -1,12 +1,34 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.812",
-  "tag": "v0.1.812",
-  "publishedAt": "2026-10-28T11:35:51Z",
-  "title": "Native sidebar row archive and Archived section",
-  "summary": "Usage analytics count the first successful worker launch, first completed merge, and clean or unclean backend session endings.",
-  "releaseUrl": "https://github.com/o8-run/o8/releases/tag/v0.1.812",
+  "version": "0.1.813",
+  "tag": "v0.1.813",
+  "publishedAt": "2026-10-29T01:44:06Z",
+  "title": "Connect native worker conflict and steer actions",
+  "summary": "Reloading a chat keeps your reading position.",
+  "releaseUrl": "https://github.com/o8-run/o8/releases/tag/v0.1.813",
   "sourceCommits": [
+    "67158ac198ae98918ea6c21d55788f41135105b1",
+    "164ffbfea675db4b653faa4d3720311f75f62bac",
+    "e630c2dc861066758264a3ab977d46bf01627b4e",
+    "d316df7be76dc77596880329723d4d61a00cfe41",
+    "ebf84431b494994e1e92ca36348d026b8f53e056",
+    "91ce1de0544d2e212c694a1a0778e7690fca9139",
+    "4bbc70c6aed19749fdcde5254f396b86538ff070",
+    "fc2060f1015526779d9229c3ceb8181d28d129a9",
+    "bd412ad82fcf44bd71e70b5d38596295df963037",
+    "63b132973aaa321304521cad3b7d9a875ebbea8e",
+    "6067dc94b6ba8793ebe2982c89eaf19cab2cf139",
+    "94350451b93d2521235bdf7970414d7fb084cfdf",
+    "cc8658f543d574a09d7ead4e4e0b597fd9ddc5f0",
+    "d81664832c8bda4a0171f67f11405471d0e930ac",
+    "5ebb22eebf3f0b51f13314e7169397a1f963f836",
+    "f617eab3b2743789f1ad63334b1114d9f130f8ac",
+    "e33ee782b1db3c925f165e7baf6494240856ac99",
+    "01981113c36690dd41c5c43222d757c603cf7ccc",
+    "4afce63dbad79938479810063cfeaee7e8343d9d",
+    "0bc17fd23f994d35f0959d665bbf4d706fbad568",
+    "104de420a55ab296a104ac51798640ad5c910255",
+    "88096a00c53ed6c40ea341ecb501fe537dbf359a",
     "7b73469987825570f103057877822c6d9c9ab613",
     "ae62657dd40b5d22cfb860c951b64ae31341219d",
     "18a3a5bdb33b96c71521d2a65980a8434df02be3",
@@ -34,48 +56,33 @@
     "a6175d597a39759d259981afc4948421afbf707e",
     "5d7589c69d06c2cbda9f7566fbf41166893188e9",
     "1eded523df1033e777b82e2adf2b1b6bf43a6603",
-    "5a61fcf6ef7130362a8ad0cf7b06b4579714663b",
-    "91314935ad4db30b1583b244b7e75763112707d1",
-    "7ff0aa6d07f256c03d17bf383506f0ff57d967e3",
-    "120163cc1bb2ab9f069b7291a88752904db87992",
-    "c966430b5e09c365dee9bedf50fbdc8bac4704fe",
-    "1c3077a1d1466de5331698f1952448aaa2dcad9e",
-    "9ae78a5a2ad5597b814c091e63168094eca3d080",
-    "5095d80389aabe18c5d9c7446e97b5e1bf2113df",
-    "6faa841247dadc6526f14fbb9d57fa7a643d29d6",
-    "053d33c3a45deeacdbeb309cb57910c12be67123",
-    "2a17d8a0bd71f60fe2a3648e6d6e3cc693b80425",
-    "5ab8acb4a8330b2b6cfe9887ed62d56f93443560",
-    "39618b7d0981e503223eb8688575ed831ed22149",
-    "a43988bb634df2fa503933246dd7e27e8dd3f420",
-    "08a123c0919140c71280f3710a1f19bf2a465dfd",
-    "5a5e8f87b9afdb668a30e5719767a6fc72e06c9c",
-    "35819a03cdb7a0d6a9dc74947a14ab2830070df1",
-    "f4c6292e8234daf393d4e9a2f40fac15f16a13ef",
-    "0a882bb98d9c90b3d0d8055c24dad9fa0ff09811",
-    "e0766ea9d93ce6127540e8edea000bd56c0e70e3",
-    "af25506e6fbf386e8b8c159b26365ebc21cb820d",
-    "0fe67bae7a336d44b6e72c59c7803f53d04616a1",
-    "0483e9c3b59f3c4a6a42464d8456fd00603517df"
+    "5a61fcf6ef7130362a8ad0cf7b06b4579714663b"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "Usage analytics count the first successful worker launch, first completed merge, and clean or unclean backend session endings. The existing opt-out and first-run gate apply to every event; no content or new identity fiel"
+        "Reloading a chat keeps your reading position. If you were at the bottom, it stays at the bottom and keeps following live output.",
+        "Long chats keep their message order, visualizations and compaction history through compaction and reload, and completed turns keep their tool results.",
+        "Chat images and saved visualizations load again after a reload.",
+        "A worker that fails to launch shows why, with a Retry, instead of a bare HTTP 500. An interrupted worker can be resumed or retired from its own thread.",
+        "When o8 recovers a lost runtime session, the chat says so instead of carrying on silently.",
+        "Errors show the real message and where it happened, instead of minified source. Worker catalog and shared-checkout failures name what failed and what to do next.",
+        "Live agent activity is one short, honest line, and compaction shows as a small status instead of a banner.",
+        "The message queue no longer keeps copies of screenshots it already delivered, so its storage stays small."
       ]
     },
     {
       "title": "Features",
       "items": [
+        "Connect native worker conflict and steer actions",
         "Native sidebar row archive and Archived section",
         "Open o8 next on its own",
         "Linux voice: whisper.cpp dictation, X11 push-to-talk, system TTS",
         "Let a direct OpenRouter key choose its text model (O8_OPENROUTER_TEXT_MODEL)",
         "Opt-in glass surface on the Linux shell (O8_LINUX_GLASS=1)",
         "Run the required CI checks locally with one command",
-        "Daily product numbers report",
-        "Native sidebar Recents age groups and keyboard navigation"
+        "Daily product numbers report"
       ]
     },
     {
@@ -88,14 +95,14 @@
     {
       "title": "Fixes",
       "items": [
-        "Show compaction as a compact, truthful status",
-        "Keep locationless at async and at new lines in orchestrator errors",
-        "Serve verified raster images through the panel preview routes",
-        "Serve verified raster images through the mobile media route",
-        "Stop retrying rejected catalog requests",
-        "Keep the native Browser page inside its pane and PiP card",
-        "Cache Linux CI package prerequisites",
-        "Show the orchestrator error instead of minified source"
+        "Package every Next runtime the release server needs",
+        "Paste and drop composer images",
+        "Tell the user when a lost runtime session is recovered",
+        "Drop delivered screenshot payloads from the queue ledger",
+        "Keep the reading position when a chat reloads",
+        "Redact client-saved tool calls in canonical chat history",
+        "Name checkout control failures in Shared threads",
+        "Keep completed turns' tool results after reload"
       ]
     }
   ]

@@ -9,6 +9,7 @@ and internal chores live in the private engineering log.
 
 ## 2026-10-28
 
+- `d81664832` feat: connect native worker conflict and steer actions
 - `8b7dad2ed` feat: native sidebar row archive and Archived section
 - `2c80b0c76` feat: open o8 next on its own
 
