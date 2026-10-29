@@ -7,8 +7,16 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-10-29
+
+- `3ca651675` perf: merged-by-ancestry sweep stops re-running git for known commits
+- `ba079e6bf` feat: draw spatial ink strokes with perfect-freehand outlines
+- `f3766d600` feat(next): desktop pull request rows and author groups
+- `d5b44d38b` feat(next): navigation rail, transparent title bar and header tabs
+
 ## 2026-10-28
 
+- `f25d73623` feat(next): render visualization cards inline in conversations
 - `d81664832` feat: connect native worker conflict and steer actions
 - `8b7dad2ed` feat: native sidebar row archive and Archived section
 - `2c80b0c76` feat: open o8 next on its own
