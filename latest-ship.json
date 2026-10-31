@@ -1,65 +1,74 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.814",
-  "tag": "v0.1.814",
-  "publishedAt": "2026-10-29T19:56:27Z",
-  "title": "Draw spatial ink strokes with perfect-freehand outlines",
-  "summary": "O8 uses far less CPU in the background.",
-  "releaseUrl": "https://github.com/o8-run/o8/releases/tag/v0.1.814",
+  "version": "0.1.815",
+  "tag": "v0.1.815",
+  "publishedAt": "2026-10-31T02:04:41Z",
+  "title": "Land chat panel, live thinking trace, terminal own shell and composer PRs",
+  "summary": "O8 next is now o8's window on Mac.",
+  "releaseUrl": "https://github.com/o8-run/o8/releases/tag/v0.1.815",
   "sourceCommits": [
-    "b9e33bc254b19d36a54c1bb507c9003a727b7f62",
-    "6289befc8e39f8d122cdffcb18d387f64224ac7f",
-    "f2bba4dfbff281ba219f15a77908989a159b4181",
-    "3ca651675c932afc657ea4977aabb8a08d3e157b",
-    "289b4ed34b083f4d8a88659e37b62362252d0ea7",
-    "e6159342e5ee3417a081394a9f39d0f527fc9a6d",
-    "38eb3e621f33a1b2a75d7e2f7a73dac3d61289bd",
-    "898cbb0cbeceffa847ca5f9749127b9a036fcdd9",
-    "ba079e6bf951e0b3e7fbac40dd2f257346d977d4",
-    "f3766d6008bda42c2aa2950cc986210fe3a2dec7",
-    "3966e7312af6369930236dc2b584d19a52abd0c7",
-    "dde25be5a683e1c7f9199b862f905e66c1157e82",
-    "d5b44d38b18de4d26097ccc08b7a28410dc44695",
-    "f25d73623c3213452b8109bc9b4d76f0c28b9159"
+    "be24cadaad8bd75f4bd71ea4ff31703f171adc4e",
+    "acba64dd177b5f6f2a762b23342249afd4c86578",
+    "96212532b8d942fbc5bee1ec61fbb2c7202dbff3",
+    "aa2a0ccd61e13c170c3f37be63c087c863ef6376",
+    "97beaa06e0a2c1b9676da99000f0a3bb9165b8dc",
+    "84a8c525dabbc74aea292fe63a347c2c8c98765a",
+    "f288d783d5dadc7f08c3b664e2ec9f17e151b1d0",
+    "aecc5a351fe2604c643e78523238e0e88c77aaa1",
+    "604cca9d711fcd4b91ce41f658a15acaebe19438",
+    "99aab6a943754d61885a1d15b42440029d161cf9",
+    "86d43ed1b378b49eb9cb226692b36def3399a580",
+    "51b5a068e5f876ca0732ba2052d1a752cb9dfaef",
+    "a41e109a8e7b3eb80640adac3dba341122adf4f5",
+    "a57cded915a1315bdce744343ec52a6538b89343",
+    "c086d392965c22da1ba9e1774a3007d5892cc03e",
+    "4582e9c6a4c312068854101b2293fa9afbec4a8a",
+    "65ec1f71344e7821f3ae3066aeb1432ec294299b",
+    "60c1c8ca2e3542d3d680721ed1c0ed9043e69cfa",
+    "0ecd31e3fba3b4b94166ddfab97bb112c458f2c0",
+    "ec95ca47a32bb77243f96b5fd38d6a8940900510",
+    "9d84b90fda71acb1de723aec095aff998cd83540",
+    "e5e0bc4956ee4f8e23267e3cb649fd3d9ea23c20",
+    "e1a903c8916c2f6f5f055f7edbecd2c15e005477"
   ],
   "sections": [
     {
       "title": "What this ship changes for you",
       "items": [
-        "O8 uses far less CPU in the background. The check for merged lanes no longer re-runs git for every commit on main every 30 seconds, fetches each repository once per check, and never runs two checks at once.",
-        "Workers that a chat launches into its own checkout keep running. o8 no longer stops them after 10 minutes as orphans.",
-        "A browser you close from a chat goes to picture-in-picture and stays with that chat. It no longer floats over Pull requests, terminals or other pages.",
-        "Sidebar chat rows keep the repo name whole, so a long title shortens instead of cutting \"o8-relay\" down to \"o…\".",
-        "A stopped worker's pane says Interrupted instead of Idle and offers Resume and Retire. If the worker can't be resumed, the pane says it can't take new messages instead of silently hiding the composer.",
-        "Inbox tabs fit on one row, and cards in the mixed Inbox say \"item\" and \"Dismiss\" instead of \"incident\".",
-        "Previews of pages with no head tag keep standards mode, so they render the same as in a browser.",
-        "Chat and transcript search find what you meant despite one misspelled word. Those results rank below exact matches and are marked \"Approximate match\"."
+        "O8 next is now o8's window on Mac. The classic window no longer opens. The Dock icon, the menu bar icon and Cmd+Shift+Space all bring o8 next forward, or open it if you closed it.",
+        "Fn dictation types into o8 next's focused field.",
+        "The Update button in o8 next installs the update itself, shows download progress, and restarts into o8 next.",
+        "Inbox: settle a thread to clear it, and o8 moves on to the next one. Undo is in the toast. Settled threads stay settled after a restart.",
+        "Sidebar: Chronological and By repo views, a repository filter, and New thread. Projects can have their own icon, emoji or monogram, chosen on the Projects page.",
+        "Composer: slash commands with completion, quick actions, saved prompts, and a mode for each thread that it remembers.",
+        "Right panel: Files with search, Quick docs, file editing and diffs; Browser pages and tabs; Devices; Activity; and workspace notes (o8.md) with inline images. Panel tabs scroll with the mouse wheel and the layout is save",
+        "Activity: packet cards, mission controls, recurring problems you can accept, stop or suppress, and proposals you can review."
       ]
     },
     {
       "title": "Features",
       "items": [
-        "Draw spatial ink strokes with perfect-freehand outlines",
-        "Desktop pull request rows and author groups",
-        "Navigation rail, transparent title bar and header tabs",
-        "Render visualization cards inline in conversations"
+        "Land chat panel, live thinking trace, terminal own shell and composer PRs"
       ]
     },
     {
       "title": "Performance",
       "items": [
-        "Merged-by-ancestry sweep stops re-running git for known commits"
+        "Unsaved repos get Auto isolation, an APFS clone on macOS",
+        "Reuse the shell executable across version bumps"
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Keep the release checkout clean so the native build cache applies",
-        "Give the test-classification preflight 5 minutes",
-        "Sidebar chat rows keep the repo tag whole",
-        "Render inline transcript and sent images",
-        "Orphan sweeps keep live workers a chat launched into its checkout",
-        "Keep the browser picture-in-picture on chat tabs"
+        "Match Node output arguments in callback fixtures",
+        "Assert the current compact chat overlay width",
+        "Authenticate APT architecture-variant archives against the signed index",
+        "Hand Next the real port so loopback capture requests pass",
+        "Keep detailed CI verification in the routed checks skill",
+        "Resolve the server-only marker in executable Node bundles",
+        "Read fresh registry metadata for restore-only validation",
+        "Let compact status captions yield to worker identity"
       ]
     }
   ]

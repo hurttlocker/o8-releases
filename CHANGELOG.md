@@ -9,6 +9,9 @@ and internal chores live in the private engineering log.
 
 ## 2026-10-29
 
+- `0ecd31e3f` perf(worktree): unsaved repos get Auto isolation, an APFS clone on macOS
+- `9d84b90fd` perf(release): reuse the shell executable across version bumps
+- `e5e0bc495` feat(next): land chat panel, live thinking trace, terminal own shell and composer PRs
 - `3ca651675` perf: merged-by-ancestry sweep stops re-running git for known commits
 - `ba079e6bf` feat: draw spatial ink strokes with perfect-freehand outlines
 - `f3766d600` feat(next): desktop pull request rows and author groups
