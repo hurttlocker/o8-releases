@@ -62,10 +62,10 @@
     {
       "title": "What this ship changes for you",
       "items": [
-        "Workers show up beside your chat. Each working agent gets its own pane in an automatic grid with its live transcript and a steer box, and the grid drops columns to keep cards readable. Close a pane and that worker stays",
+        "Workers show up beside your chat. Each working agent gets its own pane in an automatic grid with its live transcript and a steer box, and the grid drops columns to keep cards readable.",
         "Work without a project: pick it from the project menu or the palette, and agents start in your home folder instead of a repository.",
         "Projects are cards. A project's page shows the instructions every agent in it reads, the repositories in it, and the ones you can add.",
-        "Review opens on your working changes, stacks every changed file with a files drawer, and scopes to all changes, the last turn, staged or unstaged. Long lines wrap, old and new line numbers have their own columns, and you",
+        "Review opens on your working changes, stacks every changed file with a files drawer, and scopes to all changes, the last turn, staged or unstaged.",
         "When the main pane's last tab closes, the chat beside it takes its place instead of leaving an empty pane you can't dismiss.",
         "The Activity dock lists this chat's agents with See all, keeps steady icons, and scopes Ports and its badge to this workspace.",
         "Composer: @ mentions files, threads, agents, worktrees, scripts and terminals; a ! line runs in the terminal with its output, clock and exit code; drafts survive a restart; and a changed-files pill sits above it.",
