@@ -7,6 +7,47 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-11-05
+
+- `6dfcb694e` feat(o8 next): Activity feed first, problems and directives behind one row; group CI with short commits
+- `3f0878332` feat: open in editor from the o8 next thread header and project menu
+
+## 2026-11-04
+
+- `fe02b9f52` feat: mission cards that send decisions back to the lead
+- `8c77922d2` feat: scope settings per project and per machine
+- `ab3929b5b` feat(o8 next): opt-in both-Shift snapshot hotkey into a new chat
+- `0df51a147` feat(next): render inline visualizations on Linux as isolated WebKitGTK snapshots
+- `e20bdd3c8` feat: no-project threads and New project with gh repo create
+- `47ab76875` feat: roster rows show worktree, diff, approvals and details
+- `a709c8b29` feat: switch an o8 next thread between chat and CLI terminal view
+- `ec93cec8d` feat: render mermaid ER, gitgraph, gantt and mindmap natively
+- `d3c5c78a6` feat: machine CPU, memory, disk and network in Resources
+- `868784985` perf: color very large files by the blocks in view
+- `dac99f94c` feat: o8 next shortcuts editor, rebind per machine or global
+- `da059d995` feat: open saved visualizations from mobile threads
+- `719cdd830` feat: add mobile PR review and merge controls
+- `fb6c1537b` perf(next): build hidden prompt action controls only on hover or focus
+- `be37ad34c` feat: pin worker delegates to provider instances
+- `573405925` feat: coordinate app and installed runtime updates
+
+## 2026-11-03
+
+- `99b58ad2b` feat: register read-only native transport surfaces
+- `d2f1417a5` perf: render web and mobile diagrams with Pele
+- `61b9d3dc1` feat(next): add subagent roster actions
+- `b4092b365` feat: nest sidebar helper threads
+- `61bac0b48` feat(cli): draft self-triage issues locally
+
+## 2026-10-31
+
+- `004c769a6` feat: stage the Linux GPUI payload and desktop launcher
+- `0ec1bc314` feat(next): drag sidebar threads, pane headers, header tabs and Play menu items onto panes, like classic
+- `4f4c702d8` feat(next): PRs list and PR detail panel match classic; empty workspace lands on the compose prompt
+- `5ec5fbbca` feat(next): rail matches classic: More menu holds Projects, Customize, Settings and Setup; PRs last
+- `9a0620159` feat(next): drop a folder on the sidebar add button to register it
+- `0839bfb6a` feat(next): drag the rail's Play and Terminal onto the workspace to split panes, like classic
+
 ## 2026-10-29
 
 - `0ecd31e3f` perf(worktree): unsaved repos get Auto isolation, an APFS clone on macOS
