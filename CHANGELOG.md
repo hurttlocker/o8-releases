@@ -7,6 +7,20 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-11-07
+
+- `89ba34278` feat(next): Settings › Voice › History from the desktop voice window
+- `84cf12d74` feat(next): port first-run project step and Clone from GitHub to o8 next
+
+## 2026-11-06
+
+- `2f91c2e9e` feat(native): a finished shell card stays with its thread across a relaunch
+- `c8d5b68ed` feat(native): mark up an attached image before sending
+- `d65b2cf41` feat(native): first-launch picker to import existing Codex and Claude threads
+- `89f01fac5` feat(o8d): checkpoint native session and repository reads for Phase B
+- `7f7191886` feat: store voice provider keys in the Linux Secret Service
+- `2ef10a4d2` feat: GitLab merge requests in the PR panel via GitProvider
+
 ## 2026-11-05
 
 - `6dfcb694e` feat(o8 next): Activity feed first, problems and directives behind one row; group CI with short commits
