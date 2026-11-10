@@ -7,6 +7,16 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-11-09
+
+- `c7362136f` feat: offer Claude Fable 5.2 and make it the Fable default
+
+## 2026-11-08
+
+- `a7b42691d` perf(o8d): page a long chat history without deep copies
+- `db83ac18e` perf: reuse the sidebar's origin URL while the repo config is unchanged
+- `c6eaa9996` feat(o8-next): Settings › Voice › Polish edits words, snippets and instructions
+
 ## 2026-11-07
 
 - `89ba34278` feat(next): Settings › Voice › History from the desktop voice window
