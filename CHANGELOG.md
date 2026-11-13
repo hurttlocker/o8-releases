@@ -7,6 +7,36 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-11-13
+
+- `44b4fdf1f` feat(review): adopt external PRs into durable revision tasks
+- `3719597f0` feat(review): re-review saved author corrections
+- `a842845f2` feat(native): complete review and recovery controls
+- `57864b808` feat(review): bind run evidence to exact-head approvals
+- `b4e8a5ea6` feat(inbox): surface idle drafts and record decisions
+- `32740932b` feat: run macOS dictation without app servers
+
+## 2026-11-12
+
+- `c11b4b248` feat(next): draw the Ring in the window header and project identity
+- `c6d8402dd` feat(brand): o8 Branding v1: brand kit, Ring app icons, header Ring, retired logo removed
+- `4c50c2fb7` perf(ci): cache 3.15 minutes of audit-tool compilation per warm PR
+- `72b5c1de5` perf(ci): avoid 2 Rust runners on 13/14 sampled PR heads
+- `0cbbc207a` feat(next): pin a Working drawer to the bottom of the sidebar
+- `0ed6ebd1c` feat(next): zoom the interface in and out
+- `e74823791` perf(ci): remove 54s median no-op PR scheduling dependency
+- `c46cc6c04` feat(next): a development driver presses controls in the real window by name
+- `3c5452752` feat(next): overview under an empty thread's composer
+- `c4673805a` feat(next): a cleaner thread header: editor and view switch move out
+- `da763f9bd` feat(next): Activity reads cleaner: one scroll, quiet Accept, short ids
+- `86d717c0b` feat(next): o8's own themes, theme swatches and a glass clarity setting
+- `0e3396b27` feat(next): usage hover fits one card; the usage mark is two rings
+- `1ff1506a9` feat(shell): macOS opens only the GPUI window
+
+## 2026-11-10
+
+- `ff0488a15` feat(review): send saved findings to the original author
+
 ## 2026-11-09
 
 - `c7362136f` feat: offer Claude Fable 5.2 and make it the Fable default
