@@ -7,8 +7,114 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-11-17
+
+- `d6d5ff47c` feat: share o8d route states and record bounded request counts
+- `9efdfd1b3` feat: let a paired phone read the visuals attached to a thread
+- `bae14d853` feat: audit CI queue setup and job timings
+- `34aa67e8f` feat(orchestrator): tell a thread's followers when it is compacting
+- `8f883a0aa` feat(prs): report merge queue progress in the pull request list
+- `25549546c` feat(mobile): commit and push routes for the phone
+- `37a8f7c04` feat(mobile): project coding agent account availability
+- `1aedc0fc1` feat(prs): report merge queue membership in the pull request list
+- `7b67090cd` feat(mobile): scheduled task routes for the phone
+- `5de21c934` feat(mobile): file browser routes for the phone
+- `f195b254c` perf(orchestrator): re-read a lane's events only when they change
+
+## 2026-11-16
+
+- `5c61b8101` fix(o8-next): open in editor finds real Windows editor installs — thanks @Hysteric-Larva
+- `1fb90afa5` feat(mobile): usage history route for the phone
+- `dd8072407` feat(mobile): summarize linked work on thread rows
+- `423a8b287` feat(connect): sign in a computer with no browser by a short code
+- `eeb242516` perf(usage): parse each Claude transcript once until it changes
+- `45e971b57` perf(orchestrator): fetch each repository's base at most every 5 minutes
+- `5138f8170` feat(mobile): read a registered project's pull requests from the phone
+- `63e868da1` perf(orchestrator): keep a mission's row when an update changes nothing
+- `bdf0fdb9f` feat(hooks): name shorter timed commands when a slow one is stopped
+- `9110b327c` perf(orchestrator): find a packet's mission without parsing every mission
+- `81f3f6638` feat(codex): give Codex workers the time ledger hook
+- `fc7226327` feat(hooks): time agent commands and stop a slow rerun once
+- `d261e99cc` feat(mobile): discover desktop model choices for phone threads
+- `2be2264bc` feat(o8-next): start the speech helper with its own permissions on macOS
+- `bd1c11434` feat(native): GitHub link pills peek at the repo, issue or pull request on hover
+- `744fabe98` feat(mobile): send this computer's own name with its threads
+- `2507cd461` feat(release): install with Homebrew, and bump the cask after each stable release
+- `737add919` feat(cli): go to the o8 pane that needs you from Rex
+- `6b7b124e1` feat: open phone pairing from the Tools drawer
+- `3bab10279` feat(mobile): add bounded phone read projections
+- `d5c18a535` feat(usage): show resets, credits and organization in the usage card
+- `689f3da07` feat(mobile): add a saved network access switch
+- `667637069` feat(cli): packet panes flag a worker that is stuck without asking
+- `e8eab4afc` feat: open files from Finder in the native window
+- `5a7c1070b` feat: run phone voice tool calls in the server
+- `df35ec9f6` feat: add server handlers for phone Git and GitHub tools
+- `011af43b5` feat: add server handlers for phone tools
+
+## 2026-11-15
+
+- `1054d5a38` feat: add server phone tool call owner and approval gate
+- `49a2a518c` feat: add the phone tool catalog and safety policy to the server
+- `01b4385d7` feat(dictation): polish dictation with Claude Haiku only
+- `635d82712` feat(o8-next): record composer dictation in process
+- `679d8a4e0` feat(o8-next): give the speech helper the saved microphone and locale
+- `d9df42c84` feat(o8-next): keep in-process dictations in Voice History
+- `81b1a856e` feat(o8-next): apply the saved voice settings to in-process polish
+- `10c4aab8b` feat(release): assemble the macOS app without the classic shell
+- `553d31d6a` feat(o8-next): add an in-process composer speech client
+- `788ab4bc8` feat(launcher): start from inside the app bundle without a config file
+- `ad473ab5c` perf(release): compile the app shell on all cores
+- `e20fbc2a3` feat(voice): leave the voice keys to voice agent while it runs
+- `7da3eaaf4` feat(sandbox): run dispatched workers in the OS sandbox by default on macOS
+- `6ca26355e` feat(native): add experimental canvas with saved diff cards
+- `dd591ec98` feat: show native PR conflicts and prepare an agent request
+- `76672afe6` feat: native composer PR checks pill and card
+- `e5909617c` feat: add native review scorecard panel
+- `418b751ea` feat(next): add change maps to native reviews
+- `2ea1a917d` feat(brand): working indicator with Glance drawn natively (Thinking)
+- `8013aaa02` feat(mcp): let the lead grant file scope to a packet
+- `2de2c958c` feat(linux): prepare opt-in authenticated GPUI release attachment
+- `a64cc3039` feat(next): add prompt navigator to every transcript
+- `8d7ab1131` feat: expose task inbox decisions across operator surfaces
+- `3b4abba6d` feat(next): draw the dock's idle sliver natively with its settings shortcut
+- `7fd64f09c` feat: queue reviewed changes and verify integrated candidates
+- `c54dd41d5` feat(next): draw the dock's drop target and staged chips natively
+- `53f5886d2` feat(memory): reuse verified review outcomes in task briefs
+- `0ecfb9ac6` feat(next): draw the dock's confirmation card natively
+- `07af4f719` feat(next): draw the agent-hold ink overlay natively behind a flag
+- `39db78b94` feat(next): draw the dock's Ask panel natively
+- `4a4d2fa13` feat(launcher): native updater with the classic feeds, key and archive format
+- `22ffd6d0c` feat: bound new dispatch by review backlog
+- `2993ab2d8` feat(lanes): default new projects to PR-first and preserve existing merge choices
+- `2e5262766` feat(policy): expose composed review and merge policy reads
+- `c5fe1ec27` feat(cli): the o8 watcher pane marks its tab with a count of its packets
+- `016148361` feat(next): draw the caret/HUD dictation feedback natively behind a flag
+- `467725000` feat(cli): show what a Codex tool call ran in transcript panes
+
+## 2026-11-14
+
+- `b6a29f93d` feat(cli): o8 adds its Rex shortcut on its own
+- `5cc21bbe6` feat(cli): each packet pane marks its own Rex tab state
+- `1d3a3a704` feat(cli): the Rex shortcut opens a tab that keeps filling itself
+- `e0dfc0180` feat(cli): keep the multiplexer tab filled with o8 terminal panes --watch
+- `0fed79554` feat(cli): keep a packet's pane open after its worker stops
+- `9b3177257` feat(next): native edit chip, glints and fleet capsule in the dock panel
+- `4131ea8e2` feat(cli): show running packets in multiplexer panes by following their transcript
+- `a3fd95855` feat(cli): add o8 packet transcript to read or follow a worker's work
+- `fc3e50f98` feat(next): native dock capsules for speech playback, live voice and agent working
+- `994abc8fb` feat(cli): add a Rex action that opens the o8 terminals tab
+- `ca219ae3e` feat(cli): show worker terminals in multiplexer panes, labeled by title
+- `5c6d1f830` feat(cli): report o8 chat state to terminal tabs through OSC 7501
+- `8c2d8bd66` feat(linux): bundle AppImage software Vulkan fallback (WIP)
+- `1e599a671` feat(cli): open one read-only multiplexer pane per live o8 terminal
+- `a1ffca1df` feat(voice): draw dictation feedback in a native pill behind a flag
+- `e766b6d7f` feat(launcher): add an opt-in background launcher for macOS
+- `837c2e230` feat(cli): report each packet on its own terminal status record in mission tail
+- `158b92e0c` feat(cli): report packet state to terminal tabs through OSC 7501
+
 ## 2026-11-13
 
+- `2126ee181` perf(release): use an available Rust compiler cache
 - `44b4fdf1f` feat(review): adopt external PRs into durable revision tasks
 - `3719597f0` feat(review): re-review saved author corrections
 - `a842845f2` feat(native): complete review and recovery controls
