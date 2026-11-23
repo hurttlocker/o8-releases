@@ -7,8 +7,132 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-11-23
+
+- `1bd270ea4` perf(review): list review targets again only when a worktree store can have changed
+- `7e67ab15b` perf(idle-gate): report awake minutes and what kept the gate awake in bench:idle
+- `d228c706c` perf(codex-app-sync): skip re-reading linked chats and settings while unchanged
+- `b5a30be91` perf(problems): scan stored missions for a remedy only when a stored mission changed
+- `d799eada9` perf(storage-admission): reuse owner packet lookups until a stored mission changes
+- `7b632494d` perf(server): defer worker correction actions
+
+## 2026-11-22
+
+- `27df393da` perf(realtime): skip unsolicited mobile inbox builds
+- `b59d26cfd` perf(o8-next): stop capacity, approvals, bots and visualization reads while nobody can see the window
+- `6449e432e` perf(o8-next): stop update status reads while nobody can see the window
+- `f1d11a6bb` perf(o8-next): stop activity dock and subagent reads while nobody can see the window
+- `a3b353466` perf(o8-next): stop sidebar reads while nobody can see the window
+- `d3c516854` perf(broadcast): reuse the speaker's voice settings until a settings file changes
+- `268717764` perf(server): check the chat folder once a second instead of every chat file
+- `18bdc4f19` perf(supervisor): skip a shared worker's session read when nothing about it changed
+- `b46d3a8e2` perf(heal-bot): skip the liveness probes and outside-waiting reconcile when nothing they read changed
+- `539fec55d` perf(lanes): skip ancestry Git probes outside checkouts
+- `13224a735` perf(lanes): narrow SQLite reads for background checks
+- `f0c36fd86` perf(inbox): reuse unchanged saved-chat previews
+
+## 2026-11-21
+
+- `d11ab0894` perf(automations): load executors when work is claimed
+- `32bead71f` perf(lanes): avoid positional row copies in listings
+- `ef5da3b1d` perf(inbox): reuse unchanged saved-chat listings
+- `6d7c13527` perf(review): watch registered repos so the minute sweep stops starting git for idle ones
+- `bb31790a5` perf(review): drop the stall pass's 10-minute timer; stamp branch and base refs
+- `8a54f347e` perf(server): pause idle-safe background loops while the server is at rest
+- `4d592eb27` perf(composer): check the queue on o8d's queue notice instead of every 5 s
+- `d2d188246` fix(o8-next): frosted glass backdrop on Windows — thanks @Hysteric-Larva
+- `421086a38` fix(worktree): stage large embedded scripts in a file on Windows — thanks @Hysteric-Larva
+- `7968d158f` fix(runtimes): PowerShell process probe for Claude workers on Windows — thanks @Hysteric-Larva
+- `c0575fc5a` fix(workspace): gate POSIX stat mode/uid ownership checks to non-Windows — thanks @Hysteric-Larva
+- `42b43c250` fix(worktree): accept integral-but-unsafe stat integers on Windows — thanks @Hysteric-Larva
+- `5d6007e69` perf(lane): skip the orphan reconcile's git probes for lanes that have not changed
+- `b42473f4b` perf(inbox): run the auto-settle sweep only when its inputs change
+- `16cc250a0` perf(o8): refresh cross-repo proposals on read instead of every 5 minutes
+- `fe33650e9` perf(bench): lead with ledger totals and measure a window in front
+- `b1ebc3faa` perf(review): skip git for review targets outside any repository
+- `149f4c7d5` perf(window): an untouched window reads the cached runtime inventory
+- `cf02a5fb8` perf: release dashboard port probe connections
+- `28b8f300d` perf(review): skip the review stall pass while nothing it reads has changed
+- `ed7eec801` perf(server): precompile front-door route patterns instead of re-splitting all 300 per request
+- `22d2110f2` perf(intake): cache a registered repository that has no origin remote
+- `3c9c728da` perf: scan only files that can appear in live review
+- `9e1ead10e` perf(window): tell the server when the window is in the background
+- `1f658aed1` perf: stop building disconnected conflict reports
+- `7630f04dc` perf(providers): stop re-reading the key store and reopening its lock on every spawn
+- `0ffd5ee2c` perf: keep action schemas out of terminal cleanup boot
+- `06fbffc55` perf: defer startup realtime snapshots until needed
+- `d157ae80d` perf(problems): skip the dossier reconcile pass when nothing it reads has changed
+- `98fd6b940` perf: keep archived missions out of the registry cache
+- `473ce08c1` perf: bound the primary SQLite page cache
+- `bac39160c` perf: load runtime YAML only when it is read
+- `858b168cd` perf(headless): skip settled missions until they or a lane change
+- `c9c44510b` perf: avoid allocating file stats for document discovery
+- `aedd0d270` perf(dock): read pull requests from GitHub only while the dock is open
+- `a415fa009` perf: load broadcast page assets on demand
+- `cb7b3812b` perf: bound the workspace review snapshot cache
+- `9314341fe` feat(server): add a background-work ledger and npm run bench:idle
+- `4f2b55d5e` perf: narrow storage reconciliation packet lookups
+- `f1e2a3b9b` perf(inbox): give the activity dock a summary-only inbox read
+- `194966a61` perf(window): pause the Workers scan and long poll behind another app
+- `2ac0c1313` perf(ports): scan listening ports without blocking the server
+- `8ae8a307b` perf(window): slow timed reads while the window is behind another app
+- `da33efb8c` perf(orchestrator): skip the ancestry check for lanes whose refs did not change
+- `b1855f388` perf(supervisor): read crash-loop incidents without rebuilding the GitHub inbox
+- `e1f01e0c3` perf(worktree): leave unmanaged git worktrees out of the prune sweep
+- `5f83f2cb8` perf(ws): skip the 30 s inbox rebuild when no Live Activity is registered
+- `ca4a98211` perf: back off unchanged realtime history safety reads
+
+## 2026-11-20
+
+- `3861c12a1` feat(o8d): own the composer send queue, on by default
+- `b00590bc7` feat(o8d): adapt Codex stdio driver with real CLI proof
+- `0837cfb2a` feat(o8d): add the durable composer queue owner, off by default
+
+## 2026-11-19
+
+- `66b1b4dfb` fix(desktop): drop stale Cmd+Shift+Y chord from visual capture Finish tooltip — thanks @Hysteric-Larva
+- `05f0857ad` feat: own mobile diff comments in o8d
+- `755c3426d` feat: publish global notifications after native prompt and rule commits
+- `f07fa9ef1` feat: serve native operator global sessions during producer gaps
+- `2b044284e` feat: keep front-door o8d alive across producer restarts
+
+## 2026-11-18
+
+- `72d17e086` feat: serve native operator session-rule reads
+- `b13613a44` feat: authorize saved-prompt window reads natively
+- `62a104f01` feat: serve directive lists with native scans and Node timing receipts
+- `2ec50c601` feat: move materialized lane review diff reads into o8d
+- `661f78354` feat: move thread list local projections into o8d
+- `4e184086e` feat: serve composer queue lists with native capability admission
+- `2b85ba857` feat: project persisted phone lane overlays in o8d
+- `0d6d9728f` feat: serve ordinary phone chat transcripts through o8d
+- `e10ce0be6` feat: serve ordinary window chat history through o8d
+- `89afee7ea` feat: serve saved prompt lists through o8d
+- `6992ae15c` feat: serve owned branch snapshots and commit details in o8d
+- `d9ab5b959` feat: serve plain repo-spec reads through o8d
+- `51a8ae7fb` feat: serve owned file asset reads through o8d
+- `4819389de` feat: serve scoped file content and explorer reads in o8d
+- `16fac49dd` feat: serve owned git diff reads in o8d with viewer admission
+- `e61945604` feat: register existing phone action and enrollment methods
+- `b68dfa410` feat: serve task artifact receipt reads on WS
+- `691b56f72` feat: register phone discovery and Ask and automation methods
+- `c9f90015a` feat: register ten live phone TypeScript read routes
+- `2fc9993a4` feat: register remaining live non-phone Next shutdown methods
+- `d9c022634` feat(launcher): let a candidate bundle select the front door or Next off
+- `36e9fbb04` feat(ws): run Next's startup work when the launcher leaves Next off
+- `ecf0ebed0` feat: add a flagged API front door with streaming Next fallback
+- `83d3faa35` feat(launcher): start the API front door and run without Next
+- `c741ad32a` feat: serve packaged phone network settings on WS
+- `494a18141` feat(ws): serve the broadcast page without Next
+- `e9045f3d0` feat(updater): answer update routes from the launcher
+- `1e345cd63` feat(launcher): put the bundled o8 CLI on PATH
+
 ## 2026-11-17
 
+- `ef4a7170a` feat(native): add Launch at login to General settings
+- `82ea40625` feat: carry bounded bodies through native app dispatch
+- `c9c346ab8` feat: stage app updates in background and show native restart notice
+- `08407c1cb` perf(orchestrator): cache normalized mission registry snapshots
 - `d6d5ff47c` feat: share o8d route states and record bounded request counts
 - `9efdfd1b3` feat: let a paired phone read the visuals attached to a thread
 - `bae14d853` feat: audit CI queue setup and job timings
