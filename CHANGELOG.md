@@ -7,8 +7,32 @@ and internal chores live in the private engineering log.
 
 ---
 
+## 2026-11-24
+
+- `d64e56541` perf(window): stop waking at rest when nothing changed
+- `34c9e2568` perf(launcher): tell the window when opened files are waiting
+- `06a0e057e` perf(review): read only the reviewing lanes when deciding to rerun the stall pass
+
 ## 2026-11-23
 
+- `a73395afa` perf(server): stop blocking the event loop for seconds at startup
+- `1eaa9c794` perf(supervisor): skip a settled shared-team repair while nothing it reads changed
+- `1c14cf68f` perf(launcher): sleep until something happens instead of ticking every 25 ms
+- `40408f676` perf(ports): scan listening ports only when they change
+- `4853bf54e` perf(mobile): reuse an unchanged inbox snapshot instead of rebuilding it each poll
+- `5011111b9` perf(idle-gate): stop counting the server's own lane events as client activity
+- `ddfb98fe4` perf(headless): stop sweeping worktrees for a held packet that cannot launch
+- `3be7cb417` perf(worktree): wait on a refused retirement claim instead of retrying it every pass
+- `7eeac2ee1` perf(orchestrator): hold a shared-checkout repair until its lock changes, not every 5 s
+- `e76335d46` feat(cli): list and abandon managed retirements stuck in purging
+- `9eceb7c38` perf(chat): stop re-parsing an unchanged chat file on every poll
+- `561cf8dc9` perf(orchestrator): answer an unchanged state poll without re-reading and rewriting it
+- `3d9a6fcb2` perf(codex): find live Codex threads through the updated_at index
+- `b0cd634b4` perf(approvals): find unsettled continuations through an index, skip finished lanes
+- `0bfa24c31` perf(ws-server): answer requests before startup maintenance finishes
+- `bfa8ba2be` perf(intake): resolve registered repos from their config files, never Git
+- `e699e14de` perf(lanes): index stored packet launch contexts until a stored mission changes
+- `17c5eee09` perf(worktree): stop reloading stuck retirement manifests on every start
 - `1bd270ea4` perf(review): list review targets again only when a worktree store can have changed
 - `7e67ab15b` perf(idle-gate): report awake minutes and what kept the gate awake in bench:idle
 - `d228c706c` perf(codex-app-sync): skip re-reading linked chats and settings while unchanged
